@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+*.egg
+build/
+dist/
+
+# Virtual environments (uv)
+.venv/
+venv/
+env/
+ENV/
+
+# Streamlit
+.streamlit/
+.streamlit.toml
+
+# Airflow
+airflow/logs/
+airflow/__pycache__/
+
+# Environment variables
+.env
+.env.*
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Data files (avoid committing data)
+# data/raw/*.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files (Visual Studio Code)
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Pytest cache
+.pytest_cache/
+
+# Ruff (linters/cache)
+.ruff_cache/
