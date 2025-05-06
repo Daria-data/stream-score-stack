@@ -1,0 +1,128 @@
+#version: "3.9"
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: sports-pg
+    environment:
+      POSTGRES_DB: sports
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
+    volumes:
+      - ./docker/db-init:/docker-entrypoint-initdb.d:ro   # schema + COPY .csv
+      - ./data/raw:/csv:ro 
+    ports:
+      - "5433:5432"                                
+    networks: [sports-net]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 10s
+      retries: 5
+
+  loader:
+    build: .        
+    container_name: sports-loader
+    command: ["uv", "run", "python", "src/db/init_db.py"]
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: sports
+      DB_USER: postgres
+      DB_PASSWORD: ${DB_PASSWORD:-postgres}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks: [sports-net]
+    restart: "no"
+    volumes:                         
+      - ./data/raw:/app/data/raw:ro 
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: sportquery-app
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: sports
+      DB_USER: postgres
+      DB_PASSWORD: ${DB_PASSWORD:-postgres}
+    depends_on:
+      postgres:
+        condition: service_healthy
+      loader:
+        condition: service_completed_successfully
+    ports:
+      - "8501:8501"
+    networks: [sports-net]
+
+  airflow-init:
+    image: apache/airflow:2.9.2-python3.12
+    container_name: sports-airflow-init
+    command: bash -c "
+      airflow db migrate &&
+      airflow users create \
+        --username admin --password admin \
+        --firstname Admin --lastname User \
+        --role Admin --email admin@example.com"
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: >-
+        postgresql+psycopg2://postgres:${DB_PASSWORD:-postgres}@postgres:5432/sports
+      AIRFLOW_CONN_SPORTS_DB: >-
+        postgresql://postgres:${DB_PASSWORD:-postgres}@postgres:5432/sports
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./data/raw:/csv:ro
+    networks: [sports-net]
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: "no"
+  
+  airflow-web:
+    image: apache/airflow:2.9.2-python3.12
+    container_name: sports-airflow-web
+    command: webserver                         
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: >-
+        postgresql+psycopg2://postgres:${DB_PASSWORD:-postgres}@postgres:5432/sports
+      AIRFLOW_CONN_SPORTS_DB: >-
+        postgresql://postgres:${DB_PASSWORD:-postgres}@postgres:5432/sports
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./data/raw:/csv:ro
+    networks: [sports-net]
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+    ports:
+      - "8080:8080"
+
+  airflow-scheduler:
+    image: apache/airflow:2.9.2-python3.12
+    container_name: sports-airflow-scheduler
+    command: scheduler                        
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: >-
+        postgresql+psycopg2://postgres:${DB_PASSWORD:-postgres}@postgres:5432/sports
+      AIRFLOW_CONN_SPORTS_DB: >-
+        postgresql://postgres:${DB_PASSWORD:-postgres}@postgres:5432/sports
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./data/raw:/csv:ro
+    networks: [sports-net]
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+
+networks:
+  sports-net:
+    driver: bridge
