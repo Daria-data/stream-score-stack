@@ -3,7 +3,7 @@ import csv
 
 from sqlalchemy import create_engine, text
 from psycopg2.extensions import connection as PgConn  # type: ignore
-from psycopg2.extras import execute_values  # noqa: F401  (kept for IDEs)
+#from psycopg2.extras import execute_values  # noqa: F401  (kept for IDEs)
 
 from config import settings
 
