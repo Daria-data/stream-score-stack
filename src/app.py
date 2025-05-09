@@ -107,10 +107,10 @@ ORDER BY gold_count DESC;
 """,
         "Athlete medal tally": f"""
 SELECT
-  athlete_prenom || ' ' || athlete_nom      AS athlete,
-  sport_en                                 AS sport,
-  pays_en_base_resultats                   AS country,
-  edition_saison                           AS year,
+  athlete_prenom || ' ' || athlete_nom AS athlete,
+  sport_en AS sport,
+  pays_en_base_resultats AS country,
+  edition_saison AS year,
   SUM(CASE WHEN classement_epreuve = '1' THEN 1 ELSE 0 END) AS gold_count,
   SUM(CASE WHEN classement_epreuve = '2' THEN 1 ELSE 0 END) AS silver_count,
   SUM(CASE WHEN classement_epreuve = '3' THEN 1 ELSE 0 END) AS bronze_count,
@@ -119,7 +119,7 @@ FROM {TABLE}
 WHERE
   pays_en_base_resultats <> ''
   AND athlete_prenom NOT IN ('', 'NULL')
-  AND athlete_nom    NOT IN ('', 'NULL')
+  AND athlete_nom NOT IN ('', 'NULL')
 GROUP BY
   athlete_prenom || ' ' || athlete_nom,
   sport_en,
@@ -139,7 +139,7 @@ ORDER BY gold_count DESC;
             st.session_state['sql_query'] = sql
 
     st.title("Olympic Results - SQL Playground")
-    st.markdown("⚡ Use the sidebar templates or column selector to build your query" )
+    st.markdown("⚡ Use the **sidebar templates** or column selector to build your query" )
     sql_query = st.text_area(
         "SQL query",
         value=st.session_state['sql_query'],

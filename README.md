@@ -33,14 +33,14 @@ DB_PASSWORD=postgres
 
 ## Project Structure
 
-- **pyproject.toml**: project metadata & uv configuration (groups: core, dev, test)
+- **pyproject.toml**: project metadata & uv configuration (groups: core, dev, airflow)
 - **docker-compose.yml**: local orchestration for Postgres, loader, Airflow and app
-- **dags/**: Airflow DAG definitions
+- **dags/imitation_ingest_data.py**: Airflow DAG definitions
 - **data/raw/**: original CSV of Olympic results
 - **src/**:
     - **app.py** — Streamlit front-end
     - **config.py** — pydantic settings
-    - **db/init_db.py** — loader script 
+    - **db/init_db.py** — data loader script 
 
 ## Running the Full Stack
 ```bash
@@ -53,6 +53,58 @@ This will start:
 3. **Airflow init** to migrate metadata and create an admin user (admin/admin).
 4. **Airflow web** UI (http://localhost:8080) and **scheduler**.
 5. **Streamlit** app (http://localhost:8501).
+
+The project infrastructure is defined and managed through **Docker Compose**. Each service has clear dependencies and conditions that control its execution:
+
+### Services:
+
+- **postgres**
+  - PostgreSQL database with Olympic results data.
+  - Always running service, exposes port **5433**.
+  - Central data store (`sports` database, `jo` table).
+
+- **loader**
+  - Runs **only once** at startup to load CSV data into PostgreSQL.
+  - **Depends on:** "postgres" (waits until database is healthy).
+  - Stops automatically after completing the data ingestion.
+
+- **app**
+  - Streamlit application to query data interactively.
+  - Exposes UI at port **8501**.
+  - **Depends on:**
+    - `postgres` (healthy database connection).
+    - `loader` (successful completion).
+
+- **airflow-init**
+  - Initializes Airflow metadata table within project's existing PostgreSQL (`sports` database).
+  - **Connects directly** to the existing Postgres database of the project.
+  - Creates Airflow admin user (`admin`/`admin`).
+  - Runs **only once** at initial setup.
+  - **Depends on:** `postgres` (healthy database).
+
+- **airflow-web**
+  - Airflow Web UI to monitor and trigger DAGs.
+  - Exposes interface at port **8080**.
+  - **Depends on:**
+    - `postgres` (healthy database connection).
+    - `airflow-init` (successful completion).
+
+- **airflow-scheduler**
+  - Airflow scheduler to execute DAG tasks on defined schedules.
+  - Continuous background service without port exposure.
+  - **Depends on:**
+    - `postgres` (healthy database connection).
+    - `airflow-init` (successful completion).
+
+### Startup Sequence & Conditions:
+
+1. **postgres** starts first; provides database.
+2. **loader** waits for postgres, loads data once and exits.
+3. **app** waits for postgres and loader completion, available at port **8501**.
+4. **airflow-init** waits for postgres, initializes Airflow tables and user, then exits.
+5. **airflow-web** and **airflow-scheduler** wait for airflow-init, run continuously, UI at port **8080**.
+
+This clear dependency structure ensures services launch smoothly and function predictably.
 
 ## Streamlit Interface
 ### Sidebar
@@ -71,15 +123,26 @@ This will start:
 - **Run query** *execute and view results*
 - **Download CSV / Excel** *export your results locally*
 
-## Apache Airflow
+## Airflow
 - Access the UI at http://localhost:8080 *(login: admin / admin)*
-- DAG ingest_every_2_years runs every two calendar years on January 1
-- Monitor runs, trigger backfills, and inspect logs
+- DAG ingest_every_2_years runs every two calendar years on January 1 (for Winter & Summer Games)
+- Monitor runs, trigger backfills and inspect logs
+
+**Initial Scheduling Adjustment**:  
+By default, the first scheduled run might start on an earlier date than expected.  
+To manually align the DAG's next execution date (simulate that January 1, 2025, has already run), execute:
+```powershell
+docker compose exec airflow-web bash -c "
+    airflow dags backfill ingest_every_2_years \
+   -s 2025-01-01 -e 2025-01-01 --reset-dagruns
+"
+```
+*After running this command, the next scheduled execution moves correctly to January 1, 2027.*
 
 ## Next Steps
 1. **CI/CD** Pipeline: GitHub Actions to automate uv sync, linting (ruff), testing (pytest). Enforce ruff and mypy in CI for code quality and type safety
 2. **Integration & Unit Tests**: Use pytest with a test database to validate loader logic, DAG tasks etc
 3. Production Overrides: Create **docker-compose.prod.yml** with resource limits, TLS, separate networks and monitoring integrations
 4. Data Quality Checks - maybe
-5. **Better UI** : Add query history, temploates, favorites and DataViz
+5. **Better UI** : Add query history, templates, favorites and DataViz
 
