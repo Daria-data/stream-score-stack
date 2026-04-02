@@ -1,0 +1,530 @@
+id_epreuve,epreuve,epreuve_genre,epreuve_type,est_epreuve_individuelle,est_epreuve_olympique,est_epreuve_ete,est_epreuve_handi,epreuve_sens_resultat,id_discipline_administrative,discipline_administrative,id_specialite,specialite
+1,Course sur route - Hommes,Hommes,Individuel,1,1,1,0,0,23,Route,50,Course en ligne
+2,Contre la montre - Hommes,Hommes,Individuel,1,1,1,0,0,23,Route,49,Course contre la montre
+4,Par équipes Pursuit 8 Laps - Hommes,Hommes,Equipe,0,1,0,0,0,401,Patinage de vitesse sur glace grande piste,289,Longue piste
+5,Simple - Hommes,Hommes,Individuel,1,1,1,0,0,130,Tennis,207,Tennis
+8,1500m - Hommes,Hommes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,9,Demi-fond
+13,Relais 4 x 400m - Hommes,Hommes,Equipe,0,1,1,0,0,251,Athlétisme disciplines olympiques,16,Relais
+15,50km Marche - Hommes,Hommes,Individuel,1,0,1,0,0,251,Athlétisme disciplines olympiques,15,Marche athlétique
+18,Poids - Hommes,Hommes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,13,Lancers
+24,Combiné alpin - Hommes,Hommes,Individuel,1,1,0,0,0,107,Ski alpin,257,Ski alpin
+25,Descente - Hommes,Hommes,Individuel,1,1,0,0,0,107,Ski alpin,257,Ski alpin
+26,Super G - Hommes,Hommes,Individuel,1,1,0,0,0,107,Ski alpin,257,Ski alpin
+27,49er - Hommes,Hommes,Double,0,1,1,0,0,144,Dériveur,231,Haute performance
+28,ILCA 7 - Hommes,Hommes,Individuel,1,1,1,0,0,144,Dériveur,232,Solitaire
+38,400m 4 nages (individuel) - Hommes,Hommes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+39,3m Tremplin - Hommes,Hommes,Individuel,1,1,1,0,1,84,Plongeon,151,Plongeon
+40,Double - Hommes,Hommes,Double,0,1,1,0,1,9,Badminton,92,Badminton
+42,Poids mouche - Hommes (51kg) OG,Hommes,Individuel,1,0,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+48,+100kg - Hommes,Hommes,Individuel,1,1,1,0,0,68,Judo,112,Judo
+49,73kg - Hommes,Hommes,Individuel,1,1,1,0,0,68,Judo,112,Judo
+52,Par équipes - Hommes,Hommes,Equipe,0,1,1,0,0,131,Tennis de table,208,Tennis de table
+67,69kg - Hommes,Hommes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+68,94kg - Hommes,Hommes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+73,Par équipes Sabre - Hommes,Hommes,Equipe,0,1,1,0,1,35,Sabre,68,Sabre
+78,10m Carabine à air comprimé - Hommes,Hommes,Individuel,1,1,1,0,1,136,Carabine,210,10 mètres
+87,58kg - Hommes - JO,Hommes,Individuel,1,1,1,0,0,129,Taekwondo,203,Combat
+91,Single - Hommes,Hommes,Individuel,1,1,0,0,0,119,Luge,325,Luge
+101,Relais 4 x 7.5km - Hommes,Hommes,Equipe,0,1,0,0,0,109,Biathlon,246,Biathlon
+109,15km Style classique - Hommes,Hommes,Individuel,1,0,0,0,0,108,Ski de fond,258,Ski de fond
+110,15km Style libre - Hommes,Hommes,Individuel,1,1,0,0,0,108,Ski de fond,258,Ski de fond
+114,2 x 15km Skiathlon - Hommes,Hommes,Individuel,1,1,0,0,0,108,Ski de fond,258,Ski de fond
+117,Saut acrobatique - Hommes,Hommes,Individuel,1,1,0,0,1,110,Ski freestyle,259,Ski freestyle
+119,Bosses - Hommes,Hommes,Individuel,1,1,0,0,1,110,Ski freestyle,259,Ski freestyle
+122,5000m Relais - Hommes,Hommes,Equipe,0,1,0,0,0,400,Patinage de vitesse sur glace courte piste,288,Short track
+130,Poursuite Par équipes - Hommes,Hommes,Equipe,0,1,1,0,0,22,Piste,47,Endurance
+138,1000m - Hommes,Hommes,Individuel,1,1,0,0,0,401,Patinage de vitesse sur glace grande piste,289,Longue piste
+139,5000m - Hommes,Hommes,Individuel,1,1,0,0,0,401,Patinage de vitesse sur glace grande piste,289,Longue piste
+140,Double - Hommes,Hommes,Double,0,1,1,0,0,130,Tennis,207,Tennis
+144,200m - Hommes,Hommes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,18,Sprint
+146,3000m Steeplechase - Hommes,Hommes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,9,Demi-fond
+147,5000m - Hommes,Hommes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,11,Fond
+148,Decathlon - Hommes,Hommes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,10,Epreuves combinées
+149,Disque - Hommes,Hommes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,13,Lancers
+153,Javelot - Hommes,Hommes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,13,Lancers
+154,Marathon - Hommes,Hommes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,14,Marathon
+155,Perche - Hommes,Hommes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,17,Sauts
+156,Triple saut - Hommes,Hommes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,17,Sauts
+157,Hockey Equipe H,Hommes,Equipe,0,1,1,0,0,67,Hockey sur gazon,111,Hockey sur gazon
+165,470 - Hommes,Hommes,Double,0,0,1,0,0,144,Dériveur,231,Haute performance
+176,100m Dos - Hommes,Hommes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+177,100m Brasse - Hommes,Hommes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+178,100m Papillon - Hommes,Hommes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+179,100m Nage libre - Hommes,Hommes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+181,1500m Nage libre - Hommes,Hommes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+182,200m Papillon - Hommes,Hommes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+183,200m Nage libre - Hommes,Hommes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+184,Relais 4 x 100m Nage libre - Hommes,Hommes,Equipe,0,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+189,Simple - Hommes,Hommes,Individuel,1,1,1,0,0,9,Badminton,92,Badminton
+194,Poids lourd - Hommes,Hommes,Individuel,1,0,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+198,Deux sans barreur - Hommes,Hommes,Equipe,0,1,1,0,0,8,Aviron,25,Aviron
+200,Huit avec barreur - Hommes,Hommes,Equipe,0,1,1,0,0,8,Aviron,25,Aviron
+203,Quatre de couple - Hommes,Hommes,Equipe,0,1,1,0,0,8,Aviron,25,Aviron
+204,Simple - Hommes,Hommes,Individuel,1,1,1,0,0,131,Tennis de table,208,Tennis de table
+212,Individuel - Hommes,Hommes,Individuel,1,1,1,0,1,368,Tir à l'arc sur cibles,221,Arc classique
+213,Classique Par équipes - Hommes,Hommes,Equipe,0,1,1,0,1,368,Tir à l'arc sur cibles,221,Arc classique
+217,Individuel - Hommes,Hommes,Individuel,1,1,1,0,1,97,Pentathlon moderne,161,Pentathlon moderne
+219,Individuel Sabre - Hommes,Hommes,Individuel,1,1,1,0,0,35,Sabre,68,Sabre
+224,25m Pistolet tir rapide - Hommes,Hommes,Individuel,1,1,1,0,1,137,Pistolet,217,25 mètres
+232,68kg - Hommes - JO,Hommes,Individuel,1,1,1,0,0,129,Taekwondo,203,Combat
+233,+80kg - Hommes - JO,Hommes,Individuel,1,1,1,0,0,129,Taekwondo,203,Combat
+237,Par équipes - Hommes,Hommes,Equipe,0,1,0,0,0,118,Curling,323,Curling
+247,Individuel 20km - Hommes,Hommes,Individuel,1,1,0,0,0,109,Biathlon,246,Biathlon
+253,50km Style classique - Hommes,Hommes,Individuel,1,1,0,0,0,108,Ski de fond,258,Ski de fond
+258,1000m - Hommes,Hommes,Individuel,1,1,0,0,0,400,Patinage de vitesse sur glace courte piste,288,Short track
+260,500m - Hommes,Hommes,Individuel,1,1,0,0,0,400,Patinage de vitesse sur glace courte piste,288,Short track
+263,Sprint individuel - Hommes,Hommes,Individuel,1,1,1,0,0,22,Piste,48,Sprint
+265,Keirin - Hommes,Hommes,Individuel,1,1,1,0,0,22,Piste,48,Sprint
+267,Madison - Hommes,Hommes,Equipe,0,1,1,0,1,22,Piste,47,Endurance
+271,Individuel - Hommes,Hommes,Individuel,1,1,0,0,0,153,Skeleton,328,Skeleton
+274,K1 200m - Hommes,Hommes,Individuel,1,0,1,0,0,397,Kayak,403,Course en ligne
+275,K4 500m - Hommes,Hommes,Equipe,0,1,1,0,0,397,Kayak,403,Course en ligne
+279,K1 - Hommes,Hommes,Individuel,1,1,1,0,0,397,Kayak,406,Slalom
+280,Football Equipes H,Hommes,Equipe,0,1,1,0,0,36,Football,77,Football
+289,100m - Hommes,Hommes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,18,Sprint
+291,20km Marche - Hommes,Hommes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,15,Marche athlétique
+296,400m - Hommes,Hommes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,18,Sprint
+299,800m - Hommes,Hommes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,9,Demi-fond
+302,Longueur - Hommes,Hommes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,17,Sauts
+310,Slalom géant - Hommes,Hommes,Individuel,1,1,0,0,0,107,Ski alpin,257,Ski alpin
+321,200m Brasse - Hommes,Hommes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+322,200m 4 nages (individuel) - Hommes,Hommes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+325,Relais 4 x 100m 4 nages - Hommes,Hommes,Equipe,0,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+326,Relais 4 x 200m Nage libre - Hommes,Hommes,Equipe,0,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+331,50m Nage libre - Hommes,Hommes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+332,800m Nage libre - Hommes,Hommes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+333,10m Plateforme - Hommes,Hommes,Individuel,1,1,1,0,1,84,Plongeon,151,Plongeon
+334,10m Plateforme Synchro - Hommes,Hommes,Equipe,0,1,1,0,1,84,Plongeon,151,Plongeon
+335,3m Tremplin Synchro - Hommes,Hommes,Equipe,0,1,1,0,1,84,Plongeon,151,Plongeon
+338,Poids plume - Hommes (57kg) OG,Hommes,Individuel,1,0,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+339,Poids léger - Hommes (61kg),Hommes,Individuel,1,0,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+340,Poids lourd-léger - Hommes (79kg),Hommes,Individuel,1,0,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+341,Golf Individuel - Hommes,Hommes,Individuel,1,1,1,0,0,38,Golf,81,Golf
+342,Handball Equipe H,Hommes,Equipe,0,1,1,0,0,47,Handball,91,Handball
+345,100kg - Hommes,Hommes,Individuel,1,1,1,0,0,68,Judo,112,Judo
+346,90kg - Hommes,Hommes,Individuel,1,1,1,0,0,68,Judo,112,Judo
+347,60kg - Hommes,Hommes,Individuel,1,1,1,0,0,68,Judo,112,Judo
+348,Quatre sans barreur - Hommes,Hommes,Equipe,0,1,1,0,0,8,Aviron,25,Aviron
+349,Deux de couple - Hommes,Hommes,Equipe,0,1,1,0,0,8,Aviron,25,Aviron
+351,Skiff - Hommes,Hommes,Equipe,0,1,1,0,0,8,Aviron,25,Aviron
+353,Distance Olympique - Hommes,Hommes,Individuel,1,1,1,0,0,142,Triathlon,225,Formats olympiques
+372,Par équipes Épée - Hommes,Hommes,Equipe,0,1,1,0,1,33,Epée,66,Epée
+376,Trap - Hommes,Hommes,Individuel,1,1,1,0,1,275,Plateau,218,Fosse olympique
+379,10m Pistolet à air comprimé - Hommes,Hommes,Individuel,1,1,1,0,1,137,Pistolet,216,10 mètres
+391,2-Man Competition - Hommes,Hommes,Equipe,0,1,0,0,0,117,Bobsleigh,322,Bobsleigh
+404,Singles - Hommes,Hommes,Individuel,1,1,0,0,1,120,Patinage artistique,326,Patinage artistique
+406,Mass Start 15km - Hommes,Hommes,Individuel,1,1,0,0,0,109,Biathlon,246,Biathlon
+409,50km Style libre - Hommes,Hommes,Individuel,1,0,0,0,0,108,Ski de fond,258,Ski de fond
+416,Snowboard Cross - Hommes,Hommes,Individuel,1,1,0,0,0,111,Surf des neiges,260,Snowboard
+420,1500m - Hommes,Hommes,Individuel,1,1,0,0,0,400,Patinage de vitesse sur glace courte piste,288,Short track
+430,Omnium - Hommes,Hommes,Individuel,1,1,1,0,0,22,Piste,47,Endurance
+433,500m - Hommes,Hommes,Individuel,1,1,0,0,0,401,Patinage de vitesse sur glace grande piste,289,Longue piste
+436,1500m - Hommes,Hommes,Individuel,1,1,0,0,0,401,Patinage de vitesse sur glace grande piste,289,Longue piste
+437,10000m - Hommes,Hommes,Individuel,1,1,0,0,0,401,Patinage de vitesse sur glace grande piste,289,Longue piste
+440,10000m - Hommes,Hommes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,11,Fond
+441,110m Haies - Hommes,Hommes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,12,Haies
+444,Relais 4 x 100m - Hommes,Hommes,Equipe,0,1,1,0,0,251,Athlétisme disciplines olympiques,16,Relais
+445,400m Haies - Hommes,Hommes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,12,Haies
+448,Marteau - Hommes,Hommes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,13,Lancers
+449,Hauteur - Hommes,Hommes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,17,Sauts
+454,Basket 5x5 Equipe H,Hommes,Equipe,0,1,1,0,0,358,Basketball 5x5,31,Basketball 5x5
+455,Volley-Ball Equipe H,Hommes,Equipe,0,1,1,0,0,150,Volley-ball,241,Volley ball
+460,Par équipes - Hommes,Hommes,Equipe,0,0,1,0,0,11,Baseball,28,Baseball
+461,Slalom - Hommes,Hommes,Individuel,1,1,0,0,0,107,Ski alpin,257,Ski alpin
+462,RS:X - Men,Hommes,Individuel,1,0,1,0,0,372,Planche à voile (windsurf),373,Windsurf
+463,Finn - Hommes,Hommes,Individuel,1,0,1,0,0,144,Dériveur,231,Haute performance
+471,200m Dos - Hommes,Hommes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+474,400m Nage libre - Hommes,Hommes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+478,Water-Polo Equipe H,Hommes,Equipe,0,1,1,0,0,85,Water polo,152,Water polo
+480,Poids super-lourd - Hommes,Hommes,Individuel,1,0,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+481,67kg - Hommes,Hommes,Individuel,1,0,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+482,"Poids moyen - Hommes (72,5kg)",Hommes,Individuel,1,0,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+483,66kg - Hommes,Hommes,Individuel,1,1,1,0,0,68,Judo,112,Judo
+484,81kg - Hommes,Hommes,Individuel,1,1,1,0,0,68,Judo,112,Judo
+488,Deux de couple - Poids léger Hommes,Hommes,Equipe,0,1,1,0,0,8,Aviron,25,Aviron
+500,105kg - Hommes,Hommes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+503,Individuel Épée - Hommes,Hommes,Individuel,1,1,1,0,1,33,Epée,66,Epée
+504,Individuel Fleuret - Hommes,Hommes,Individuel,1,1,1,0,0,34,Fleuret,67,Fleuret
+505,Par équipes Fleuret - Hommes,Hommes,Equipe,0,1,1,0,0,34,Fleuret,67,Fleuret
+509,Skeet - Hommes,Hommes,Individuel,1,1,1,0,1,275,Plateau,219,Skeet olympique
+516,80kg - Hommes - JO,Hommes,Individuel,1,1,1,0,0,129,Taekwondo,203,Combat
+531,Sprint 10km - Hommes,Hommes,Individuel,1,1,0,0,0,109,Biathlon,246,Biathlon
+532,Poursuite 12.5km - Hommes,Hommes,Individuel,1,1,0,0,0,109,Biathlon,246,Biathlon
+534,Relais 2 x 6 + 2 x 7.5km - Mixte,Mixte,Equipe,0,0,0,0,0,109,Biathlon,246,Biathlon
+536,Relais 4 x 10km - Hommes,Hommes,Equipe,0,1,0,0,0,108,Ski de fond,258,Ski de fond
+542,Beach-Volley Equipe H,Hommes,Double,0,1,1,0,1,151,Volley-ball de plage (beach volley),242,Beach volley
+543,Cross Country - Hommes,Hommes,Individuel,1,1,1,0,0,256,VTT,54,Cross-country
+552,C1 1000m - Hommes,Hommes,Individuel,1,1,1,0,0,398,Canoë,41,Course en ligne (sprint)
+554,C2 1000m - Hommes,Hommes,Double,0,0,1,0,0,398,Canoë,41,Course en ligne (sprint)
+567,Trampoline Individuel - Hommes,Hommes,Individuel,1,1,1,0,1,42,Trampoline,88,Trampoline
+574,Concours général - Hommes,Hommes,Individuel,1,1,1,0,1,311,Gymnastique artistique masculine,84,Gymnastique artistique Masculine
+575,Barres parallèles - Hommes,Hommes,Individuel,1,1,1,0,1,311,Gymnastique artistique masculine,84,Gymnastique artistique Masculine
+591,K1 1000m - Hommes,Hommes,Individuel,1,1,1,0,0,397,Kayak,403,Course en ligne
+593,K2 1000m - Hommes,Hommes,Double,0,0,1,0,0,397,Kayak,403,Course en ligne
+595,C1 - Hommes,Hommes,Individuel,1,1,1,0,0,398,Canoë,42,Slalom
+599,Sol - Hommes,Hommes,Individuel,1,1,1,0,1,311,Gymnastique artistique masculine,84,Gymnastique artistique Masculine
+600,Barre fixe - Hommes,Hommes,Individuel,1,1,1,0,1,311,Gymnastique artistique masculine,84,Gymnastique artistique Masculine
+601,Cheval d'arçons - Hommes,Hommes,Individuel,1,1,1,0,1,311,Gymnastique artistique masculine,84,Gymnastique artistique Masculine
+602,Saut - Hommes,Hommes,Individuel,1,1,1,0,1,311,Gymnastique artistique masculine,84,Gymnastique artistique Masculine
+618,Anneaux - Hommes,Hommes,Individuel,1,1,1,0,1,311,Gymnastique artistique masculine,84,Gymnastique artistique Masculine
+620,GAM Par équipes - Hommes,Hommes,Equipe,0,1,1,0,1,311,Gymnastique artistique masculine,84,Gymnastique artistique Masculine
+631,BMX Race - Hommes,Hommes,Individuel,1,1,1,0,0,25,BMX race,46,BMX race
+632,Sprint Style classique - Hommes,Hommes,Individuel,1,1,0,0,0,108,Ski de fond,258,Ski de fond
+634,Par équipes Sprint Style libre - Hommes,Hommes,Equipe,0,1,0,0,0,108,Ski de fond,258,Ski de fond
+636,Par équipes Sprint Style classique - Hommes,Hommes,Equipe,0,0,0,0,0,108,Ski de fond,258,Ski de fond
+637,Ski Cross - Hommes,Hommes,Individuel,1,1,0,0,0,110,Ski freestyle,259,Ski freestyle
+664,Halfpipe - Hommes,Hommes,Individuel,1,1,0,0,1,110,Ski freestyle,259,Ski freestyle
+685,50m Carabine 3 positions - Hommes,Hommes,Individuel,1,1,1,0,1,136,Carabine,211,50 mètres
+692,65kg LL - Hommes,Hommes,Individuel,1,1,1,0,0,262,Lutte,130,Lutte libre
+693,57kg LL- Hommes,Hommes,Individuel,1,1,1,0,0,262,Lutte,130,Lutte libre
+694,86kg LL- Hommes,Hommes,Individuel,1,1,1,0,0,262,Lutte,130,Lutte libre
+695,97kg LL - Hommes,Hommes,Individuel,1,1,1,0,0,262,Lutte,130,Lutte libre
+696,125kg LL- Hommes,Hommes,Individuel,1,1,1,0,0,262,Lutte,130,Lutte libre
+702,130kg GR - Hommes,Hommes,Individuel,1,1,1,0,0,262,Lutte,129,Lutte gréco-romaine
+703,Rugby à 7 Equipe H,Hommes,Equipe,0,1,1,0,0,245,Rugby à 7,172,Rugby à 7
+782,Mass Start 16 Laps - Hommes,Hommes,Individuel,1,1,0,0,1,401,Patinage de vitesse sur glace grande piste,289,Longue piste
+797,Heptathlon - Femmes,Femmes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,10,Epreuves combinées
+819,Duo - Femmes,Femmes,Double,0,1,1,0,1,82,Natation artistique,149,Natation artistique
+820,Par équipes - Femmes,Femmes,Equipe,0,0,1,0,1,82,Natation artistique,149,Natation artistique
+825,48kg - Femmes,Femmes,Individuel,1,1,1,0,0,68,Judo,112,Judo
+844,57kg - Femmes - JO,Femmes,Individuel,1,1,1,0,0,129,Taekwondo,203,Combat
+845,49kg - Femmes - JO,Femmes,Individuel,1,1,1,0,0,129,Taekwondo,203,Combat
+853,Mass Start 12.5km - Femmes,Femmes,Individuel,1,1,0,0,0,109,Biathlon,246,Biathlon
+938,52kg - Femmes,Femmes,Individuel,1,1,1,0,0,68,Judo,112,Judo
+941,78kg - Femmes,Femmes,Individuel,1,1,1,0,0,68,Judo,112,Judo
+942,+78kg - Femmes,Femmes,Individuel,1,1,1,0,0,68,Judo,112,Judo
+956,75kg - Femmes,Femmes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+964,+67kg - Femmes - JO,Femmes,Individuel,1,1,1,0,0,129,Taekwondo,203,Combat
+981,Sprint Par équipes - Hommes,Hommes,Equipe,0,1,1,0,0,22,Piste,48,Sprint
+992,Concours multiple individuel - Femmes,Femmes,Individuel,1,1,1,0,1,40,Gymnastique rythmique,86,Individuelle
+1041,63kg - Femmes,Femmes,Individuel,1,1,1,0,0,68,Judo,112,Judo
+1042,70kg - Femmes,Femmes,Individuel,1,1,1,0,0,68,Judo,112,Judo
+1074,Relais 4 x 6km - Femmes,Femmes,Equipe,0,1,0,0,0,109,Biathlon,246,Biathlon
+1101,Par équipes Pursuit 6 Laps - Femmes,Femmes,Equipe,0,1,0,0,0,401,Patinage de vitesse sur glace grande piste,289,Longue piste
+1136,57kg - Femmes,Femmes,Individuel,1,1,1,0,0,68,Judo,112,Judo
+1156,-67kg - Femmes - JO,Femmes,Individuel,1,1,1,0,0,129,Taekwondo,203,Combat
+1179,Sprint Par équipes (2 Personnes) - Femmes,Femmes,Equipe,0,0,1,0,0,22,Piste,48,Sprint
+1192,Concours général ensembles - Femmes,Femmes,Equipe,0,1,1,0,1,40,Gymnastique rythmique,85,Ensemble
+1197,Poutre - Femmes,Femmes,Individuel,1,1,1,0,1,310,Gymnastique artistique féminine,83,Gymnastique artistique féminine
+1227,Barres asymétriques - Femmes,Femmes,Individuel,1,1,1,0,1,310,Gymnastique artistique féminine,83,Gymnastique artistique féminine
+1254,Poids Mi-Mouche - Femmes (48kg),Femmes,Individuel,1,0,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+1257,57kg - Femmes,Femmes,Individuel,1,1,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+1258,60kg - Femmes,Femmes,Individuel,1,1,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+1260,Poids welter - Femmes (64kg),Femmes,Individuel,1,0,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+1261,Poids moyen - Femmes (69kg),Femmes,Individuel,1,0,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+1281,49er FX - Femmes,Femmes,Double,0,1,1,0,0,144,Dériveur,231,Haute performance
+1298,53kg - Femmes,Femmes,Individuel,1,1,1,0,0,262,Lutte,128,Lutte féminine
+1323,59kg - Femmes - JO,Femmes,Individuel,1,1,1,0,1,45,Haltérophilie,89,Total Olympique
+1329,64kg - Femmes,Femmes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+1338,76kg - Femmes,Femmes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+1436,Ice Dance - Mixte,Mixte,Double,0,1,0,0,1,152,Danse sur glace,324,Danse sur glace
+1445,Par équipes - Relais - Mixte,Mixte,Equipe,0,1,0,0,0,119,Luge,325,Luge
+1446,Pairs - Mixte,Mixte,Double,0,1,0,0,1,120,Patinage artistique,326,Patinage artistique
+1449,Par équipes - Mixte,Mixte,Equipe,0,0,0,0,0,107,Ski alpin,257,Ski alpin
+1473,Nacra 17 - Mixte,Mixte,Double,0,1,1,0,0,146,Catamaran,226,Mixte
+1736,74kg LL - Hommes,Hommes,Individuel,1,1,1,0,0,262,Lutte,130,Lutte libre
+3390,10km - Hommes,Hommes,Individuel,1,1,1,0,0,83,Eau libre,148,Eau libre
+5460,Épreuves combinées (B+D+V) - Hommes,Hommes,Individuel,1,0,1,0,0,72,Escalade,134,Combiné
+5505,-75kg Kumite - Hommes,Hommes,Individuel,1,0,1,0,0,392,Kumité,378,Kumité
+5507,-67kg Kumite - Hommes,Hommes,Individuel,1,0,1,0,0,392,Kumité,378,Kumité
+5508,-61kg Kumite - Femmes,Femmes,Individuel,1,0,1,0,0,392,Kumité,378,Kumité
+5533,Individual Kata - Hommes,Hommes,Individuel,1,0,1,0,0,391,Kata,377,Kata
+5834,Shortboard - Hommes,Hommes,Individuel,1,1,1,0,1,127,Surf,200,Shortboard
+5882,Skate Park - Hommes,Hommes,Individuel,1,1,1,0,1,246,Skateboard,170,Park
+5884,Skate Street - Hommes,Hommes,Individuel,1,1,1,0,1,246,Skateboard,171,Street
+5941,Saut acrobatique Par équipes - Mixte,Mixte,Equipe,0,1,0,0,1,110,Ski freestyle,259,Ski freestyle
+6041,Doubles - Mixte,Mixte,Double,0,1,0,0,0,118,Curling,323,Curling
+6086,BMX Freestyle - Hommes,Hommes,Individuel,1,1,1,0,1,286,BMX freestyle,45,Park
+6424,67kg GR - Hommes,Hommes,Individuel,1,1,1,0,0,262,Lutte,129,Lutte gréco-romaine
+6426,50kg - Femmes,Femmes,Individuel,1,1,1,0,0,262,Lutte,128,Lutte féminine
+6427,97kg GR - Hommes,Hommes,Individuel,1,1,1,0,0,262,Lutte,129,Lutte gréco-romaine
+6428,68kg - Femmes,Femmes,Individuel,1,1,1,0,0,262,Lutte,128,Lutte féminine
+6450,Basket 3x3 Equipe H,Hommes,Equipe,0,1,1,0,0,288,Basketball 3x3,30,Basketball 3x3
+6454,62kg - Femmes,Femmes,Individuel,1,1,1,0,0,262,Lutte,128,Lutte féminine
+6465,Rugby à 7 Equipe F,Femmes,Equipe,0,1,1,0,0,245,Rugby à 7,172,Rugby à 7
+6466,Simple - Femmes,Femmes,Individuel,1,1,1,0,0,130,Tennis,207,Tennis
+6467,Double - Femmes,Femmes,Double,0,1,1,0,0,130,Tennis,207,Tennis
+6468,Double - Mixte,Mixte,Double,0,1,1,0,0,130,Tennis,207,Tennis
+6469,Hockey Equipe F,Femmes,Equipe,0,1,1,0,0,67,Hockey sur gazon,111,Hockey sur gazon
+6471,Contre la montre - Femmes,Femmes,Individuel,1,1,1,0,0,23,Route,49,Course contre la montre
+6472,Course sur route - Femmes,Femmes,Individuel,1,1,1,0,0,23,Route,50,Course en ligne
+6475,Handball Equipe F,Femmes,Equipe,0,1,1,0,0,47,Handball,91,Handball
+6477,Double - Femmes,Femmes,Double,0,1,1,0,1,9,Badminton,92,Badminton
+6478,Double - Mixte,Mixte,Double,0,1,1,0,1,9,Badminton,92,Badminton
+6479,Simple - Femmes,Femmes,Individuel,1,1,1,0,0,9,Badminton,92,Badminton
+6481,Individuel Épée - Femmes,Femmes,Individuel,1,1,1,0,0,33,Epée,66,Epée
+6482,25m Pistolet - Femmes,Femmes,Individuel,1,1,1,0,1,137,Pistolet,217,25 mètres
+6483,10m Pistolet à air comprimé - Femmes,Femmes,Individuel,1,1,1,0,1,137,Pistolet,216,10 mètres
+6486,-55kg Kumite - Femmes,Femmes,Individuel,1,0,1,0,0,392,Kumité,378,Kumité
+6490,Par équipes Épée - Femmes,Femmes,Equipe,0,1,1,0,1,33,Epée,66,Epée
+6493,Par équipes - Femmes,Femmes,Equipe,0,1,1,0,0,131,Tennis de table,208,Tennis de table
+6495,Simple - Femmes,Femmes,Individuel,1,1,1,0,0,131,Tennis de table,208,Tennis de table
+6498,Individuel - Femmes,Femmes,Individuel,1,1,1,0,1,97,Pentathlon moderne,161,Pentathlon moderne
+6500,Classique Par équipes - Femmes,Femmes,Equipe,0,1,1,0,1,368,Tir à l'arc sur cibles,221,Arc classique
+6501,Individuel - Femmes,Femmes,Individuel,1,1,1,0,1,368,Tir à l'arc sur cibles,221,Arc classique
+6503,Individuel Fleuret - Femmes,Femmes,Individuel,1,1,1,0,0,34,Fleuret,67,Fleuret
+6504,Par équipes Fleuret - Femmes,Femmes,Equipe,0,1,1,0,1,34,Fleuret,67,Fleuret
+6507,Épreuves combinées (B+D+V) - Femmes,Femmes,Individuel,1,0,1,0,0,72,Escalade,134,Combiné
+6508,BMX Race - Femmes,Femmes,Individuel,1,1,1,0,0,25,BMX race,46,BMX race
+6511,Volley-Ball Equipe F,Femmes,Equipe,0,1,1,0,0,150,Volley-ball,241,Volley ball
+6512,Beach-Volley Equipe F,Femmes,Double,0,1,1,0,1,151,Volley-ball de plage (beach volley),242,Beach volley
+6516,Basket 3x3 Equipe F,Femmes,Equipe,0,1,1,0,0,288,Basketball 3x3,30,Basketball 3x3
+6517,Basket 5x5 Equipe F,Femmes,Equipe,0,1,1,0,0,358,Basketball 5x5,31,Basketball 5x5
+6518,Quatre de couple - Femmes,Femmes,Equipe,0,1,1,0,0,8,Aviron,25,Aviron
+6521,Deux de couple - Femmes,Femmes,Equipe,0,1,1,0,0,8,Aviron,25,Aviron
+6522,Deux sans barreur - Femmes,Femmes,Equipe,0,1,1,0,0,8,Aviron,25,Aviron
+6523,Quatre sans barreur - Femmes,Femmes,Equipe,0,1,1,0,0,8,Aviron,25,Aviron
+6524,Double - Mixte,Mixte,Double,0,1,1,0,1,131,Tennis de table,208,Tennis de table
+6525,Relais 4 x 400m - Femmes,Femmes,Equipe,0,1,1,0,0,251,Athlétisme disciplines olympiques,16,Relais
+6527,100m - Femmes,Femmes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,18,Sprint
+6528,400m - Femmes,Femmes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,18,Sprint
+6529,400m Haies - Femmes,Femmes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,12,Haies
+6536,Huit avec barreur - Femmes,Femmes,Equipe,0,1,1,0,0,8,Aviron,25,Aviron
+6540,Concours général - Femmes,Femmes,Individuel,1,1,1,0,1,310,Gymnastique artistique féminine,83,Gymnastique artistique féminine
+6541,Sol - Femmes,Femmes,Individuel,1,1,1,0,1,310,Gymnastique artistique féminine,83,Gymnastique artistique féminine
+6542,GAF Par équipes - Femmes,Femmes,Equipe,0,1,1,0,1,310,Gymnastique artistique féminine,83,Gymnastique artistique féminine
+6543,Keirin - Femmes,Femmes,Individuel,1,1,1,0,0,22,Piste,48,Sprint
+6544,Sprint individuel - Femmes,Femmes,Individuel,1,1,1,0,0,22,Piste,48,Sprint
+6547,Individuel Sabre - Femmes,Femmes,Individuel,1,1,1,0,0,35,Sabre,68,Sabre
+6548,Par équipes Sabre - Femmes,Femmes,Equipe,0,1,1,0,0,35,Sabre,68,Sabre
+6549,Relais par équipes - Mixte,Mixte,Equipe,0,1,1,0,0,142,Triathlon,225,Formats olympiques
+6550,Par équipes - Femmes,Femmes,Equipe,0,0,1,0,0,12,Softball,29,Softball
+6551,Perche - Femmes,Femmes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,17,Sauts
+6556,1500m - Femmes,Femmes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,9,Demi-fond
+6558,Distance Olympique - Femmes,Femmes,Individuel,1,1,1,0,0,142,Triathlon,225,Formats olympiques
+6560,Relais 4 x 100m Nage libre - Femmes,Femmes,Equipe,0,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6561,200m Nage libre - Femmes,Femmes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6562,200m Dos - Femmes,Femmes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6563,400m Nage libre - Femmes,Femmes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6566,100m Dos - Femmes,Femmes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6567,Relais 4 x 200m Nage libre - Femmes,Femmes,Equipe,0,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6573,Deux de couple - Poids léger Femmes,Femmes,Equipe,0,1,1,0,0,8,Aviron,25,Aviron
+6574,Relais 4 x 100m 4 nages - Mixte,Mixte,Equipe,0,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6577,K4 500m - Femmes,Femmes,Equipe,0,1,1,0,0,397,Kayak,403,Course en ligne
+6580,K1 500m - Femmes,Femmes,Individuel,1,1,1,0,0,397,Kayak,403,Course en ligne
+6581,K2 500m - Femmes,Femmes,Double,0,1,1,0,0,397,Kayak,403,Course en ligne
+6582,K1 200m - Femmes,Femmes,Individuel,1,0,1,0,0,397,Kayak,403,Course en ligne
+6584,K1 - Femmes,Femmes,Individuel,1,1,1,0,0,397,Kayak,406,Slalom
+6586,800m - Femmes,Femmes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,9,Demi-fond
+6587,RS:X - Women,Femmes,Individuel,1,0,1,0,0,372,Planche à voile (windsurf),373,Windsurf
+6589,3000m Steeplechase - Femmes,Femmes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,9,Demi-fond
+6590,100m Haies - Femmes,Femmes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,12,Haies
+6591,Triple saut - Femmes,Femmes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,17,Sauts
+6593,10m Carabine à air comprimé - Femmes,Femmes,Individuel,1,1,1,0,1,136,Carabine,210,10 mètres
+6596,50m Carabine 3 positions - Femmes,Femmes,Individuel,1,1,1,0,1,136,Carabine,211,50 mètres
+6600,400m 4 nages (individuel) - Femmes,Femmes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6601,200m 4 nages (individuel) - Femmes,Femmes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6602,200m Brasse - Femmes,Femmes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6603,1500m Nage libre - Femmes,Femmes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6604,200m Papillon - Femmes,Femmes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6607,10km - Femmes,Femmes,Individuel,1,1,1,0,0,83,Eau libre,148,Eau libre
+6611,200m - Femmes,Femmes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,18,Sprint
+6612,Relais 4 x 100m - Femmes,Femmes,Equipe,0,1,1,0,0,251,Athlétisme disciplines olympiques,16,Relais
+6615,Longueur - Femmes,Femmes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,17,Sauts
+6616,10000m - Femmes,Femmes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,11,Fond
+6617,Marathon - Femmes,Femmes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,14,Marathon
+6618,5000m - Femmes,Femmes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,11,Fond
+6620,Skiff - Femmes,Femmes,Equipe,0,1,1,0,0,8,Aviron,25,Aviron
+6628,Saut - Femmes,Femmes,Individuel,1,1,1,0,1,310,Gymnastique artistique féminine,83,Gymnastique artistique féminine
+6629,Par équipes - Mixte,Mixte,Equipe,0,1,1,0,0,68,Judo,112,Judo
+6631,Trap - Femmes,Femmes,Individuel,1,1,1,0,1,275,Plateau,218,Fosse olympique
+6634,Slopestyle - Femmes,Femmes,Individuel,1,1,0,0,1,110,Ski freestyle,259,Ski freestyle
+6635,100m Nage libre - Femmes,Femmes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6637,50m Nage libre - Femmes,Femmes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6638,Relais 4 x 100m 4 nages - Femmes,Femmes,Equipe,0,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6643,3m Tremplin - Femmes,Femmes,Individuel,1,1,1,0,1,84,Plongeon,151,Plongeon
+6644,3m Tremplin Synchro - Femmes,Femmes,Equipe,0,1,1,0,1,84,Plongeon,151,Plongeon
+6645,10m Plateforme - Femmes,Femmes,Individuel,1,1,1,0,1,84,Plongeon,151,Plongeon
+6646,Singles - Femmes,Femmes,Individuel,1,1,0,0,1,120,Patinage artistique,326,Patinage artistique
+6647,Par équipes - Mixte,Mixte,Equipe,0,1,0,0,1,120,Patinage artistique,326,Patinage artistique
+6648,Golf Individuel - Femmes,Femmes,Individuel,1,1,1,0,0,38,Golf,81,Golf
+6651,Snowboard Cross - Femmes,Femmes,Individuel,1,1,0,0,0,111,Surf des neiges,260,Snowboard
+6652,ILCA 6 - Femmes,Femmes,Individuel,1,1,1,0,0,144,Dériveur,232,Solitaire
+6655,Javelot - Femmes,Femmes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,13,Lancers
+6657,470 - Femmes,Femmes,Double,0,0,1,0,0,144,Dériveur,231,Haute performance
+6660,800m Nage libre - Femmes,Femmes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6675,Individuel CSO - Open,Open,Double,0,1,1,0,0,30,Saut d'obstacles,354,Saut d'obstacles
+6676,Par équipes CSO - Open,Open,Equipe,0,1,1,0,0,30,Saut d'obstacles,354,Saut d'obstacles
+6683,Individuel CCE - Open,Open,Double,0,1,1,0,0,28,Concours complet,350,Concours complet
+6684,Par équipes CCE - Open,Open,Equipe,0,1,1,0,0,28,Concours complet,350,Concours complet
+6688,100m Papillon - Femmes,Femmes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6691,Omnium - Femmes,Femmes,Individuel,1,1,1,0,0,22,Piste,47,Endurance
+6694,Poursuite Par équipes - Femmes,Femmes,Equipe,0,1,1,0,0,22,Piste,47,Endurance
+6695,Madison - Femmes,Femmes,Equipe,0,1,1,0,1,22,Piste,47,Endurance
+6696,Cross Country - Femmes,Femmes,Individuel,1,1,1,0,0,256,VTT,54,Cross-country
+6700,Par équipes Dressage - Open,Open,Equipe,0,1,1,0,1,29,Dressage,352,Dressage
+6704,Disque - Femmes,Femmes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,13,Lancers
+6752,Skeet - Femmes,Femmes,Individuel,1,1,1,0,1,275,Plateau,219,Skeet olympique
+6756,C1 - Femmes,Femmes,Individuel,1,1,1,0,0,398,Canoë,42,Slalom
+6763,Marteau - Femmes,Femmes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,13,Lancers
+6767,C2 500m - Femmes,Femmes,Double,0,1,1,0,0,398,Canoë,41,Course en ligne (sprint)
+6773,Trampoline Individuel - Femmes,Femmes,Individuel,1,1,1,0,1,42,Trampoline,88,Trampoline
+6776,C1 200m - Femmes,Femmes,Individuel,1,1,1,0,0,398,Canoë,41,Course en ligne (sprint)
+6788,Football Equipe F,Femmes,Equipe,0,1,1,0,0,36,Football,77,Football
+6790,Slalom géant - Femmes,Femmes,Individuel,1,1,0,0,0,107,Ski alpin,257,Ski alpin
+6795,Individuel Dressage - Open,Open,Double,0,1,1,0,1,29,Dressage,352,Dressage
+6801,Ski Cross - Femmes,Femmes,Individuel,1,1,0,0,0,110,Ski freestyle,259,Ski freestyle
+6803,Sprint 7.5km - Femmes,Femmes,Individuel,1,1,0,0,0,109,Biathlon,246,Biathlon
+6804,Poursuite 10km - Femmes,Femmes,Individuel,1,1,0,0,0,109,Biathlon,246,Biathlon
+6809,Individuel 15km - Femmes,Femmes,Individuel,1,1,0,0,0,109,Biathlon,246,Biathlon
+6813,Descente - Femmes,Femmes,Individuel,1,1,0,0,0,107,Ski alpin,257,Ski alpin
+6814,Super G - Femmes,Femmes,Individuel,1,1,0,0,0,107,Ski alpin,257,Ski alpin
+6835,Water-Polo Equipe F,Femmes,Equipe,0,1,1,0,0,85,Water polo,152,Water polo
+6842,Hauteur - Femmes,Femmes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,17,Sauts
+6843,Poids - Femmes,Femmes,Individuel,1,1,1,0,1,251,Athlétisme disciplines olympiques,13,Lancers
+6859,100m Brasse - Femmes,Femmes,Individuel,1,1,1,0,0,355,Natation course,150,Natation course bassin de 50m
+6868,20km Marche - Femmes,Femmes,Individuel,1,1,1,0,0,251,Athlétisme disciplines olympiques,15,Marche athlétique
+6907,Relais 4 x 400m - Mixte,Mixte,Equipe,0,1,1,0,0,251,Athlétisme disciplines olympiques,16,Relais
+6911,Shortboard - Femmes,Femmes,Individuel,1,1,1,0,1,127,Surf,200,Shortboard
+6945,Individual Kata - Femmes,Femmes,Individuel,1,0,1,0,0,391,Kata,377,Kata
+6948,Bosses - Femmes,Femmes,Individuel,1,1,0,0,1,110,Ski freestyle,259,Ski freestyle
+6951,Big Air - Femmes,Femmes,Individuel,1,1,0,0,1,110,Ski freestyle,259,Ski freestyle
+6953,3000m Relais - Femmes,Femmes,Equipe,0,1,0,0,0,400,Patinage de vitesse sur glace courte piste,288,Short track
+6955,500m - Femmes,Femmes,Individuel,1,1,0,0,0,400,Patinage de vitesse sur glace courte piste,288,Short track
+6956,1000m - Femmes,Femmes,Individuel,1,1,0,0,0,400,Patinage de vitesse sur glace courte piste,288,Short track
+6957,1500m - Femmes,Femmes,Individuel,1,1,0,0,0,400,Patinage de vitesse sur glace courte piste,288,Short track
+6965,BMX Freestyle - Femmes,Femmes,Individuel,1,1,1,0,1,286,BMX freestyle,45,Park
+6971,3000m - Femmes,Femmes,Individuel,1,1,0,0,0,401,Patinage de vitesse sur glace grande piste,289,Longue piste
+6972,Individuel - Femmes,Femmes,Individuel,1,1,0,0,0,153,Skeleton,328,Skeleton
+6973,Single - Femmes,Femmes,Individuel,1,1,0,0,0,119,Luge,325,Luge
+6980,Skate Street - Femmes,Femmes,Individuel,1,1,1,0,1,246,Skateboard,171,Street
+6981,Skate Park - Femmes,Femmes,Individuel,1,1,1,0,1,246,Skateboard,170,Park
+26316,76kg - Femmes,Femmes,Individuel,1,1,1,0,0,262,Lutte,128,Lutte féminine
+26317,57kg - Femmes,Femmes,Individuel,1,1,1,0,0,262,Lutte,128,Lutte féminine
+26318,87kg GR - Hommes,Hommes,Individuel,1,1,1,0,0,262,Lutte,129,Lutte gréco-romaine
+26322,49kg - Femmes - JO,Femmes,Individuel,1,1,1,0,1,45,Haltérophilie,89,Total Olympique
+26325,67kg - Hommes,Hommes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+26328,+109kg - Hommes,Hommes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+26431,77kg GR- Hommes,Hommes,Individuel,1,1,1,0,0,262,Lutte,129,Lutte gréco-romaine
+26436,60kg GR - Hommes,Hommes,Individuel,1,1,1,0,0,262,Lutte,129,Lutte gréco-romaine
+26456,109kg - Hommes,Hommes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+26461,96kg - Hommes,Hommes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+26474,81kg - Hommes,Hommes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+26475,55kg - Femmes,Femmes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+26489,61kg - Hommes - JO,Hommes,Individuel,1,1,1,0,1,45,Haltérophilie,89,Total Olympique
+26490,73kg - Hommes - JO,Hommes,Individuel,1,1,1,0,1,45,Haltérophilie,89,Total Olympique
+26491,+87kg - Femmes,Femmes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+26496,81kg - Femmes - JO,Femmes,Individuel,1,1,1,0,1,45,Haltérophilie,89,Total Olympique
+26497,87kg - Femmes,Femmes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+26546,2-Man Competition - Femmes,Femmes,Equipe,0,1,0,0,0,117,Bobsleigh,322,Bobsleigh
+27549,+61kg Kumite - Femmes,Femmes,Individuel,1,0,1,0,0,392,Kumité,378,Kumité
+27551,+75kg Kumite - Hommes,Hommes,Individuel,1,0,1,0,0,392,Kumité,378,Kumité
+27663,10m Plateforme Synchro - Femmes,Femmes,Equipe,0,1,1,0,1,84,Plongeon,151,Plongeon
+27754,Classique Par équipes - Mixte,Mixte,Equipe,0,1,1,0,1,368,Tir à l'arc sur cibles,221,Arc classique
+27758,Par équipes - Femmes,Femmes,Equipe,0,1,0,0,0,118,Curling,323,Curling
+27803,Monobob - Femmes,Femmes,Individuel,1,1,0,0,0,117,Bobsleigh,322,Bobsleigh
+27810,1500m - Femmes,Femmes,Individuel,1,1,0,0,0,401,Patinage de vitesse sur glace grande piste,289,Longue piste
+27814,1000m - Femmes,Femmes,Individuel,1,1,0,0,0,401,Patinage de vitesse sur glace grande piste,289,Longue piste
+27820,5000m - Femmes,Femmes,Individuel,1,1,0,0,0,401,Patinage de vitesse sur glace grande piste,289,Longue piste
+27824,Mass Start 16 Laps - Femmes,Femmes,Individuel,1,1,0,0,1,401,Patinage de vitesse sur glace grande piste,289,Longue piste
+27828,500m - Femmes,Femmes,Individuel,1,1,0,0,0,401,Patinage de vitesse sur glace grande piste,289,Longue piste
+27839,Double - Open,Open,Double,0,0,0,0,0,119,Luge,325,Luge
+97643,10m Pistolet à air comprimé - Par équipes (Mixte) - Mixte,Mixte,Equipe,0,1,1,0,1,137,Pistolet,216,10 mètres
+809041,Trap - Par équipes (Mixte) - Mixte,Mixte,Equipe,0,0,1,0,1,275,Plateau,218,Fosse olympique
+809042,10m Carabine à air comprimé - Par équipes (Mixte) - Mixte,Mixte,Equipe,0,1,1,0,1,136,Carabine,210,10 mètres
+889202,Par équipes - Hommes,Hommes,Equipe,0,1,0,0,0,187,Hockey sur glace,251,Hockey sur glace
+889247,+105kg - Hommes,Hommes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+889248,53kg - Femmes,Femmes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+889278,Individuel - Tremplin Normal - Hommes,Hommes,Individuel,1,1,0,0,1,106,Saut à ski,256,Saut à ski
+889302,2 x 7.5km Skiathlon - Femmes,Femmes,Individuel,1,1,0,0,0,108,Ski de fond,258,Ski de fond
+889307,Halfpipe - Hommes,Hommes,Individuel,1,1,0,0,1,111,Surf des neiges,260,Snowboard
+889325,K2 500m - Hommes,Hommes,Double,0,1,1,0,0,397,Kayak,403,Course en ligne
+889373,Light Welterweight - Hommes,Hommes,Individuel,1,0,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+889379,Lightweight Four - Hommes,Hommes,Equipe,0,0,1,0,0,8,Aviron,25,Aviron
+889391,48kg - Femmes,Femmes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+889395,+75kg - Femmes,Femmes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+889398,Double Trap - Hommes,Hommes,Individuel,1,0,1,0,1,275,Plateau,218,Fosse olympique
+889415,Grand Tremplin Par équipes / 4 x 5km - Hommes,Hommes,Equipe,0,1,0,0,1,105,Combine nordique,255,Combine nordique
+889416,Gundersen Tremplin Normal / 10km - Hommes,Hommes,Individuel,1,1,0,0,0,105,Combine nordique,255,Combine nordique
+889427,Slalom géant parallèle - Hommes,Hommes,Individuel,1,1,0,0,0,111,Surf des neiges,260,Snowboard
+889500,Poids mi-mouche - Hommes (49kg),Hommes,Individuel,1,0,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+889501,"Poids super-coq - Hommes (53,5kg)",Hommes,Individuel,1,0,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+889512,69kg - Femmes,Femmes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+889517,63kg - Femmes,Femmes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+889519,62kg - Hommes,Hommes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+889521,56kg - Hommes,Hommes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+889522,85kg - Hommes,Hommes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+889530,50m Carabine couchée - Hommes,Hommes,Individuel,1,0,1,0,1,136,Carabine,211,50 mètres
+889555,Par équipes - Grand Tremplin - Hommes,Hommes,Equipe,0,1,0,0,1,106,Saut à ski,256,Saut à ski
+889576,Big Air - Hommes,Hommes,Individuel,1,1,0,0,1,111,Surf des neiges,260,Snowboard
+889641,58kg - Femmes,Femmes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+889643,77kg - Hommes,Hommes,Individuel,1,0,1,0,1,45,Haltérophilie,89,Total Olympique
+889648,50m Pistolet - Hommes,Hommes,Individuel,1,0,1,0,1,137,Pistolet,215,50 mètres
+889674,Individuel - Grand Tremplin - Hommes,Hommes,Individuel,1,1,0,0,1,106,Saut à ski,256,Saut à ski
+889704,C1 200m - Hommes,Hommes,Individuel,1,0,1,0,0,398,Canoë,41,Course en ligne (sprint)
+889705,C2 500m - Hommes,Hommes,Double,0,1,1,0,0,398,Canoë,41,Course en ligne (sprint)
+889710,K2 200m - Hommes,Hommes,Double,0,0,1,0,0,397,Kayak,403,Course en ligne
+889758,K4 1000m - Hommes,Hommes,Equipe,0,0,1,0,0,397,Kayak,403,Course en ligne
+889760,C2 - Hommes,Hommes,Double,0,0,1,0,0,398,Canoë,42,Slalom
+889797,Sprint Style libre - Hommes,Hommes,Individuel,1,0,0,0,0,108,Ski de fond,258,Ski de fond
+889798,Gundersen Grand Tremplin / 10km - Hommes,Hommes,Individuel,1,1,0,0,1,105,Combine nordique,255,Combine nordique
+889818,Slopestyle - Hommes,Hommes,Individuel,1,1,0,0,1,111,Surf des neiges,260,Snowboard
+889841,Slopestyle - Hommes,Hommes,Individuel,1,1,0,0,1,110,Ski freestyle,259,Ski freestyle
+889864,58kg - Femmes,Femmes,Individuel,1,0,1,0,0,262,Lutte,128,Lutte féminine
+889865,69kg W (2014-2018) OG - Femmes,Femmes,Individuel,1,0,1,0,0,262,Lutte,128,Lutte féminine
+889866,59kg - Hommes,Hommes,Individuel,1,0,1,0,0,262,Lutte,129,Lutte gréco-romaine
+889867,75kg - Hommes,Hommes,Individuel,1,0,1,0,0,262,Lutte,129,Lutte gréco-romaine
+889868,85kg (2014-2018) OG - Hommes,Hommes,Individuel,1,0,1,0,0,262,Lutte,129,Lutte gréco-romaine
+889869,98kg - Hommes,Hommes,Individuel,1,0,1,0,0,262,Lutte,129,Lutte gréco-romaine
+889877,75kg - Femmes,Femmes,Individuel,1,0,1,0,0,262,Lutte,128,Lutte féminine
+892536,Big Air - Hommes,Hommes,Individuel,1,1,0,0,1,110,Ski freestyle,259,Ski freestyle
+892541,48kg W (2014-2018) OG - Femmes,Femmes,Individuel,1,0,1,0,0,262,Lutte,128,Lutte féminine
+892542,63kg W (2014-2018) OG - Femmes,Femmes,Individuel,1,0,1,0,0,262,Lutte,128,Lutte féminine
+892543,66kg (2014-2018) OG - Hommes,Hommes,Individuel,1,0,1,0,0,262,Lutte,129,Lutte gréco-romaine
+892601,Vitesse - Hommes,Hommes,Individuel,1,1,1,0,0,72,Escalade,136,Vitesse
+892681,CSLX - Hommes,Hommes,Individuel,1,1,1,0,0,397,Kayak,406,Slalom
+892781,89kg - Hommes - JO,Hommes,Individuel,1,1,1,0,1,45,Haltérophilie,89,Total Olympique
+892786,102kg - Hommes - JO,Hommes,Individuel,1,1,1,0,1,45,Haltérophilie,89,Total Olympique
+892800,71kg - Femmes - JO,Femmes,Individuel,1,1,1,0,1,45,Haltérophilie,89,Total Olympique
+893138,10km Style classique - Femmes,Femmes,Individuel,1,0,0,0,0,108,Ski de fond,258,Ski de fond
+893162,Kitefoil - Femmes OLY,Femmes,Individuel,1,1,1,0,0,371,Kiteboard,234,Kiteboard à foil
+893193,CSLX - Femmes,Femmes,Individuel,1,1,1,0,0,397,Kayak,406,Slalom
+893487,Par équipes Sprint Style libre - Femmes,Femmes,Equipe,0,1,0,0,0,108,Ski de fond,258,Ski de fond
+893624,Slalom - Femmes,Femmes,Individuel,1,1,0,0,0,107,Ski alpin,257,Ski alpin
+893630,Snowboard Cross Par équipes - Mixte,Mixte,Equipe,0,1,0,0,0,111,Surf des neiges,260,Snowboard
+893833,Relais 4 x 6km - Mixte,Mixte,Equipe,0,1,0,0,0,109,Biathlon,246,Biathlon
+894167,Relais 4 x 5km - Femmes,Femmes,Equipe,0,1,0,0,0,108,Ski de fond,258,Ski de fond
+894187,Halfpipe - Femmes,Femmes,Individuel,1,1,0,0,1,110,Ski freestyle,259,Ski freestyle
+894199,Sprint Style libre - Femmes,Femmes,Individuel,1,0,0,0,0,108,Ski de fond,258,Ski de fond
+894266,30km Style classique - Femmes,Femmes,Individuel,1,1,0,0,0,108,Ski de fond,258,Ski de fond
+894530,Par équipes - Tremplin Normal - Mixte,Mixte,Equipe,0,1,0,0,1,106,Saut à ski,256,Saut à ski
+894553,Big Air - Femmes,Femmes,Individuel,1,1,0,0,1,111,Surf des neiges,260,Snowboard
+894622,Individuel - Tremplin Normal - Femmes,Femmes,Individuel,1,1,0,0,1,106,Saut à ski,256,Saut à ski
+894646,Halfpipe - Femmes,Femmes,Individuel,1,1,0,0,1,111,Surf des neiges,260,Snowboard
+894738,Slopestyle - Femmes,Femmes,Individuel,1,1,0,0,1,111,Surf des neiges,260,Snowboard
+894987,Saut acrobatique - Femmes,Femmes,Individuel,1,1,0,0,1,110,Ski freestyle,259,Ski freestyle
+895209,4-Man Competition - Open,Open,Equipe,0,0,0,0,0,117,Bobsleigh,262,Bobsleigh
+895493,Slalom géant parallèle - Femmes,Femmes,Individuel,1,1,0,0,0,111,Surf des neiges,260,Snowboard
+895537,Combiné alpin - Femmes,Femmes,Individuel,1,1,0,0,0,107,Ski alpin,257,Ski alpin
+895628,10km Style libre - Femmes,Femmes,Individuel,1,1,0,0,0,108,Ski de fond,258,Ski de fond
+895658,470 - Mixte,Mixte,Double,0,1,1,0,0,144,Dériveur,230,Double mixte
+895662,Vitesse - Femmes,Femmes,Individuel,1,1,1,0,0,72,Escalade,136,Vitesse
+895665,30km Style libre - Femmes,Femmes,Individuel,1,0,0,0,0,108,Ski de fond,258,Ski de fond
+896013,Kitefoil - Hommes OLY,Hommes,Individuel,1,1,1,0,0,371,Kiteboard,234,Kiteboard à foil
+896099,Par équipes - Femmes,Femmes,Equipe,0,1,0,0,0,187,Hockey sur glace,251,Hockey sur glace
+896340,Sprint Style classique Par équipes - Femmes,Femmes,Equipe,0,0,0,0,0,108,Ski de fond,258,Ski de fond
+896366,Sprint Style classique - Femmes,Femmes,Individuel,1,1,0,0,0,108,Ski de fond,258,Ski de fond
+896598,2000m Relais - Mixte,Mixte,Equipe,0,1,0,0,0,400,Patinage de vitesse sur glace courte piste,288,Short track
+896729,+102kg - Hommes - JO,Hommes,Individuel,1,1,1,0,1,45,Haltérophilie,89,Total Olympique
+896736,+81kg - Femmes - JO,Femmes,Individuel,1,1,1,0,1,45,Haltérophilie,89,Total Olympique
+896810,Skeet - Par équipes (Mixte) - Mixte,Mixte,Equipe,0,1,1,0,1,275,Plateau,219,Skeet olympique
+896986,iQFOiL - Femmes,Femmes,Individuel,1,1,1,0,0,372,Planche à voile (windsurf),237,Windsurf foil
+896987,iQFOiL - Hommes,Hommes,Individuel,1,1,1,0,0,372,Planche à voile (windsurf),237,Windsurf foil
+897256,Sprint Par équipes - Femmes,Femmes,Equipe,0,1,1,0,0,22,Piste,48,Sprint
+897325,Épreuves combinées (B+D) - Hommes,Hommes,Individuel,1,1,1,0,1,72,Escalade,134,Combiné
+897326,Épreuves combinées (B+D) - Femmes,Femmes,Individuel,1,1,1,0,1,72,Escalade,134,Combiné
+897328,Par équipes - Open,Open,Equipe,0,1,1,0,1,82,Natation artistique,149,Natation artistique
+897393,Breaking - Femmes,Femmes,Individuel,1,1,1,0,0,287,Breaking,55,Breaking
+897394,Breaking - Hommes,Hommes,Individuel,1,1,1,0,0,287,Breaking,55,Breaking
+897733,+92kg - Hommes,Hommes,Individuel,1,1,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+897748,57kg - Hommes,Hommes,Individuel,1,1,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+897749,51kg - Hommes,Hommes,Individuel,1,1,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+897750,71kg - Hommes,Hommes,Individuel,1,1,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+897751,63.5kg - Hommes,Hommes,Individuel,1,1,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+897752,80kg - Hommes,Hommes,Individuel,1,1,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+897754,54kg - Femmes,Femmes,Individuel,1,1,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+897755,66kg - Femmes,Femmes,Individuel,1,1,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+897756,50kg - Femmes,Femmes,Individuel,1,1,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+897757,75kg - Femmes,Femmes,Individuel,1,1,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+897758,92kg - Hommes,Hommes,Individuel,1,1,1,0,0,360,Boxe anglaise,37,Boxe anglaise
+900707,42km Marche par équipe - Mixte,Mixte,Equipe,0,0,1,0,0,251,Athlétisme disciplines olympiques,15,Marche athlétique

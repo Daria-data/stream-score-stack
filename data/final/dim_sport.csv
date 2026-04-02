@@ -1,0 +1,67 @@
+id_sport,sport_name_fr,sport_name_en,id_federation
+1,Voile,Sailing,71
+2,Equitation - Dressage,Equestrian - Dressage,76
+3,Plongeon,Diving,44
+4,Beach Volley-ball,Beach Volleyball,74
+6,Ski acrobatique,Freestyle Skiing,58
+7,Basket-ball,Basketball,14
+8,Lutte libre,Wrestling - Freestyle,42
+9,Skeleton,Skeleton,80
+10,Tir à l'arc,Archery,68
+11,Triathlon,Triathlon,69
+12,Cyclisme - VTT,Mountain Bike,21
+13,Cyclisme - Piste,Cycling - Track,21
+14,Equitation - Concours complet - Three-Day Event,Equestrian - Three-Day Event,76
+15,Aviron,Rowing,79
+16,Pentathlon moderne,Modern Pentathlon,49
+17,Cyclisme - BMX,BMX,21
+19,Tennis de Table,Table Tennis,66
+20,Curling,Curling,80
+21,Patinage de vitesse - Short Track,Short Track,80
+22,Gymnastique rythmique,Gymnastics - Rhythmic,28
+23,Snowboard,Snowboard,58
+25,Hockey sur Gazon,Hockey,30
+26,Gymnastique artistique,Gymnastics - Artistic,28
+28,Athlétisme,Athletics,9
+29,Haltérophilie,Weightlifting,3
+30,Bobsleigh,Bobsleigh,80
+31,Handball,Handball,29
+32,Taekwondo,Taekwondo,64
+33,Escrime,Fencing,82
+34,Ski alpin,Alpine Skiing,58
+35,Natation artistique,Synchronized Swimming,44
+37,Cyclisme - Route,Cycling - Road,21
+38,Equitation - Saut d'obstacles,Equestrian - Jumping,76
+39,Gymnastique - Trampoline,Gymnastics - Trampolining,28
+40,Patinage de vitesse - Longue Piste,Speed Skating,54
+41,Biathlon,Biathlon,58
+44,Luge,Luge,80
+45,Baseball,Baseball,13
+46,Lutte gréco-romaine,Wrestling - Greco-Roman,42
+48,Golf,Golf,27
+49,Football,Football,24
+50,Saut à ski,Ski Jumping,58
+51,Softball,Softball,13
+52,Water-polo,Water Polo,44
+53,Volley-ball,Volleyball,74
+54,Canoë-Kayak - Course en ligne,Canoe/Kayak - Flatwater,18
+55,Badminton,Badminton,10
+56,Canoë-Kayak - Slalom,Canoe/Kayak - Slalom,18
+57,Patinage artistique,Figure Skating,80
+60,Boxe,Boxing,17
+61,Judo,Judo,36
+62,Combiné nordique,Nordic Combined,58
+63,Hockey sur Glace,Ice Hockey,31
+65,Natation,Swimming,44
+66,Tir,Shooting,67
+67,Ski de fond,Cross Country Skiing,58
+68,Tennis,Tennis,65
+72,Rugby à 7,Rugby Sevens,55
+109,Karate,Karate,37
+114,Nage en eau libre,Marathon Swimming,44
+115,Surf,Surfing,63
+116,Escalade,Sport Climbing,40
+117,Skateboard,Skateboarding,54
+121,3x3 Basketball,3x3 Basketball,14
+196,Cycling - BMX Freestyle,Cycling - BMX Freestyle,21
+206,Breaking,Breaking,23

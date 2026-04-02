@@ -1,0 +1,67 @@
+id_sport,sport,sport_en,id_federation,federation,federation_nom_court
+1,Voile,Sailing,71,Fédération Française de Voile,VOILE
+2,Equitation - Dressage,Equestrian - Dressage,76,Fédération française d'Equitation,EQUITATION
+3,Plongeon,Diving,44,Fédération Française de Natation,NATATION
+4,Beach Volley-ball,Beach Volleyball,74,Fédération Française de Volley,VOLLEY BALL
+6,Ski acrobatique,Freestyle Skiing,58,Fédération Française de Ski,SKI
+7,Basket-ball,Basketball,14,Fédération Française de Basketball,BASKET-BALL
+8,Lutte libre,Wrestling - Freestyle,42,Fédération Française de Lutte,LUTTE
+9,Skeleton,Skeleton,80,Fédération Française des Sports de Glace,SPORTS DE GLACE
+10,Tir à l'arc,Archery,68,Fédération Française de Tir à l'Arc,TIR A L'ARC
+11,Triathlon,Triathlon,69,Fédération Française de Triathlon et Disciplines Enchaînées,TRIATHLON
+12,Cyclisme - VTT,Mountain Bike,21,Fédération Française de Cyclisme,CYCLISME
+13,Cyclisme - Piste,Cycling - Track,21,Fédération Française de Cyclisme,CYCLISME
+14,Equitation - Concours complet - Three-Day Event,Equestrian - Three-Day Event,76,Fédération française d'Equitation,EQUITATION
+15,Aviron,Rowing,79,Fédération Française d'Aviron,AVIRON
+16,Pentathlon moderne,Modern Pentathlon,49,Fédération Française de Pentathlon Moderne,PENTATHLON MODERNE
+17,Cyclisme - BMX,BMX,21,Fédération Française de Cyclisme,CYCLISME
+19,Tennis de Table,Table Tennis,66,Fédération Française de Tennis de Table,TENNIS DE TABLE
+20,Curling,Curling,80,Fédération Française des Sports de Glace,SPORTS DE GLACE
+21,Patinage de vitesse - Short Track,Short Track,80,Fédération Française des Sports de Glace,SPORTS DE GLACE
+22,Gymnastique rythmique,Gymnastics - Rhythmic,28,Fédération Française de Gymnastique,GYMNASTIQUE
+23,Snowboard,Snowboard,58,Fédération Française de Ski,SKI
+25,Hockey sur Gazon,Hockey,30,Fédération Française de Hockey,HOCKEY
+26,Gymnastique artistique,Gymnastics - Artistic,28,Fédération Française de Gymnastique,GYMNASTIQUE
+28,Athlétisme,Athletics,9,Fédération Française d'Athlétisme,ATHLETISME
+29,Haltérophilie,Weightlifting,3,Fédération Française d'Haltérophilie-musculation,HALTEROPHILIE
+30,Bobsleigh,Bobsleigh,80,Fédération Française des Sports de Glace,SPORTS DE GLACE
+31,Handball,Handball,29,Fédération Française de Handball,HANDBALL
+32,Taekwondo,Taekwondo,64,Fédération Française de Taekwondo et Disciplines Associées,TAEKWONDO
+33,Escrime,Fencing,82,Fédération Française d'Escrime,ESCRIME
+34,Ski alpin,Alpine Skiing,58,Fédération Française de Ski,SKI
+35,Natation artistique,Synchronized Swimming,44,Fédération Française de Natation,NATATION
+37,Cyclisme - Route,Cycling - Road,21,Fédération Française de Cyclisme,CYCLISME
+38,Equitation - Saut d'obstacles,Equestrian - Jumping,76,Fédération française d'Equitation,EQUITATION
+39,Gymnastique - Trampoline,Gymnastics - Trampolining,28,Fédération Française de Gymnastique,GYMNASTIQUE
+40,Patinage de vitesse - Longue Piste,Speed Skating,54,Fédération française de roller et skateboard,ROLLER ET SKATEBOARD
+41,Biathlon,Biathlon,58,Fédération Française de Ski,SKI
+44,Luge,Luge,80,Fédération Française des Sports de Glace,SPORTS DE GLACE
+45,Baseball,Baseball,13,"Fédération Française de Baseball, Softball et Cricket",BASEBALL
+46,Lutte gréco-romaine,Wrestling - Greco-Roman,42,Fédération Française de Lutte,LUTTE
+48,Golf,Golf,27,Fédération Française de Golf,GOLF
+49,Football,Football,24,Fédération Française de Football,FOOTBALL
+50,Saut à ski,Ski Jumping,58,Fédération Française de Ski,SKI
+51,Softball,Softball,13,"Fédération Française de Baseball, Softball et Cricket",BASEBALL
+52,Water-polo,Water Polo,44,Fédération Française de Natation,NATATION
+53,Volley-ball,Volleyball,74,Fédération Française de Volley,VOLLEY BALL
+54,Canoë-Kayak - Course en ligne,Canoe/Kayak - Flatwater,18,Fédération Française de Canoë-Kayak et Sports de Pagaie,CANOE-KAYAK
+55,Badminton,Badminton,10,Fédération Française de Badminton,BADMINTON
+56,Canoë-Kayak - Slalom,Canoe/Kayak - Slalom,18,Fédération Française de Canoë-Kayak et Sports de Pagaie,CANOE-KAYAK
+57,Patinage artistique,Figure Skating,80,Fédération Française des Sports de Glace,SPORTS DE GLACE
+60,Boxe,Boxing,17,Fédération Française de Boxe,BOXE
+61,Judo,Judo,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées,JUDO
+62,Combiné nordique,Nordic Combined,58,Fédération Française de Ski,SKI
+63,Hockey sur Glace,Ice Hockey,31,Fédération Française de Hockey sur Glace,HOCKEY SUR GLACE
+65,Natation,Swimming,44,Fédération Française de Natation,NATATION
+66,Tir,Shooting,67,Fédération Française de Tir,TIR
+67,Ski de fond,Cross Country Skiing,58,Fédération Française de Ski,SKI
+68,Tennis,Tennis,65,Fédération Française de Tennis,TENNIS
+72,Rugby à 7,Rugby Sevens,55,Fédération Française de Rugby,RUGBY
+109,Karate,Karate,37,Fédération Française de Karaté et disciplines associées,KARATE
+114,Nage en eau libre,Marathon Swimming,44,Fédération Française de Natation,NATATION
+115,Surf,Surfing,63,Fédération Française de Surf,SURF
+116,Escalade,Sport Climbing,40,Fédération française de la Montagne et de l'Escalade,MONTAGNE ET ESCALADE
+117,Skateboard,Skateboarding,54,Fédération française de roller et skateboard,ROLLER ET SKATEBOARD
+121,3x3 Basketball,3x3 Basketball,14,Fédération Française de Basketball,BASKET-BALL
+196,Cycling - BMX Freestyle,Cycling - BMX Freestyle,21,Fédération Française de Cyclisme,CYCLISME
+206,Breaking,Breaking,23,Fédération Française de Danse,DANSE

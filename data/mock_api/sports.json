@@ -1,0 +1,530 @@
+[
+  {
+    "id_sport": 1,
+    "sport": "Voile",
+    "sport_en": "Sailing",
+    "id_federation": 71,
+    "federation": "Fédération Française de Voile",
+    "federation_nom_court": "VOILE"
+  },
+  {
+    "id_sport": 2,
+    "sport": "Equitation - Dressage",
+    "sport_en": "Equestrian - Dressage",
+    "id_federation": 76,
+    "federation": "Fédération française d'Equitation",
+    "federation_nom_court": "EQUITATION"
+  },
+  {
+    "id_sport": 3,
+    "sport": "Plongeon",
+    "sport_en": "Diving",
+    "id_federation": 44,
+    "federation": "Fédération Française de Natation",
+    "federation_nom_court": "NATATION"
+  },
+  {
+    "id_sport": 4,
+    "sport": "Beach Volley-ball",
+    "sport_en": "Beach Volleyball",
+    "id_federation": 74,
+    "federation": "Fédération Française de Volley",
+    "federation_nom_court": "VOLLEY BALL"
+  },
+  {
+    "id_sport": 6,
+    "sport": "Ski acrobatique",
+    "sport_en": "Freestyle Skiing",
+    "id_federation": 58,
+    "federation": "Fédération Française de Ski",
+    "federation_nom_court": "SKI"
+  },
+  {
+    "id_sport": 7,
+    "sport": "Basket-ball",
+    "sport_en": "Basketball",
+    "id_federation": 14,
+    "federation": "Fédération Française de Basketball",
+    "federation_nom_court": "BASKET-BALL"
+  },
+  {
+    "id_sport": 8,
+    "sport": "Lutte libre",
+    "sport_en": "Wrestling - Freestyle",
+    "id_federation": 42,
+    "federation": "Fédération Française de Lutte",
+    "federation_nom_court": "LUTTE"
+  },
+  {
+    "id_sport": 9,
+    "sport": "Skeleton",
+    "sport_en": "Skeleton",
+    "id_federation": 80,
+    "federation": "Fédération Française des Sports de Glace",
+    "federation_nom_court": "SPORTS DE GLACE"
+  },
+  {
+    "id_sport": 10,
+    "sport": "Tir à l'arc",
+    "sport_en": "Archery",
+    "id_federation": 68,
+    "federation": "Fédération Française de Tir à l'Arc",
+    "federation_nom_court": "TIR A L'ARC"
+  },
+  {
+    "id_sport": 11,
+    "sport": "Triathlon",
+    "sport_en": "Triathlon",
+    "id_federation": 69,
+    "federation": "Fédération Française de Triathlon et Disciplines Enchaînées",
+    "federation_nom_court": "TRIATHLON"
+  },
+  {
+    "id_sport": 12,
+    "sport": "Cyclisme - VTT",
+    "sport_en": "Mountain Bike",
+    "id_federation": 21,
+    "federation": "Fédération Française de Cyclisme",
+    "federation_nom_court": "CYCLISME"
+  },
+  {
+    "id_sport": 13,
+    "sport": "Cyclisme - Piste",
+    "sport_en": "Cycling - Track",
+    "id_federation": 21,
+    "federation": "Fédération Française de Cyclisme",
+    "federation_nom_court": "CYCLISME"
+  },
+  {
+    "id_sport": 14,
+    "sport": "Equitation - Concours complet - Three-Day Event",
+    "sport_en": "Equestrian - Three-Day Event",
+    "id_federation": 76,
+    "federation": "Fédération française d'Equitation",
+    "federation_nom_court": "EQUITATION"
+  },
+  {
+    "id_sport": 15,
+    "sport": "Aviron",
+    "sport_en": "Rowing",
+    "id_federation": 79,
+    "federation": "Fédération Française d'Aviron",
+    "federation_nom_court": "AVIRON"
+  },
+  {
+    "id_sport": 16,
+    "sport": "Pentathlon moderne",
+    "sport_en": "Modern Pentathlon",
+    "id_federation": 49,
+    "federation": "Fédération Française de Pentathlon Moderne",
+    "federation_nom_court": "PENTATHLON MODERNE"
+  },
+  {
+    "id_sport": 17,
+    "sport": "Cyclisme - BMX",
+    "sport_en": "BMX",
+    "id_federation": 21,
+    "federation": "Fédération Française de Cyclisme",
+    "federation_nom_court": "CYCLISME"
+  },
+  {
+    "id_sport": 19,
+    "sport": "Tennis de Table",
+    "sport_en": "Table Tennis",
+    "id_federation": 66,
+    "federation": "Fédération Française de Tennis de Table",
+    "federation_nom_court": "TENNIS DE TABLE"
+  },
+  {
+    "id_sport": 20,
+    "sport": "Curling",
+    "sport_en": "Curling",
+    "id_federation": 80,
+    "federation": "Fédération Française des Sports de Glace",
+    "federation_nom_court": "SPORTS DE GLACE"
+  },
+  {
+    "id_sport": 21,
+    "sport": "Patinage de vitesse - Short Track",
+    "sport_en": "Short Track",
+    "id_federation": 80,
+    "federation": "Fédération Française des Sports de Glace",
+    "federation_nom_court": "SPORTS DE GLACE"
+  },
+  {
+    "id_sport": 22,
+    "sport": "Gymnastique rythmique",
+    "sport_en": "Gymnastics - Rhythmic",
+    "id_federation": 28,
+    "federation": "Fédération Française de Gymnastique",
+    "federation_nom_court": "GYMNASTIQUE"
+  },
+  {
+    "id_sport": 23,
+    "sport": "Snowboard",
+    "sport_en": "Snowboard",
+    "id_federation": 58,
+    "federation": "Fédération Française de Ski",
+    "federation_nom_court": "SKI"
+  },
+  {
+    "id_sport": 25,
+    "sport": "Hockey sur Gazon",
+    "sport_en": "Hockey",
+    "id_federation": 30,
+    "federation": "Fédération Française de Hockey",
+    "federation_nom_court": "HOCKEY"
+  },
+  {
+    "id_sport": 26,
+    "sport": "Gymnastique artistique",
+    "sport_en": "Gymnastics - Artistic",
+    "id_federation": 28,
+    "federation": "Fédération Française de Gymnastique",
+    "federation_nom_court": "GYMNASTIQUE"
+  },
+  {
+    "id_sport": 28,
+    "sport": "Athlétisme",
+    "sport_en": "Athletics",
+    "id_federation": 9,
+    "federation": "Fédération Française d'Athlétisme",
+    "federation_nom_court": "ATHLETISME"
+  },
+  {
+    "id_sport": 29,
+    "sport": "Haltérophilie",
+    "sport_en": "Weightlifting",
+    "id_federation": 3,
+    "federation": "Fédération Française d'Haltérophilie-musculation",
+    "federation_nom_court": "HALTEROPHILIE"
+  },
+  {
+    "id_sport": 30,
+    "sport": "Bobsleigh",
+    "sport_en": "Bobsleigh",
+    "id_federation": 80,
+    "federation": "Fédération Française des Sports de Glace",
+    "federation_nom_court": "SPORTS DE GLACE"
+  },
+  {
+    "id_sport": 31,
+    "sport": "Handball",
+    "sport_en": "Handball",
+    "id_federation": 29,
+    "federation": "Fédération Française de Handball",
+    "federation_nom_court": "HANDBALL"
+  },
+  {
+    "id_sport": 32,
+    "sport": "Taekwondo",
+    "sport_en": "Taekwondo",
+    "id_federation": 64,
+    "federation": "Fédération Française de Taekwondo et Disciplines Associées",
+    "federation_nom_court": "TAEKWONDO"
+  },
+  {
+    "id_sport": 33,
+    "sport": "Escrime",
+    "sport_en": "Fencing",
+    "id_federation": 82,
+    "federation": "Fédération Française d'Escrime",
+    "federation_nom_court": "ESCRIME"
+  },
+  {
+    "id_sport": 34,
+    "sport": "Ski alpin",
+    "sport_en": "Alpine Skiing",
+    "id_federation": 58,
+    "federation": "Fédération Française de Ski",
+    "federation_nom_court": "SKI"
+  },
+  {
+    "id_sport": 35,
+    "sport": "Natation artistique",
+    "sport_en": "Synchronized Swimming",
+    "id_federation": 44,
+    "federation": "Fédération Française de Natation",
+    "federation_nom_court": "NATATION"
+  },
+  {
+    "id_sport": 37,
+    "sport": "Cyclisme - Route",
+    "sport_en": "Cycling - Road",
+    "id_federation": 21,
+    "federation": "Fédération Française de Cyclisme",
+    "federation_nom_court": "CYCLISME"
+  },
+  {
+    "id_sport": 38,
+    "sport": "Equitation - Saut d'obstacles",
+    "sport_en": "Equestrian - Jumping",
+    "id_federation": 76,
+    "federation": "Fédération française d'Equitation",
+    "federation_nom_court": "EQUITATION"
+  },
+  {
+    "id_sport": 39,
+    "sport": "Gymnastique - Trampoline",
+    "sport_en": "Gymnastics - Trampolining",
+    "id_federation": 28,
+    "federation": "Fédération Française de Gymnastique",
+    "federation_nom_court": "GYMNASTIQUE"
+  },
+  {
+    "id_sport": 40,
+    "sport": "Patinage de vitesse - Longue Piste",
+    "sport_en": "Speed Skating",
+    "id_federation": 54,
+    "federation": "Fédération française de roller et skateboard",
+    "federation_nom_court": "ROLLER ET SKATEBOARD"
+  },
+  {
+    "id_sport": 41,
+    "sport": "Biathlon",
+    "sport_en": "Biathlon",
+    "id_federation": 58,
+    "federation": "Fédération Française de Ski",
+    "federation_nom_court": "SKI"
+  },
+  {
+    "id_sport": 44,
+    "sport": "Luge",
+    "sport_en": "Luge",
+    "id_federation": 80,
+    "federation": "Fédération Française des Sports de Glace",
+    "federation_nom_court": "SPORTS DE GLACE"
+  },
+  {
+    "id_sport": 45,
+    "sport": "Baseball",
+    "sport_en": "Baseball",
+    "id_federation": 13,
+    "federation": "Fédération Française de Baseball, Softball et Cricket",
+    "federation_nom_court": "BASEBALL"
+  },
+  {
+    "id_sport": 46,
+    "sport": "Lutte gréco-romaine",
+    "sport_en": "Wrestling - Greco-Roman",
+    "id_federation": 42,
+    "federation": "Fédération Française de Lutte",
+    "federation_nom_court": "LUTTE"
+  },
+  {
+    "id_sport": 48,
+    "sport": "Golf",
+    "sport_en": "Golf",
+    "id_federation": 27,
+    "federation": "Fédération Française de Golf",
+    "federation_nom_court": "GOLF"
+  },
+  {
+    "id_sport": 49,
+    "sport": "Football",
+    "sport_en": "Football",
+    "id_federation": 24,
+    "federation": "Fédération Française de Football",
+    "federation_nom_court": "FOOTBALL"
+  },
+  {
+    "id_sport": 50,
+    "sport": "Saut à ski",
+    "sport_en": "Ski Jumping",
+    "id_federation": 58,
+    "federation": "Fédération Française de Ski",
+    "federation_nom_court": "SKI"
+  },
+  {
+    "id_sport": 51,
+    "sport": "Softball",
+    "sport_en": "Softball",
+    "id_federation": 13,
+    "federation": "Fédération Française de Baseball, Softball et Cricket",
+    "federation_nom_court": "BASEBALL"
+  },
+  {
+    "id_sport": 52,
+    "sport": "Water-polo",
+    "sport_en": "Water Polo",
+    "id_federation": 44,
+    "federation": "Fédération Française de Natation",
+    "federation_nom_court": "NATATION"
+  },
+  {
+    "id_sport": 53,
+    "sport": "Volley-ball",
+    "sport_en": "Volleyball",
+    "id_federation": 74,
+    "federation": "Fédération Française de Volley",
+    "federation_nom_court": "VOLLEY BALL"
+  },
+  {
+    "id_sport": 54,
+    "sport": "Canoë-Kayak - Course en ligne",
+    "sport_en": "Canoe/Kayak - Flatwater",
+    "id_federation": 18,
+    "federation": "Fédération Française de Canoë-Kayak et Sports de Pagaie",
+    "federation_nom_court": "CANOE-KAYAK"
+  },
+  {
+    "id_sport": 55,
+    "sport": "Badminton",
+    "sport_en": "Badminton",
+    "id_federation": 10,
+    "federation": "Fédération Française de Badminton",
+    "federation_nom_court": "BADMINTON"
+  },
+  {
+    "id_sport": 56,
+    "sport": "Canoë-Kayak - Slalom",
+    "sport_en": "Canoe/Kayak - Slalom",
+    "id_federation": 18,
+    "federation": "Fédération Française de Canoë-Kayak et Sports de Pagaie",
+    "federation_nom_court": "CANOE-KAYAK"
+  },
+  {
+    "id_sport": 57,
+    "sport": "Patinage artistique",
+    "sport_en": "Figure Skating",
+    "id_federation": 80,
+    "federation": "Fédération Française des Sports de Glace",
+    "federation_nom_court": "SPORTS DE GLACE"
+  },
+  {
+    "id_sport": 60,
+    "sport": "Boxe",
+    "sport_en": "Boxing",
+    "id_federation": 17,
+    "federation": "Fédération Française de Boxe",
+    "federation_nom_court": "BOXE"
+  },
+  {
+    "id_sport": 61,
+    "sport": "Judo",
+    "sport_en": "Judo",
+    "id_federation": 36,
+    "federation": "Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées",
+    "federation_nom_court": "JUDO"
+  },
+  {
+    "id_sport": 62,
+    "sport": "Combiné nordique",
+    "sport_en": "Nordic Combined",
+    "id_federation": 58,
+    "federation": "Fédération Française de Ski",
+    "federation_nom_court": "SKI"
+  },
+  {
+    "id_sport": 63,
+    "sport": "Hockey sur Glace",
+    "sport_en": "Ice Hockey",
+    "id_federation": 31,
+    "federation": "Fédération Française de Hockey sur Glace",
+    "federation_nom_court": "HOCKEY SUR GLACE"
+  },
+  {
+    "id_sport": 65,
+    "sport": "Natation",
+    "sport_en": "Swimming",
+    "id_federation": 44,
+    "federation": "Fédération Française de Natation",
+    "federation_nom_court": "NATATION"
+  },
+  {
+    "id_sport": 66,
+    "sport": "Tir",
+    "sport_en": "Shooting",
+    "id_federation": 67,
+    "federation": "Fédération Française de Tir",
+    "federation_nom_court": "TIR"
+  },
+  {
+    "id_sport": 67,
+    "sport": "Ski de fond",
+    "sport_en": "Cross Country Skiing",
+    "id_federation": 58,
+    "federation": "Fédération Française de Ski",
+    "federation_nom_court": "SKI"
+  },
+  {
+    "id_sport": 68,
+    "sport": "Tennis",
+    "sport_en": "Tennis",
+    "id_federation": 65,
+    "federation": "Fédération Française de Tennis",
+    "federation_nom_court": "TENNIS"
+  },
+  {
+    "id_sport": 72,
+    "sport": "Rugby à 7",
+    "sport_en": "Rugby Sevens",
+    "id_federation": 55,
+    "federation": "Fédération Française de Rugby",
+    "federation_nom_court": "RUGBY"
+  },
+  {
+    "id_sport": 109,
+    "sport": "Karate",
+    "sport_en": "Karate",
+    "id_federation": 37,
+    "federation": "Fédération Française de Karaté et disciplines associées",
+    "federation_nom_court": "KARATE"
+  },
+  {
+    "id_sport": 114,
+    "sport": "Nage en eau libre",
+    "sport_en": "Marathon Swimming",
+    "id_federation": 44,
+    "federation": "Fédération Française de Natation",
+    "federation_nom_court": "NATATION"
+  },
+  {
+    "id_sport": 115,
+    "sport": "Surf",
+    "sport_en": "Surfing",
+    "id_federation": 63,
+    "federation": "Fédération Française de Surf",
+    "federation_nom_court": "SURF"
+  },
+  {
+    "id_sport": 116,
+    "sport": "Escalade",
+    "sport_en": "Sport Climbing",
+    "id_federation": 40,
+    "federation": "Fédération française de la Montagne et de l'Escalade",
+    "federation_nom_court": "MONTAGNE ET ESCALADE"
+  },
+  {
+    "id_sport": 117,
+    "sport": "Skateboard",
+    "sport_en": "Skateboarding",
+    "id_federation": 54,
+    "federation": "Fédération française de roller et skateboard",
+    "federation_nom_court": "ROLLER ET SKATEBOARD"
+  },
+  {
+    "id_sport": 121,
+    "sport": "3x3 Basketball",
+    "sport_en": "3x3 Basketball",
+    "id_federation": 14,
+    "federation": "Fédération Française de Basketball",
+    "federation_nom_court": "BASKET-BALL"
+  },
+  {
+    "id_sport": 196,
+    "sport": "Cycling - BMX Freestyle",
+    "sport_en": "Cycling - BMX Freestyle",
+    "id_federation": 21,
+    "federation": "Fédération Française de Cyclisme",
+    "federation_nom_court": "CYCLISME"
+  },
+  {
+    "id_sport": 206,
+    "sport": "Breaking",
+    "sport_en": "Breaking",
+    "id_federation": 23,
+    "federation": "Fédération Française de Danse",
+    "federation_nom_court": "DANSE"
+  }
+]

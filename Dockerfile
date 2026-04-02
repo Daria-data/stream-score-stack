@@ -1,9 +1,9 @@
 FROM python:3.12-slim
 
-# --- install uv ---------------------------------------------------
-RUN apt-get update && apt-get install -y curl build-essential \
-    && curl -LsSf https://astral.sh/uv/install.sh | sh \
-    && ln -s /root/.local/bin/uv /usr/local/bin/uv
+# --- install uv via pip (avoids GitHub DNS issues in Docker build) ---
+RUN apt-get update && apt-get install -y build-essential \
+    && pip install --no-cache-dir uv \
+    && uv --version
 
 WORKDIR /app
 COPY pyproject.toml uv.lock uv.toml ./

@@ -1,0 +1,3164 @@
+id_equipe,team_name,id_federation,federation_name
+3,Germany,30,Fédération Française de Hockey
+4,Senegal,14,Fédération Française de Basketball
+7,Poland,74,Fédération Française de Volley
+11,Japan,80,Fédération Française des Sports de Glace
+16,China,14,Fédération Française de Basketball
+20,Denmark,29,Fédération Française de Handball
+24,France,14,Fédération Française de Basketball
+33,Norway,29,Fédération Française de Handball
+43,Spain,29,Fédération Française de Handball
+46,Russia,74,Fédération Française de Volley
+53,Nigeria,14,Fédération Française de Basketball
+55,France,29,Fédération Française de Handball
+65,Republic of Korea,74,Fédération Française de Volley
+80,Denmark,31,Fédération Française de Hockey sur Glace
+85,Germany,14,Fédération Française de Basketball
+90,Japan,29,Fédération Française de Handball
+92,Angola,29,Fédération Française de Handball
+95,Japan,44,Fédération Française de Natation
+104,Norway,29,Fédération Française de Handball
+110,United States,31,Fédération Française de Hockey sur Glace
+112,France,30,Fédération Française de Hockey
+114,Russia,74,Fédération Française de Volley
+116,Croatia,14,Fédération Française de Basketball
+119,Canada,14,Fédération Française de Basketball
+123,Iran,14,Fédération Française de Basketball
+125,Sweden,29,Fédération Française de Handball
+128,Argentina,30,Fédération Française de Hockey
+135,Argentina,74,Fédération Française de Volley
+154,Germany,31,Fédération Française de Hockey sur Glace
+158,Norway,31,Fédération Française de Hockey sur Glace
+159,Croatia,44,Fédération Française de Natation
+164,Greece,44,Fédération Française de Natation
+174,Switzerland,80,Fédération Française des Sports de Glace
+176,Japan,80,Fédération Française des Sports de Glace
+181,Poland,29,Fédération Française de Handball
+182,Canada,31,Fédération Française de Hockey sur Glace
+185,Italy,14,Fédération Française de Basketball
+195,Brazil,14,Fédération Française de Basketball
+196,Puerto Rico,14,Fédération Française de Basketball
+200,China,30,Fédération Française de Hockey
+202,France,30,Fédération Française de Hockey
+204,United States,31,Fédération Française de Hockey sur Glace
+209,Greece,14,Fédération Française de Basketball
+212,Netherlands,30,Fédération Française de Hockey
+213,Nigeria,14,Fédération Française de Basketball
+216,Slovenia,31,Fédération Française de Hockey sur Glace
+218,Sweden,80,Fédération Française des Sports de Glace
+220,Puerto Rico,74,Fédération Française de Volley
+224,Spain,44,Fédération Française de Natation
+226,Canada,30,Fédération Française de Hockey
+227,Latvia,31,Fédération Française de Hockey sur Glace
+229,Spain,44,Fédération Française de Natation
+231,Russia,44,Fédération Française de Natation
+232,United States,14,Fédération Française de Basketball
+235,Netherlands,44,Fédération Française de Natation
+240,Great Britain,80,Fédération Française des Sports de Glace
+244,Canada,80,Fédération Française des Sports de Glace
+258,Spain,14,Fédération Française de Basketball
+263,South Africa,30,Fédération Française de Hockey
+268,United States,13,"Fédération Française de Baseball, Softball et Cricket"
+278,Australia,44,Fédération Française de Natation
+287,South Africa,44,Fédération Française de Natation
+292,Argentina,30,Fédération Française de Hockey
+296,Sweden,29,Fédération Française de Handball
+302,Sweden,80,Fédération Française des Sports de Glace
+305,Australia,13,"Fédération Française de Baseball, Softball et Cricket"
+306,France,74,Fédération Française de Volley
+307,Netherlands,29,Fédération Française de Handball
+312,Switzerland,31,Fédération Française de Hockey sur Glace
+315,Tunisia,29,Fédération Française de Handball
+316,France,44,Fédération Française de Natation
+317,Argentina,74,Fédération Française de Volley
+318,Ireland,30,Fédération Française de Hockey
+323,France,44,Fédération Française de Natation
+324,Ireland,30,Fédération Française de Hockey
+336,Spain,14,Fédération Française de Basketball
+338,Germany,30,Fédération Française de Hockey
+341,India,30,Fédération Française de Hockey
+345,Spain,30,Fédération Française de Hockey
+347,India,30,Fédération Française de Hockey
+351,Poland,74,Fédération Française de Volley
+353,Canada,31,Fédération Française de Hockey sur Glace
+356,Brazil,14,Fédération Française de Basketball
+358,Germany,74,Fédération Française de Volley
+366,Japan,13,"Fédération Française de Baseball, Softball et Cricket"
+369,Portugal,29,Fédération Française de Handball
+374,Netherlands,30,Fédération Française de Hockey
+382,Great Britain,30,Fédération Française de Hockey
+383,Russia,29,Fédération Française de Handball
+386,Czech Republic,31,Fédération Française de Hockey sur Glace
+387,Great Britain,30,Fédération Française de Hockey
+388,Dominican Republic,74,Fédération Française de Volley
+390,Brazil,29,Fédération Française de Handball
+392,Tunisia,74,Fédération Française de Volley
+396,Republic of Korea,29,Fédération Française de Handball
+397,Iran,74,Fédération Française de Volley
+403,Argentina,29,Fédération Française de Handball
+406,Denmark,31,Fédération Française de Hockey sur Glace
+408,Finland,31,Fédération Française de Hockey sur Glace
+412,New Zealand,30,Fédération Française de Hockey
+419,Japan,74,Fédération Française de Volley
+422,United States,44,Fédération Française de Natation
+425,South Africa,30,Fédération Française de Hockey
+436,Japan,44,Fédération Française de Natation
+437,Denmark,80,Fédération Française des Sports de Glace
+438,Romania,29,Fédération Française de Handball
+439,Venezuela,74,Fédération Française de Volley
+440,Denmark,29,Fédération Française de Handball
+442,Australia,44,Fédération Française de Natation
+444,Denmark,80,Fédération Française des Sports de Glace
+448,Germany,29,Fédération Française de Handball
+456,Spain,29,Fédération Française de Handball
+458,Romania,44,Fédération Française de Natation
+460,Kazakhstan,44,Fédération Française de Natation
+461,Kenya,74,Fédération Française de Volley
+462,Mexico,13,"Fédération Française de Baseball, Softball et Cricket"
+463,Argentina,14,Fédération Française de Basketball
+466,Italy,74,Fédération Française de Volley
+468,Italy,80,Fédération Française des Sports de Glace
+473,Japan,13,"Fédération Française de Baseball, Softball et Cricket"
+474,France,29,Fédération Française de Handball
+485,Brazil,29,Fédération Française de Handball
+486,Switzerland,31,Fédération Française de Hockey sur Glace
+487,Brazil,44,Fédération Française de Natation
+489,Argentina,29,Fédération Française de Handball
+491,Finland,31,Fédération Française de Hockey sur Glace
+496,Croatia,29,Fédération Française de Handball
+497,Great Britain,80,Fédération Française des Sports de Glace
+508,Norway,80,Fédération Française des Sports de Glace
+513,Germany,29,Fédération Française de Handball
+526,Republic of Korea,30,Fédération Française de Hockey
+529,France,74,Fédération Française de Volley
+532,Italy,44,Fédération Française de Natation
+535,Brazil,44,Fédération Française de Natation
+537,United States,14,Fédération Française de Basketball
+541,Canada,80,Fédération Française des Sports de Glace
+545,Slovenia,14,Fédération Française de Basketball
+548,United States,30,Fédération Française de Hockey
+550,Japan,14,Fédération Française de Basketball
+566,Australia,30,Fédération Française de Hockey
+567,Belgium,30,Fédération Française de Hockey
+574,Japan,30,Fédération Française de Hockey
+576,Japan,29,Fédération Française de Handball
+585,Switzerland,80,Fédération Française des Sports de Glace
+594,China,14,Fédération Française de Basketball
+602,Spain,30,Fédération Française de Hockey
+603,France,14,Fédération Française de Basketball
+607,Mexico,13,"Fédération Française de Baseball, Softball et Cricket"
+609,United States,13,"Fédération Française de Baseball, Softball et Cricket"
+616,Republic of Korea,14,Fédération Française de Basketball
+617,China,74,Fédération Française de Volley
+618,Italy,74,Fédération Française de Volley
+627,Canada,14,Fédération Française de Basketball
+630,Netherlands,74,Fédération Française de Volley
+636,Brazil,74,Fédération Française de Volley
+638,Italy,44,Fédération Française de Natation
+640,Brazil,74,Fédération Française de Volley
+641,Japan,31,Fédération Française de Hockey sur Glace
+643,Canada,74,Fédération Française de Volley
+663,New Zealand,30,Fédération Française de Hockey
+668,Czech Republic,14,Fédération Française de Basketball
+669,Canada,44,Fédération Française de Natation
+671,Dominican Republic,13,"Fédération Française de Baseball, Softball et Cricket"
+676,Slovakia,31,Fédération Française de Hockey sur Glace
+685,Mexico,74,Fédération Française de Volley
+691,United States,44,Fédération Française de Natation
+699,Republic of Korea,80,Fédération Française des Sports de Glace
+747,Cameroon,74,Fédération Française de Volley
+749,Republic of Korea,13,"Fédération Française de Baseball, Softball et Cricket"
+761,Hungary,29,Fédération Française de Handball
+762,Hungary,29,Fédération Française de Handball
+763,Germany,14,Fédération Française de Basketball
+774,Republic of Korea,80,Fédération Française des Sports de Glace
+780,China,31,Fédération Française de Hockey sur Glace
+829,Japan,14,Fédération Française de Basketball
+832,United States,74,Fédération Française de Volley
+833,Australia,14,Fédération Française de Basketball
+835,United States,74,Fédération Française de Volley
+836,Australia,30,Fédération Française de Hockey
+840,Sweden,31,Fédération Française de Hockey sur Glace
+841,Slovenia,29,Fédération Française de Handball
+842,United States,80,Fédération Française des Sports de Glace
+844,Slovenia,29,Fédération Française de Handball
+846,Belgium,30,Fédération Française de Hockey
+849,Canada,13,"Fédération Française de Baseball, Softball et Cricket"
+863,China,44,Fédération Française de Natation
+921,China,31,Fédération Française de Hockey sur Glace
+923,Japan,30,Fédération Française de Hockey
+925,Venezuela,14,Fédération Française de Basketball
+928,Sweden,31,Fédération Française de Hockey sur Glace
+929,United States,80,Fédération Française des Sports de Glace
+933,Hungary,44,Fédération Française de Natation
+944,Qatar,29,Fédération Française de Handball
+954,China,80,Fédération Française des Sports de Glace
+995,Lithuania,14,Fédération Française de Basketball
+999,Cuba,74,Fédération Française de Volley
+1001,Italy,13,"Fédération Française de Baseball, Softball et Cricket"
+1007,Australia,14,Fédération Française de Basketball
+1009,Egypt,29,Fédération Française de Handball
+1010,Slovenia,74,Fédération Française de Volley
+1019,Hungary,44,Fédération Française de Natation
+1040,China,80,Fédération Française des Sports de Glace
+1079,Egypt,74,Fédération Française de Volley
+1081,Greece,44,Fédération Française de Natation
+1106,Bahrain,29,Fédération Française de Handball
+1171,Japan,74,Fédération Française de Volley
+1192,Brazil,30,Fédération Française de Hockey
+1228,Czech Republic,31,Fédération Française de Hockey sur Glace
+1267,South Africa,44,Fédération Française de Natation
+1304,Türkiye,14,Fédération Française de Basketball
+1546,CAN,55,Fédération Française de Rugby
+1549,Kenya,55,Fédération Française de Rugby
+1552,Japan,55,Fédération Française de Rugby
+1726,Puerto Rico,14,Fédération Française de Basketball
+2137,Australia,55,Fédération Française de Rugby
+2138,New Zealand,55,Fédération Française de Rugby
+2139,Canada,55,Fédération Française de Rugby
+2140,South Africa,55,Fédération Française de Rugby
+2167,Serbia,74,Fédération Française de Volley
+2169,Serbia,14,Fédération Française de Basketball
+2196,BRA,55,Fédération Française de Rugby
+2204,Great Britain,55,Fédération Française de Rugby
+2211,Israel,13,"Fédération Française de Baseball, Softball et Cricket"
+2233,Republic of Korea,31,Fédération Française de Hockey sur Glace
+2242,Belgium,14,Fédération Française de Basketball
+2290,Türkiye,74,Fédération Française de Volley
+2389,Belarus,14,Fédération Française de Basketball
+2576,South Africa,55,Fédération Française de Rugby
+2667,Spain,55,Fédération Française de Rugby
+2668,France,55,Fédération Française de Rugby
+2821,New Zealand,55,Fédération Française de Rugby
+2823,Ireland,55,Fédération Française de Rugby
+2824,JPN,55,Fédération Française de Rugby
+2954,Montenegro,44,Fédération Française de Natation
+2984,Montenegro,29,Fédération Française de Handball
+3105,United States,55,Fédération Française de Rugby
+3106,United States,55,Fédération Française de Rugby
+3180,Fiji,55,Fédération Française de Rugby
+3181,Fiji,55,Fédération Française de Rugby
+3182,SAM,55,Fédération Française de Rugby
+3185,France,55,Fédération Française de Rugby
+3255,Serbia,44,Fédération Française de Natation
+3463,Australia,55,Fédération Française de Rugby
+3465,Argentina,55,Fédération Française de Rugby
+3467,Kenya,55,Fédération Française de Rugby
+3469,Spain,55,Fédération Française de Rugby
+3471,Ireland,55,Fédération Française de Rugby
+3472,Republic of Korea,55,Fédération Française de Rugby
+3525,China,55,Fédération Française de Rugby
+3821,Serbia,14,Fédération Française de Basketball
+3822,Serbia,74,Fédération Française de Volley
+3855,Uruguay,55,Fédération Française de Rugby
+4192,Great Britain,55,Fédération Française de Rugby
+4786,Czech Republic,80,Fédération Française des Sports de Glace
+4832,South Sudan,14,Fédération Française de Basketball
+4888,Norway,80,Fédération Française des Sports de Glace
+4909,Italy,80,Fédération Française des Sports de Glace
+4985,Canada,80,Fédération Française des Sports de Glace
+4988,Switzerland,80,Fédération Française des Sports de Glace
+5046,Sweden,80,Fédération Française des Sports de Glace
+5080,Finland,80,Fédération Française des Sports de Glace
+5107,China,14,Fédération Française de Basketball
+5119,Spain,14,Fédération Française de Basketball
+5124,Romania,14,Fédération Française de Basketball
+5128,Mongolia,14,Fédération Française de Basketball
+5268,Olympic Athlete from Russia,31,Fédération Française de Hockey sur Glace
+5272,Latvia,14,Fédération Française de Basketball
+5274,Japan,14,Fédération Française de Basketball
+5286,Poland,14,Fédération Française de Basketball
+5315,Australia,14,Fédération Française de Basketball
+5375,United States,14,Fédération Française de Basketball
+5376,Lithuania,14,Fédération Française de Basketball
+5379,China,14,Fédération Française de Basketball
+5409,Germany,14,Fédération Française de Basketball
+5410,Italy,14,Fédération Française de Basketball
+5439,Olympic Athlete from Russia,80,Fédération Française des Sports de Glace
+5450,France,14,Fédération Française de Basketball
+5464,Japan,14,Fédération Française de Basketball
+5479,Canada,14,Fédération Française de Basketball
+5622,Korea,31,Fédération Française de Hockey sur Glace
+5729,Austria,80,Fédération Française des Sports de Glace
+5789,China,80,Fédération Française des Sports de Glace
+6023,Republic of Korea,80,Fédération Française des Sports de Glace
+6051,Olympic Athlete from Russia,80,Fédération Française des Sports de Glace
+6060,United States,67,Fédération Française de Tir
+6067,Germany,80,Fédération Française des Sports de Glace
+6140,Austria,80,Fédération Française des Sports de Glace
+6183,Norway,67,Fédération Française de Tir
+6196,Egypt,67,Fédération Française de Tir
+6218,United States,80,Fédération Française des Sports de Glace
+6219,Czech Republic,80,Fédération Française des Sports de Glace
+6396,Brazil,55,Fédération Française de Rugby
+6465,Republic of Korea,80,Fédération Française des Sports de Glace
+6551,Belgium,14,Fédération Française de Basketball
+6565,United States,14,Fédération Française de Basketball
+6635,Netherlands,14,Fédération Française de Basketball
+6716,Italy,80,Fédération Française des Sports de Glace
+6736,Belgium,80,Fédération Française des Sports de Glace
+6738,Germany,67,Fédération Française de Tir
+6739,India,67,Fédération Française de Tir
+6752,Kazakhstan,67,Fédération Française de Tir
+6798,Colombia,55,Fédération Française de Rugby
+6875,Republic of Korea,67,Fédération Française de Tir
+6891,Türkiye,67,Fédération Française de Tir
+6949,Olympic Athlete from Russia,80,Fédération Française des Sports de Glace
+7000,Australia,67,Fédération Française de Tir
+7014,Japan,67,Fédération Française de Tir
+7242,Poland,67,Fédération Française de Tir
+7262,Great Britain,80,Fédération Française des Sports de Glace
+7268,India,67,Fédération Française de Tir
+7270,Germany,80,Fédération Française des Sports de Glace
+7273,Slovakia,67,Fédération Française de Tir
+7378,Japan,67,Fédération Française de Tir
+7389,Italy,67,Fédération Française de Tir
+7523,Poland,67,Fédération Française de Tir
+7588,France,67,Fédération Française de Tir
+7593,Australia,67,Fédération Française de Tir
+7620,Australia,80,Fédération Française des Sports de Glace
+7760,United States,80,Fédération Française des Sports de Glace
+7852,China,67,Fédération Française de Tir
+7883,United States,80,Fédération Française des Sports de Glace
+7895,Republic of Korea,80,Fédération Française des Sports de Glace
+7915,Serbia,67,Fédération Française de Tir
+7941,China,67,Fédération Française de Tir
+7968,Türkiye,67,Fédération Française de Tir
+8098,Switzerland,80,Fédération Française des Sports de Glace
+8106,Kazakhstan,67,Fédération Française de Tir
+8311,Canada,80,Fédération Française des Sports de Glace
+8442,Olympic Athlete from Russia,31,Fédération Française de Hockey sur Glace
+8451,Serbia,14,Fédération Française de Basketball
+8470,France,14,Fédération Française de Basketball
+8473,Azerbaijan,14,Fédération Française de Basketball
+8532,Norway,67,Fédération Française de Tir
+8533,Italy,80,Fédération Française des Sports de Glace
+8558,Latvia,80,Fédération Française des Sports de Glace
+8629,France,67,Fédération Française de Tir
+8751,Portugal,66,Fédération Française de Tennis de Table
+8752,"Hong Kong, China",66,Fédération Française de Tennis de Table
+8767,Great Britain,82,Fédération Française d'Escrime
+8771,Spain,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+8803,Brazil,82,Fédération Française d'Escrime
+8805,Netherlands,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+8808,Georgia,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+8811,Japan,82,Fédération Française d'Escrime
+8825,Poland,82,Fédération Française d'Escrime
+8826,Hungary,82,Fédération Française d'Escrime
+8956,Canada,80,Fédération Française des Sports de Glace
+8961,Germany,80,Fédération Française des Sports de Glace
+8999,Republic of Korea,67,Fédération Française de Tir
+9009,Switzerland,80,Fédération Française des Sports de Glace
+9042,Serbia,67,Fédération Française de Tir
+9155,China,80,Fédération Française des Sports de Glace
+9232,Egypt,67,Fédération Française de Tir
+9638,Canada,80,Fédération Française des Sports de Glace
+9657,Czech Republic,80,Fédération Française des Sports de Glace
+9833,Thailand,66,Fédération Française de Tennis de Table
+9839,Venezuela,82,Fédération Française d'Escrime
+9849,Italy,82,Fédération Française d'Escrime
+9850,Kazakhstan,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+9851,Germany,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+9866,Canada,66,Fédération Française de Tennis de Table
+10077,Estonia,82,Fédération Française d'Escrime
+10092,Kazakhstan,82,Fédération Française d'Escrime
+10093,Mexico,82,Fédération Française d'Escrime
+10094,Republic of Korea,66,Fédération Française de Tennis de Table
+10102,Poland,66,Fédération Française de Tennis de Table
+10114,Romania,66,Fédération Française de Tennis de Table
+10115,Netherlands,66,Fédération Française de Tennis de Table
+10213,"Hong Kong, China",82,Fédération Française d'Escrime
+10221,Italy,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+10398,United States,67,Fédération Française de Tir
+10407,Belgium,80,Fédération Française des Sports de Glace
+10565,Great Britain,80,Fédération Française des Sports de Glace
+10569,Italy,67,Fédération Française de Tir
+10571,Slovakia,67,Fédération Française de Tir
+10579,Latvia,80,Fédération Française des Sports de Glace
+10685,Nigeria,66,Fédération Française de Tennis de Table
+10687,India,66,Fédération Française de Tennis de Table
+10689,Ukraine,82,Fédération Française d'Escrime
+10690,Algeria,82,Fédération Française d'Escrime
+10693,Singapore,66,Fédération Française de Tennis de Table
+10783,Russia,82,Fédération Française d'Escrime
+10786,Japan,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+10806,China,66,Fédération Française de Tennis de Table
+11109,Croatia,66,Fédération Française de Tennis de Table
+11110,Germany,66,Fédération Française de Tennis de Table
+11120,France,66,Fédération Française de Tennis de Table
+11135,Republic of Korea,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+11142,France,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+11148,Canada,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+11154,France,82,Fédération Française d'Escrime
+11164,Türkiye,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+11177,Brazil,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+11849,Olympic Athlete from Russia,80,Fédération Française des Sports de Glace
+11883,Germany,67,Fédération Française de Tir
+11933,Austria,66,Fédération Française de Tennis de Table
+11937,Australia,66,Fédération Française de Tennis de Table
+11940,Japan,66,Fédération Française de Tennis de Table
+11945,Switzerland,82,Fédération Française d'Escrime
+11960,Germany,82,Fédération Française d'Escrime
+11970,Hungary,66,Fédération Française de Tennis de Table
+11972,Czech Republic,82,Fédération Française d'Escrime
+11982,Hungary,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+11985,Israel,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+12008,Chinese Taipei,66,Fédération Française de Tennis de Table
+12023,Sweden,66,Fédération Française de Tennis de Table
+12029,United States,82,Fédération Française d'Escrime
+12037,Austria,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+12118,González/Del Potro,65,Fédération Française de Tennis
+12336,Serbia,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+12402,United States,66,Fédération Française de Tennis de Table
+12416,Mongolia,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+12491,Sá/Bellucci,65,Fédération Française de Tennis
+12528,Seppi/Fognini,65,Fédération Française de Tennis
+12625,P. Sousa/J. Sousa,65,Fédération Française de Tennis
+12719,China,80,Fédération Française des Sports de Glace
+13180,So. Ratiwatana/Sa. Ratiwatana,65,Fédération Française de Tennis
+13357,United States,80,Fédération Française des Sports de Glace
+13628,Shvedova/Golubev,65,Fédération Française de Tennis
+13694,Monfils/Chardy,65,Fédération Française de Tennis
+14056,Serbia,66,Fédération Française de Tennis de Table
+14154,Peng S/Zhang S,65,Fédération Française de Tennis
+14159,A. Murray/J. Murray,65,Fédération Française de Tennis
+14577,China,82,Fédération Française d'Escrime
+14611,Tunisia,82,Fédération Française d'Escrime
+14612,Uzbekistan,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+14615,Brazil,66,Fédération Française de Tennis de Table
+14780,M. López/Nadal,65,Fédération Française de Tennis
+14807,Medina/Parra,65,Fédération Française de Tennis
+15055,Slovenia,66,Fédération Française de Tennis de Table
+15073,Canada,82,Fédération Française d'Escrime
+15076,Denmark,66,Fédération Française de Tennis de Table
+15281,Vinci/Errani,65,Fédération Française de Tennis
+15307,Great Britain,66,Fédération Française de Tennis de Table
+15327,DPR Korea,66,Fédération Française de Tennis de Table
+15341,Egypt,82,Fédération Française d'Escrime
+15443,Flipkens/Wickmayer,65,Fédération Française de Tennis
+15651,Tsonga/Monfils,65,Fédération Française de Tennis
+15841,Zimonjic/Djokovic,65,Fédération Française de Tennis
+15940,Iran,82,Fédération Française d'Escrime
+15947,Republic of Korea,82,Fédération Française d'Escrime
+15955,Romania,82,Fédération Française d'Escrime
+15972,Egypt,66,Fédération Française de Tennis de Table
+16192,Soares/Melo,65,Fédération Française de Tennis
+16289,L. Chan/Chan H C,65,Fédération Française de Tennis
+16325,Bopanna/Mirza,65,Fédération Française de Tennis
+16337,Niculescu/Begu,65,Fédération Française de Tennis
+16366,Voskoboeva/Shvedova,65,Fédération Française de Tennis
+16375,Kerber/Petkovic,65,Fédération Française de Tennis
+16504,Cilic/Dodig,65,Fédération Française de Tennis
+16510,Jankovic/Krunic,65,Fédération Française de Tennis
+16871,Sock/Johnson,65,Fédération Française de Tennis
+16953,Barty/Peers,65,Fédération Française de Tennis
+16982,L. Kichenok/N. Kichenok,65,Fédération Française de Tennis
+17126,Nestor/Pospisil,65,Fédération Française de Tennis
+17348,Herrera/Gavira,74,Fédération Française de Volley
+17515,Fijalek/Prudel,74,Fédération Française de Volley
+17544,Nicolai/Lupo,74,Fédération Française de Volley
+17620,Xu Y/Zheng S S,65,Fédération Française de Tennis
+17757,Mahut/Mladenovic,65,Fédération Française de Tennis
+17787,Farah/Cabal,65,Fédération Française de Tennis
+18081,Marach/Peya,65,Fédération Française de Tennis
+18353,V. Williams/S. Williams,65,Fédération Française de Tennis
+18449,Olaru/Niculescu,65,Fédération Française de Tennis
+18458,Sestini Hlavácková/Hradecká,65,Fédération Française de Tennis
+18743,An. Rodionova/Ar. Rodionova,65,Fédération Française de Tennis
+18913,Vesnina/Makarova,65,Fédération Française de Tennis
+18955,Liliana/Elsa,74,Fédération Française de Volley
+19101,Mektic/Pavic,65,Fédération Française de Tennis
+19149,Kubot/Matkowski,65,Fédération Française de Tennis
+19451,Rytter Juhl/Pedersen,10,Fédération Française de Badminton
+19454,Fuchs/Michels,10,Fédération Française de Badminton
+19455,Boe/Mogensen,10,Fédération Française de Badminton
+19498,Bawden/Clancy,74,Fédération Française de Volley
+19503,Huber/Seidl,74,Fédération Française de Volley
+19542,Elias/J. Sousa,65,Fédération Française de Tennis
+20167,Fichman/Dabrowski,65,Fédération Française de Tennis
+20173,Natsir/Ahmad,10,Fédération Française de Badminton
+20313,Doppler/Horst,74,Fédération Française de Volley
+20328,Štepánek/Hradecká,65,Fédération Française de Tennis
+20384,Cilic/M. Draganja,65,Fédération Française de Tennis
+20622,Ludwig/Walkenhorst,74,Fédération Française de Volley
+20624,Borger/Büthe,74,Fédération Française de Volley
+20628,A. Samoilovs/J. Smedins,74,Fédération Française de Volley
+21023,Yue Y/Wang F,74,Fédération Française de Volley
+21034,Sude/Borger,74,Fédération Française de Volley
+21172,Forrer/A. Vergé-Dépré,74,Fédération Française de Volley
+21179,Broder/May,74,Fédération Française de Volley
+21411,Gutta/Ponnappa,10,Fédération Française de Badminton
+21414,L.Y. Goh/P.S. Chan,10,Fédération Française de Badminton
+21501,Rojer/Haase,65,Fédération Française de Tennis
+21641,Tse Y S/Poon L Y,10,Fédération Française de Badminton
+21644,V. Ivanov/Sozonov,10,Fédération Française de Badminton
+21686,Brzostek/Wojtasik,74,Fédération Française de Volley
+21689,Brouwer/Meeuwsen,74,Fédération Française de Volley
+21690,Saxton/Schalk,74,Fédération Française de Volley
+22101,Walsh/Ross,74,Fédération Française de Volley
+22494,Marchenko/Molchanov,65,Fédération Française de Tennis
+22947,Zhao Y L/Zhang N,10,Fédération Française de Badminton
+23345,Fischer Nielsen/Pedersen,10,Fédération Française de Badminton
+23347,Xu C/Ma J,10,Fédération Française de Badminton
+23429,Tecau/Mergea,65,Fédération Française de Tennis
+23550,Kantor/Losiak,74,Fédération Française de Volley
+23949,Semenov/Krasilnikov,74,Fédération Française de Volley
+23951,Gallay/Klug,74,Fédération Française de Volley
+24897,Zumkehr/Heidrich,74,Fédération Française de Volley
+24899,Bansley/Pavan,74,Fédération Française de Volley
+24903,Gibb/Patterson,74,Fédération Française de Volley
+24906,M. Grimalt/E. Grimalt,74,Fédération Française de Volley
+25307,Agatha/Barbara,74,Fédération Française de Volley
+26420,Menegatti/V. Orsi Toth,74,Fédération Française de Volley
+26882,Krejcíková/Siniaková,65,Fédération Française de Tennis
+27428,Dabrowski/Bouchard,65,Fédération Française de Tennis
+27854,Polii/Maheswari,10,Fédération Française de Badminton
+27871,Goliszewski/Nyenhuis,10,Fédération Française de Badminton
+27873,Subandhi/Chew,10,Fédération Française de Badminton
+27878,Tsai C H/Lee S M,10,Fédération Française de Badminton
+27880,Kim S R/Kim K J,10,Fédération Française de Badminton
+28232,Mirnyi/Bury,65,Fédération Française de Tennis
+28245,Ram/Baker,65,Fédération Française de Tennis
+28675,Chau H W/Lee C H,10,Fédération Française de Badminton
+29093,S. Piek/Arends,10,Fédération Française de Badminton
+29102,Wacha/Cwalina,10,Fédération Française de Badminton
+29103,Setiawan/Ahsan,10,Fédération Française de Badminton
+29112,G. Stoeva/S. Stoeva,10,Fédération Française de Badminton
+29244,G. Adcock/C. Adcock,10,Fédération Française de Badminton
+29271,Matsutomo/A. Takahashi,10,Fédération Française de Badminton
+29279,K.W. Woon/K.M. Hoo,10,Fédération Française de Badminton
+29508,M.K. Chow/M.Y. Lee,10,Fédération Française de Badminton
+30288,Ko S H/Kim H N,10,Fédération Française de Badminton
+30290,Reddy/Attri,10,Fédération Française de Badminton
+30640,Astrup/Rasmussen,10,Fédération Française de Badminton
+31500,Zieba/Mateusiak,10,Fédération Française de Badminton
+31558,Virgen/L. Ontiveros,74,Fédération Française de Volley
+31876,Artacho/Clancy,74,Fédération Française de Volley
+32123,Endo/Hayakawa,10,Fédération Française de Badminton
+32124,Cao Hok/E. Lee,10,Fédération Française de Badminton
+32130,Chew/Pongnairat,10,Fédération Française de Badminton
+32136,Lee S H/Shin S C,10,Fédération Française de Badminton
+32141,Kamura/Sonoda,10,Fédération Française de Badminton
+33433,Luo Y/Luo Y,10,Fédération Française de Badminton
+33696,Babos/Jani,65,Fédération Française de Tennis
+34612,Thygesen/Fruergaard,10,Fédération Française de Badminton
+35222,A. Xu/K. Xu,10,Fédération Française de Badminton
+35296,Muskens/S. Piek,10,Fédération Française de Badminton
+35414,Chai B/Hong W,10,Fédération Française de Badminton
+36147,Ionescu/B. Szocs,66,Fédération Française de Tennis de Table
+37461,Chau/Serasinghe,10,Fédération Française de Badminton
+38176,Pistej/Balazova,66,Fédération Française de Tennis de Table
+39069,Liu S W/Xu X,66,Fédération Française de Tennis de Table
+40170,P. Solja/Franziska,66,Fédération Française de Tennis de Table
+41089,O. Assar/Meshref,66,Fédération Française de Tennis de Table
+41989,Liu Y C/Li J H,10,Fédération Française de Badminton
+42276,Wong C T/Doo H K,66,Fédération Française de Tennis de Table
+42830,Taerattanachai/Supajirakul,10,Fédération Française de Badminton
+46588,Hughes/Cheng,74,Fédération Française de Volley
+46970,Binstock/Schachter,74,Fédération Française de Volley
+49027,Du Y/Li Y H,10,Fédération Française de Badminton
+49189,Smith/Birch,10,Fédération Française de Badminton
+49238,Kobayashi/Hoki,10,Fédération Française de Badminton
+49252,Cope/Alfaro,74,Fédération Française de Volley
+49624,Artacho/Laird,74,Fédération Française de Volley
+50043,Ishiy/B. Takahashi,66,Fédération Française de Tennis de Table
+50239,Fukushima/Hirota,10,Fédération Française de Badminton
+50367,Xue C/Xia X Y,74,Fédération Française de Volley
+50412,Prajongjai/Kititharakul,10,Fédération Française de Badminton
+50550,Jung K E/Shin S C,10,Fédération Française de Badminton
+50563,Susanto/Jordan,10,Fédération Française de Badminton
+50755,Menegatti/Giombini,74,Fédération Française de Volley
+50817,Safiullin/Medvedev,65,Fédération Française de Tennis
+50836,Chen Q C/Jia Y,10,Fédération Française de Badminton
+51212,Yu Y/Tang Y T,10,Fédération Française de Badminton
+51231,Igarashi/Watanabe,10,Fédération Française de Badminton
+51257,Fu H F/Zhang N,10,Fédération Française de Badminton
+51606,Suárez/Muguruza,65,Fédération Française de Tennis
+51608,Štepánek/Rosol,65,Fédération Française de Tennis
+51957,Yoo Y S/Lee Y D,10,Fédération Française de Badminton
+51982,van Iersel/Meppelink,74,Fédération Française de Volley
+52087,W.K. Tan/W.S. Goh,10,Fédération Française de Badminton
+52171,Sweat/Fendrick,74,Fédération Française de Volley
+52336,Bagnis/Schwartzman,65,Fédération Française de Tennis
+52634,Fuchs/J. Schöttler,10,Fédération Française de Badminton
+52720,Losiak/Bryl,74,Fédération Française de Volley
+52853,Mahut/Herbert,65,Fédération Française de Tennis
+52881,A. Murray/Watson,65,Fédération Française de Tennis
+52898,Jurak Schreiber/Dodig,65,Fédération Française de Tennis
+53115,Nummerdor/Varenhorst,74,Fédération Française de Volley
+53229,Tapper/Hu,66,Fédération Française de Tennis de Table
+53560,Langridge/M. Ellis,10,Fédération Française de Badminton
+53765,Larissa/Talita,74,Fédération Française de Volley
+53779,Rubio/Gaxiola,74,Fédération Française de Volley
+53902,Richard/Placette,74,Fédération Française de Volley
+54015,Doi/Hozumi,65,Fédération Française de Tennis
+54046,Paes/Bopanna,65,Fédération Française de Tennis
+54443,Barsuk/Liamin,74,Fédération Française de Volley
+54447,Alfian/Ardianto,10,Fédération Française de Badminton
+54562,Zhang/Wang,66,Fédération Française de Tennis de Table
+54781,Lane/Vendy,10,Fédération Française de Badminton
+54918,Fleming/Inglot,65,Fédération Française de Tennis
+55281,Khachanov/Rublev,65,Fédération Française de Tennis
+55331,Alison/Bruno,74,Fédération Française de Volley
+55344,González/Nivaldo,74,Fédération Française de Volley
+55447,van Gestel/van der Vlist,74,Fédération Française de Volley
+55661,Kurihara/Kazuno,10,Fédération Française de Badminton
+56195,Reyes-Varela/González,65,Fédération Française de Tennis
+56206,Pedro/Evandro,74,Fédération Française de Volley
+56207,Ranghieri/Carambula,74,Fédération Française de Volley
+56261,Kim S Y/Kong H Y,10,Fédération Française de Badminton
+56285,N. Makroguzova/Kholomina,74,Fédération Française de Volley
+56390,W.H. Tan/Y.K. Hee,10,Fédération Française de Badminton
+56410,Nagahara/Matsumoto,10,Fédération Française de Badminton
+56697,Granollers/Carreño,65,Fédération Française de Tennis
+56716,Dalhausser/Lucena,74,Fédération Française de Volley
+56773,Sluková/Hermannová,74,Fédération Française de Volley
+56913,Savchuk/Svitolina,65,Fédération Française de Tennis
+56936,Bertens/Schuurs,65,Fédération Française de Tennis
+57005,Böckermann/Flüggen,74,Fédération Française de Volley
+57124,Herttrich/Lamsfuss,10,Fédération Française de Badminton
+57511,Jefferson/Cherif,74,Fédération Française de Volley
+57570,Ram/Krajicek,65,Fédération Française de Tennis
+57583,Amitapai/Isara,10,Fédération Française de Badminton
+57746,Martínez/Lidy,74,Fédération Française de Volley
+58031,Pazo/Nori,74,Fédération Française de Volley
+58036,Olver/Smith,10,Fédération Française de Badminton
+58274,Mladenovic/Garcia,65,Fédération Française de Tennis
+58322,Lamsfuss/Seidel,10,Fédération Française de Badminton
+58424,Mirza/Thombare,65,Fédération Française de Tennis
+58426,Zheng S S/Duan Y Y,65,Fédération Française de Tennis
+58602,Hosny/Hany,10,Fédération Française de Badminton
+58692,Gideon/Sukamuljo,10,Fédération Française de Badminton
+58752,Marach/Oswald,65,Fédération Française de Tennis
+58817,Chang Y N/Lee S H,10,Fédération Française de Badminton
+58982,Middleton/Choo,10,Fédération Française de Badminton
+59003,Naceur/Belhaj,74,Fédération Française de Volley
+59181,Shida/Matsuyama,10,Fédération Française de Badminton
+59477,Somerville/Mapasa,10,Fédération Française de Badminton
+59773,Sorribes/Badosa,65,Fédération Française de Tennis
+59777,Ukolova/Birlova,74,Fédération Française de Volley
+59932,Olaru/Mitu,65,Fédération Française de Tennis
+59944,Strýcová/Šafárová,65,Fédération Française de Tennis
+60007,Duda/Ana Patricia,74,Fédération Française de Volley
+61509,Watson/Konta,65,Fédération Française de Tennis
+61529,Murakami/Ishii,74,Fédération Française de Volley
+61545,T.F. Chia/W.Y. Soh,10,Fédération Française de Badminton
+61550,Delrue/Gicquel,10,Fédération Française de Badminton
+61604,Stosur/Peers,65,Fédération Française de Tennis
+61735,Delbonis/Durán,65,Fédération Française de Tennis
+61939,Mattek-Sands/Vandeweghe,65,Fédération Française de Tennis
+62198,C. Sørum/A. Mol,74,Fédération Française de Volley
+62201,Zeballos/Molteni,65,Fédération Française de Tennis
+62211,Konta/J. Murray,65,Fédération Française de Tennis
+62303,Refugee Olympic Team,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+62325,Betschart/Hüberli,74,Fédération Française de Volley
+62423,Shetty/Rankireddy,10,Fédération Française de Badminton
+62428,Golubic/Bencic,65,Fédération Française de Tennis
+62489,Yakura/Ho-Shue,10,Fédération Française de Badminton
+62635,Tse Y S/Tang C M,10,Fédération Française de Badminton
+62908,Rojer/Bertens,65,Fédération Française de Tennis
+63094,Karatsev/Medvedev,65,Fédération Française de Tennis
+63137,Gonçalves/Pereira,65,Fédération Française de Tennis
+63148,Muguruza/Nadal,65,Fédération Française de Tennis
+63428,Mladenovic/Herbert,65,Fédération Française de Tennis
+63667,Yakura/Dong,10,Fédération Française de Badminton
+63783,Taerattanachai/Puavaranukroh,10,Fédération Française de Badminton
+63896,Bautista/Ferrer,65,Fédération Française de Tennis
+63897,Daniell/Venus,65,Fédération Française de Tennis
+63985,Pergel/Szudi,66,Fédération Française de Tennis de Table
+64034,T.J. Chen/E.W. Toh,10,Fédération Française de Badminton
+64099,Martin/Zelenay,65,Fédération Française de Tennis
+64101,Vinci/Fognini,65,Fédération Française de Tennis
+64359,Grönefeld/Siegemund,65,Fédération Française de Tennis
+64464,Kuznetsova/Kasatkina,65,Fédération Française de Tennis
+64465,Stosur/Saville,65,Fédération Française de Tennis
+64478,A. Radwanska/Kubot,65,Fédération Française de Tennis
+64479,Begu/Tecau,65,Fédération Française de Tennis
+64480,V. Williams/Ram,65,Fédération Française de Tennis
+64481,Garcia/Mahut,65,Fédération Française de Tennis
+64493,Fritz/Paul,65,Fédération Française de Tennis
+64708,Bansley/Wilkerson,74,Fédération Française de Volley
+64747,Huang D P/Wang Y,10,Fédération Française de Badminton
+64867,Jans-Ignacik/Kania-Chodun,65,Fédération Française de Tennis
+65306,Perušic/Schweiner,74,Fédération Française de Volley
+65381,Hingis/Bacsinszky,65,Fédération Française de Tennis
+65509,M. Ellis/Smith,10,Fédération Française de Badminton
+65900,Opeyori/Olofua,10,Fédération Française de Badminton
+66060,Pavan/Humana-Paredes,74,Fédération Française de Volley
+66091,Siegemund/Friedsam,65,Fédération Française de Tennis
+66243,Ludwig/Kozuch,74,Fédération Française de Volley
+66570,Olmos/Zarazúa,65,Fédération Française de Tennis
+66687,Mattek-Sands/Sock,65,Fédération Française de Tennis
+66868,Endo/Watanabe,10,Fédération Française de Badminton
+66925,Azaad/N. Capogrosso,74,Fédération Française de Volley
+67029,Polii/Apriani,10,Fédération Française de Badminton
+67063,Suárez/Ferrer,65,Fédération Française de Tennis
+67186,Horst/Hörl,74,Fédération Française de Volley
+67268,Agatha/Duda,74,Fédération Française de Volley
+67350,Elghobashy/Meawad,74,Fédération Française de Volley
+67538,Keizer/Meppelink,74,Fédération Française de Volley
+67934,Peers/Guccione,65,Fédération Française de Tennis
+67935,Podlipnik/Peralta,65,Fédération Française de Tennis
+67947,Pereira/Melo,65,Fédération Française de Tennis
+67988,Krunic/Stojanovic,65,Fédération Française de Tennis
+68082,Moreno/Álvarez,74,Fédération Française de Volley
+68222,McHugh/Schumann,74,Fédération Française de Volley
+68297,Michelle/Poletti,74,Fédération Française de Volley
+68298,Böbner/Z. Vergé-Dépré,74,Fédération Française de Volley
+68520,Xue C/Wang X X,74,Fédération Française de Volley
+68525,Hany/Elgamal,10,Fédération Française de Badminton
+68554,Wang F/Xia X Y,74,Fédération Française de Volley
+68754,Madarász/Ecseki,66,Fédération Française de Tennis de Table
+68768,Rebecca/Ana Patricia,74,Fédération Française de Volley
+69000,Schuurs/Koolhof,65,Fédération Française de Tennis
+69205,Abicha/El Graoui,74,Fédération Française de Volley
+69370,Jomkoh/Kedren,10,Fédération Française de Badminton
+69416,Krawietz/Pütz,65,Fédération Française de Tennis
+69636,Fijalek/Bryl,74,Fédération Française de Volley
+69639,A. Vergé-Dépré/Heidrich,74,Fédération Française de Volley
+69862,Rivaldy/Mentari,10,Fédération Française de Badminton
+69907,A. Murray/Evans,65,Fédération Française de Tennis
+70122,Chew/Chew,10,Fédération Française de Badminton
+70334,Wang C Q/Sun Y S,66,Fédération Française de Tennis de Table
+70494,Tsai/Honderich,10,Fédération Française de Badminton
+70939,Plavins/Tocs,74,Fédération Française de Volley
+70941,Ahmed Tijan/Cherif,74,Fédération Française de Volley
+70942,Ross/Klineman,74,Fédération Française de Volley
+70964,Ebden/Peers,65,Fédération Française de Tennis
+71041,Wickler/Thole,74,Fédération Française de Volley
+71318,Gallay/Pereyra,74,Fédération Française de Volley
+71589,Gillé/Vliegen,65,Fédération Française de Tennis
+71625,Sevastova/Ostapenko,65,Fédération Française de Tennis
+71930,Chae Y J/Seo S J,10,Fédération Française de Badminton
+72013,Semenov/Leshukov,74,Fédération Française de Volley
+72207,N. Skupski/Salisbury,65,Fédération Française de Tennis
+72712,Krasilnikov/Stoyanovskiy,74,Fédération Française de Volley
+72783,Watson/Boulter,65,Fédération Française de Tennis
+72924,Krajicek/Sandgren,65,Fédération Française de Tennis
+73394,S. Piek/Seinen,10,Fédération Française de Badminton
+73468,Huang Y Q/Zheng S,10,Fédération Française de Badminton
+73739,Nishikori/McLachlan,65,Fédération Française de Tennis
+73801,Hayata/Harimoto,66,Fédération Française de Tennis de Table
+74388,Popov Jr./Popov,10,Fédération Française de Badminton
+74850,Oktavianti/Jordan,10,Fédération Française de Badminton
+74976,Choi S K/Seo S J,10,Fédération Française de Badminton
+75031,Andújar/Carballés,65,Fédération Française de Tennis
+75042,S. Piek/Tabeling,10,Fédération Française de Badminton
+75066,Somerville/Leung,10,Fédération Française de Badminton
+75093,Nishioka/Daniel,65,Fédération Française de Tennis
+75147,Åhman/Hellvig,74,Fédération Française de Volley
+75294,Cheng I C/Lin Y J,66,Fédération Française de Tennis de Table
+75475,Fegerl/Polcanova,66,Fédération Française de Tennis de Table
+75649,Kubot/Swiatek,65,Fédération Française de Tennis
+75744,Gerson/Heidrich,74,Fédération Française de Volley
+75876,Wang C L/Lee Y,10,Fédération Française de Badminton
+75948,Carambula/Rossi,74,Fédération Française de Volley
+76094,Mittelham/D. Qiu,66,Fédération Française de Tennis de Table
+76193,George/André,74,Fédération Française de Volley
+76329,Lee S S/Jeon J H,66,Fédération Française de Tennis de Table
+76386,Xu Y F/Yang Z X,65,Fédération Française de Tennis
+76646,Achanta/Batra,66,Fédération Française de Tennis de Table
+76670,Lebesson/Yuan,66,Fédération Française de Tennis de Table
+76725,Mizutani/Ito,66,Fédération Française de Tennis de Table
+76870,Wu/Hurlburt-Yu,10,Fédération Française de Badminton
+77108,Saville/Perez,65,Fédération Française de Tennis
+77300,Xiao/Robles,66,Fédération Française de Tennis de Table
+77429,Bopanna/Balaji,65,Fédération Française de Tennis
+77579,Christiansen/A. Bøje,10,Fédération Française de Badminton
+77908,Sakkari/S. Tsitsipas,65,Fédération Française de Tennis
+78247,Alison/Álvaro Filho,74,Fédération Française de Volley
+78264,Jeong N E/Kim W H,10,Fédération Française de Badminton
+78434,Cheng/Sponcil,74,Fédération Française de Volley
+78794,Campos/Fonseca,66,Fédération Française de Tennis de Table
+78802,Thinaah/K.L. Tan,10,Fédération Française de Badminton
+78872,S. Tsitsipas/P. Tsitsipas,65,Fédération Française de Tennis
+79439,K. Karlsson/Källberg,66,Fédération Française de Tennis de Table
+79630,J. Murray/N. Skupski,65,Fédération Française de Tennis
+79701,Jarry/Tabilo,65,Fédération Française de Tennis
+80442,Aoyama/Shibahara,65,Fédération Française de Tennis
+80471,Shiratori/Ishijima,74,Fédération Française de Volley
+80669,Bruno/Evandro,74,Fédération Française de Volley
+80972,Rojer/Koolhof,65,Fédération Française de Tennis
+81178,Cornet/Ferro,65,Fédération Française de Tennis
+81248,Haddad Maia/Stefani,65,Fédération Française de Tennis
+81775,Pigossi/Stefani,65,Fédération Française de Tennis
+82605,Hibino/Ninomiya,65,Fédération Française de Tennis
+82606,Stosur/Perez,65,Fédération Française de Tennis
+83829,Carol/Barbara,74,Fédération Française de Volley
+84490,Kubot/Hurkacz,65,Fédération Française de Tennis
+85509,Svitolina/Yastremska,65,Fédération Française de Tennis
+85784,González/Molteni,65,Fédération Française de Tennis
+89070,United States,24,Fédération Française de Football
+89091,Morocco,24,Fédération Française de Football
+89135,Yastremska/Kostyuk,65,Fédération Française de Tennis
+89457,Golubev/Bublik,65,Fédération Française de Tennis
+89710,Argentina,24,Fédération Française de Football
+89880,Colombia,24,Fédération Française de Football
+89883,Mexico,24,Fédération Française de Football
+89885,Netherlands,21,Fédération Française de Cyclisme
+89887,United States,21,Fédération Française de Cyclisme
+89895,Belgium,21,Fédération Française de Cyclisme
+89899,Great Britain,21,Fédération Française de Cyclisme
+89902,Denmark,9,Fédération Française d'Athlétisme
+89905,China,79,Fédération Française d'Aviron
+89907,Ukraine,58,Fédération Française de Ski
+89908,Slovenia,44,Fédération Française de Natation
+89910,China,9,Fédération Française d'Athlétisme
+89914,MDA,68,Fédération Française de Tir à l'Arc
+89921,Japan,80,Fédération Française des Sports de Glace
+89925,France,44,Fédération Française de Natation
+89928,Belarus,67,Fédération Française de Tir
+89934,Brazil,76,Fédération française d'Equitation
+89936,Switzerland,79,Fédération Française d'Aviron
+89941,Slovenia,79,Fédération Française d'Aviron
+89942,Czech Republic,58,Fédération Française de Ski
+89943,Cuba,9,Fédération Française d'Athlétisme
+89948,Romania,80,Fédération Française des Sports de Glace
+89956,Singapore,44,Fédération Française de Natation
+89958,Romania,28,Fédération Française de Gymnastique
+89971,Raonic/Auger-Aliassime,65,Fédération Française de Tennis
+90098,Japan,24,Fédération Française de Football
+90099,Canada,24,Fédération Française de Football
+90101,Brazil,24,Fédération Française de Football
+90112,Mali,24,Fédération Française de Football
+90113,Denmark,24,Fédération Française de Football
+90114,Sweden,24,Fédération Française de Football
+90116,Germany,21,Fédération Française de Cyclisme
+90117,Italy,21,Fédération Française de Cyclisme
+90446,Nigeria,24,Fédération Française de Football
+90447,New Zealand,24,Fédération Française de Football
+90448,Republic of Korea,24,Fédération Française de Football
+90458,Algeria,24,Fédération Française de Football
+90465,Colombia,24,Fédération Française de Football
+90466,Great Britain,24,Fédération Française de Football
+90487,China,58,Fédération Française de Ski
+90489,Australia,80,Fédération Française des Sports de Glace
+90491,Ukraine,58,Fédération Française de Ski
+90493,France,67,Fédération Française de Tir
+90494,Lithuania,44,Fédération Française de Natation
+90501,Belarus,58,Fédération Française de Ski
+90503,Latvia,67,Fédération Française de Tir
+90505,Great Britain,76,Fédération française d'Equitation
+90509,Italy,58,Fédération Française de Ski
+90517,Poland,67,Fédération Française de Tir
+90518,Austria,80,Fédération Française des Sports de Glace
+90726,McLachlan/Shibahara,65,Fédération Française de Tennis
+90741,Mattek-Sands/Pegula,65,Fédération Française de Tennis
+90753,United States,24,Fédération Française de Football
+90754,Japan,24,Fédération Française de Football
+90991,Tomljanovic/Gadecki,65,Fédération Française de Tennis
+91002,Brazil,24,Fédération Française de Football
+91003,Sweden,24,Fédération Française de Football
+91005,Honduras,24,Fédération Française de Football
+91018,Israel,24,Fédération Française de Football
+91019,Iraq,24,Fédération Française de Football
+91025,Paraguay,24,Fédération Française de Football
+91026,Fiji,24,Fédération Française de Football
+91027,France,24,Fédération Française de Football
+91028,Australia,24,Fédération Française de Football
+91029,South Africa,24,Fédération Française de Football
+91033,Ireland,21,Fédération Française de Cyclisme
+91036,Switzerland,21,Fédération Française de Cyclisme
+91042,Republic of Korea,80,Fédération Française des Sports de Glace
+91045,Cuba,67,Fédération Française de Tir
+91048,Denmark,76,Fédération française d'Equitation
+91053,JPN,76,Fédération française d'Equitation
+91060,Denmark,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+91066,China,58,Fédération Française de Ski
+91067,POL,68,Fédération Française de Tir à l'Arc
+91068,Belgium,9,Fédération Française d'Athlétisme
+91074,Austria,80,Fédération Française des Sports de Glace
+91320,Vietnam,68,Fédération Française de Tir à l'Arc
+91326,Romania,58,Fédération Française de Ski
+91328,Republic of Korea,68,Fédération Française de Tir à l'Arc
+91331,South Africa,9,Fédération Française d'Athlétisme
+91334,Switzerland,44,Fédération Française de Natation
+91337,ITA,76,Fédération française d'Equitation
+91338,Finland,76,Fédération française d'Equitation
+91350,Czech Republic,58,Fédération Française de Ski
+91355,Belgium,28,Fédération Française de Gymnastique
+91357,Australia,44,Fédération Française de Natation
+91364,Poland,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+91368,Colombia,9,Fédération Française d'Athlétisme
+91376,Ukraine,28,Fédération Française de Gymnastique
+91383,Mexico,28,Fédération Française de Gymnastique
+91385,Belarus,68,Fédération Française de Tir à l'Arc
+91386,Kazakhstan,9,Fédération Française d'Athlétisme
+91390,Zimbabwe,79,Fédération Française d'Aviron
+91398,Zimbabwe,24,Fédération Française de Football
+91404,China,21,Fédération Française de Cyclisme
+91408,Republic of Korea,21,Fédération Française de Cyclisme
+91412,Croatia,79,Fédération Française d'Aviron
+91413,Belgium,58,Fédération Française de Ski
+91415,Austria,58,Fédération Française de Ski
+91416,Argentina,76,Fédération française d'Equitation
+91418,Mexico,67,Fédération Française de Tir
+91421,Norway,58,Fédération Française de Ski
+91422,Sweden,76,Fédération française d'Equitation
+91425,Canada,9,Fédération Française d'Athlétisme
+91426,Belarus,79,Fédération Française d'Aviron
+91428,China,44,Fédération Française de Natation
+91429,Czech Republic,58,Fédération Française de Ski
+91432,Belgium,44,Fédération Française de Natation
+91442,Dominican Republic,9,Fédération Française d'Athlétisme
+91443,Austria,67,Fédération Française de Tir
+91444,Slovenia,58,Fédération Française de Ski
+91448,TUR,68,Fédération Française de Tir à l'Arc
+91458,Spain,67,Fédération Française de Tir
+91460,Czech Republic,67,Fédération Française de Tir
+91463,Canada,76,Fédération française d'Equitation
+91464,South Africa,79,Fédération Française d'Aviron
+91469,Germany,80,Fédération Française des Sports de Glace
+91473,Sweden,58,Fédération Française de Ski
+91481,Poland,21,Fédération Française de Cyclisme
+91483,Canada,21,Fédération Française de Cyclisme
+91498,Germany,69,Fédération Française de Triathlon et Disciplines Enchaînées
+91499,San Marino,67,Fédération Française de Tir
+91500,Poland,58,Fédération Française de Ski
+91502,Belarus,9,Fédération Française d'Athlétisme
+91503,Trinidad & Tobago,9,Fédération Française d'Athlétisme
+91508,Venezuela,9,Fédération Française d'Athlétisme
+91509,Norway,58,Fédération Française de Ski
+91513,New Zealand,79,Fédération Française d'Aviron
+91514,Italy,69,Fédération Française de Triathlon et Disciplines Enchaînées
+91516,United States,80,Fédération Française des Sports de Glace
+91517,Canada,80,Fédération Française des Sports de Glace
+91520,France,9,Fédération Française d'Athlétisme
+91524,Republic of Korea,28,Fédération Française de Gymnastique
+91525,Slovenia,58,Fédération Française de Ski
+91526,Chinese Taipei,68,Fédération Française de Tir à l'Arc
+91527,Great Britain,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+91529,ITA,68,Fédération Française de Tir à l'Arc
+91533,Bulgaria,79,Fédération Française d'Aviron
+91534,Cuba,79,Fédération Française d'Aviron
+91535,China,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+91540,Czech Republic,80,Fédération Française des Sports de Glace
+91541,Bulgaria,58,Fédération Française de Ski
+91544,Côte d'Ivoire,9,Fédération Française d'Athlétisme
+91555,Mexico,79,Fédération Française d'Aviron
+91557,Ukraine,80,Fédération Française des Sports de Glace
+91558,CHN,44,Fédération Française de Natation
+91559,United States,58,Fédération Française de Ski
+91571,Spain,44,Fédération Française de Natation
+91581,Ukraine,9,Fédération Française d'Athlétisme
+91594,Italy,9,Fédération Française d'Athlétisme
+91602,Czech Republic,9,Fédération Française d'Athlétisme
+91603,Czech Republic,58,Fédération Française de Ski
+91606,Germany,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+91609,Bulgaria,67,Fédération Française de Tir
+91610,Canada,80,Fédération Française des Sports de Glace
+91615,Italy,80,Fédération Française des Sports de Glace
+91618,Japan,67,Fédération Française de Tir
+91620,Republic of Korea,58,Fédération Française de Ski
+91621,Canada,44,Fédération Française de Natation
+91625,Great Britain,68,Fédération Française de Tir à l'Arc
+91629,Poland,58,Fédération Française de Ski
+91631,Belgium,80,Fédération Française des Sports de Glace
+91638,Poland,79,Fédération Française d'Aviron
+91640,Germany,67,Fédération Française de Tir
+91641,Great Britain,76,Fédération française d'Equitation
+91723,Australia,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+91727,FRA,76,Fédération française d'Equitation
+91731,Republic of Korea,58,Fédération Française de Ski
+91732,Canada,69,Fédération Française de Triathlon et Disciplines Enchaînées
+91737,Sweden,76,Fédération française d'Equitation
+91743,Pakistan,67,Fédération Française de Tir
+91750,Germany,76,Fédération française d'Equitation
+91758,Israel,80,Fédération Française des Sports de Glace
+91760,India,9,Fédération Française d'Athlétisme
+91761,Russia,79,Fédération Française d'Aviron
+91764,Japan,80,Fédération Française des Sports de Glace
+91768,Brazil,69,Fédération Française de Triathlon et Disciplines Enchaînées
+91771,Egypt,79,Fédération Française d'Aviron
+91774,Denmark,44,Fédération Française de Natation
+91775,Japan,69,Fédération Française de Triathlon et Disciplines Enchaînées
+91776,Belarus,58,Fédération Française de Ski
+91777,Brazil,28,Fédération Française de Gymnastique
+91780,Slovakia,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+91782,Italy,28,Fédération Française de Gymnastique
+91783,Saudi Arabia,76,Fédération française d'Equitation
+91787,Netherlands,68,Fédération Française de Tir à l'Arc
+91799,Japan,76,Fédération française d'Equitation
+91808,Uruguay,79,Fédération Française d'Aviron
+91810,Hungary,9,Fédération Française d'Athlétisme
+91813,Republic of Korea,80,Fédération Française des Sports de Glace
+91818,United States,58,Fédération Française de Ski
+91820,Hungary,80,Fédération Française des Sports de Glace
+91826,Sweden,44,Fédération Française de Natation
+91829,Japan,58,Fédération Française de Ski
+91837,Germany,58,Fédération Française de Ski
+91838,Romania,9,Fédération Française d'Athlétisme
+91839,Indonesia,68,Fédération Française de Tir à l'Arc
+91841,Japan,9,Fédération Française d'Athlétisme
+91843,Canada,58,Fédération Française de Ski
+91848,Norway,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+91849,United States,9,Fédération Française d'Athlétisme
+91853,Sweden,79,Fédération Française d'Aviron
+91854,Netherlands,9,Fédération Française d'Athlétisme
+91855,France,69,Fédération Française de Triathlon et Disciplines Enchaînées
+91858,China,28,Fédération Française de Gymnastique
+91868,Italy,67,Fédération Française de Tir
+91876,Spain,76,Fédération française d'Equitation
+91878,Israel,68,Fédération Française de Tir à l'Arc
+91879,Portugal,76,Fédération française d'Equitation
+91881,Spain,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+91882,Japan,58,Fédération Française de Ski
+91883,Finland,58,Fédération Française de Ski
+91884,Slovakia,9,Fédération Française d'Athlétisme
+91887,Ukraine,44,Fédération Française de Natation
+91970,Russia,68,Fédération Française de Tir à l'Arc
+91971,Italy,44,Fédération Française de Natation
+91973,Argentina,67,Fédération Française de Tir
+91977,Romania,44,Fédération Française de Natation
+91985,NZL,76,Fédération française d'Equitation
+91994,Australia,69,Fédération Française de Triathlon et Disciplines Enchaînées
+91995,Austria,58,Fédération Française de Ski
+91997,Ecuador,9,Fédération Française d'Athlétisme
+92002,Netherlands,76,Fédération française d'Equitation
+92007,Georgia,80,Fédération Française des Sports de Glace
+92013,Brazil,44,Fédération Française de Natation
+92016,Canada,76,Fédération française d'Equitation
+92017,Botswana,9,Fédération Française d'Athlétisme
+92018,Canada,28,Fédération Française de Gymnastique
+92020,CAN,76,Fédération française d'Equitation
+92024,Egypt,28,Fédération Française de Gymnastique
+92026,Austria,58,Fédération Française de Ski
+92027,United States,28,Fédération Française de Gymnastique
+92029,Slovakia,58,Fédération Française de Ski
+92030,Germany,76,Fédération française d'Equitation
+92039,Republic of Korea,80,Fédération Française des Sports de Glace
+92041,United States,68,Fédération Française de Tir à l'Arc
+92046,Ireland,76,Fédération française d'Equitation
+92048,Türkiye,44,Fédération Française de Natation
+92051,United States,80,Fédération Française des Sports de Glace
+92054,Canada,58,Fédération Française de Ski
+92055,Italy,58,Fédération Française de Ski
+92057,India,68,Fédération Française de Tir à l'Arc
+92059,Czech Republic,79,Fédération Française d'Aviron
+92064,Canada,58,Fédération Française de Ski
+92069,France,79,Fédération Française d'Aviron
+92070,Great Britain,69,Fédération Française de Triathlon et Disciplines Enchaînées
+92074,Sweden,67,Fédération Française de Tir
+92077,Egypt,67,Fédération Française de Tir
+92082,Belarus,44,Fédération Française de Natation
+92089,Lithuania,79,Fédération Française d'Aviron
+92098,Switzerland,69,Fédération Française de Triathlon et Disciplines Enchaînées
+92100,New Zealand,69,Fédération Française de Triathlon et Disciplines Enchaînées
+92102,Portugal,69,Fédération Française de Triathlon et Disciplines Enchaînées
+92103,Germany,80,Fédération Française des Sports de Glace
+92104,France,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+92105,FRA,68,Fédération Française de Tir à l'Arc
+92106,France,80,Fédération Française des Sports de Glace
+92113,Ireland,79,Fédération Française d'Aviron
+92115,Slovakia,58,Fédération Française de Ski
+92121,Portugal,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+92125,Estonia,58,Fédération Française de Ski
+92131,Malaysia,68,Fédération Française de Tir à l'Arc
+92206,Sudan,79,Fédération Française d'Aviron
+92207,Indonesia,79,Fédération Française d'Aviron
+92208,Saudi Arabia,79,Fédération Française d'Aviron
+92209,Republic of Korea,79,Fédération Française d'Aviron
+92212,Azerbaijan,79,Fédération Française d'Aviron
+92215,Italy,79,Fédération Française d'Aviron
+92218,Switzerland,80,Fédération Française des Sports de Glace
+92224,Ireland,44,Fédération Française de Natation
+92233,Portugal,76,Fédération française d'Equitation
+92235,Kazakhstan,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+92242,United States,44,Fédération Française de Natation
+92257,Canada,58,Fédération Française de Ski
+92259,Netherlands,69,Fédération Française de Triathlon et Disciplines Enchaînées
+92272,Greece,44,Fédération Française de Natation
+92280,Greece,58,Fédération Française de Ski
+92297,Estonia,58,Fédération Française de Ski
+92298,Belarus,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+92300,Chinese Taipei,28,Fédération Française de Gymnastique
+92302,Great Britain,79,Fédération Française d'Aviron
+92303,United States,58,Fédération Française de Ski
+92307,Belgium,76,Fédération française d'Equitation
+92310,JPN,68,Fédération Française de Tir à l'Arc
+92315,Canada,79,Fédération Française d'Aviron
+92322,Sweden,58,Fédération Française de Ski
+92324,Georgia,68,Fédération Française de Tir à l'Arc
+92325,Latvia,80,Fédération Française des Sports de Glace
+92331,China,67,Fédération Française de Tir
+92334,Great Britain,80,Fédération Française des Sports de Glace
+92337,Republic of Korea,58,Fédération Française de Ski
+92338,Ukraine,79,Fédération Française d'Aviron
+92341,Italy,58,Fédération Française de Ski
+92343,Russia,44,Fédération Française de Natation
+92346,Mexico,44,Fédération Française de Natation
+92348,Slovakia,58,Fédération Française de Ski
+92351,Republic of Korea,67,Fédération Française de Tir
+92355,Belgium,76,Fédération française d'Equitation
+92361,Mexico,76,Fédération française d'Equitation
+92362,Germany,44,Fédération Française de Natation
+92364,Poland,80,Fédération Française des Sports de Glace
+92365,Australia,44,Fédération Française de Natation
+92370,Australia,28,Fédération Française de Gymnastique
+92371,Japan,79,Fédération Française d'Aviron
+92376,Spain,28,Fédération Française de Gymnastique
+92403,Pegula/Gauff,65,Fédération Française de Tennis
+92543,Italy,58,Fédération Française de Ski
+92553,Italy,80,Fédération Française des Sports de Glace
+92558,Republic of Korea,44,Fédération Française de Natation
+92559,Hungary,69,Fédération Française de Triathlon et Disciplines Enchaînées
+92563,Finland,58,Fédération Française de Ski
+92564,JPN,44,Fédération Française de Natation
+92567,Romania,58,Fédération Française de Ski
+92571,Russia,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+92577,Belgium,79,Fédération Française d'Aviron
+92578,Kazakhstan,80,Fédération Française des Sports de Glace
+92586,France,58,Fédération Française de Ski
+92590,Australia,76,Fédération française d'Equitation
+92591,Great Britain,58,Fédération Française de Ski
+92592,Netherlands,76,Fédération française d'Equitation
+92600,Greece,28,Fédération Française de Gymnastique
+92601,Finland,44,Fédération Française de Natation
+92606,Norway,58,Fédération Française de Ski
+92612,Peru,9,Fédération Française d'Athlétisme
+92619,Uganda,79,Fédération Française d'Aviron
+92620,Bermuda,79,Fédération Française d'Aviron
+92622,Puerto Rico,79,Fédération Française d'Aviron
+92661,China,58,Fédération Française de Ski
+92662,China,58,Fédération Française de Ski
+92671,Lithuania,58,Fédération Française de Ski
+92674,Türkiye,58,Fédération Française de Ski
+92675,Republic of Korea,58,Fédération Française de Ski
+92718,Saudi Arabia,24,Fédération Française de Football
+92719,Spain,24,Fédération Française de Football
+92723,Egypt,24,Fédération Française de Football
+92742,Australia,21,Fédération Française de Cyclisme
+92743,Venezuela,21,Fédération Française de Cyclisme
+92749,AUS,68,Fédération Française de Tir à l'Arc
+92755,Poland,58,Fédération Française de Ski
+92756,Australia,28,Fédération Française de Gymnastique
+92761,Great Britain,9,Fédération Française d'Athlétisme
+92764,Germany,58,Fédération Française de Ski
+92765,France,58,Fédération Française de Ski
+92770,Croatia,67,Fédération Française de Tir
+92773,GER,68,Fédération Française de Tir à l'Arc
+92774,Belgium,69,Fédération Française de Triathlon et Disciplines Enchaînées
+92776,United States,76,Fédération française d'Equitation
+92781,Switzerland,58,Fédération Française de Ski
+92836,Monaco,79,Fédération Française d'Aviron
+92838,Chinese Taipei,79,Fédération Française d'Aviron
+92840,Libya,79,Fédération Française d'Aviron
+92844,Peru,79,Fédération Française d'Aviron
+92847,India,79,Fédération Française d'Aviron
+92849,Vietnam,79,Fédération Française d'Aviron
+92854,Vanuatu,79,Fédération Française d'Aviron
+92879,Kazakhstan,67,Fédération Française de Tir
+92884,GER,28,Fédération Française de Gymnastique
+92888,Mongolia,68,Fédération Française de Tir à l'Arc
+92892,Slovenia,68,Fédération Française de Tir à l'Arc
+92897,Israel,44,Fédération Française de Natation
+92898,BRA,76,Fédération française d'Equitation
+92905,Czech Republic,80,Fédération Française des Sports de Glace
+92907,AUS,76,Fédération française d'Equitation
+92919,Switzerland,58,Fédération Française de Ski
+92928,Japan,76,Fédération française d'Equitation
+92931,Germany,58,Fédération Française de Ski
+92944,Liberia,9,Fédération Française d'Athlétisme
+93006,Algeria,79,Fédération Française d'Aviron
+93008,Bahamas,79,Fédération Française d'Aviron
+93009,Philippines,79,Fédération Française d'Aviron
+93022,Norway,69,Fédération Française de Triathlon et Disciplines Enchaînées
+93082,New Zealand,76,Fédération française d'Equitation
+93083,Egypt,76,Fédération française d'Equitation
+93114,Czech Republic,68,Fédération Française de Tir à l'Arc
+93115,Iran,67,Fédération Française de Tir
+93120,Lithuania,58,Fédération Française de Ski
+93121,Mexico,9,Fédération Française d'Athlétisme
+93124,United States,76,Fédération française d'Equitation
+93125,Jamaica,80,Fédération Française des Sports de Glace
+93126,Poland,58,Fédération Française de Ski
+93128,Germany,58,Fédération Française de Ski
+93139,China,58,Fédération Française de Ski
+93193,Trinidad & Tobago,79,Fédération Française d'Aviron
+93195,Côte d'Ivoire,79,Fédération Française d'Aviron
+93311,Brazil,80,Fédération Française des Sports de Glace
+93319,Latvia,58,Fédération Française de Ski
+93321,Croatia,58,Fédération Française de Ski
+93411,Singapore,79,Fédération Française d'Aviron
+93412,Dominican Republic,79,Fédération Française d'Aviron
+93413,Tunisia,79,Fédération Française d'Aviron
+93414,Angola,79,Fédération Française d'Aviron
+93415,Ecuador,79,Fédération Française d'Aviron
+93442,Bangladesh,68,Fédération Française de Tir à l'Arc
+93470,Croatia,80,Fédération Française des Sports de Glace
+93531,Azerbaijan,28,Fédération Française de Gymnastique
+93590,Netherlands,54,Fédération française de roller et skateboard
+93591,Japan,54,Fédération française de roller et skateboard
+93634,Thailand,76,Fédération française d'Equitation
+93636,Russia,76,Fédération française d'Equitation
+93662,Türkiye,28,Fédération Française de Gymnastique
+93716,Brazil,58,Fédération Française de Ski
+93719,Great Britain,58,Fédération Française de Ski
+93769,Poland,76,Fédération française d'Equitation
+93802,Qatar,76,Fédération française d'Equitation
+93992,China,24,Fédération Française de Football
+93993,New Zealand,24,Fédération Française de Football
+93994,Côte d'Ivoire,24,Fédération Française de Football
+94003,Germany,24,Fédération Française de Football
+94010,France,24,Fédération Française de Football
+94015,Japan,21,Fédération Française de Cyclisme
+94016,Hungary,58,Fédération Française de Ski
+94021,Hungary,44,Fédération Française de Natation
+94022,China,28,Fédération Française de Gymnastique
+94023,Belarus,58,Fédération Française de Ski
+94030,Bulgaria,28,Fédération Française de Gymnastique
+94036,Switzerland,58,Fédération Française de Ski
+94037,Belarus,28,Fédération Française de Gymnastique
+94038,Slovakia,80,Fédération Française des Sports de Glace
+94039,United States,58,Fédération Française de Ski
+94041,Finland,58,Fédération Française de Ski
+94045,Belgium,76,Fédération française d'Equitation
+94047,New Zealand,44,Fédération Française de Natation
+94048,Netherlands,80,Fédération Française des Sports de Glace
+94049,Netherlands,79,Fédération Française d'Aviron
+94054,Tunisia,67,Fédération Française de Tir
+94055,Bulgaria,58,Fédération Française de Ski
+94058,Romania,80,Fédération Française des Sports de Glace
+94061,BRA,68,Fédération Française de Tir à l'Arc
+94063,Kazakhstan,58,Fédération Française de Ski
+94066,United States,58,Fédération Française de Ski
+94067,Great Britain,28,Fédération Française de Gymnastique
+94069,Spain,44,Fédération Française de Natation
+94075,China,80,Fédération Française des Sports de Glace
+94092,Spain,69,Fédération Française de Triathlon et Disciplines Enchaînées
+94095,Czech Republic,80,Fédération Française des Sports de Glace
+94193,Morocco,76,Fédération française d'Equitation
+94302,New Zealand,54,Fédération française de roller et skateboard
+94308,Poland,54,Fédération française de roller et skateboard
+94431,Mexico,21,Fédération Française de Cyclisme
+94432,New Zealand,21,Fédération Française de Cyclisme
+94438,France,80,Fédération Française des Sports de Glace
+94441,Switzerland,76,Fédération française d'Equitation
+94443,ITA,28,Fédération Française de Gymnastique
+94444,Poland,58,Fédération Française de Ski
+94445,Uzbekistan,68,Fédération Française de Tir à l'Arc
+94446,Sweden,58,Fédération Française de Ski
+94452,Italy,80,Fédération Française des Sports de Glace
+94456,Norway,58,Fédération Française de Ski
+94461,Ukraine,67,Fédération Française de Tir
+94462,Spain,79,Fédération Française d'Aviron
+94465,"Hong Kong, China",44,Fédération Française de Natation
+94470,Netherlands,76,Fédération française d'Equitation
+94474,Germany,9,Fédération Française d'Athlétisme
+94476,Poland,44,Fédération Française de Natation
+94477,Hungary,67,Fédération Française de Tir
+94478,Italy,80,Fédération Française des Sports de Glace
+94485,Japan,58,Fédération Française de Ski
+94486,Israel,28,Fédération Française de Gymnastique
+94487,Norway,58,Fédération Française de Ski
+94490,"Hong Kong, China",79,Fédération Française d'Aviron
+94494,Japan,28,Fédération Française de Gymnastique
+94495,France,76,Fédération française d'Equitation
+94496,China,80,Fédération Française des Sports de Glace
+94497,Norway,9,Fédération Française d'Athlétisme
+94501,Mongolia,67,Fédération Française de Tir
+94506,United States,80,Fédération Française des Sports de Glace
+94520,Serbia,44,Fédération Française de Natation
+94524,Serbia,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+94594,South Africa,44,Fédération Française de Natation
+94599,Ireland,76,Fédération française d'Equitation
+94600,India,67,Fédération Française de Tir
+94604,CAN,44,Fédération Française de Natation
+94606,Italy,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+94608,Switzerland,28,Fédération Française de Gymnastique
+94611,Czech Republic,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+94621,Estonia,79,Fédération Française d'Aviron
+94623,Canada,80,Fédération Française des Sports de Glace
+94624,Great Britain,76,Fédération française d'Equitation
+94630,Trinidad & Tobago,80,Fédération Française des Sports de Glace
+94631,Greece,44,Fédération Française de Natation
+94632,Latvia,80,Fédération Française des Sports de Glace
+94636,CHN,68,Fédération Française de Tir à l'Arc
+94637,Japan,28,Fédération Française de Gymnastique
+94642,United States,58,Fédération Française de Ski
+94643,Ukraine,68,Fédération Française de Tir à l'Arc
+94645,United States,28,Fédération Française de Gymnastique
+94661,Austria,58,Fédération Française de Ski
+94672,Slovenia,58,Fédération Française de Ski
+94702,United States,54,Fédération française de roller et skateboard
+94829,Bolelli/Vavassori,65,Fédération Française de Tennis
+94836,Paraguay,79,Fédération Française d'Aviron
+94839,Nicaragua,79,Fédération Française d'Aviron
+94904,China,58,Fédération Française de Ski
+95167,Poland,80,Fédération Française des Sports de Glace
+95172,Lithuania,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+95178,Brazil,44,Fédération Française de Natation
+95179,Netherlands,44,Fédération Française de Natation
+95181,Japan,44,Fédération Française de Natation
+95183,Chinese Taipei,67,Fédération Française de Tir
+95184,United States,44,Fédération Française de Natation
+95185,France,76,Fédération française d'Equitation
+95187,FRA,44,Fédération Française de Natation
+95191,Ukraine,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+95193,Ghana,9,Fédération Française d'Athlétisme
+95194,France,28,Fédération Française de Gymnastique
+95206,Hungary,79,Fédération Française d'Aviron
+95209,Norway,79,Fédération Française d'Aviron
+95212,Japan,58,Fédération Française de Ski
+95214,Austria,76,Fédération française d'Equitation
+95220,Brazil,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+95223,Spain,9,Fédération Française d'Athlétisme
+95224,Great Britain,67,Fédération Française de Tir
+95225,Australia,58,Fédération Française de Ski
+95229,Switzerland,9,Fédération Française d'Athlétisme
+95233,Ukraine,28,Fédération Française de Gymnastique
+95235,Kenya,9,Fédération Française d'Athlétisme
+95237,Jamaica,9,Fédération Française d'Athlétisme
+95240,Greece,79,Fédération Française d'Aviron
+95242,Hungary,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+95246,Poland,80,Fédération Française des Sports de Glace
+95249,Germany,28,Fédération Française de Gymnastique
+95250,Denmark,67,Fédération Française de Tir
+95254,Great Britain,44,Fédération Française de Natation
+95262,France,58,Fédération Française de Ski
+95279,Canada,58,Fédération Française de Ski
+95331,Struff/Zverev,65,Fédération Française de Tennis
+95345,Krawietz/Siegemund,65,Fédération Française de Tennis
+95381,Germany,24,Fédération Française de Football
+95382,Nigeria,24,Fédération Française de Football
+95384,Australia,24,Fédération Française de Football
+95398,Portugal,24,Fédération Française de Football
+95401,Guinea,24,Fédération Française de Football
+95405,Romania,24,Fédération Française de Football
+95408,South Africa,24,Fédération Française de Football
+95741,United States,76,Fédération française d'Equitation
+95749,Brazil,79,Fédération Française d'Aviron
+95754,Netherlands,80,Fédération Française des Sports de Glace
+95762,GER,76,Fédération française d'Equitation
+95767,Australia,76,Fédération française d'Equitation
+95771,POL,76,Fédération française d'Equitation
+95777,United States,69,Fédération Française de Triathlon et Disciplines Enchaînées
+95783,Russia,28,Fédération Française de Gymnastique
+95784,Mexico,68,Fédération Française de Tir à l'Arc
+95788,France,58,Fédération Française de Ski
+95793,Italy,44,Fédération Française de Natation
+95801,Austria,79,Fédération Française d'Aviron
+95837,Türkiye,79,Fédération Française d'Aviron
+95839,Iran,79,Fédération Française d'Aviron
+95843,Kazakhstan,79,Fédération Française d'Aviron
+95850,Qatar,79,Fédération Française d'Aviron
+95866,COL,68,Fédération Française de Tir à l'Arc
+95893,China,80,Fédération Française des Sports de Glace
+96289,Iraq,79,Fédération Française d'Aviron
+96290,Nigeria,79,Fédération Française d'Aviron
+96291,Thailand,79,Fédération Française d'Aviron
+96292,Venezuela,79,Fédération Française d'Aviron
+96340,France,21,Fédération Française de Cyclisme
+96341,Denmark,21,Fédération Française de Cyclisme
+96350,Spain,76,Fédération française d'Equitation
+96363,Brazil,9,Fédération Française d'Athlétisme
+96365,New Zealand,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+96375,Australia,9,Fédération Française d'Athlétisme
+96376,Zambia,9,Fédération Française d'Athlétisme
+96377,Austria,44,Fédération Française de Natation
+96378,Denmark,76,Fédération française d'Equitation
+96380,Australia,67,Fédération Française de Tir
+96381,Czech Republic,58,Fédération Française de Ski
+96382,Austria,58,Fédération Française de Ski
+96384,Ukraine,80,Fédération Française des Sports de Glace
+96385,Austria,69,Fédération Française de Triathlon et Disciplines Enchaînées
+96387,Switzerland,58,Fédération Française de Ski
+96391,Italy,58,Fédération Française de Ski
+96392,Denmark,79,Fédération Française d'Aviron
+96395,Kazakhstan,68,Fédération Française de Tir à l'Arc
+96397,Peru,67,Fédération Française de Tir
+96402,United States,79,Fédération Française d'Aviron
+96404,Russia,28,Fédération Française de Gymnastique
+96566,Iceland,58,Fédération Française de Ski
+96621,Israel,76,Fédération française d'Equitation
+96633,United Arab Emirates,76,Fédération française d'Equitation
+96635,CHN,76,Fédération française d'Equitation
+96809,Nigeria,80,Fédération Française des Sports de Glace
+96810,Republic of Korea,80,Fédération Française des Sports de Glace
+96881,Brazil,76,Fédération française d'Equitation
+96888,Poland,9,Fédération Française d'Athlétisme
+96892,Slovenia,58,Fédération Française de Ski
+96895,Canada,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+96896,Switzerland,58,Fédération Française de Ski
+96898,Austria,76,Fédération française d'Equitation
+96900,France,80,Fédération Française des Sports de Glace
+96901,France,28,Fédération Française de Gymnastique
+96908,Czech Republic,44,Fédération Française de Natation
+96910,Ireland,9,Fédération Française d'Athlétisme
+96913,Spain,58,Fédération Française de Ski
+96918,Germany,79,Fédération Française d'Aviron
+96925,Germany,58,Fédération Française de Ski
+96929,Bahamas,9,Fédération Française d'Athlétisme
+96939,Brazil,28,Fédération Française de Gymnastique
+96940,Australia,79,Fédération Française d'Aviron
+96943,Finland,58,Fédération Française de Ski
+96950,Spain,28,Fédération Française de Gymnastique
+96951,Mexico,69,Fédération Française de Triathlon et Disciplines Enchaînées
+96959,Monaco,80,Fédération Française des Sports de Glace
+96961,Argentina,79,Fédération Française d'Aviron
+96966,Greece,67,Fédération Française de Tir
+96968,Kazakhstan,58,Fédération Française de Ski
+96969,Netherlands,28,Fédération Française de Gymnastique
+97143,Uzbekistan,28,Fédération Française de Gymnastique
+97292,Czech Republic,76,Fédération française d'Equitation
+97421,Coomes/Buckland,80,Fédération Française des Sports de Glace
+97524,Poland,76,Fédération française d'Equitation
+97533,Romania,79,Fédération Française d'Aviron
+97539,Nigeria,9,Fédération Française d'Athlétisme
+97541,Spain,68,Fédération Française de Tir à l'Arc
+97542,St. Kitts & Nevis,9,Fédération Française d'Athlétisme
+97543,Türkiye,9,Fédération Française d'Athlétisme
+97544,Egypt,44,Fédération Française de Natation
+97547,Argentina,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+97560,Switzerland,76,Fédération française d'Equitation
+97563,CAN,68,Fédération Française de Tir à l'Arc
+97564,Japan,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+97567,Russia,44,Fédération Française de Natation
+97575,Sweden,76,Fédération française d'Equitation
+97587,Antigua and Barbuda,9,Fédération Française d'Athlétisme
+97639,Duhamel/Radford,80,Fédération Française des Sports de Glace
+97738,Moir/Virtue,80,Fédération Française des Sports de Glace
+97740,Soloviev/Bobrova,80,Fédération Française des Sports de Glace
+97780,Germany,54,Fédération française de roller et skateboard
+97784,Canada,54,Fédération française de roller et skateboard
+97929,Walker/Snith,80,Fédération Française des Sports de Glace
+97997,Republic of Korea,54,Fédération française de roller et skateboard
+98000,Belarus,54,Fédération française de roller et skateboard
+98001,China,54,Fédération française de roller et skateboard
+98002,Italy,54,Fédération française de roller et skateboard
+98064,Serbia,79,Fédération Française d'Aviron
+98148,E. Sánchez/S. Sánchez,44,Fédération Française de Natation
+98196,Uzbekistan,79,Fédération Française d'Aviron
+98198,Benin,79,Fédération Française d'Aviron
+98200,Togo,79,Fédération Française d'Aviron
+98201,Morocco,79,Fédération Française d'Aviron
+98202,Kuwait,79,Fédération Française d'Aviron
+98203,Namibia,79,Fédération Française d'Aviron
+98214,Tunisia,68,Fédération Française de Tir à l'Arc
+98339,Serbia,67,Fédération Française de Tir
+98425,Kvicala/Kudera,80,Fédération Française des Sports de Glace
+98426,Eggert/Benecken,80,Fédération Française des Sports de Glace
+98471,Guignard/Fabbri,80,Fédération Française des Sports de Glace
+98557,China,80,Fédération Française des Sports de Glace
+98892,Chock/Bates,80,Fédération Française des Sports de Glace
+98946,Gallantree/Blagg,44,Fédération Française de Natation
+98949,García/G. Sánchez,44,Fédération Française de Natation
+99139,Obolonchyk/Zakharkiv,80,Fédération Française des Sports de Glace
+99457,Poirier/Gilles,80,Fédération Française des Sports de Glace
+99534,Hausding/Klein,44,Fédération Française de Natation
+99599,M. Mortensen/Terdiman,80,Fédération Française des Sports de Glace
+99700,Papadakis/Cizeron,80,Fédération Française des Sports de Glace
+100021,Ukraine,76,Fédération française d'Equitation
+100022,China,76,Fédération française d'Equitation
+100217,Astakhova/Rogonov,80,Fédération Française des Sports de Glace
+100232,Kaliszek/Spodyriev,80,Fédération Française des Sports de Glace
+100311,Romashina/Kolesnichenko,44,Fédération Française de Natation
+100329,Augé/Chretien,44,Fédération Française de Natation
+100333,Alvarez Piedrahita/Arango Estrada,44,Fédération Française de Natation
+100350,de Brouwer/de Brouwer,44,Fédération Française de Natation
+100584,Stepanova/Bukin,80,Fédération Française des Sports de Glace
+100712,Diosdado/Achach,44,Fédération Française de Natation
+100722,Papazoglou/Platanioti,44,Fédération Française de Natation
+100726,Limanouskaya/Yesipovich,44,Fédération Française de Natation
+101293,Norway,54,Fédération française de roller et skateboard
+101302,Egypt,68,Fédération Française de Tir à l'Arc
+101385,Reichstädter/Schmid,71,Fédération Française de Voile
+101414,Cupac/Kostov,71,Fédération Française de Voile
+101537,A. Sics/J. Sics,80,Fédération Française des Sports de Glace
+101540,Cappellini/Lanotte,80,Fédération Française des Sports de Glace
+101634,Penz/Fischler,80,Fédération Française des Sports de Glace
+101635,Solcansky/Stuchlak,80,Fédération Française des Sports de Glace
+101779,Mantis/Kagialis,71,Fédération Française de Voile
+101804,De La Fuente/Calabrese,71,Fédération Française de Voile
+101819,Fletcher/Sign,71,Fédération Française de Voile
+101822,W. Phillips/S. Phillips,71,Fédération Française de Voile
+101830,M. McGovern/Seaton,71,Fédération Française de Voile
+101930,Séguin/Bilodeau,80,Fédération Française des Sports de Glace
+101972,Labathova/Daabousova,44,Fédération Française de Natation
+102097,Wang S Y/Liu X Y,80,Fédération Française des Sports de Glace
+102290,Berkhout/Zegers,71,Fédération Française de Voile
+102380,Cerruti/Ferro,44,Fédération Française de Natation
+102392,A. Alexandri/E. Alexandri,44,Fédération Française de Natation
+102394,Hassanien/Ahmed,44,Fédération Française de Natation
+102458,Sui W J/Han C,80,Fédération Française des Sports de Glace
+102596,Inui/Mitsui,44,Fédération Française de Natation
+102604,Miccuci/Borges,44,Fédération Française de Natation
+102612,Hubbell/Donohue,80,Fédération Française des Sports de Glace
+102623,Leong M Y/Rinong,44,Fédération Française de Natation
+102641,Zakharov/Kuznetsov,44,Fédération Française de Natation
+102665,Steu/Koller,80,Fédération Française des Sports de Glace
+102695,Lutz/Beucke,71,Fédération Française de Voile
+102720,Dahlberg/Bergström,71,Fédération Française de Voile
+102733,Wang X L/Huang L,71,Fédération Française de Voile
+102737,van Veen/Zegers,71,Fédération Française de Voile
+102740,Ogar/Vadlau,71,Fédération Française de Voile
+102847,Mechnig/Schierscher,44,Fédération Française de Natation
+102926,Denisev/Antonov,80,Fédération Française des Sports de Glace
+102955,Feck/Hausding,44,Fédération Française de Natation
+102971,Cagnotto/Dallapè,44,Fédération Française de Natation
+102972,Cheong J H/Rinong,44,Fédération Française de Natation
+103172,S. Clark/Mills,71,Fédération Française de Voile
+103173,Willcox/Snow-Hansen,71,Fédération Française de Voile
+103211,Makino/Takahashi,71,Fédération Française de Voile
+103278,Resch/Delle-Karth,71,Fédération Française de Voile
+103374,Atodiresei/Musei,80,Fédération Française des Sports de Glace
+103380,Ziegler/Kiefer,80,Fédération Française des Sports de Glace
+103393,Knierim/Scimeca Knierim,80,Fédération Française des Sports de Glace
+103514,Aleh/Powrie,71,Fédération Française de Voile
+103702,Saunders/Saunders,71,Fédération Française de Voile
+103720,Botín/López,71,Fédération Française de Voile
+103765,Xammar/Herp,71,Fédération Française de Voile
+103766,Schneiter/Cujean,71,Fédération Française de Voile
+103774,Lefebvre/Pelsmaekers,71,Fédération Française de Voile
+104006,Moore-Towers/Marinaro,80,Fédération Française des Sports de Glace
+104044,Steinherr/Bochmann,71,Fédération Française de Voile
+104045,Bouvet/Mion,71,Fédération Française de Voile
+104288,Sun W Y/Huang X C,44,Fédération Française de Natation
+104318,Hawayek/Baker,80,Fédération Française des Sports de Glace
+104338,Nazarova/Nikitin,80,Fédération Française des Sports de Glace
+104340,Hase/Seegert,80,Fédération Française des Sports de Glace
+104471,Montinho/Afonso,71,Fédération Française de Voile
+104495,Betanzos/Echegoyen,71,Fédération Française de Voile
+104511,Wei M X/Gao H Y,71,Fédération Française de Voile
+104521,Grael/Kunze,71,Fédération Française de Voile
+104523,Bekkering/Duetz,71,Fédération Française de Voile
+104559,L. Tremble/C. Tremble,44,Fédération Française de Natation
+104648,Thomas/Simoneau,44,Fédération Française de Natation
+104661,Koroleva/Alvarez,44,Fédération Française de Natation
+104788,Olsen/Baad Nielsen,71,Fédération Française de Voile
+104810,Rafuse/Boyd,71,Fédération Française de Voile
+104839,Nørregaard/Viborg,71,Fédération Française de Voile
+104860,Grael/Borges,71,Fédération Française de Voile
+104919,Ferrari/Calabro,71,Fédération Française de Voile
+104921,Horwitz/Middleton,71,Fédération Française de Voile
+104930,Kelapanda/Thakkar,71,Fédération Française de Voile
+105119,Colley/Connor,71,Fédération Française de Voile
+105347,Heil/Plößel,71,Fédération Française de Voile
+105420,Sinno/Berta,71,Fédération Française de Voile
+105658,D. Cinar/A. Cinar,71,Fédération Française de Voile
+105725,Lim/Low,71,Fédération Française de Voile
+105912,Hudson/Jim,71,Fédération Française de Voile
+106029,Saunders/Jones,71,Fédération Française de Voile
+106083,Kim C J/Kim J H,71,Fédération Française de Voile
+106104,J. Lindgren/N. Lindgren,71,Fédération Française de Voile
+106274,Gribanov/Sozykin,71,Fédération Française de Voile
+106327,Saxton/Groves,71,Fédération Française de Voile
+106345,Defazio/Foglia,71,Fédération Française de Voile
+106373,James/Ciprès,80,Fédération Française des Sports de Glace
+106388,Della Monica/Guarise,80,Fédération Française des Sports de Glace
+106406,Bernardová/Dufková,44,Fédération Française de Natation
+106479,Gudramovics/Kalnins,80,Fédération Française des Sports de Glace
+106592,Sepp/Tammiste,71,Fédération Française de Voile
+106719,Wang W/Xu Z J,71,Fédération Française de Voile
+106738,Przybytek/Kolodzinski,71,Fédération Française de Voile
+106841,Girke/Ramsay,71,Fédération Française de Voile
+106874,Zajac/Frank,71,Fédération Française de Voile
+106898,Waterhouse/Darmanin,71,Fédération Française de Voile
+107008,Gumucio/Gumucio,71,Fédération Française de Voile
+107093,A. Broz/L. Broz,80,Fédération Française des Sports de Glace
+107094,Wendl/Arlt,80,Fédération Française des Sports de Glace
+107095,Rieder/Rastner,80,Fédération Française des Sports de Glace
+107097,Weaver/Poje,80,Fédération Française des Sports de Glace
+107179,Lange/Lange,71,Fédération Française de Voile
+107187,Fahrni/Siegenthaler,71,Fédération Française de Voile
+107201,Yoshida/Yoshioka,71,Fédération Française de Voile
+107328,M. Shibutani/A. Shibutani,80,Fédération Française des Sports de Glace
+107367,Benfeito/Filion,44,Fédération Française de Natation
+107385,Spranger/Meggendorfer,71,Fédération Française de Voile
+107387,Matsuyev/Shvets,71,Fédération Française de Voile
+107450,Ishchenko/Romashina,44,Fédération Française de Natation
+107456,Espinosa/Orozco,44,Fédération Française de Natation
+107527,Liu/Lim,71,Fédération Française de Voile
+107541,Echávarri/Pacheco,71,Fédération Française de Voile
+107543,Dobson/Ainsworth,71,Fédération Française de Voile
+107544,Ericson/Klinga,71,Fédération Française de Voile
+107649,Park J Y/Cho J M,80,Fédération Française des Sports de Glace
+107656,Fournier Beaudry/Sørensen,80,Fédération Française des Sports de Glace
+107709,Scutt/Henken,71,Fédération Française de Voile
+107716,Dickson/Waddilove,71,Fédération Française de Voile
+107754,Costa/Costa,71,Fédération Française de Voile
+107777,Bogdanov/Medvedev,80,Fédération Française des Sports de Glace
+107820,Agafonova/Uçar,80,Fédération Française des Sports de Glace
+107877,Mansourová/Ceška,80,Fédération Française des Sports de Glace
+108119,Voloshyna/Ananasova,44,Fédération Française de Natation
+108128,Nemich/Nemich,44,Fédération Française de Natation
+108138,Kraus/Giger,44,Fédération Française de Natation
+108148,Wang L Y/Wang Q Y,44,Fédération Française de Natation
+108234,Tarasova/Morozov,80,Fédération Française des Sports de Glace
+108235,Sinitsina/Katsalapov,80,Fédération Française des Sports de Glace
+108261,Marchei/Hotárek,80,Fédération Française des Sports de Glace
+108320,Brauchli/Hausser,71,Fédération Française de Voile
+108455,Gerz/Szymanski,71,Fédération Française de Voile
+108875,Patience/Grube,71,Fédération Française de Voile
+108893,Provancha/Haeger,71,Fédération Française de Voile
+108910,Outteridge/Jensen,71,Fédération Française de Voile
+108911,Delpech/D'Ortoli,71,Fédération Française de Voile
+108945,Gloushkov Leventhal/Tetelbaum,44,Fédération Française de Natation
+109052,Kirilyuk/Dmitrieva,71,Fédération Française de Voile
+109065,Bethlem/Haddad,71,Fédération Française de Voile
+109231,Hughes/McNay,71,Fédération Française de Voile
+109239,Fantela/Marenic,71,Fédération Française de Voile
+109357,Peters/Sterritt,71,Fédération Française de Voile
+109366,M. Belcher/Ryan,71,Fédération Française de Voile
+109391,Mrak/Macarol,71,Fédération Française de Voile
+109417,De Koning/Mulder,71,Fédération Française de Voile
+109445,Khng/Tan,71,Fédération Française de Voile
+109462,Lorenz/Jurczok,71,Fédération Française de Voile
+109472,Brewster/Tidey,71,Fédération Française de Voile
+109620,Hansen/Salskov-Iversen,71,Fédération Française de Voile
+109766,Skrzypulec/Ogar,71,Fédération Française de Voile
+109767,J. Lima/Costa,71,Fédération Française de Voile
+109768,Burling/Tuke,71,Fédération Française de Voile
+109878,C. Grez/B. Grez,71,Fédération Française de Voile
+109886,Bildstein/Hussl,71,Fédération Française de Voile
+109924,Smith/Ryan,71,Fédération Française de Voile
+110024,Lecointre/Defrance,71,Fédération Française de Voile
+110054,Oliveira Horn/Barbachan,71,Fédération Française de Voile
+110088,Cho S M/Park G W,71,Fédération Française de Voile
+110103,Barrows/Morris,71,Fédération Française de Voile
+110169,Albrecht/Swan,71,Fédération Française de Voile
+110231,Riou/Besson,71,Fédération Française de Voile
+110233,Lange/Carranza,71,Fédération Française de Voile
+110393,Werner/Kohlhoff,71,Fédération Française de Voile
+110700,Cedercreutz/Ruskola,71,Fédération Française de Voile
+110704,Meech/Maloney,71,Fédération Française de Voile
+110893,Skrzypulec/Mrózek Gliszczynska,71,Fédération Française de Voile
+110909,Cornudella/López,71,Fédération Française de Voile
+110935,Imamura/Doi,71,Fédération Française de Voile
+110943,Levin/Froyliche,71,Fédération Française de Voile
+110977,Agerup/Agerup,71,Fédération Française de Voile
+111010,Steyaert/Compan,71,Fédération Française de Voile
+111012,Travascio/Sol Branz,71,Fédération Française de Voile
+111037,Steller Mortensen/Martinsen,71,Fédération Française de Voile
+111248,Bühler/N. Brugger,71,Fédération Française de Voile
+111549,Dieck/Müller,80,Fédération Française des Sports de Glace
+111833,Conti/Clapcich,71,Fédération Française de Voile
+112011,Lübeck/Cenholt,71,Fédération Française de Voile
+112012,van der Velden/Visser,71,Fédération Française de Voile
+112015,Næss/Rønningen,71,Fédération Française de Voile
+112153,Mora/Torres,21,Fédération Française de Cyclisme
+112166,A. Meares/Morton,21,Fédération Française de Cyclisme
+112212,Gong J J/Zhong T S,21,Fédération Française de Cyclisme
+112254,M. Mørkøv/Leth,21,Fédération Française de Cyclisme
+112404,Bidar/Dušková,80,Fédération Française des Sports de Glace
+112554,Müller/Graf,21,Fédération Française de Cyclisme
+112586,Clair/Cueff,21,Fédération Française de Cyclisme
+112607,van Riessen/Ligtlee,21,Fédération Française de Cyclisme
+112762,Welte/Vogel,21,Fédération Française de Cyclisme
+112792,Sullivan/O'Brien,21,Fédération Française de Cyclisme
+112920,Boudat/Thomas,21,Fédération Française de Cyclisme
+113032,Sicouri/Bissaro,71,Fédération Française de Voile
+113035,Rual/Amoros,71,Fédération Française de Voile
+113674,Cornelissen/Jerich Parzival,76,Fédération française d'Equitation
+114766,Trussell/Anton,76,Fédération française d'Equitation
+115110,Kim D S/Bukowski,76,Fédération française d'Equitation
+115112,Merkulova/Mister X,76,Fédération française d'Equitation
+115113,Aframeeva/Vosk,76,Fédération française d'Equitation
+115140,Hearn/Remmington,76,Fédération française d'Equitation
+115160,Hester/Nip Tuck,76,Fédération française d'Equitation
+115161,Graves/Verdades,76,Fédération française d'Equitation
+115224,Kasprzak/Donnperignon,76,Fédération française d'Equitation
+115248,Dujardin/Valegro,76,Fédération française d'Equitation
+115258,Peters/Legolas 92,76,Fédération française d'Equitation
+115437,Brougham/Vom Feinsten,76,Fédération française d'Equitation
+115450,Pujals/Heslegaards Rolex,76,Fédération française d'Equitation
+115454,Chew/Tribiani,76,Fédération française d'Equitation
+115462,Schut-Kery/Sanceo,76,Fédération française d'Equitation
+115463,Marcari Oliva/Xama Dos Pinhais,76,Fédération française d'Equitation
+115523,Lane/Caravella,76,Fédération française d'Equitation
+115527,Vilhelmson Silfvén/Don Auriello,76,Fédération française d'Equitation
+115530,Minderhoud/Glock's Johnson TN N.O.P.,76,Fédération française d'Equitation
+115579,Logutenkova/Don Gregorius,76,Fédération française d'Equitation
+115612,Werth/Bella Rose,76,Fédération française d'Equitation
+115622,Hendeliowitz/Jimmie Choo Seq,76,Fédération française d'Equitation
+115625,Seymour/Ramoneur 6,76,Fédération française d'Equitation
+115627,Reynolds/Vancouver K,76,Fédération française d'Equitation
+115646,Le Gac/Lauriault,80,Fédération Française des Sports de Glace
+115882,Losos de Muñiz/Foco Loco W,76,Fédération française d'Equitation
+115954,Tebar/Don Luis,76,Fédération française d'Equitation
+115956,Castilla/Alcaide,76,Fédération française d'Equitation
+116349,Basova/Starikova,21,Fédération Française de Cyclisme
+116414,Bigwood/Atterupgaards Orthilia,76,Fédération française d'Equitation
+116983,Davis/Barron,76,Fédération française d'Equitation
+117039,Vrieling/VDL Zirocco Blue,76,Fédération française d'Equitation
+117077,Szentirmai/Chadino,76,Fédération française d'Equitation
+117084,Barrios/Antares,76,Fédération française d'Equitation
+117094,Mart. Fuchs/Clooney 51,76,Fédération française d'Equitation
+117144,Krinke Susmelj/Smeyers Molberg,76,Fédération française d'Equitation
+117333,Smolders/Emerald,76,Fédération française d'Equitation
+117427,Karaevli/Roso Au Crosnier,76,Fédération française d'Equitation
+117433,Menezes/H5 Quintol,76,Fédération française d'Equitation
+117435,Al Rumaihi/Gunder,76,Fédération française d'Equitation
+117447,Deusser/First Class Van Eeckelghem,76,Fédération française d'Equitation
+117674,Henry/After You,76,Fédération française d'Equitation
+117691,Rothenberger/Cosmo 59,76,Fédération française d'Equitation
+117693,Laudrup-Dufour/Atterupgaards Cassidy,76,Fédération française d'Equitation
+117814,Al Thani/First Devision,76,Fédération française d'Equitation
+117837,Veniss/Quabri De L’Isle,76,Fédération française d'Equitation
+118815,Casas/Calvo,21,Fédération Française de Cyclisme
+118942,Martin Dockx/Grandioso,76,Fédération française d'Equitation
+118948,Ferrer-Salat/Delgado,76,Fédération française d'Equitation
+118952,Gal/Glock's Voice,76,Fédération française d'Equitation
+119066,Wong I S/Zadarijke V,76,Fédération française d'Equitation
+119095,Keach/Fedor,76,Fédération française d'Equitation
+119424,Verwimp/Tiamo,76,Fédération française d'Equitation
+119426,Brieussel/Amorak,76,Fédération française d'Equitation
+119450,Wilton/Super Nova II,76,Fédération française d'Equitation
+119520,Alvarez Moya/Carlo 273,76,Fédération française d'Equitation
+120004,Voinova/Shmeleva,21,Fédération Française de Cyclisme
+121633,Masui/Taloubetdarco K Z,76,Fédération française d'Equitation
+121634,Broderick/MHS Going Global,76,Fédération française d'Equitation
+121867,Tops-Alexander/Lintea Tequila,76,Fédération française d'Equitation
+122192,Cordon/Gribouille du Lys,76,Fédération française d'Equitation
+122195,P. Fredricson/H&M All-In,76,Fédération française d'Equitation
+122376,Leung B Y/Pang Y,21,Fédération Française de Cyclisme
+122399,Krupeckaite/Lendel,21,Fédération Française de Cyclisme
+122596,Candele/First Choice 15,76,Fédération française d'Equitation
+122609,Larocca/Cornet du Lys,76,Fédération française d'Equitation
+122617,Fukushima/Cornet 36,76,Fédération française d'Equitation
+122775,Farrington/Gazelle,76,Fédération française d'Equitation
+122974,Passaro/Chicago Z,76,Fédération française d'Equitation
+123100,Staut/Reveur de Hurtebise H D C,76,Fédération française d'Equitation
+123205,Truppa/Fixdesign Chablis,76,Fédération française d'Equitation
+123217,van Silfhout/Arlando,76,Fédération française d'Equitation
+123878,Michaels-Beerbaum/Fibonacci,76,Fédération française d'Equitation
+123884,Lamaze/Fine Lady 5,76,Fédération française d'Equitation
+124149,Kirk Thinggaard/Jojo AZ,76,Fédération française d'Equitation
+124161,Kittel/Deja,76,Fédération française d'Equitation
+124207,Bost/Sydney Une Prince,76,Fédération française d'Equitation
+125027,Sprunger/Bonne Chance Cw,76,Fédération française d'Equitation
+125203,Gaudiano/Caspar,76,Fédération française d'Equitation
+125506,Oatley/Sandro Boy 9,76,Fédération française d'Equitation
+125651,Bröring-Sprehe/Desperados FRH,76,Fédération française d'Equitation
+125703,Brock/Rosevelt,76,Fédération française d'Equitation
+125714,Volla/Badinda Altena,76,Fédération française d'Equitation
+125715,Fraser-Beaulieu/All In,76,Fédération française d'Equitation
+125770,Foster/Tripple X III,76,Fédération française d'Equitation
+126033,Lopez/Con Dios III,76,Fédération française d'Equitation
+126230,Dubbeldam/SFN Zenith N.O.P.,76,Fédération française d'Equitation
+127025,Mohammed/Primeval Dejavu,76,Fédération française d'Equitation
+127356,Auffarth/Opgun Louvo,76,Fédération française d'Equitation
+127368,McCarthy/Simon Porloe,76,Fédération française d'Equitation
+127377,Hermoso Farras/Hito CP,76,Fédération française d'Equitation
+127431,Alvarez Aznar/Rokfeller de Pleville Bois Margot,76,Fédération française d'Equitation
+127438,El Zoghby/Amelia,76,Fédération française d'Equitation
+127522,Bluman/Conconcreto Apardi,76,Fédération française d'Equitation
+127886,Algotsson Ostholt/Reality 39,76,Fédération française d'Equitation
+127891,Todd/Leonidas II,76,Fédération française d'Equitation
+127915,Schivo/Quefira De L' Ormeau,76,Fédération française d'Equitation
+127935,Vallette/Qing Du Briot Ene Hn,76,Fédération française d'Equitation
+127940,van de Vendel/Zindane,76,Fédération française d'Equitation
+128003,Andrade/Hardrock Z,76,Fédération française d'Equitation
+128032,Al Attiyah/Appagino 2,76,Fédération française d'Equitation
+128230,Nielsen van Hoff/Prince Royal Z De La Luz,76,Fédération française d'Equitation
+128231,Albarracin/Cannavaro 9,76,Fédération française d'Equitation
+128290,Tinney/Pluto Mio,76,Fédération française d'Equitation
+128307,Griffiths/Paulank Brockagh,76,Fédération française d'Equitation
+129442,Jankari/Duchess Desiree,76,Fédération française d'Equitation
+129476,Billys/Castle Larchfield Purdy,76,Fédération française d'Equitation
+129499,Ahlmann/Taloubet,76,Fédération française d'Equitation
+129682,Abel/P. Ware,44,Fédération Française de Natation
+130261,Farrington/Voyeur,76,Fédération française d'Equitation
+130344,Chen R L/Liu H X,44,Fédération Française de Natation
+130371,Matos/Outerelo,44,Fédération Française de Natation
+130454,Brecciaroli/Apollo van de Wendi Kurt Hoeve,76,Fédération française d'Equitation
+130632,Lobos Muñoz/Ranco,76,Fédération française d'Equitation
+130813,Vanspringel/Lully des Aulnes,76,Fédération française d'Equitation
+131147,Vlcek/Tarr,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+131225,Andersén/Herta,76,Fédération française d'Equitation
+131597,Naber Lozeman/Peter Parker,76,Fédération française d'Equitation
+131600,Dutton/Mighty Nice,76,Fédération française d'Equitation
+131613,Nicolas/Piaf de B'Neville,76,Fédération française d'Equitation
+131624,Price/Ringwood Sky Boy,76,Fédération française d'Equitation
+131712,Belcher/Hannah,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+131791,Kochnev/Mirbekov,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+131921,Appel/Iberon Jmen,76,Fédération française d'Equitation
+131937,Roman/Castlewoods Jake,76,Fédération française d'Equitation
+131958,Ouaddar/Quickly De Kreisker,76,Fédération française d'Equitation
+131991,Rozier/Rahotep de Toscane,76,Fédération française d'Equitation
+132166,Souza/Queiroz Dos Santos,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+132278,Szabo/Kozák,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+132359,Carvalho Jorge/Lissy Mac Wayer,76,Fédération française d'Equitation
+132360,Loach/Qorry Blue D'Argouges,76,Fédération française d'Equitation
+132705,Qin K/Cao Y,44,Fédération Française de Natation
+132864,Hufnágel/Ceiner,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+133024,Pacheco/Ocampo,44,Fédération Française de Natation
+133035,Mears/Laugher,44,Fédération Française de Natation
+133043,Boudia/Johnson,44,Fédération Française de Natation
+133048,Chiarabini/Tocci,44,Fédération Française de Natation
+133078,Gorshkovozov/Dolgov,44,Fédération Française de Natation
+133100,Parratto/Magaña,44,Fédération Française de Natation
+133104,Smith/Keeney,44,Fédération Française de Natation
+133207,Lobo/Chamaune,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+133218,Rakhmatova/Zokirova,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+133907,Madden/Cortes'C',76,Fédération française d'Equitation
+133918,Skelton/Big Star,76,Fédération française d'Equitation
+134015,Punzel/Wassen,44,Fédération Française de Natation
+134017,Reid/Torrance,44,Fédération Française de Natation
+134438,Marinov/Szekszardi,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+134473,Robinson/Let It Bee,76,Fédération française d'Equitation
+134480,Wettstein/Nadeville Merze,76,Fédération française d'Equitation
+134603,Leprevost/Flora de Mariposa,76,Fédération française d'Equitation
+134754,Hybois/Hubert,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+134787,Ramanauskas/Lankas,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+134849,Stensils/Wikberg,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+134958,Silva/Ribeiro,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+134962,Mikolajczyk/Naja,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+135547,Roman/Barraduff,76,Fédération française d'Equitation
+135875,Wu M X/Shi T M,44,Fédération Française de Natation
+135928,Litvinchuk/Khudzenka,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+135966,Wallace/Tame,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+136051,,79,Fédération Française d'Aviron
+136208,John/Dietze,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+136222,Nekrosius/Olijnik,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+136290,Gross/Rendschmidt,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+136508,Palamariu/Pirghie,79,Fédération Française d'Aviron
+136524,Orton/Fraser,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+136580,Molnar/Totka,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+136729,Guerdat/Nino des Buissonnets,76,Fédération française d'Equitation
+137017,Schmid/Wiederkehr,79,Fédération Française d'Aviron
+137204,Boada/Cid,79,Fédération Française d'Aviron
+137206,Androdias/Boucheron,79,Fédération Française d'Aviron
+137255,Edward/Mackenzie,79,Fédération Française d'Aviron
+137388,Villumsen/Thomsen,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+137398,Novakovic/Grujic,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+137423,Ianchuk/Mishchuk,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+137522,Ren W J/Ma Q,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+137778,Quist/Rasmussen,79,Fédération Française d'Aviron
+138069,Pedroso/Oliveira,44,Fédération Française de Natation
+138355,Fox-Pitt/Chilli Morning,76,Fédération française d'Equitation
+138952,Murray/Bond,79,Fédération Française d'Aviron
+138954,Chardin/Mortelette,79,Fédération Française d'Aviron
+138990,Fossi/Battisti,79,Fédération Française d'Aviron
+139021,Blom-Hulsman/Rumor Has It N.O.P.,76,Fédération française d'Equitation
+139122,Montgomery/Loughan Glen,76,Fédération française d'Equitation
+139131,Nicholson/Veronica,76,Fédération française d'Equitation
+139369,Luczak/Müller,79,Fédération Française d'Aviron
+139446,Dvorak/Radon,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+139478,Sinkovic/Sinkovic,79,Fédération Française d'Aviron
+139492,Griskonis/Ritter,79,Fédération Française d'Aviron
+139623,Price/Faerie Dianimo,76,Fédération française d'Equitation
+139635,Vogg/Noe Des Vatys,76,Fédération française d'Equitation
+139657,Laghouag/Entebbe De Hus,76,Fédération française d'Equitation
+139743,Stevenson/MacFarlane,79,Fédération Française d'Aviron
+139863,Thompson/Smith,79,Fédération Française d'Aviron
+139883,Vasic/Bedik,79,Fédération Française d'Aviron
+139897,Stanning/Glover,79,Fédération Française d'Aviron
+139930,Whitaker/Ornellaia,76,Fédération française d'Equitation
+140069,Lee K M/Lee Y Y,79,Fédération Française d'Aviron
+140072,Kowalski/Mikolajczewski,79,Fédération Française d'Aviron
+140081,Omoto/Nakano,79,Fédération Française d'Aviron
+140082,Grainger/Thornley,79,Fédération Française d'Aviron
+140140,Jennerich/Obee,79,Fédération Française d'Aviron
+140141,Glover/Swann,79,Fédération Française d'Aviron
+140204,Diaz Rivas/Cid,79,Fédération Française d'Aviron
+140214,Hering-Pradler/Dietze,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+140313,Rasmussen/Thomsen,79,Fédération Française d'Aviron
+140315,Keeling/Brittain,79,Fédération Française d'Aviron
+140464,Delarze/Röösli,79,Fédération Française d'Aviron
+140559,Lin Y/Chen A,44,Fédération Française de Natation
+140562,Wang H/Shi T M,44,Fédération Française de Natation
+140631,Jung/La Biosthetique - Sam FRW,76,Fédération française d'Equitation
+140656,Howard/Riddle Master,76,Fédération française d'Equitation
+140752,Sieber/Sieber,79,Fédération Française d'Aviron
+141037,Liebscher/Rendschmidt,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+141102,Abbott/Euro Prince,76,Fédération française d'Equitation
+141141,Alexeyev/Dergunov,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+141209,Garcia/Torres,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+141217,Gavino/Source de la Faye,76,Fédération française d'Equitation
+141227,Lips/Bayro,76,Fédération française d'Equitation
+141349,Tomicevic/Zoric,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+141482,Veloso/Takagi,44,Fédération Française de Natation
+141514,Pysmenska/Kesar,44,Fédération Française de Natation
+141627,Wood/Fitzsimmons,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+141722,Sterba/Havel,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+141739,Kudla/Kaminski,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+141740,Rauhe/Liebscher,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+141981,Todorova/Hryshchun,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+142130,Vincent-Lapointe/Vincent,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+142150,Jouve/Beaumont,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+142524,Schwarz/Lehaci,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+142565,Diniz/Fit for Fun,76,Fédération française d'Equitation
+142586,Duguet/Quorida De Treho,76,Fédération française d'Equitation
+142748,Mike/Vasbányai,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+142787,Bengtsson/Unita Ask,76,Fédération française d'Equitation
+142792,M. Whitaker/Cassionato,76,Fédération française d'Equitation
+143158,Sergeyeva/Podoynikova,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+143171,Schofield/Heath,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+143202,Yemelyanov/Yemelyanov,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+143219,Broekx/Peters,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+143386,Stepanova/Anyushina,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+143732,Fularczyk-Kozlowska/Madaj,79,Fédération Française d'Aviron
+143910,Bichik/Kukhta,79,Fédération Française d'Aviron
+143923,Marjanovic/Sljukic,79,Fédération Française d'Aviron
+144081,Hartmann/Marchand,79,Fédération Française d'Aviron
+144103,Vela/Sigurbjonsson,79,Fédération Française d'Aviron
+144122,Chambers/Fletcher,79,Fédération Française d'Aviron
+144188,Harris/Manson,79,Fédération Française d'Aviron
+144300,Bozhilov/Vasilev,79,Fédération Française d'Aviron
+144319,Guipe/Amaris,79,Fédération Française d'Aviron
+145405,Walton/Collins,79,Fédération Française d'Aviron
+145478,Aleksandrov/Yotov,79,Fédération Française d'Aviron
+145662,Fonseca/Tom Bombadill Too,76,Fédération française d'Equitation
+145699,Vogg/Onfire,76,Fédération française d'Equitation
+145874,Khmara/Kovalov,79,Fédération Française d'Aviron
+146068,Campbell Jr./Konieczny,79,Fédération Française d'Aviron
+146187,Moos/Osborne,79,Fédération Française d'Aviron
+146277,Copeland/Taylor,79,Fédération Française d'Aviron
+146295,Deresz/Mikolajczak,79,Fédération Française d'Aviron
+146417,Prendergast/Gowler,79,Fédération Française d'Aviron
+146419,Furman/Nikulina,79,Fédération Française d'Aviron
+146502,Rose/CP Qualified,76,Fédération française d'Equitation
+146540,Kitajima/Just Chocolate,76,Fédération française d'Equitation
+146543,Nikolaidou/Asoumanaki,79,Fédération Française d'Aviron
+146691,Podrazil/Helesic,79,Fédération Française d'Aviron
+146704,Krewson/Sherk,80,Fédération Française des Sports de Glace
+147034,Matias/Rasamoelina,79,Fédération Française d'Aviron
+147248,O'Donovan/O'Donovan,79,Fédération Française d'Aviron
+147255,Ettaeib/Krimi,79,Fédération Française d'Aviron
+147260,Oishi/Tomita,79,Fédération Française d'Aviron
+147406,Abraham/Abraham,79,Fédération Française d'Aviron
+147451,Muramoto/Ch. Reed,80,Fédération Française des Sports de Glace
+147562,Pan F H/Huang W Y,79,Fédération Française d'Aviron
+147597,Lloyd/Turrin,79,Fédération Française d'Aviron
+147629,Lefebvre/Ravera-Scaramozzino,79,Fédération Française d'Aviron
+147741,Filmer/Janssens,79,Fédération Française d'Aviron
+147825,Pochwala/Szczepanski,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+148039,Antosova/Fleissnerova,79,Fédération Française d'Aviron
+148050,Andersen/Rasmussen,79,Fédération Française d'Aviron
+148062,Cozmiuc/van Groningen,79,Fédération Française d'Aviron
+148405,Choo/Ng,71,Fédération Française de Voile
+148435,Phoenix/A Little Romance,76,Fédération française d'Equitation
+148447,Lemoine/Bart L JRA,76,Fédération française d'Equitation
+148775,Terauchi/Sakai,44,Fédération Française de Natation
+148896,Benzien/Anton,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+149008,Sasaki/Sasaki,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+149133,Taljat/Bozic,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+149224,Chmielewski/Kowalewski,80,Fédération Française des Sports de Glace
+149304,Florence/Hounslow,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+149415,Klauss/Peche,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+149609,Gamelin/Min,80,Fédération Française des Sports de Glace
+149765,Oliveira/Correa,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+149852,Wierzbowska/Wierzbowska,79,Fédération Française d'Aviron
+150229,Dräger/Sturm,79,Fédération Française d'Aviron
+150546,P. Škantar/L. Škantar,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+150808,Larionov/Kuznetsov,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+150959,Subschinski/Punzel,44,Fédération Française de Natation
+151000,Kim Y N/Woo H R,44,Fédération Française de Natation
+151074,Zabiyako/Enbert,80,Fédération Française des Sports de Glace
+151101,Viviani/Consonni,21,Fédération Française de Cyclisme
+151523,Zucchetti/Tita,71,Fédération Française de Voile
+151627,Takano/Miyagawa,71,Fédération Française de Voile
+152013,Choi M K/Cho G H,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+152207,Guerreiro/Zahorski,80,Fédération Française des Sports de Glace
+152289,Polizoakis/Lorenz,80,Fédération Française des Sports de Glace
+152839,Cochrane/Fournel,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+153121,Buksak/Wierzbicki,71,Fédération Française de Voile
+153141,Vejdelek/Pekny,80,Fédération Française des Sports de Glace
+153167,Kašpar/Sindler,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+153192,Kim J S/Ryom T O,80,Fédération Française des Sports de Glace
+153278,Savchenko/Massot,80,Fédération Française des Sports de Glace
+153361,Yang H/Lian J J,44,Fédération Française de Natation
+153365,Rose/Virgil,76,Fédération française d'Equitation
+153428,McEwan/Eichfeld,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+153520,Werro/Werro,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+153815,Johnstone/Balmoral Sensation,76,Fédération française d'Equitation
+153820,Takahashi/Fabriano 58,76,Fédération française d'Equitation
+154015,L. Beerbaum/Casello,76,Fédération française d'Equitation
+154580,Logutenkova/Fleraro,76,Fédération française d'Equitation
+154760,Zmiji/Vavercak,80,Fédération Française des Sports de Glace
+154889,DePaul/Jones,71,Fédération Française de Voile
+154942,Cárdenas Morales/Guerrero Díaz,79,Fédération Française d'Aviron
+154944,Vila Betancurt/Abraham,79,Fédération Française d'Aviron
+154947,Bekatorou/Pateniotis,71,Fédération Française de Voile
+155091,De Freitas Barcha/Landpeter Do Feroleto,76,Fédération française d'Equitation
+155098,Schneider/Showtime FRH,76,Fédération française d'Equitation
+155107,Werth/Weihegold OLD,76,Fédération française d'Equitation
+155142,Oatley/Du Soleil,76,Fédération française d'Equitation
+155153,Hansen/Podmore,21,Fédération Française de Cyclisme
+155162,Tang C M/Chiu H C,79,Fédération Française d'Aviron
+155171,Cohen/Amir,71,Fédération Française de Voile
+155198,Guery/Grand Cru Van De Rozenberg,76,Fédération française d'Equitation
+155214,Parisi/Oliveira,44,Fédération Française de Natation
+155230,Leal Ferreira/Cozzi,79,Fédération Française d'Aviron
+155281,Sun M/Wang C X,79,Fédération Française d'Aviron
+155320,N. Philippaerts/H&M Zilverstar T,76,Fédération française d'Equitation
+155323,Payne/Vandiver,76,Fédération française d'Equitation
+155334,Andreeva/Romasenko,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+155344,Ramel/Buriel K.H.,76,Fédération française d'Equitation
+155348,Bowker/Wood,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+155595,Jurado/Lorenzo,76,Fédération française d'Equitation
+155599,Martin/Blackfoot Mystery,76,Fédération française d'Equitation
+155604,Kitai/Don Lorean,76,Fédération française d'Equitation
+155614,Roco/Mailliard,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+155615,Zhu W W/Lyu Y,79,Fédération Française d'Aviron
+155616,Azou/Houin,79,Fédération Française d'Aviron
+155640,Krajewski/Samourai Du Thot,76,Fédération française d'Equitation
+155680,Brys/Van Zandweghe,79,Fédération Française d'Aviron
+155705,Tavares de Almeida/Vendaval 4,76,Fédération française d'Equitation
+155732,Torres Madrigal/Fernando Dayan,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+155826,Loncaric/Loncaric,79,Fédération Française d'Aviron
+155865,Guregian/Weiss,79,Fédération Française d'Aviron
+155866,Ho/Ta Thanh,79,Fédération Française d'Aviron
+155868,Paterson-Robinson/Amarillo,76,Fédération française d'Equitation
+155904,Brendel/Vandrey,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+155936,Litvinchuk/Papok,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+155940,Tanaka/Nagamatsu,71,Fédération Française de Voile
+155953,Max-Theurer/Della Cavalleria Old,76,Fédération française d'Equitation
+156083,Daley/Goodfellow,44,Fédération Française de Natation
+156102,Hanna/Boogie Woogie 6,76,Fédération française d'Equitation
+156285,Tebbel/Zipper,76,Fédération française d'Equitation
+156286,Kuroki/Toots,76,Fédération française d'Equitation
+156306,Ripamonti/Dressino,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+156317,Wood/Bull,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+156407,Kandemir/Yilmaz,79,Fédération Française d'Aviron
+156408,Hare/Martins,79,Fédération Française d'Aviron
+156409,Pablo/Stackpole,44,Fédération Française de Natation
+156410,Dahl/Selten HW,76,Fédération française d'Equitation
+156411,Prado Pass/Zingaro de Lyw,76,Fédération française d'Equitation
+156437,Funnell/Billy The Biz,76,Fédération française d'Equitation
+156438,Ovchinnikova/Orion,76,Fédération française d'Equitation
+156458,Wood/Stewart,21,Fédération Française de Cyclisme
+156470,Yu X Y/Zhang H,80,Fédération Française des Sports de Glace
+156479,Kam K C/Kim K E,80,Fédération Française des Sports de Glace
+156480,Ambrosini/Ghilardi,80,Fédération Française des Sports de Glace
+156510,English/Downey,21,Fédération Française de Cyclisme
+156586,Kiriake/Kubota,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+156619,Milani/Rodini,79,Fédération Française d'Aviron
+156622,Algotsson/Fairnet,76,Fédération française d'Equitation
+156623,Mitin/Gurza,76,Fédération française d'Equitation
+156630,Shtokalov/Pervukhin,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+156675,Alexandrovskaya/Windsor,80,Fédération Française des Sports de Glace
+156677,Takano/Yamazaki,71,Fédération Française de Voile
+156841,Schmidt/Bray-Lougheed,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+156925,Miani/Micheletti,79,Fédération Française d'Aviron
+156926,Adams/Arnold,79,Fédération Française d'Aviron
+157136,Díaz/Smart,80,Fédération Française des Sports de Glace
+157137,Kihara/Suzaki,80,Fédération Française des Sports de Glace
+157183,Laurie/Casebrooke Lomond,76,Fédération française d'Equitation
+157229,Zimmermann/Aramis 606,76,Fédération française d'Equitation
+157250,Hernandez/Hernandez Licea,79,Fédération Française d'Aviron
+157289,Tufte/Borch,79,Fédération Française d'Aviron
+157290,Jakobsen/Hollensen,79,Fédération Française d'Aviron
+157348,Schmidt/Schmidt,71,Fédération Française de Voile
+157371,De Ketele/Ghys,21,Fédération Française de Cyclisme
+157605,Kim K H/Kim M R,44,Fédération Française de Natation
+157608,Kirchhoff/Prince de la Mare,76,Fédération française d'Equitation
+157625,Parro/Summon Up The Blood,76,Fédération française d'Equitation
+157626,Kyle/Jemilia,76,Fédération française d'Equitation
+157627,Hua Tian/Don Geniro,76,Fédération française d'Equitation
+157628,Markov/Kurfurstin,76,Fédération française d'Equitation
+157629,Svennerstål/RLE Aspe,76,Fédération française d'Equitation
+157630,Kruger/Biarritz,76,Fédération française d'Equitation
+157636,Lehaci/Schuring,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+157745,Roble/Shea,71,Fédération Française de Voile
+157804,Zilberberg/Tankova,80,Fédération Française des Sports de Glace
+157907,Christowitz/Persse,79,Fédération Française d'Aviron
+157925,Oprea/Beres,79,Fédération Française d'Aviron
+157956,Scown/Behrent,79,Fédération Française d'Aviron
+157957,Bertko/Karz,79,Fédération Française d'Aviron
+157976,A. Ducasse/F. Ducasse,71,Fédération Française de Voile
+158061,Cybulska/Chenaro 2,76,Fédération française d'Equitation
+158269,Williams/Valinski S,76,Fédération française d'Equitation
+158332,McEwen/Toledo de Kerser,76,Fédération française d'Equitation
+158359,Takács/Balla,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+158418,Yerguchyov/Tokarnytskyi,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+158419,Moldovan/Novakovic,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+158423,Tavares De Almeida/Xaparro Do Vouga,76,Fédération française d'Equitation
+158433,McHardie/McKenzie,71,Fédération Française de Voile
+158504,Walls/Hayter,21,Fédération Française de Cyclisme
+158514,Bithell/Fletcher,71,Fédération Française de Voile
+158535,Howard/O'Brien,21,Fédération Française de Cyclisme
+158547,Abel/Citrini-Beaulieu,44,Fédération Française de Natation
+158768,Greve/Zypria S,76,Fédération française d'Equitation
+158871,Malleier/Nagler,80,Fédération Française des Sports de Glace
+158877,Gaxiola/Verdugo,21,Fédération Française de Cyclisme
+159000,Gulari/Chafee,71,Fédération Française de Voile
+159017,Gonzalez/Chacna,76,Fédération française d'Equitation
+159108,Klimke/SAP Hale Bob OLD,76,Fédération française d'Equitation
+159224,Cantero Reina/Mas,71,Fédération Française de Voile
+159277,Gonzalez Dufrane/Hortensia Van De Leeuwerk,76,Fédération française d'Equitation
+159337,Perry-Glass/Goerklintgaards Dublet,76,Fédération française d'Equitation
+159342,Couch/Toulson,44,Fédération Française de Natation
+159350,Kehoe/Horton,79,Fédération Française d'Aviron
+159425,Minibaev/Bondar,44,Fédération Française de Natation
+159465,Tita/Banti,71,Fédération Française de Voile
+159694,Fear/Gibson,80,Fédération Française des Sports de Glace
+159776,Bart/Leonard,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+159824,Paldanius/Johansson,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+159834,Fernandez Saro/U Watch,76,Fédération française d'Equitation
+159921,Hacker/Krüger,79,Fédération Française d'Aviron
+160033,Mion/Peponnet,71,Fédération Française de Voile
+160089,Bluman/Ladriano Z,76,Fédération française d'Equitation
+160150,Vrastil Jr/Simanek,79,Fédération Française d'Aviron
+160213,Ten Hove/Millen,71,Fédération Française de Voile
+160223,Prundeanu/Enache,79,Fédération Française d'Aviron
+160234,Totka/Nádas,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+160353,Losos de Muñiz/Aquamarijn,76,Fédération française d'Equitation
+160395,Stankunas/Stankunas,79,Fédération Française d'Aviron
+160532,Kohlhoff/Stuhlemmer,71,Fédération Française de Voile
+160534,Koizumi/Takahashi,71,Fédération Française de Voile
+160689,Blommaert/Hocke,80,Fédération Française des Sports de Glace
+160809,Thorpe/Shortman,44,Fédération Française de Natation
+160820,Rivetti/Fine Fleur Du Marais,76,Fédération française d'Equitation
+160856,Cociu/Olarasu,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+160868,Casey/Cremen,79,Fédération Française d'Aviron
+160877,Ruta/Oppo,79,Fédération Française d'Aviron
+160879,Paulis/Keijser,79,Fédération Française d'Aviron
+160881,Zietarski/Biskup,79,Fédération Française d'Aviron
+160885,Melzacka/Loboda,71,Fédération Française de Voile
+161001,Los/Karwacka,21,Fédération Française de Cyclisme
+161088,Havel/Spicar,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+161312,Olympic Athlete from Russia,58,Fédération Française de Ski
+161379,Xammar/Rodriguez,71,Fédération Française de Voile
+161415,Andres/Seitz,21,Fédération Française de Cyclisme
+161520,Simon Jr./Juhasz,79,Fédération Française d'Aviron
+161896,Garza/Armani SL Z,76,Fédération française d'Equitation
+161920,Wettstein/West Side Story,76,Fédération française d'Equitation
+161927,Baryard-Johnsson/Cue Channa 42,76,Fédération française d'Equitation
+161928,Millar/Heros,76,Fédération française d'Equitation
+161946,Oiwa/The Duke of Cavan,76,Fédération française d'Equitation
+161947,Burton/Santano II,76,Fédération française d'Equitation
+161948,de Vries/Jerwood,71,Fédération Française de Voile
+162029,Peters/Suppenkasper,76,Fédération française d'Equitation
+162081,Boykova/Kozlovskiy,80,Fédération Française des Sports de Glace
+162126,Cain-Gribble/Leduc,80,Fédération Française des Sports de Glace
+162359,D'hoore/Kopecky,21,Fédération Française de Cyclisme
+162375,Benfeito/McKay,44,Fédération Française de Natation
+162465,Holzner/Simoneau,44,Fédération Française de Natation
+162517,Abaroa/Sanhueza,79,Fédération Française d'Aviron
+162549,McCann/Grobler,79,Fédération Française d'Aviron
+162555,Steenman/Braas,79,Fédération Française d'Aviron
+162587,Le Nepvou/Kober,79,Fédération Française d'Aviron
+162635,Guyot/Hostens,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+162736,Ramel/Brother de Jeu,76,Fédération française d'Equitation
+162903,Lynch/Lambe,79,Fédération Française d'Aviron
+162930,Head/Paulis,79,Fédération Française d'Aviron
+162948,Mikolajczewski/Jankowski,79,Fédération Française d'Aviron
+162957,Bertolasi/Patelli,79,Fédération Française d'Aviron
+163044,Karlsson/Bergström,71,Fédération Française de Voile
+163101,Lyle/Salvino,76,Fédération française d'Equitation
+163133,Csipes/Medveczky,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+163290,Karaliene/Valciukaite,79,Fédération Française d'Aviron
+163292,Abbagnale/Abagnale,79,Fédération Française d'Aviron
+163296,Rubio/Oquendo,79,Fédération Française d'Aviron
+163320,Miao T/Zhang M,79,Fédération Française d'Aviron
+163326,Tomek/O'Leary,79,Fédération Française d'Aviron
+163336,Rol/Merz,79,Fédération Française d'Aviron
+163357,Roos/Fil Rouge,76,Fédération française d'Equitation
+163362,Abicht/Frank,71,Fédération Française de Voile
+163566,Mändli/Dsarie,76,Fédération française d'Equitation
+163634,Fuksa/Fuksa,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+163654,Carrington/Ryan,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+163658,Balleza Isaias/Berlín,44,Fédération Française de Natation
+163672,Brigden-Jones/Roberts,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+163692,De Liedekerke-Meier/Alpaga D'Arville,76,Fédération française d'Equitation
+163693,Turlan/Turlan,79,Fédération Française d'Aviron
+163865,Krasnopolski/Conners,80,Fédération Française des Sports de Glace
+163879,Zuñiga/Lopez,79,Fédération Française d'Aviron
+163939,Olympic Athlete from Russia,80,Fédération Française des Sports de Glace
+163958,Diz Becerra/Umpierre,71,Fédération Française de Voile
+164113,Hernández/Hernandez Hidalgo,79,Fédération Française d'Aviron
+164116,Warrer/Lübeck,71,Fédération Française de Voile
+164117,Defazio/Knuppel,71,Fédération Française de Voile
+164432,Von Eckermann/Yajamila,76,Fédération française d'Equitation
+164433,Innes/Sinclair,79,Fédération Française d'Aviron
+164448,Craviotto/Toro,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+164457,Silva/Bitencourt Ribeiro,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+164465,Robbers/Jorritsma,79,Fédération Française d'Aviron
+164484,Casarini/Rodini,79,Fédération Française d'Aviron
+164517,Olympic Athlete from Russia,80,Fédération Française des Sports de Glace
+164519,Olympic Athlete from Russia,58,Fédération Française de Ski
+164622,Godel/Grandeur De Lully CH,76,Fédération française d'Equitation
+164666,Bodnar/Radis,79,Fédération Française d'Aviron
+164706,Ricchetti/Crenna,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+164710,Sugitani/Imothep,76,Fédération française d'Equitation
+164711,Maher/Tic Tac,76,Fédération française d'Equitation
+164737,Zhang D/Bu T K,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+164814,Alanis/Briones,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+164817,Mirza/Seigneur Medicott,76,Fédération française d'Equitation
+164877,Baryard-Johnsson/H&M Indiana,76,Fédération française d'Equitation
+164882,Spisak/Banderas,76,Fédération française d'Equitation
+164883,Evans/Cooley Rorkes Drift,76,Fédération française d'Equitation
+164884,Stevens/Quicklook V,76,Fédération française d'Equitation
+165120,Iitsuka/Hatayama,71,Fédération Française de Voile
+165275,Cheong J H/Sabri,44,Fédération Française de Natation
+165386,Wild/Pieters,21,Fédération Française de Cyclisme
+165418,Davis/Smolkin,80,Fédération Française des Sports de Glace
+165464,P. Fredricson/Catch Me Not S,76,Fédération française d'Equitation
+165470,Brash/Hello Jefferson,76,Fédération française d'Equitation
+165630,Kluge/Reinhardt,21,Fédération Française de Cyclisme
+165676,Majdalani/Bosco,71,Fédération Française de Voile
+165714,Valadzko/Furman,79,Fédération Française d'Aviron
+165823,Townend/Ballaghmor Class,76,Fédération française d'Equitation
+165834,Jonsson/Järudd,71,Fédération Française de Voile
+165843,Deslauriers/Bardolina 2,76,Fédération française d'Equitation
+165880,Rieder/Kainzwaldner,80,Fédération Française des Sports de Glace
+166051,Peng C/Jin Y,80,Fédération Française des Sports de Glace
+166355,Hartkopf/Tavella,71,Fédération Française de Voile
+166360,Mishina/Galiamov,80,Fédération Française des Sports de Glace
+166417,Torlopova/Ussova,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+166488,Punzel/Hentschel,44,Fédération Française de Natation
+166725,Dutton/Z,76,Fédération française d'Equitation
+166727,Zabala-Goetschel/Wundermaske,76,Fédération française d'Equitation
+166763,Caruso/Berta,71,Fédération Française de Voile
+166775,Jahn/Koch,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+166880,Cozmiuc/Tudosa,79,Fédération Française d'Aviron
+166978,Turkkila/Versluis,80,Fédération Française des Sports de Glace
+167016,Michiels/Intermezzo van het Meerdaalhof,76,Fédération française d'Equitation
+167032,Gate/Stewart,21,Fédération Française de Cyclisme
+167048,Visintin/Moioli,58,Fédération Française de Ski
+167168,Orozco/Agúndez,44,Fédération Française de Natation
+167180,Luzan/Chetverikova,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+167182,Gulliksen/Vdl Groep Quatro,76,Fédération française d'Equitation
+167364,M. Barbançon Mestre/Sir Donnerhall II OLD,76,Fédération française d'Equitation
+167385,Siegl/Fighting Line,76,Fédération française d'Equitation
+167425,Nakamura/Kajihara,21,Fédération Française de Cyclisme
+167574,Itahashi/Arai,44,Fédération Française de Natation
+167588,Warrer/Precht Jensen,71,Fédération Française de Voile
+167691,Kalmoe/Eisser,79,Fédération Française d'Aviron
+167762,Maher/Explosion W,76,Fédération française d'Equitation
+167774,Martin/Tsetserleg TSF,76,Fédération française d'Equitation
+167820,Inui/Yoshida,44,Fédération Française de Natation
+167931,Yang X Z/Hu X X,71,Fédération Française de Voile
+167998,Echegoyen/Barceló,71,Fédération Française de Voile
+168184,Varga/Fitzpatrick,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+168209,Moffatt/Casson,79,Fédération Française d'Aviron
+168218,Bertocchi/Pellacani,44,Fédération Française de Natation
+168295,Castillo/Celaya,44,Fédération Française de Natation
+168328,Byrne/Doyle,79,Fédération Française d'Aviron
+168331,Oiwa/Calle 44,76,Fédération française d'Equitation
+168334,Tanaka/Talma d'Allou,76,Fédération française d'Equitation
+168422,Gaudiano/Chalou,76,Fédération française d'Equitation
+168434,Bots/Plume,80,Fédération Française des Sports de Glace
+168442,O'Neill/Clockwise of Greenhill Z,76,Fédération française d'Equitation
+168665,Hinze/Friedrich,21,Fédération Française de Cyclisme
+168690,Dobson/Tidey,71,Fédération Française de Voile
+168791,Hanna/Calanta,76,Fédération française d'Equitation
+168916,Kenny/Archibald,21,Fédération Française de Cyclisme
+168972,Balsamo/Paternoster,21,Fédération Française de Cyclisme
+169013,Leth/Dideriksen,21,Fédération Française de Cyclisme
+169146,Lagha/Lajoie,80,Fédération Française des Sports de Glace
+169229,Melantev/Chebotar,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+169232,Tarantola/Bové,79,Fédération Française d'Aviron
+169234,Ponomarenko-Janic/Osterman,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+169242,Glazunow/Barniak,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+169657,Vogg/Colero,76,Fédération française d'Equitation
+169733,Imrie/Brown,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+169764,Kosterina/Diavolessa Va,76,Fédération française d'Equitation
+169765,Fantela/Fantela,71,Fédération Française de Voile
+169956,Diosdado/Jimenez,44,Fédération Française de Natation
+169957,Stakhiv/Lysetskyy,80,Fédération Française des Sports de Glace
+170008,van de Werken/Lambriex,71,Fédération Française de Voile
+170079,Khoddam-Hazrati/Cosma,76,Fédération française d'Equitation
+170226,Garabedian/Proulx-Sénécal,80,Fédération Française des Sports de Glace
+170306,Komatsubara/Koleto,80,Fédération Française des Sports de Glace
+170351,Taschler/Taschlerová,80,Fédération Française des Sports de Glace
+170363,Svennerstål/Balham Mist,76,Fédération française d'Equitation
+170463,Y. Havik/van Schip,21,Fédération Française de Cyclisme
+170610,Albrecht/Nicolino de Sá,71,Fédération Française de Voile
+170611,Dallman-Weiss/Barnes,71,Fédération Française de Voile
+170623,Wagner Ehlinger/Quater Back Junior,76,Fédération française d'Equitation
+170771,Olympic Athlete from Russia,58,Fédération Française de Ski
+170772,Olympic Athlete from Russia,80,Fédération Française des Sports de Glace
+170908,Pikulik/Pikulik,21,Fédération Française de Cyclisme
+170910,Olympic Athlete from Russia,58,Fédération Française de Ski
+171143,van der Westhuyzen/Green,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+171309,Lecointre/Retornaz,71,Fédération Française de Voile
+171438,Ward/HH Azur,76,Fédération française d'Equitation
+171487,Bar-am/Tibi,71,Fédération Française de Voile
+171561,Welsford/O'Brien,21,Fédération Française de Cyclisme
+171569,Figueroa/Ortiz,71,Fédération Française de Voile
+171570,Pacheco/Trittel Paul,71,Fédération Française de Voile
+171571,Audinet/Delapierre,71,Fédération Française de Voile
+171597,Cao Y/Chen A,44,Fédération Française de Natation
+171600,Blecher/Bobritsky,44,Fédération Française de Natation
+171649,Riendeau/Zsombor-Murray,44,Fédération Française de Natation
+171694,Gharbi/Rahali,71,Fédération Française de Voile
+171698,Hixon/Capobianco,44,Fédération Française de Natation
+171713,Gibbs/Weis,71,Fédération Française de Voile
+171774,Saouma-Pedersen/Borreskov,71,Fédération Française de Voile
+171799,Toulson/Cheng,44,Fédération Française de Natation
+171839,Dukarska/Crowley,79,Fédération Française d'Aviron
+171845,Torres/Fogoso Campline,76,Fédération française d'Equitation
+171846,Del Valle Quirarte/Beduino Lam,76,Fédération française d'Equitation
+171854,Borowska/Szczerbinska,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+171870,Revia/Kazakova,80,Fédération Française des Sports de Glace
+171890,Azcarraga/Contendros 2,76,Fédération française d'Equitation
+171900,Okada/Hokazono,71,Fédération Française de Voile
+171942,Hicks/Hardy,79,Fédération Française d'Aviron
+171952,Tudela/Van Oordt,71,Fédération Française de Voile
+171976,Parratto/Schnell,44,Fédération Française de Natation
+171998,Zhang L/Liu Z,79,Fédération Française d'Aviron
+172101,Sakai/Aylsworth,71,Fédération Française de Voile
+172112,Canalejo/Garcia Ordoñez,79,Fédération Française d'Aviron
+172196,Alvarez/Schroeder,44,Fédération Française de Natation
+172209,Thomas/Collins,79,Fédération Française d'Aviron
+172214,Dostal/Šlouf,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+172279,Mengual/Carbonell,44,Fédération Française de Natation
+172280,Federici/Clark,44,Fédération Française de Natation
+172291,Morgan/Watts,79,Fédération Française d'Aviron
+172294,Vela Maggi/Giaretton,79,Fédération Française d'Aviron
+172301,Sebesi/Dubois,71,Fédération Française de Voile
+172305,Gharbi/Hammami,71,Fédération Française de Voile
+172452,Watson/Tullabeg Flamenco,76,Fédération française d'Equitation
+172538,Ait Daoud/Boudina,79,Fédération Française d'Aviron
+172556,Lambriex/van Vugt,71,Fédération Française de Voile
+172557,Bourmpou/Kyridou,79,Fédération Française d'Aviron
+172583,von Bredow-Werndl/TSF Dalera BB,76,Fédération française d'Equitation
+172638,Minibaev/Shleikher,44,Fédération Française de Natation
+172694,Sprincean/Nuta,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+172768,van der Meer/Bouwer,71,Fédération Française de Voile
+172843,Mamprin Losano/Fuiloda G,76,Fédération française d'Equitation
+172923,Chavatanont/Boleybawn Prince,76,Fédération française d'Equitation
+172994,Lewin-Lafrance/Lewin-Lafrance,71,Fédération Française de Voile
+173005,Guery/Quel Homme De Hus,76,Fédération française d'Equitation
+173067,Jung/Fischerchipmunk FRH,76,Fédération française d'Equitation
+173069,Kaminski/Jard,76,Fédération française d'Equitation
+173080,Harada/Egistar,76,Fédération française d'Equitation
+173081,Nilshagen/Dante Weltino Old,76,Fédération française d'Equitation
+173083,Naja/Pulawska,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+173256,Dawson/Wilkinson,71,Fédération Française de Voile
+173284,Touzaint/Absolut Gold HDC,76,Fédération française d'Equitation
+173291,Six/Totem De Brecey,76,Fédération française d'Equitation
+173390,Ellermann/Donna Anna,76,Fédération française d'Equitation
+173460,Minderhoud/Glock's Dream Boy,76,Fédération française d'Equitation
+173557,Coyle/Legacy,76,Fédération française d'Equitation
+173648,Moreira Laliberte/Statesman,76,Fédération française d'Equitation
+173742,Da Conceição Triste/Fernandes Dos Ramos,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+173851,Dorman/Hixon,44,Fédération Française de Natation
+173852,Di Costanzo/Abagnale,79,Fédération Française d'Aviron
+173854,de Miranda/Cornetto K,76,Fédération française d'Equitation
+173855,Quintana/Appy Cara,76,Fédération française d'Equitation
+173856,Takeda/Bardolino,76,Fédération française d'Equitation
+173857,Valdez Prado/Chief,76,Fédération française d'Equitation
+173880,King/Ceylor L A N,76,Fédération française d'Equitation
+174046,Guerdat/Venard de Cerisy,76,Fédération française d'Equitation
+174079,Ben Ismail/Sassi,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+174097,Siltakorpi/Bofey Click,76,Fédération française d'Equitation
+174164,Jimenez Cobo/Euclides Mor,76,Fédération française d'Equitation
+174165,Kitahara/Huracan 10,76,Fédération française d'Equitation
+174204,Serbin/Sereda,44,Fédération Française de Natation
+174221,Broenink/Twellaar,79,Fédération Française d'Aviron
+174420,Kihara/Miura,80,Fédération Française des Sports de Glace
+174436,Pequin/Fischer,71,Fédération Française de Voile
+174477,Gibson/Palmer,44,Fédération Française de Natation
+174488,Leprevost/Vancouver De Lanlore,76,Fédération française d'Equitation
+174542,Kühner/Elektric Blue P,76,Fédération française d'Equitation
+174558,Lal/Singh,79,Fédération Française d'Aviron
+174578,Springsteen/Don Juan van de Donkhoeve,76,Fédération française d'Equitation
+174674,Gitlan/Serban,80,Fédération Française des Sports de Glace
+174760,Hegyvary/Hoover,21,Fédération Française de Cyclisme
+174790,Florentino Roca/Carnaval,76,Fédération française d'Equitation
+174846,McCabe/Langerfeld,79,Fédération Française d'Aviron
+174847,Bruynseels/Delux Van T & L,76,Fédération française d'Equitation
+175076,Guazzini/Consonni,21,Fédération Française de Cyclisme
+175217,Billot/Quel Filou 13,76,Fédération française d'Equitation
+175225,Edmondson/Baker,21,Fédération Française de Cyclisme
+175265,Magyar/Chtchetinina,80,Fédération Française des Sports de Glace
+175333,Myslivecková/Csölley,80,Fédération Française des Sports de Glace
+175500,Bond/Donatello 141,76,Fédération française d'Equitation
+175580,Gimson/Burnet,71,Fédération Française de Voile
+175624,Khaliavin/Hurtado,80,Fédération Française des Sports de Glace
+175645,Maksakova/Bojengels,76,Fédération française d'Equitation
+175689,Thomas/Grondin,21,Fédération Française de Cyclisme
+175880,Berking-Williams/Clifton,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+176146,Kaynakci/Arikan,71,Fédération Française de Voile
+176167,Paige/Hoesch,71,Fédération Française de Voile
+176678,Fisher/Matehaere,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+176700,Daley/Lee,44,Fédération Française de Natation
+176701,Kuznetsov/Shleikher,44,Fédération Française de Natation
+176909,Tosi/Glenfly,76,Fédération française d'Equitation
+176910,Scott/Valtho des Peupliers,76,Fédération française d'Equitation
+176937,Laudrup-Dufour/Zen Elite'sBohemian,76,Fédération française d'Equitation
+177126,Barker/Evans,21,Fédération Française de Cyclisme
+177152,Kurtbay/Keskinen,71,Fédération Française de Voile
+177156,Wille/Bergmann,71,Fédération Française de Voile
+177157,Grönblom/Hokka,71,Fédération Française de Voile
+177181,Berlín/Willars,44,Fédération Française de Natation
+177196,Zajac/Matz,71,Fédération Française de Voile
+177244,Cubelos/Peña,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+177426,Morrison/McIntyre,79,Fédération Française d'Aviron
+177444,Tocci/Marsaglia,44,Fédération Française de Natation
+177446,Jamil/Noor Jamali,71,Fédération Française de Voile
+177451,Kim M R/Jo J M,44,Fédération Française de Natation
+177496,Tops-Alexander/Identity Vitseroel,76,Fédération française d'Equitation
+177503,Torrao/Equador,76,Fédération française d'Equitation
+177530,Layne/Samhitas,76,Fédération française d'Equitation
+177720,Kulagina/Khandoshka,44,Fédération Française de Natation
+177746,Vasic/Mackovic,79,Fédération Française d'Aviron
+177764,Malfesi/Jourdenais,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+177766,Zheng P F/Liu H,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+177810,Ouaddar/Istanbull v.h Ooievaarshof,76,Fédération française d'Equitation
+177971,Mills/McIntyre,71,Fédération Française de Voile
+178013,Mew Jensen/Harper,44,Fédération Française de Natation
+178663,Trespeuch/Surget,58,Fédération Française de Ski
+178679,Laugher/Goodfellow,44,Fédération Française de Natation
+178985,Modolo Zanotelli/VDL Edgar M,76,Fédération française d'Equitation
+179007,Sartori/Carucci,79,Fédération Française d'Aviron
+179010,Diniz/Vertigo du Desert,76,Fédération française d'Equitation
+179035,Rocek/Tontodonati,79,Fédération Française d'Aviron
+179044,Papakonstantinou/Gkaidatzis,79,Fédération Française d'Aviron
+179070,Karlsson/Chopin VA,76,Fédération française d'Equitation
+179187,Botek/Balaz,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+179251,Stott/Davison,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+179256,Osborne/Rommelmann,79,Fédération Française d'Aviron
+179278,Enomoto/Miyamoto,44,Fédération Française de Natation
+179360,Copponi/Le Net,21,Fédération Française de Cyclisme
+179364,Delmotte/Urvoso du Roch,76,Fédération française d'Equitation
+179708,Petrovas/Linkolns,76,Fédération française d'Equitation
+179739,O'Donovan/McCarthy,79,Fédération Française d'Aviron
+179866,Antonio/Sanda,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+179879,Dawson/Wilkinson,71,Fédération Française de Voile
+179885,Kota/Abdelaal,79,Fédération Française d'Aviron
+179897,Deusser/Killer Queen VDM,76,Fédération française d'Equitation
+180138,Al Ahrach/Usa De Riverland,76,Fédération française d'Equitation
+180201,Wahler/Carjatan S,76,Fédération française d'Equitation
+180705,Schir/Froidevaux,21,Fédération Française de Cyclisme
+180880,Olympic Athlete from Russia,80,Fédération Française des Sports de Glace
+181088,McCurley/Kay,21,Fédération Française de Cyclisme
+181089,Valente/Jastrab,21,Fédération Française de Cyclisme
+181092,Sejanes/Emir,76,Fédération française d'Equitation
+181099,Hamcho/Deville,76,Fédération française d'Equitation
+181196,Hausding/Rüdiger,44,Fédération Française de Natation
+181313,Huang Y B/Peng J Y,80,Fédération Française des Sports de Glace
+181600,Aleksiiva/Aleksiiva,44,Fédération Française de Natation
+181753,Kim D S/Belstaff,76,Fédération française d'Equitation
+181805,Bacher/Fidertraum,76,Fédération française d'Equitation
+181810,Sun M Y/Xu S X,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+181943,Scheenaard/de Jong,79,Fédération Française d'Aviron
+181996,Fraga/Costa,79,Fédération Française d'Aviron
+181997,Lattimer/Keane,79,Fédération Française d'Aviron
+182072,McNab/Scuderia 1918 Don Quidam,76,Fédération française d'Equitation
+182089,Mansur/QH Alfons Santo Antonio,76,Fédération française d'Equitation
+182198,Rahmouni/All At Once,76,Fédération française d'Equitation
+182273,Lloyd/Ryan,71,Fédération Française de Voile
+182370,Kuboki/Imamura,21,Fédération Française de Cyclisme
+182609,Fry/Everdale,76,Fédération française d'Equitation
+182610,Chen/Benitus Di Vallerano,76,Fédération française d'Equitation
+182665,Sado/Ludwig Der Sonnenkoenig 2,76,Fédération française d'Equitation
+182701,van der Vleuten/Verdi TN,76,Fédération française d'Equitation
+182703,Ayache/Zo What,76,Fédération française d'Equitation
+182782,Bone/Saunders,71,Fédération Française de Voile
+182817,Cook/Bacon,44,Fédération Française de Natation
+182869,Hoy/Vassily de Lassos,76,Fédération française d'Equitation
+182870,Auffarth/Viamant Du Matz,76,Fédération française d'Equitation
+182874,Goodin/Backatorps Danny V,76,Fédération française d'Equitation
+182906,Boukaa/Ugolino Du Clos,76,Fédération française d'Equitation
+183206,Odine/Grondin,58,Fédération Française de Ski
+183236,Murakami/Ito,44,Fédération Française de Natation
+183238,Kellock/Sebastien,76,Fédération française d'Equitation
+183240,Savchuk/Fedina,44,Fédération Française de Natation
+183245,Wallace/Bulmer,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+183264,Maenhaut/Geurts,71,Fédération Française de Voile
+183298,Zhang Y/Caesar,76,Fédération française d'Equitation
+183391,Caetano/Fenix De Tineo,76,Fédération française d'Equitation
+183395,Krüth/Heiline's Danciera,76,Fédération française d'Equitation
+183399,Galloway/Windermere J'Obei W,76,Fédération française d'Equitation
+184110,Hoff/Schopf,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+184118,Zaza/Wispering Romance,76,Fédération française d'Equitation
+184134,Beccaro/Burgo,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+184294,Adolf/Fejes,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+184309,Thiele/Menzel,79,Fédération Française d'Aviron
+184311,Buhus/Ailincai,79,Fédération Française d'Aviron
+184423,Mihalachi/Chirila,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+184433,van der Vleuten/Beauville Z N.O.P.,76,Fédération française d'Equitation
+184736,Kondratyev/Potapkin,79,Fédération Française d'Aviron
+184770,O'Connor/Colorado Blue,76,Fédération française d'Equitation
+184773,Price/Grovine de Reve,76,Fédération française d'Equitation
+184797,Laghouag/Triton Fontaine,76,Fédération française d'Equitation
+184875,Relander/Expert,76,Fédération française d'Equitation
+185115,De Freitas Barcha/Primavera Montana,76,Fédération française d'Equitation
+185136,Wathelet/Nevados S,76,Fédération française d'Equitation
+185266,Silvestro/Baluzzo,79,Fédération Française d'Aviron
+185274,Larocca/Finn Lente,76,Fédération française d'Equitation
+185300,Craig/Grant,79,Fédération Française d'Aviron
+185399,Panizzon/Super Cillious,76,Fédération française d'Equitation
+185402,Ennis/Woodcourt Garrison,76,Fédération française d'Equitation
+185432,Houtzager/Dante,76,Fédération française d'Equitation
+185548,Kellnerova/Catch Me If You Can Old,76,Fédération française d'Equitation
+185642,Liddell/Brown,71,Fédération Française de Voile
+185775,Klein/Brauße,21,Fédération Française de Cyclisme
+185776,R. Oliveira/Leitão,21,Fédération Française de Cyclisme
+186145,Nörl/Fischer,58,Fédération Française de Ski
+186420,Baker/Manly,21,Fédération Française de Cyclisme
+186594,von Martels/Eclips,76,Fédération française d'Equitation
+186597,Lopez/Kheros van 't Hoogeinde,76,Fédération française d'Equitation
+186735,Cetraro/Klüver,79,Fédération Française d'Aviron
+187075,Parruque/Machava,71,Fédération Française de Voile
+187516,Hostens/Paoletti,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+187523,Vystavel/Sutton,79,Fédération Française d'Aviron
+187532,Knierim/Frazier,80,Fédération Française des Sports de Glace
+188121,Kukuk/Mumbai,76,Fédération française d'Equitation
+188179,Pearce/Destano,76,Fédération française d'Equitation
+188237,van Sprang/Krommenhoek,79,Fédération Française d'Aviron
+188238,Krüger/Weber,79,Fédération Française d'Aviron
+188401,Wechta/Chepettano,76,Fédération française d'Equitation
+189264,Germani/Bertuzzi,71,Fédération Française de Voile
+189429,Kubiak/Flash Blue B,76,Fédération française d'Equitation
+189617,Opatrny/Forewer,76,Fédération française d'Equitation
+189739,Kukuk/Checker 47,76,Fédération française d'Equitation
+189811,Von Eckermann/King Edward,76,Fédération française d'Equitation
+190281,Kraljev/Silvestro,79,Fédération Française d'Aviron
+190290,Tsoulfa/Spanaki,71,Fédération Française de Voile
+190291,Wanser/Winkel,71,Fédération Française de Voile
+190437,Barrows/Henken,71,Fédération Française de Voile
+190471,Bateman/Rigney,79,Fédération Française d'Aviron
+190523,Botalova/Lebedeva,79,Fédération Française d'Aviron
+190524,Chen S S/Jin Y,71,Fédération Française de Voile
+190525,Burger/Daniel,71,Fédération Française de Voile
+190526,Altenhuber/Cavallar,79,Fédération Française d'Aviron
+190559,Guezguez/Guezguez,71,Fédération Française de Voile
+190617,Conde Romero/Garcia Pujolar,79,Fédération Française d'Aviron
+190622,Balastegui/Horta Pombo,79,Fédération Française d'Aviron
+191175,Schoon/Stam,74,Fédération Française de Volley
+191176,de Groot/Boermans,74,Fédération Française de Volley
+191326,Podrazil/Cincibuch,79,Fédération Française d'Aviron
+191344,Chen Y W/Chang Y N,44,Fédération Française de Natation
+191359,N. García/Abadia,44,Fédération Française de Natation
+191448,Lyskun/Bailo,44,Fédération Française de Natation
+191455,Neretnieks/Valour,76,Fédération française d'Equitation
+191485,Dechudomrat/Wongpin,79,Fédération Française d'Aviron
+191488,Kholmurzaev/Safaroliev,79,Fédération Française d'Aviron
+191491,Wang C K/Bu T K,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+191495,Dinh/Luong,79,Fédération Française d'Aviron
+191496,Putri/Putri,79,Fédération Française d'Aviron
+191670,ROC,44,Fédération Française de Natation
+191701,Ozhogina/Tio' Casas,44,Fédération Française de Natation
+191731,Ouzande/Garcia,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+191734,Béke/Varga,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+191745,Garcia/Martinez,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+191882,Erichsen/Rasmussen,79,Fédération Française d'Aviron
+191885,Brendel/Hecker,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+191887,Ribeiro/Baptista,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+191894,Stepanova/Oryabinskaya,79,Fédération Française d'Aviron
+191898,Queiroz Dos Santos/Godmann,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+191899,Ianchuk/Altukhov,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+191905,Sechser/Reckford,79,Fédération Française d'Aviron
+191910,Kurochkina/Pitirimova,79,Fédération Française d'Aviron
+191923,Iversen/Funch,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+191949,Nuevo Segura/Cirilo Duboys,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+191981,Dabrowski/Fernandez,65,Fédération Française de Tennis
+192044,Papousek/Warness,76,Fédération française d'Equitation
+192055,Prodan/Casanova F Z,76,Fédération française d'Equitation
+192114,Labar/Corvée,10,Fédération Française de Badminton
+192151,Stone/Wagner,79,Fédération Française d'Aviron
+192172,Green/Daffarn,79,Fédération Française d'Aviron
+192231,O'Connor/Kilkenny,76,Fédération française d'Equitation
+192239,Nassar/Igor Van de Wittemoere,76,Fédération française d'Equitation
+192240,Kenny/VDL Cartello,76,Fédération française d'Equitation
+192242,Vlock/Amsterdam 27,76,Fédération française d'Equitation
+192424,Thompson/Rogers,44,Fédération Française de Natation
+192448,Tops-Alexander/Fellow Castlefield,76,Fédération française d'Equitation
+192522,Said/Bandit Savoie,76,Fédération française d'Equitation
+192535,Kozák/Bodonyi,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+192536,Hubert/Burger,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+192549,Patelli/Ondoli,79,Fédération Française d'Aviron
+192595,Milczarek/Guapo,76,Fédération française d'Equitation
+192620,Vanagaite/Nabab,76,Fédération française d'Equitation
+192623,ROC,31,Fédération Française de Hockey sur Glace
+192644,Vesnina/V. Kudermetova,65,Fédération Française de Tennis
+192681,Vesnina/Karatsev,65,Fédération Française de Tennis
+193827,Alvarez Aznar/Legend,76,Fédération française d'Equitation
+193860,Thieme/DSP Chakaria,76,Fédération française d'Equitation
+193861,Rosolska/Linette,65,Fédération Française de Tennis
+193886,Nedovyesov/Bublik,65,Fédération Française de Tennis
+193898,Ram/Mattek-Sands,65,Fédération Française de Tennis
+194216,Palacios/Palacios,79,Fédération Française d'Aviron
+194292,ROC,36,Fédération Française de Judo-Jujitsu Kendo et Disciplines Associées
+194400,ROC,82,Fédération Française d'Escrime
+194401,Makokha/Khadambi,74,Fédération Française de Volley
+194582,Netherlands,24,Fédération Française de Football
+194583,Zambia,24,Fédération Française de Football
+194584,Chile,24,Fédération Française de Football
+194598,Gibb/Bourne,74,Fédération Française de Volley
+194612,ROC,68,Fédération Française de Tir à l'Arc
+194616,ROC,74,Fédération Française de Volley
+194617,ROC,14,Fédération Française de Basketball
+194618,ROC,14,Fédération Française de Basketball
+194619,ROC,29,Fédération Française de Handball
+194620,ROC,74,Fédération Française de Volley
+194621,ROC,55,Fédération Française de Rugby
+194623,Millman/Saville,65,Fédération Française de Tennis
+194624,Carreño/Davidovich,65,Fédération Française de Tennis
+194625,Salisbury/A. Murray,65,Fédération Française de Tennis
+194626,Sonego/Musetti,65,Fédération Française de Tennis
+194627,Klein/Polášek,65,Fédération Française de Tennis
+194628,Ram/Tiafoe,65,Fédération Française de Tennis
+194629,Barty/Hunter,65,Fédération Française de Tennis
+194630,Mertens/Van Uytvanck,65,Fédération Française de Tennis
+194631,Ka. Plíšková/Vondroušová,65,Fédération Française de Tennis
+194632,Mirza/Raina,65,Fédération Française de Tennis
+194633,Peers/Purcell,65,Fédération Française de Tennis
+194634,Gerasimov/Ivashka,65,Fédération Française de Tennis
+194635,Demoliner/Melo,65,Fédération Française de Tennis
+194636,Hsieh Y C/Hsu C Y,65,Fédération Française de Tennis
+194637,Melichar-Martinez/Riske-Amritraj,65,Fédération Française de Tennis
+194639,ROC,44,Fédération Française de Natation
+194640,ROC,79,Fédération Française d'Aviron
+194641,ROC,76,Fédération française d'Equitation
+194642,ROC,28,Fédération Française de Gymnastique
+194643,Gal/Glock's Total US,76,Fédération française d'Equitation
+194644,Jones/Robertson,79,Fédération Française d'Aviron
+194645,Adomavicius/Ritter,79,Fédération Française d'Aviron
+194646,Lopas/Harris,79,Fédération Française d'Aviron
+194647,Huang K F/Liu J C,79,Fédération Française d'Aviron
+194648,Smith/Sevick,79,Fédération Française d'Aviron
+194649,Shen S M/Liu X X,79,Fédération Française d'Aviron
+194650,Osborne/Donoghue,79,Fédération Française d'Aviron
+194651,Max-Theurer/Abegglen FH NRW,76,Fédération française d'Equitation
+194652,Hester/En Vogue,76,Fédération française d'Equitation
+194653,Pauluis/Flambeau,76,Fédération française d'Equitation
+194654,Marcari Oliva/Escorial Horsecampline,76,Fédération française d'Equitation
+194655,Ferrer-Salat/Elegance,76,Fédération française d'Equitation
+194656,Ruoste/Kontestro DB,76,Fédération française d'Equitation
+194657,Garcia Mena/Sorento 15,76,Fédération française d'Equitation
+194658,Merrald/Blue Hors Zack,76,Fédération française d'Equitation
+194729,Mendoza/Hernández,44,Fédération Française de Natation
+194730,Holstein/Sambuca,76,Fédération française d'Equitation
+194731,Yarur/Ronaldo,76,Fédération française d'Equitation
+194732,Schumach/Te Quiero SF,76,Fédération française d'Equitation
+194733,Jurado/Fendi T,76,Fédération française d'Equitation
+194734,van Baalen/Go Legend,76,Fédération française d'Equitation
+194735,Dujardin/Gio,76,Fédération française d'Equitation
+194736,Hayashi/Scolari 4,76,Fédération française d'Equitation
+194737,Collard/Cupido PB,76,Fédération française d'Equitation
+194739,ROC,69,Fédération Française de Triathlon et Disciplines Enchaînées
+194742,Errani/Paolini,65,Fédération Française de Tennis
+194975,ROC,67,Fédération Française de Tir
+194976,ROC,67,Fédération Française de Tir
+194977,Zeballos/Podoroska,65,Fédération Française de Tennis
+194978,Stefani/Melo,65,Fédération Française de Tennis
+194979,Dabrowski/Auger-Aliassime,65,Fédération Française de Tennis
+194981,Pavlyuchenkova/Rublev,65,Fédération Française de Tennis
+194982,Stojanovic/Djokovic,65,Fédération Française de Tennis
+195037,Chen Y/Zhang J,44,Fédération Française de Natation
+195190,Xie S/Wang Z Y,44,Fédération Française de Natation
+195192,Xu Z J/Wang Y,71,Fédération Française de Voile
+195193,Ferro/Herbert,65,Fédération Française de Tennis
+195719,Sun H D/Lady Chin V'T Moerven Z,76,Fédération française d'Equitation
+195720,Prihoda Jr/Ferreolus LAT,76,Fédération française d'Equitation
+195721,Pawlak/Fantastic Frieda,76,Fédération française d'Equitation
+195722,Ho T E/Tayberry,76,Fédération française d'Equitation
+195723,Flarup/Fascination,76,Fédération française d'Equitation
+195724,Parro/Goliath,76,Fédération française d'Equitation
+195725,Tomoto/Vinci De La Vigne,76,Fédération française d'Equitation
+195726,Romeike/Cato 60,76,Fédération française d'Equitation
+195727,Trunda/Shutterflyke,76,Fédération française d'Equitation
+195728,Zelenko/Carlo Grande Jr.,76,Fédération française d'Equitation
+195729,Wettstein/Altier d'Aurois,76,Fédération française d'Equitation
+195730,Boonzaaijer/ACSI Champ De Tailleur,76,Fédération française d'Equitation
+195731,Bao Y F/Flandia 2,76,Fédération française d'Equitation
+195732,Campbell/Diachello,76,Fédération française d'Equitation
+195733,Samran/Bonero K,76,Fédération française d'Equitation
+195734,Pitakanonda/Carnival March,76,Fédération française d'Equitation
+195735,Johner/Toubleu De Rueire,76,Fédération française d'Equitation
+195736,Bordone/Imperial Van De Holtakkers,76,Fédération française d'Equitation
+195737,Blom-Hulsman/The Quizmaster,76,Fédération française d'Equitation
+195738,Krajewski/Amande de B'neville,76,Fédération française d'Equitation
+195739,Price/Vitali,76,Fédération française d'Equitation
+195740,Godel/Jet Set,76,Fédération française d'Equitation
+195741,Viklund/Viscera,76,Fédération française d'Equitation
+195742,Nastenko/MP Imagine IF,76,Fédération française d'Equitation
+195791,ROC,21,Fédération Française de Cyclisme
+195792,ROC,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+195793,van Liere/Hermes,76,Fédération française d'Equitation
+195794,Zhou Y/Li D Y,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+195795,Arft/Brüssler,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+195796,Hoskin/Hatton,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+195797,Kuklinovska/Todorova,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+195798,Braspennincx/van Riessen,21,Fédération Française de Cyclisme
+195799,Strugnell/Johnston,44,Fédération Française de Natation
+195800,Zhong T S/Bao S J,21,Fédération Française de Cyclisme
+195801,Stepanova/Baranova,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+195805,Yurenia/Borykau,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+195806,Nádas/Kopasz,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+195807,Spesivtsev/Anoshkin,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+195808,Meech/Cinca,76,Fédération française d'Equitation
+195809,Kraut/Baloutinue,76,Fédération française d'Equitation
+195810,Li Z Q/Uncas S,76,Fédération française d'Equitation
+195811,Michan/Cosa Nostra,76,Fédération française d'Equitation
+195812,Teran Tafur/Dez' Ooktoff,76,Fédération française d'Equitation
+195813,Schou/Darc de Lux,76,Fédération française d'Equitation
+195814,Parot/Dubai,76,Fédération française d'Equitation
+195815,Saito/Chilensky JRA,76,Fédération française d'Equitation
+195816,Allen/Pacino Amiro,76,Fédération française d'Equitation
+195817,Sato/Saphyr des Lacs,76,Fédération française d'Equitation
+195818,Bisharat/Blushing,76,Fédération française d'Equitation
+195819,Fukushima/Chanyon,76,Fédération française d'Equitation
+195820,Zeyada/Galanthos SHK,76,Fédération française d'Equitation
+195821,Charles/Romeo 88,76,Fédération française d'Equitation
+195822,Dopazo/Quintino 9,76,Fédération française d'Equitation
+196103,Zhang X J/For Passion D Ive Z,76,Fédération française d'Equitation
+196271,ROC,44,Fédération Française de Natation
+196272,Buchanan/Hodges,21,Fédération Française de Cyclisme
+196273,Pikuleva/Makarchanka,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+196274,Novolodskaia/Khatuntseva,21,Fédération Française de Cyclisme
+196275,Gee/Foley,21,Fédération Française de Cyclisme
+196277,ROC,28,Fédération Française de Gymnastique
+196279,Staniszewski/Sajnok,21,Fédération Française de Cyclisme
+196280,Stewart/Strong,21,Fédération Française de Cyclisme
+196289,Bogdan/Cristian,65,Fédération Française de Tennis
+196585,Hermannová/Štochlová,74,Fédération Française de Volley
+196999,ROC,31,Fédération Française de Hockey sur Glace
+197115,Foster/Figor,76,Fédération française d'Equitation
+197201,Tillmann/Müller,74,Fédération Française de Volley
+197204,Chamereau/Vieira,74,Fédération Française de Volley
+197451,Berulava/Safina,80,Fédération Française des Sports de Glace
+197506,Mart. Fuchs/Leone Jei,76,Fédération française d'Equitation
+197707,Kanerva/Greek Air,76,Fédération française d'Equitation
+197812,González/Podoroska,65,Fédération Française de Tennis
+197840,Manninen/Sir Greg,76,Fédération française d'Equitation
+198098,Olijnik/Maldonis,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+198164,Melzacka/Jankowiak,71,Fédération Française de Voile
+198296,Krasnopolski/Kops,80,Fédération Française des Sports de Glace
+198298,Zandron/Barquero,80,Fédération Française des Sports de Glace
+198313,de Jong/Enjoy,76,Fédération française d'Equitation
+198332,Sjoborg/Bryjamolga Vh Marienshof Z,76,Fédération française d'Equitation
+198337,Donckers/Leipheimer Van T Verahof,76,Fédération française d'Equitation
+198348,Korycka/Canvalencia,76,Fédération française d'Equitation
+198647,Menegatti/Gottardi,74,Fédération Française de Volley
+198800,Ali/Hiekal,44,Fédération Française de Natation
+199189,Tran/Lambert,10,Fédération Française de Badminton
+199191,Wandres/Bluetooth Old,76,Fédération française d'Equitation
+199207,Mammeri/Mammeri,10,Fédération Française de Badminton
+199307,Zheng S S/Wang X Y,65,Fédération Française de Tennis
+199313,Radford/James,80,Fédération Française des Sports de Glace
+199446,Winter/El Mundo,76,Fédération française d'Equitation
+199468,Price/Falco,76,Fédération française d'Equitation
+199960,Puck/Naxcel V,76,Fédération française d'Equitation
+199983,Bogdanov/Prohorov,80,Fédération Française des Sports de Glace
+199984,Di Gregorio/Hollander,80,Fédération Française des Sports de Glace
+199986,Seo S J/Kang M H,10,Fédération Française de Badminton
+200042,Järudd/Johnsson,71,Fédération Française de Voile
+200047,Mourniac/Berthomieu,71,Fédération Française de Voile
+200168,Fucsovics/Marozsán,65,Fédération Française de Tennis
+200412,A. Hämmerle/Zerkhold,58,Fédération Française de Ski
+200415,Paul/Donskikh,58,Fédération Française de Ski
+200417,Koblet/Hediger,58,Fédération Française de Ski
+200696,Hamcho/Vagabon Des Forets,76,Fédération française d'Equitation
+200707,Mendrek/Král,10,Fédération Française de Badminton
+200734,Yeung (SELECT THIS ONE) N T/Yeung P L,10,Fédération Française de Badminton
+200755,Chiu/Gai,10,Fédération Française de Badminton
+200786,Nuss/Brasher,74,Fédération Française de Volley
+200912,Kizala/Ramanauskaite,80,Fédération Française des Sports de Glace
+200925,Jerwood/Nicholas,71,Fédération Française de Voile
+200953,Zukova/Bidar,80,Fédération Française des Sports de Glace
+201047,Great Britain,80,Fédération Française des Sports de Glace
+201048,ROC,80,Fédération Française des Sports de Glace
+201049,ROC,80,Fédération Française des Sports de Glace
+201050,Siniaková/Machác,65,Fédération Française de Tennis
+201063,Struff/Koepfer,65,Fédération Française de Tennis
+201077,Collins/Krawczyk,65,Fédération Française de Tennis
+201529,ROC,58,Fédération Française de Ski
+201550,ROC,80,Fédération Française des Sports de Glace
+201551,ROC,58,Fédération Française de Ski
+201552,ROC,58,Fédération Française de Ski
+201553,ROC,54,Fédération française de roller et skateboard
+201554,ROC,58,Fédération Française de Ski
+201555,ROC,80,Fédération Française des Sports de Glace
+201556,ROC,80,Fédération Française des Sports de Glace
+201575,ROC,58,Fédération Française de Ski
+201618,Bolton/Brockhoff,58,Fédération Française de Ski
+201619,Lambert/Baff,58,Fédération Française de Ski
+201620,Bozzolo/Pereira De Sousa,58,Fédération Française de Ski
+201621,Baumgartner/Jacobellis,58,Fédération Française de Ski
+201622,Moffatt/Critchlow,58,Fédération Française de Ski
+201623,Nightingale/Bankes,58,Fédération Française de Ski
+201624,Sommariva/Carpano,58,Fédération Française de Ski
+201625,Vedder/Gulini,58,Fédération Française de Ski
+201639,ROC,80,Fédération Française des Sports de Glace
+201640,ROC,80,Fédération Française des Sports de Glace
+201941,Liu Y C/Ou X Y,10,Fédération Française de Badminton
+202054,Lee R Y/Hur Y S,44,Fédération Française de Natation
+202077,Nicolai/Cottafava,74,Fédération Française de Volley
+202078,Schachter/Dearing,74,Fédération Française de Volley
+202169,Hüberli/Brunner,74,Fédération Française de Volley
+202324,Chiu/Yuan,10,Fédération Française de Badminton
+202371,Bobritsky/Nassee,44,Fédération Française de Natation
+202395,Price/Haseldine,71,Fédération Française de Voile
+202523,Bozic/Mrak,71,Fédération Française de Voile
+202525,Siemsen/Arndt,71,Fédération Française de Voile
+202528,Hasson/Lasry,71,Fédération Française de Voile
+202532,Kaynar/Kaynakci,71,Fédération Française de Voile
+202533,Vadlau/Mähr,71,Fédération Française de Voile
+202534,João/Costa,71,Fédération Française de Voile
+202545,Tidey/Black,71,Fédération Française de Voile
+202546,Botín/Trittel Paul,71,Fédération Française de Voile
+202547,Xammar/Brugman,71,Fédération Française de Voile
+202549,Netzler/Bobeck,71,Fédération Française de Voile
+202563,Siegenthaler/Mermod,71,Fédération Française de Voile
+202573,Frank/Haberl,71,Fédération Française de Voile
+202576,Schneiter/de Planta,71,Fédération Française de Voile
+202577,Picon/Steyaert,71,Fédération Française de Voile
+202589,Okada/Yoshioka,71,Fédération Française de Voile
+202593,Duetz/van Aanholt,71,Fédération Française de Voile
+202600,Buhl/Nyborg,71,Fédération Française de Voile
+202715,Krou/Gauthier-Rat,74,Fédération Française de Volley
+202716,Wickler/Ehlers,74,Fédération Française de Volley
+202731,Jee/Lum,66,Fédération Française de Tennis de Table
+202811,Rugovac/Voneš,21,Fédération Française de Cyclisme
+202943,Lee C H/Ye H W,10,Fédération Française de Badminton
+202961,Borges/Cabral,65,Fédération Française de Tennis
+202986,Aleh/Meech,71,Fédération Française de Voile
+203002,Dahlberg/Karlsson,71,Fédération Française de Voile
+203057,Alayo/Diaz,74,Fédération Française de Volley
+203134,Nicolaidis/Carracher,74,Fédération Française de Volley
+203161,Buckle/Gazzard,44,Fédération Française de Natation
+203186,Canter/Lordships Graffalo,76,Fédération française d'Equitation
+203306,Fernandez/Romeo,76,Fédération française d'Equitation
+203310,Mytilineou/L'Artiste de Toxandra,76,Fédération française d'Equitation
+203427,Wang C/Liang W K,10,Fédération Française de Badminton
+203517,Vorsselman/Konijn,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+203521,Vincent/MacKenzie,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+203522,Tacchini/Casadei,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+203525,Dorange/Renard,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+203550,Carrington/Hoskin,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+203558,Trunov/Kukharyk,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+203571,Poulin/McTavish,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+203572,Paszek/Hake,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+203636,Meester/Clevering,79,Fédération Française d'Aviron
+203642,Lemke/Schopf,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+203647,Nurmatov/Safaroliev,79,Fédération Française d'Aviron
+203678,Schaeuble/Ahumada,79,Fédération Française d'Aviron
+203681,Novotnikova/Flamíková,79,Fédération Française d'Aviron
+203694,George/Wynne-Griffith,79,Fédération Française d'Aviron
+203704,Qiu X P/Zou J,79,Fédération Française d'Aviron
+204016,Bedggood/Rousseau,44,Fédération Française de Natation
+204030,Tkadlecová/Burska,71,Fédération Française de Voile
+204232,Apriani/Ramadhanti,10,Fédération Française de Badminton
+204242,Wiens/Zsombor-Murray,44,Fédération Française de Natation
+204767,Tjoem/Benske,79,Fédération Française d'Aviron
+204779,Beurey/Ludwig,79,Fédération Française d'Aviron
+204850,Platanioti/Malkogeorgou,44,Fédération Française de Natation
+204889,Sugitani/Quincy 194,76,Fédération française d'Equitation
+204976,Laugher/Harding,44,Fédération Française de Natation
+204982,Jandard/Bouyer,44,Fédération Française de Natation
+205032,Markfort/Diesch,71,Fédération Française de Voile
+205199,Barthel/Eikermann,44,Fédération Française de Natation
+205200,Sereda/Boliuch,44,Fédération Française de Natation
+205697,Chen Y X/Quan H C,44,Fédération Française de Natation
+206040,Foley/Guillemette,21,Fédération Française de Cyclisme
+206122,Karaliene/Rimkute,79,Fédération Française d'Aviron
+207291,Hodges/Schubert,74,Fédération Française de Volley
+207299,Iitsuka/Nishida Capiglia,71,Fédération Française de Voile
+207789,Liu H/Ji B W,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+207846,Kittel/Touchdown,76,Fédération française d'Equitation
+207848,Fry/Glamourdale,76,Fédération française d'Equitation
+207853,Scholtens/Indian Rock,76,Fédération française d'Equitation
+207947,Small/Ecker,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+208057,Garza/Contago,76,Fédération française d'Equitation
+208227,Borras/Copponi,21,Fédération Française de Cyclisme
+208332,Fojt/Pupp,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+208365,Toulson/Spendolini Sirieix,44,Fédération Française de Natation
+208415,Corbera/Jacome,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+208431,Wen Z D/Liu T,71,Fédération Française de Voile
+208432,Mai H C/Chen L L,71,Fédération Française de Voile
+208478,Pessoa/Major Tom,76,Fédération française d'Equitation
+208954,Humana-Paredes/Wilkerson,74,Fédération Française de Volley
+209316,Neretnieks/Palladium KJV,76,Fédération française d'Equitation
+209516,Donckers/Fletcha Van 'T Verahof,76,Fédération française d'Equitation
+209517,Collett/London 52,76,Fédération française d'Equitation
+209825,Berta/Festo,71,Fédération Française de Voile
+209833,Johnstone/Menlo Park,76,Fédération française d'Equitation
+209836,Kitajima/Cekatinka Jra,76,Fédération française d'Equitation
+209837,Diaz Fernandez/Taraje CP 21.10,76,Fédération française d'Equitation
+209838,Bertoli/Fidjy Des Melezes,76,Fédération française d'Equitation
+209840,Andersén/Box Leo,76,Fédération française d'Equitation
+209962,Wagner/Vitas,79,Fédération Française d'Aviron
+209976,Comini/Codato,79,Fédération Française d'Aviron
+210002,Schmitz/Gamin van't Naastveldhof,76,Fédération française d'Equitation
+210191,Lyneel/Bassereau,74,Fédération Française de Volley
+210285,Chen S Y/Lin Y J,66,Fédération Française de Tennis de Table
+210287,Lim J H/Shin Y,66,Fédération Française de Tennis de Table
+210690,Benesh/Partain,74,Fédération Française de Volley
+210691,M. Mørkøv/Larsen,21,Fédération Française de Cyclisme
+210693,De Vylder/Van den Bossche,21,Fédération Française de Cyclisme
+210696,Weishaupt/Zineday,76,Fédération française d'Equitation
+210697,Smolders/Uricas v/d Kattevennen,76,Fédération française d'Equitation
+210769,Lee S H/Baek H N,10,Fédération Française de Badminton
+210773,Huang D P/Feng Y Z,10,Fédération Française de Badminton
+211052,Delestre/I Amelusina R 51,76,Fédération française d'Equitation
+211234,Duncan/Downs,44,Fédération Française de Natation
+211248,Guerdat/Dynamix de Belheme,76,Fédération française d'Equitation
+211374,Ayache/Jolene,76,Fédération française d'Equitation
+211375,Basquin/Sertorius De Rima Z IFCE,76,Fédération française d'Equitation
+211389,Lecointre/Mion,71,Fédération Française de Voile
+211391,Swan/Haddad,71,Fédération Française de Voile
+211405,Perreau/GL Events Dorai D'Aiguilly,76,Fédération française d'Equitation
+211406,Maher/Dallas Vegas Batilly,76,Fédération française d'Equitation
+211590,Agarwalla/Sir Caramello OLD,76,Fédération française d'Equitation
+211656,Ludwig/Lippmann,74,Fédération Française de Volley
+211762,Sweetnam/James Kann Cruz,76,Fédération française d'Equitation
+211862,Vogel/United Touch S,76,Fédération française d'Equitation
+212578,Karunayadhaj/Maxwin Kinmar Agalux,76,Fédération française d'Equitation
+212653,Lyle/Giraldo,76,Fédération française d'Equitation
+212972,Roger-Vasselin/Garcia,65,Fédération Française de Tennis
+213028,Siegemund/Zverev,65,Fédération Française de Tennis
+213378,Merrald/Blue Hors Zepter,76,Fédération française d'Equitation
+213379,Pottier/Gotilas du Feuillard,76,Fédération française d'Equitation
+213419,Cocciaretto/Bronzetti,65,Fédération Française de Tennis
+213435,Seabra/Dourados 2,76,Fédération française d'Equitation
+213705,Ponnappa/Crasto,10,Fédération Française de Badminton
+213860,Graudina/Samoilova,74,Fédération Française de Volley
+213906,Pavlásek/Machác,65,Fédération Française de Tennis
+214102,Sharpe/Gillespie,21,Fédération Française de Cyclisme
+214106,Brauße/Reißner,21,Fédération Française de Cyclisme
+214523,Vale/Fine Fellow - H,76,Fédération française d'Equitation
+214562,Al Duhami/Untouchable 32,76,Fédération française d'Equitation
+214663,Tan N/Liu S S,10,Fédération Française de Badminton
+216310,De Clercq/Hesters,21,Fédération Française de Cyclisme
+216319,Liliana/Soria,74,Fédération Française de Volley
+216321,Paulikiene/Raupelyte,74,Fédération Française de Volley
+216325,Evandro/Arthur,74,Fédération Française de Volley
+216359,Cerruti/Ruggiero,44,Fédération Française de Natation
+216457,Deslauriers/Emerson,76,Fédération française d'Equitation
+216608,Bull/Beere,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+216986,van de Velde/Immers,74,Fédération Française de Volley
+217044,McNay/Dallman-Weiss,71,Fédération Française de Voile
+217049,Grael/Simões,71,Fédération Française de Voile
+217050,Pacheco/Barrio,71,Fédération Française de Voile
+217052,Lefebvre/Heuninck,71,Fédération Française de Voile
+217058,Barnes/Jones,71,Fédération Française de Voile
+217067,Hu X Y/Shan M Y,71,Fédération Française de Voile
+217122,Muchová/Nosková,65,Fédération Française de Tennis
+217125,Budinger/Evans,74,Fédération Française de Volley
+217129,Kolodiy/Konovalov,44,Fédération Française de Natation
+217132,Wang Z Y/Long D Y,44,Fédération Française de Natation
+217232,Valente/Williams,21,Fédération Française de Cyclisme
+217235,Uchino/Kakita,21,Fédération Française de Cyclisme
+217512,McEwen/JL Dublin,76,Fédération française d'Equitation
+217573,McKay/Miller,44,Fédération Française de Natation
+217579,Cid/Briz Zamorano,79,Fédération Française d'Aviron
+217581,Röösli/Gulich,79,Fédération Française d'Aviron
+217597,Altenhuber/Tiefenthaler,79,Fédération Française d'Aviron
+217661,Epaillard/Dubai Du Cedre,76,Fédération française d'Equitation
+217718,Brovkova/Iskakova,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+217737,Kretschmer/Hecker,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+217744,Jørgensen/Matthiesen,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+217753,Wisniewska/Klatt,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+217897,Spanaki/Spanakis,71,Fédération Française de Voile
+217995,Welna/Radosz,79,Fédération Française d'Aviron
+217996,Oppo/Soares,79,Fédération Française d'Aviron
+217997,Fitsiou/Kontou,79,Fédération Française d'Aviron
+218044,Vrinceanu/Anghel,79,Fédération Française d'Aviron
+218048,Lynch/Doyle,79,Fédération Française d'Aviron
+218090,Carracedo/Horta Pombo,79,Fédération Française d'Aviron
+218100,Jahn/Kliemke,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+218104,Weber/Gelsen,79,Fédération Française d'Aviron
+218523,Lu S/Shen S M,79,Fédération Française d'Aviron
+218555,Davison/Koszyk,79,Fédération Française d'Aviron
+218598,Mapasa/Yu,10,Fédération Française de Badminton
+218609,Martin/Fedarman B,76,Fédération française d'Equitation
+218654,Csipes/Gazsó,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+218769,Hunt/Szymczak,44,Fédération Française de Natation
+218779,Wathelet/Bond Jamesbond De Hay,76,Fédération française d'Equitation
+218849,Gillet/Hallifax,44,Fédération Française de Natation
+219052,Ebden/Perez,65,Fédération Française de Tennis
+219055,Watson/Salisbury,65,Fédération Française de Tennis
+219128,Moreno/Dominguez,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+219387,Carballo Nieto/Lopez Garcia,79,Fédération Française d'Aviron
+219388,Kiddle/Cox,79,Fédération Française d'Aviron
+219390,Bourmpou/Anastasiadou,79,Fédération Française d'Aviron
+219391,Corrigan/Timoney,79,Fédération Française d'Aviron
+219394,Spoors/Francis,79,Fédération Française d'Aviron
+219403,Krimi/Dhaouadi,79,Fédération Française d'Aviron
+219406,Van Zandweghe/Vyvey,79,Fédération Française d'Aviron
+219409,Wilson/Williamson,79,Fédération Française d'Aviron
+219701,Schmidbauer/Kokas,21,Fédération Française de Cyclisme
+219818,Bansley/Bukovec,74,Fédération Française de Volley
+219882,Individual Neutral Athlete,79,Fédération Française d'Aviron
+220245,Camilli/Odense Odeveld,76,Fédération française d'Equitation
+221480,Russekoff/C Vier 2,76,Fédération française d'Equitation
+222304,Grube/Heathcote,71,Fédération Française de Voile
+222322,Ugolotti/Swirly Temptress,76,Fédération française d'Equitation
+222324,Portale/Scuderia 1918 Future,76,Fédération française d'Equitation
+222328,Landois/Chaman Dumontceau,76,Fédération française d'Equitation
+222806,Yemelyanov/Khaidarov,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+222830,Korsak/Stepun,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+222922,Cirilo Duboys/Lopez Lamadrid,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+223026,Bengtsson/Zuccero HV,76,Fédération française d'Equitation
+223245,Freese/Total Hope OLD,76,Fédération française d'Equitation
+223251,Andersen/Vayron,76,Fédération française d'Equitation
+223274,Smith/Baxter,79,Fédération Française d'Aviron
+223277,Keogh/Murtagh,79,Fédération Française d'Aviron
+223302,Bergin/Hyde,79,Fédération Française d'Aviron
+223335,Adomaviciute/Kralikaite,79,Fédération Française d'Aviron
+223346,Haines/Sherman,79,Fédération Française d'Aviron
+223366,Alvarez Moya/Puma HS,76,Fédération française d'Equitation
+223368,Grzegorzewski/Issem,76,Fédération française d'Equitation
+223733,Javar/Norouzi,79,Fédération Française d'Aviron
+224204,Glinka/Abercrombie,76,Fédération française d'Equitation
+224299,Alrajhi/Ventago,76,Fédération française d'Equitation
+224543,Gulliksen/Mistral van de Vogelzang,76,Fédération française d'Equitation
+224600,Rhomberg/Colestus Cambridge,76,Fédération française d'Equitation
+224656,Mendoza Loor/Jewel's Goldstrike,76,Fédération française d'Equitation
+224658,Ferrando/Honnaisseur SJ,76,Fédération française d'Equitation
+224672,Colomino/Dickson,79,Fédération Française d'Aviron
+224700,Marcari Oliva/Feel Good Vo,76,Fédération française d'Equitation
+224808,Parro/Safira,76,Fédération française d'Equitation
+224809,Mamprin Losano/Withington,76,Fédération française d'Equitation
+224810,Carvalho Jorge/Castle Howard Casanova,76,Fédération française d'Equitation
+224816,Pamukcu/HSH Blake,76,Fédération française d'Equitation
+224823,Slezak/Hot Bobo,76,Fédération française d'Equitation
+224949,Chew/Blue Hors Zatchmo,76,Fédération française d'Equitation
+224983,Hwang Y S/Delmonte 7,76,Fédération française d'Equitation
+225018,Cook/Caracole De La Roque,76,Fédération française d'Equitation
+225020,Covarrubias/Nelson Du Petit Vivier,76,Fédération française d'Equitation
+225023,Larrazabal/Condara,76,Fédération française d'Equitation
+225043,Price/Hiarado,76,Fédération française d'Equitation
+225065,Mailliard/Gomez,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+225204,Liebenberg/Newberry Moore,71,Fédération Française de Voile
+225256,Hasegawa/Ishii,74,Fédération Française de Volley
+225268,Yuan/Lebrun,66,Fédération Française de Tennis de Table
+225407,Koolhof/Griekspoor,65,Fédération Française de Tennis
+225429,Caetano/Hit Plus,76,Fédération française d'Equitation
+226147,Almobty/Jaguar King WD,76,Fédération française d'Equitation
+226160,Moody/Jagerbomb,76,Fédération française d'Equitation
+226162,De Winne/Flynn FRH,76,Fédération française d'Equitation
+226593,Al Marri/BBS Mcgregor,76,Fédération française d'Equitation
+226596,Al Marzooqi/Enjoy de la Mure,76,Fédération française d'Equitation
+227726,Suter/Fibonacci,76,Fédération française d'Equitation
+227778,Schou/Napoli vh Nederassenthof,76,Fédération française d'Equitation
+229117,Simoneau/Lamothe,44,Fédération Française de Natation
+229119,Morris/Brown,44,Fédération Française de Natation
+229158,Muhr/Galaxy HM,76,Fédération française d'Equitation
+229222,Hentschel/Müller,44,Fédération Française de Natation
+229224,Hiekal/Barsoum,44,Fédération Française de Natation
+229229,Daley/Williams,44,Fédération Française de Natation
+229462,Al Suwaidi/Foncetti vd Heffinck,76,Fédération française d'Equitation
+229496,Emmen/Imagine,76,Fédération française d'Equitation
+229668,D. Cinar/Nalbantoglu,71,Fédération Française de Voile
+229674,Montinho/Paulo,71,Fédération Française de Voile
+229734,De Minaur/Popyrin,65,Fédération Française de Tennis
+230058,Botha/Shearman,21,Fédération Française de Cyclisme
+230260,Elghobashy/Abdelhady,74,Fédération Française de Volley
+230467,Verstraelen/Claeyssens,71,Fédération Française de Voile
+230572,Scheenaard/Veldhuis,79,Fédération Française d'Aviron
+230574,Gobbi/Guerra,79,Fédération Française d'Aviron
+230578,Brew/Edwards,79,Fédération Française d'Aviron
+230581,Christ/Kruse,79,Fédération Française d'Aviron
+230606,van der Duin/van Belle,21,Fédération Française de Cyclisme
+230655,Tokarnytskyi/Ramatulla,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+230666,Yu S M/Chen Y L,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+230699,Antosova/Santruckova,79,Fédération Française d'Aviron
+230700,Enache/Cornea,79,Fédération Française d'Aviron
+230701,Kavlie/Helseth,79,Fédération Française d'Aviron
+230703,Lehaci/Arteni,79,Fédération Française d'Aviron
+230753,Sorribes/Bucsa,65,Fédération Française de Tennis
+230775,Celaya/Olvera,44,Fédération Française de Natation
+230801,Oishi/Hirouchi,79,Fédération Française d'Aviron
+230802,Furuta/Miyaura,79,Fédération Française d'Aviron
+230824,Hodgkins-Byrne/Wilde,79,Fédération Française d'Aviron
+230863,Czarkowski/Field,44,Fédération Française de Natation
+230888,Halliday-Sharp/Cooley Nutcracker,76,Fédération française d'Equitation
+230973,Ri J S/Kim K Y,66,Fédération Française de Tennis de Table
+231046,Mackovic/Pimenov,79,Fédération Française d'Aviron
+231053,Thomas/Ermitage Kalone,76,Fédération française d'Equitation
+231062,Hajdú/Adolf,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+231068,Germade/Arevalo,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+231069,Olivier/Koch,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+231071,Birkett/Lovemore,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+231083,Del Rio/Cooper,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+231092,Otuedo/Bello,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+231147,Luzan/Rybachok,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+231151,Röhlings/Jagsch,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+231213,Bateman/Hudson,79,Fédération Française d'Aviron
+231217,Manson/Parry,79,Fédération Française d'Aviron
+231306,Thoennes/Czajkowski,79,Fédération Française d'Aviron
+231328,Sato/Higa,44,Fédération Française de Natation
+231639,Ravera-Scaramozzino/Lunatti,79,Fédération Française d'Aviron
+231643,Nagy/Kiss,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+231725,Gillet/Landi,44,Fédération Française de Natation
+231726,Keenan/Holt,79,Fédération Française d'Aviron
+231727,Bub/Bender,79,Fédération Française d'Aviron
+231805,Sysojeva/Maxima Bella,76,Fédération française d'Equitation
+232037,Humbert/Fils,65,Fédération Française de Tennis
+232138,Errani/Vavassori,65,Fédération Française de Tennis
+232179,Monteiro/Seyboth Wild,65,Fédération Française de Tennis
+232765,O'Connor/Maurice,76,Fédération française d'Equitation
+232769,Sato/Conthargo-Blue,76,Fédération française d'Equitation
+232904,Hsieh S W/Tsao C Y,65,Fédération Française de Tennis
+233000,Alcaraz/Nadal,65,Fédération Française de Tennis
+233002,Habib/Hassan,65,Fédération Française de Tennis
+233003,Alexandrova/Vesnina,65,Fédération Française de Tennis
+233004,M. Andreeva/Shnaider,65,Fédération Française de Tennis
+233005,Carlé/Podoroska,65,Fédération Française de Tennis
+233006,Yuan Y/Zhang S A,65,Fédération Française de Tennis
+233007,Garcia/Parry,65,Fédération Française de Tennis
+233008,Burel/Gracheva,65,Fédération Française de Tennis
+233009,Kerber/Siegemund,65,Fédération Française de Tennis
+233010,Korpatsch/Maria,65,Fédération Française de Tennis
+233011,Papamichail/Sakkari,65,Fédération Française de Tennis
+233012,Rus/Schuurs,65,Fédération Française de Tennis
+233013,Routliffe/Sun,65,Fédération Française de Tennis
+233014,Ukraine,24,Fédération Française de Football
+233015,Uzbekistan,24,Fédération Française de Football
+233016,Dominican Republic,24,Fédération Française de Football
+233017,Spain,24,Fédération Française de Football
+233250,M. Andreeva/Medvedev,65,Fédération Française de Tennis
+233253,Sorribes/Granollers,65,Fédération Française de Tennis
+233255,Gauff/Fritz,65,Fédération Française de Tennis
+233256,Daniel/Nishikori,65,Fédération Française de Tennis
+233385,Shibahara/Nishikori,65,Fédération Française de Tennis
+233386,Darderi/Musetti,65,Fédération Française de Tennis
+233491,Ambros/Vitorio Du Montet,76,Fédération française d'Equitation
+233492,Touzaint/Diabolo Menthe,76,Fédération française d'Equitation
+233493,Burton/Shadow Man,76,Fédération française d'Equitation
+233494,Kaizinger/Herr Cooles Classico,76,Fédération française d'Equitation
+233495,Phoenix/Freedom GS,76,Fédération française d'Equitation
+233496,Hua Tian/Jilsonne van Bareelhof,76,Fédération française d'Equitation
+233497,Powala/Tosca Del Castegno,76,Fédération française d'Equitation
+233498,Benitez Valle/Utreraa AA 35 1,76,Fédération française d'Equitation
+233499,Peternell/Figaro Des Premices,76,Fédération française d'Equitation
+233500,Ennis/Action Lady M,76,Fédération française d'Equitation
+233501,Magnus/Dia Van Het Lichterveld Z,76,Fédération française d'Equitation
+233503,Oiwa/MGH Grafton Street,76,Fédération française d'Equitation
+233504,Grave/Carat de Bremoy,76,Fédération française d'Equitation
+233505,Kooremans/Crossborder Radar Love NOP,76,Fédération française d'Equitation
+233507,Vogg/Dao De L'Ocean,76,Fédération française d'Equitation
+233508,Romeike/Caspian 15,76,Fédération française d'Equitation
+233509,Slaoui/Cash In Hand,76,Fédération française d'Equitation
+233510,Berry/Wellfields Lincoln,76,Fédération française d'Equitation
+233511,Krajewski/Nickel 21,76,Fédération française d'Equitation
+233513,Borch/Helseth,79,Fédération Française d'Aviron
+233514,Liu Z/Adilijiang S L,79,Fédération Française d'Aviron
+233515,Monfils/Roger-Vasselin,65,Fédération Française de Tennis
+233672,Etcheverry/Navone,65,Fédération Française de Tennis
+233718,Hester/Fame,76,Fédération française d'Equitation
+233719,Brown/Willingapark Quincy B,76,Fédération française d'Equitation
+233720,Lehfellner/Roberto Carlos MT,76,Fédération française d'Equitation
+233721,Orlob/Jane,76,Fédération française d'Equitation
+233722,Lyle/Helix,76,Fédération française d'Equitation
+233723,Stefani/Seyboth Wild,65,Fédération Française de Tennis
+233724,Zhang Z Z/Wang X Y,65,Fédération Française de Tennis
+233736,Castilla/Hi Rico Do Sobral,76,Fédération française d'Equitation
+233737,Werth/Wendy De Fontaine,76,Fédération française d'Equitation
+233738,Ruoste/Tiffanys Diamond,76,Fédération française d'Equitation
+233739,Laudrup-Dufour/Freestyle,76,Fédération française d'Equitation
+233740,Duarte/Irao,76,Fédération française d'Equitation
+233741,Matthew/Mysterious Star,76,Fédération française d'Equitation
+233742,Robinson/Glamouraline,76,Fédération française d'Equitation
+233743,Carrascosa/Frizzantino FRH,76,Fédération française d'Equitation
+233744,Carier Bergeron/Finnlanderin,76,Fédération française d'Equitation
+233745,Minderhoud/Glock's Toto Jr.,76,Fédération française d'Equitation
+233746,Szulc/Breakdance,76,Fédération française d'Equitation
+233755,Xu Z J/Lv Y X,71,Fédération Française de Voile
+233756,Burnet/Gimson,71,Fédération Française de Voile
+233774,Ward/Ilex,76,Fédération française d'Equitation
+233775,Garcia Roque/Tirano,76,Fédération française d'Equitation
+233776,Ballard/Nikka vd Bisschop,76,Fédération française d'Equitation
+233777,Scott/Milky Way,76,Fédération française d'Equitation
+233778,Mansur/Miss Blue-Saint Blue Farm QH,76,Fédération française d'Equitation
+233779,Erwin/Hialita B,76,Fédération française d'Equitation
+233780,Haase Shibayama/Karamell M & M,76,Fédération française d'Equitation
+233839,Petrov/Korovashkov,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+233840,Brown/Clancy,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+233841,Kopasz/Varga,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+233842,Legarth/Imrie,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+233843,Dzombeta/Torubarov,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+233844,Novakovic/Dragosavljevic,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+233845,Virik/Sletsjøe,18,Fédération Française de Canoë-Kayak et Sports de Pagaie
+233875,Bonhomme/Coles-Lyster,21,Fédération Française de Cyclisme
+233876,Bayandina/Lunel,44,Fédération Française de Natation
+235024,De Liedekerke-Meier/Origi,76,Fédération française d'Equitation
