@@ -1,148 +1,193 @@
-# Olympic Results SQL Playground
+# Stream Score Stack — Olympic Results Data Platform
 
-A local data playground for querying Olympic sports results using Streamlit, PostgreSQL and Apache Airflow.
+End-to-end data platform for Olympic sports results: multi-source extraction, SQL processing, aggregation, normalized database, REST API and interactive SQL playground.
+
+Built for the **BTS SIO SLAM — E4** exam, covering competencies **C8–C12**.
+
+**E4 deliverables (jury pack):** start at **[README_E4.md](README_E4.md)** — links to installation, demo script, SQL docs, API docs, MERISE, and RGPD.
+
+---
+
+## Architecture
+
+```
+┌──────────────┐   ┌──────────────┐   ┌──────────────┐
+│  Mock API    │   │  PostgreSQL  │   │   Parquet    │
+│  (FastAPI)   │   │ source schema│   │  (DuckDB)    │
+│  :8000       │   │  :5433       │   │  local file  │
+└──────┬───────┘   └──────┬───────┘   └──────┬───────┘
+       │                  │                  │
+       └──────────────────┼──────────────────┘
+                          │
+                ┌─────────▼──────────┐
+                │   EXTRACTION (C8)  │  + CSV file + HTML scraping
+                │  src/pipelines/    │
+                │  extract/          │
+                └─────────┬──────────┘
+                          │  data/staging/*.csv
+                ┌─────────▼──────────┐
+                │ SQL EXTRACTION (C9)│
+                │  sql/extraction/   │
+                └─────────┬──────────┘
+                          │
+                ┌─────────▼──────────┐
+                │ AGGREGATION (C10)  │
+                │  normalize → clean │
+                │  → merge → build   │
+                └─────────┬──────────┘
+                          │  data/final/*.csv
+                ┌─────────▼──────────┐
+                │ TARGET DB (C11)    │
+                │  7 dim + 1 fact    │
+                │  PostgreSQL        │
+                └────┬─────────┬─────┘
+                     │         │
+          ┌──────────▼──┐  ┌───▼──────────┐
+          │ REST API    │  │  Streamlit   │
+          │ (FastAPI)   │  │  SQL         │
+          │ :8888       │  │  Playground  │
+          │ (C12)       │  │  :8501       │
+          └─────────────┘  └──────────────┘
+                     │
+          ┌──────────▼──────────┐
+          │  Airflow (Phase 7)  │
+          │  DAG e4_pipeline    │
+          │  :8080              │
+          └─────────────────────┘
+```
 
 ## Prerequisites
 
-- **Docker & Docker Compose** (v2+)
-- **uv** (Astral UV) for dependency management
+- **Docker Desktop** (Docker Compose v2+)
+- **uv** ([Astral UV](https://docs.astral.sh/uv/)) for local Python dependency management
 
-## Setup
+## Quick Start
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/Daria-data/stream-score-stack
-   cd stream-score-stack
-
-2. **Install dependencies**
 ```bash
-uv sync --group core      # pandas, streamlit, sqlalchemy, psycopg2-binary, pydantic-settings, openpyxl
-uv sync --group dev       # ruff, pytest
-uv sync --group airflow   # apache-airflow ...
+git clone https://github.com/Daria-data/stream-score-stack
+cd stream-score-stack
+
+# 1. Prepare data sources (one-time, from raw CSV)
+uv sync --group core
+uv run python scripts/prepare_sources.py
+
+# 2. Run local pipelines (extraction → SQL → aggregation)
+uv run python -m src.pipelines.extract.run_extraction
+uv run python -m src.pipelines.sql.run_sql_extraction
+uv run python -m src.pipelines.transform.run_aggregation
+
+# 3. Start the full stack
+docker compose up -d --build
 ```
-3. **Configure environment**
-Create a file named .env in the project root containing:
-```text
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=sports
-DB_USER=postgres
-DB_PASSWORD=postgres
-```
-*change if you prefer another password*
+
+## Services
+
+| Service            | Container          | Port  | Description                              |
+|--------------------|--------------------|-------|------------------------------------------|
+| PostgreSQL         | sports-pg          | 5433  | Main database (source + target schemas)  |
+| Mock API           | sports-mock-api    | 8000  | REST API data source (countries, sports) |
+| Loader             | sports-loader      | —     | One-shot: loads data into target schema  |
+| Streamlit App      | sportquery-app     | 8501  | Interactive SQL playground               |
+| REST API           | sports-api         | 8888  | Authenticated API over normalized DB     |
+| Airflow Web        | sports-airflow-web | 8080  | DAG monitoring UI (admin/admin)          |
+| Airflow Scheduler  | sports-airflow-scheduler | — | Task executor                          |
+
+## Data Sources (C8)
+
+| Source       | Type              | Module                              |
+|--------------|-------------------|-------------------------------------|
+| Mock API     | REST API (JSON)   | `src/pipelines/extract/extract_from_api.py`     |
+| CSV file     | Flat file         | `src/pipelines/extract/extract_from_file.py`    |
+| HTML page    | Web scraping      | `src/pipelines/extract/extract_from_html.py`    |
+| PostgreSQL   | Database (source) | `src/pipelines/extract/extract_from_postgres.py`|
+| Parquet      | Big data (DuckDB) | `src/pipelines/extract/extract_from_parquet.py` |
+
+## Database Schema (C11)
+
+Normalized snowflake schema: 7 dimension tables + 1 fact table.
+
+- `dim_country`, `dim_federation`, `dim_sport`, `dim_discipline`
+- `dim_epreuve`, `dim_edition`, `dim_evenement`
+- `fact_result` (~35,700 rows)
+
+See: `sql/init_target_db.sql`, `docs/merise_mcd.md`, `docs/merise_mld.md`, `docs/merise_mpd.md`
+
+## REST API (C12)
+
+- Base URL: `http://localhost:8888`
+- OpenAPI docs: `http://localhost:8888/docs`
+- Auth: `X-API-Key: e4-demo-key-2026`
+
+Endpoints: `/health`, `/countries`, `/sports`, `/federations`, `/editions`, `/results`, `/results/{id}`, `/stats/results-by-country`
+
+See: `docs/e4_api_usage.md`
+
+## Airflow Pipeline (Phase 7)
+
+DAG `e4_pipeline` orchestrates the full E4 data pipeline:
+
+1. `extract_multi_sources` (C8)
+2. `sql_extraction` (C9)
+3. `aggregate_and_build_final` (C10)
+4. `import_to_target_db` (C11)
+
+Access: `http://localhost:8080` (admin / admin)
 
 ## Project Structure
 
-- **pyproject.toml**: project metadata & uv configuration (groups: core, dev, airflow)
-- **docker-compose.yml**: local orchestration for Postgres, loader, Airflow and app
-- **dags/imitation_ingest_data.py**: Airflow DAG definitions
-- **data/raw/**: original CSV of Olympic results
-- **src/**:
-    - **app.py** — Streamlit front-end
-    - **config.py** — pydantic settings
-    - **db/init_db.py** — data loader script 
-
-## Running the Full Stack
-```bash
-docker compose up -d
 ```
-This will start:
-
-1. **PostgreSQL** on port 5433 with database sports and table **jo**.
-2. **Loader** to ingest and cast CSV data.
-3. **Airflow init** to migrate metadata and create an admin user (admin/admin).
-4. **Airflow web** UI (http://localhost:8080) and **scheduler**.
-5. **Streamlit** app (http://localhost:8501).
-
-The project infrastructure is defined and managed through **Docker Compose**. Each service has clear dependencies and conditions that control its execution:
-
-### Services:
-
-- **postgres**
-  - PostgreSQL database with Olympic results data.
-  - Always running service, exposes port **5433**.
-  - Central data store (`sports` database, `jo` table).
-
-- **loader**
-  - Runs **only once** at startup to load CSV data into PostgreSQL.
-  - **Depends on:** "postgres" (waits until database is healthy).
-  - Stops automatically after completing the data ingestion.
-
-- **app**
-  - Streamlit application to query data interactively.
-  - Exposes UI at port **8501**.
-  - **Depends on:**
-    - `postgres` (healthy database connection).
-    - `loader` (successful completion).
-
-- **airflow-init**
-  - Initializes Airflow metadata table within project's existing PostgreSQL (`sports` database).
-  - **Connects directly** to the existing Postgres database of the project.
-  - Creates Airflow admin user (`admin`/`admin`).
-  - Runs **only once** at initial setup.
-  - **Depends on:** `postgres` (healthy database).
-
-- **airflow-web**
-  - Airflow Web UI to monitor and trigger DAGs.
-  - Exposes interface at port **8080**.
-  - **Depends on:**
-    - `postgres` (healthy database connection).
-    - `airflow-init` (successful completion).
-
-- **airflow-scheduler**
-  - Airflow scheduler to execute DAG tasks on defined schedules.
-  - Continuous background service without port exposure.
-  - **Depends on:**
-    - `postgres` (healthy database connection).
-    - `airflow-init` (successful completion).
-
-### Startup Sequence & Conditions:
-
-1. **postgres** starts first; provides database.
-2. **loader** waits for postgres, loads data once and exits.
-3. **app** waits for postgres and loader completion, available at port **8501**.
-4. **airflow-init** waits for postgres, initializes Airflow tables and user, then exits.
-5. **airflow-web** and **airflow-scheduler** wait for airflow-init, run continuously, UI at port **8080**.
-
-This clear dependency structure ensures services launch smoothly and function predictably.
-
-## Streamlit Interface
-### Sidebar
-1. Table Info : 
-    - Table name ...
-    - Description ...
-    - Last refresh: timestamp of the last successful DAG run
-    - Column selector: choose which columns to display
-    - Quick Templates: load predefined SQL with one click : 
-        - *"Show head"*
-        - *"Medal tally by country - 2024"*
-        - *"Athlete medal tally"*
-
-### Main Area
-- **SQL editor**: displays the selected template or custom SQL *(fully editable)*
-- **Run query** *execute and view results*
-- **Download CSV / Excel** *export your results locally*
-
-## Airflow
-- Access the UI at http://localhost:8080 *(login: admin / admin)*
-- DAG ingest_every_2_years runs every two calendar years on January 1 (for Winter & Summer Games)
-- Monitor runs, trigger backfills and inspect logs
-
-**Initial Scheduling Adjustment**:  
-By default, the first scheduled run might start on an earlier date than expected.  
-To manually align the DAG's next execution date (simulate that January 1, 2025, has already run), execute:
-```powershell
-docker compose exec airflow-web bash -c "
-    airflow dags backfill ingest_every_2_years \
-   -s 2025-01-01 -e 2025-01-01 --reset-dagruns
-"
+stream-score-stack/
+├── dags/                          # Airflow DAGs
+│   ├── e4_pipeline.py             # E4 full pipeline DAG
+│   └── imitation_ingest_data.py   # Original ingest DAG
+├── data/
+│   ├── raw/                       # Original CSV
+│   ├── html/                      # Scraped HTML source
+│   ├── mock_api/                  # JSON for mock API
+│   ├── parquet/                   # Parquet big data source
+│   ├── source_db/                 # CSVs for PG source schema
+│   ├── staging/                   # Intermediate extraction results
+│   └── final/                     # Final dim_*.csv + fact_result.csv
+├── docker/
+│   └── db-init/                   # SQL init scripts for Postgres
+├── README_E4.md                   # E4 entry point + competency map
+├── docs/
+│   ├── e4_installation.md         # Setup (uv, Docker, troubleshooting)
+│   ├── e4_demo_steps.md           # Jury demo walkthrough
+│   ├── merise_mcd.md              # Conceptual data model
+│   ├── merise_mld.md              # Logical data model
+│   ├── merise_mpd.md              # Physical data model
+│   ├── e4_sql_documentation.md    # SQL query documentation (C9)
+│   ├── e4_api_usage.md            # API usage guide (C12)
+│   ├── registre_traitements_rgpd.md  # RGPD register
+│   └── procedure_tri_donnees.md   # Data management procedure
+├── sql/
+│   ├── init_target_db.sql         # Target schema DDL
+│   └── extraction/                # Documented SQL queries (C9)
+├── src/
+│   ├── app.py                     # Streamlit SQL playground
+│   ├── config.py                  # Pydantic settings
+│   ├── api/                       # REST API (C12)
+│   ├── db/                        # Database loaders
+│   ├── mock_api/                  # Mock API source service
+│   └── pipelines/
+│       ├── extract/               # C8 extraction modules
+│       ├── sql/                   # C9 SQL extraction
+│       └── transform/             # C10 aggregation pipeline
+├── docker-compose.yml
+├── Dockerfile
+└── pyproject.toml
 ```
-*After running this command, the next scheduled execution moves correctly to January 1, 2027.*
 
-## Next Steps
-1. **CI/CD** Pipeline: GitHub Actions to automate uv sync, linting (ruff), testing (pytest). Enforce ruff and mypy in CI for code quality and type safety
-2. **Integration & Unit Tests**: Use pytest with a test database to validate loader logic, DAG tasks etc
-3. Production Overrides: Create **docker-compose.prod.yml** with resource limits, TLS, separate networks and monitoring integrations
-4. Data Quality Checks - maybe
-5. **Better UI** : Add query history, templates, favorites and DataViz
+## Documentation
 
+| Document                           | Competency | Path                                |
+|------------------------------------|------------|-------------------------------------|
+| **E4 index (start here)**          | C8–C12     | `README_E4.md`                      |
+| Installation                       | —          | `docs/e4_installation.md`           |
+| Demo steps (jury)                  | —          | `docs/e4_demo_steps.md`             |
+| MERISE MCD / MLD / MPD             | C11        | `docs/merise_*.md`                  |
+| SQL extraction documentation       | C9         | `docs/e4_sql_documentation.md`      |
+| API usage guide                    | C12        | `docs/e4_api_usage.md`             |
+| RGPD — Registre des traitements    | C11        | `docs/registre_traitements_rgpd.md` |
+| RGPD — Procédure tri données       | C11        | `docs/procedure_tri_donnees.md`     |

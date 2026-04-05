@@ -36,11 +36,7 @@ services:
   loader:
     build: .        
     container_name: sports-loader
-    command: >
-      bash -c "
-        uv run python src/db/init_db.py &&
-        uv run python src/db/import_final_dataset.py
-      "
+    command: ["uv", "run", "python", "src/db/import_final_dataset.py"]
     environment:
       DB_HOST: postgres
       DB_PORT: 5432
@@ -117,9 +113,15 @@ services:
         postgresql+psycopg2://postgres:${DB_PASSWORD:-postgres}@postgres:5432/sports
       AIRFLOW_CONN_SPORTS_DB: >-
         postgresql://postgres:${DB_PASSWORD:-postgres}@postgres:5432/sports
+      PYTHONPATH: /opt/airflow
+      _PIP_ADDITIONAL_REQUIREMENTS: >-
+        pandas sqlalchemy psycopg2-binary duckdb pyarrow beautifulsoup4 httpx pydantic-settings
     volumes:
       - ./dags:/opt/airflow/dags
       - ./data/raw:/csv:ro
+      - ./src:/opt/airflow/src
+      - ./data:/opt/airflow/data
+      - ./sql:/opt/airflow/sql
     networks: [sports-net]
     depends_on:
       postgres:
@@ -136,9 +138,15 @@ services:
         postgresql+psycopg2://postgres:${DB_PASSWORD:-postgres}@postgres:5432/sports
       AIRFLOW_CONN_SPORTS_DB: >-
         postgresql://postgres:${DB_PASSWORD:-postgres}@postgres:5432/sports
+      PYTHONPATH: /opt/airflow
+      _PIP_ADDITIONAL_REQUIREMENTS: >-
+        pandas sqlalchemy psycopg2-binary duckdb pyarrow beautifulsoup4 httpx pydantic-settings
     volumes:
       - ./dags:/opt/airflow/dags
       - ./data/raw:/csv:ro
+      - ./src:/opt/airflow/src
+      - ./data:/opt/airflow/data
+      - ./sql:/opt/airflow/sql
     networks: [sports-net]
     depends_on:
       postgres:
@@ -158,9 +166,15 @@ services:
         postgresql+psycopg2://postgres:${DB_PASSWORD:-postgres}@postgres:5432/sports
       AIRFLOW_CONN_SPORTS_DB: >-
         postgresql://postgres:${DB_PASSWORD:-postgres}@postgres:5432/sports
+      PYTHONPATH: /opt/airflow
+      _PIP_ADDITIONAL_REQUIREMENTS: >-
+        pandas sqlalchemy psycopg2-binary duckdb pyarrow beautifulsoup4 httpx pydantic-settings
     volumes:
       - ./dags:/opt/airflow/dags
       - ./data/raw:/csv:ro
+      - ./src:/opt/airflow/src
+      - ./data:/opt/airflow/data
+      - ./sql:/opt/airflow/sql
     networks: [sports-net]
     depends_on:
       postgres:

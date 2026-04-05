@@ -87,13 +87,15 @@ ORDER BY discipline_administrative, epreuve;
 ### Query 5: Agrégation — événements par édition
 
 ```sql
-SELECT id_edition, COUNT(*) AS event_count
-FROM source.evenements
-GROUP BY id_edition
-ORDER BY id_edition;
+SELECT e.season_year, e.city, e.competition_type,
+       COUNT(*) AS event_count
+FROM source.evenements ev
+JOIN dim_edition e ON ev.id_edition = e.id_edition
+GROUP BY e.season_year, e.city, e.competition_type
+ORDER BY e.season_year DESC;
 ```
 
-**Cas d'usage**: Vérifier le nombre de compétitions par Olympiade (tendance historique).
+**Cas d'usage**: Vérifier le nombre de compétitions par Olympiade (tendance historique). Le JOIN avec `dim_edition` permet d'afficher l'année, la ville et le type au lieu d'un ID technique.
 
 ### Query 6: Détection de données incomplètes
 

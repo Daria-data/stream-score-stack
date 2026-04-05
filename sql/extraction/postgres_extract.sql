@@ -87,13 +87,17 @@ ORDER BY discipline_administrative, epreuve;
 -- -----------------------------------------------------------------------------
 -- Purpose: Count how many contests happened in each Olympic edition.
 -- Use case: Data validation / trend analysis.
+-- JOIN with dim_edition to show human-readable edition info instead of raw IDs.
 
 SELECT 
-    id_edition,
+    e.season_year,
+    e.city,
+    e.competition_type,
     COUNT(*) AS event_count
-FROM source.evenements
-GROUP BY id_edition
-ORDER BY id_edition;
+FROM source.evenements ev
+JOIN dim_edition e ON ev.id_edition = e.id_edition
+GROUP BY e.season_year, e.city, e.competition_type
+ORDER BY e.season_year DESC;
 
 -- -----------------------------------------------------------------------------
 -- QUERY 6: Filter incomplete records (data quality)
