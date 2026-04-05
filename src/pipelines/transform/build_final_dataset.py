@@ -164,14 +164,16 @@ def save_combined_parquet(aligned: dict[str, pd.DataFrame], output_dir: Path) ->
             how="left",
         )
 
-    # Add edition info
-    if "dim_edition" in aligned:
+    # Edition attributes: fact → dim_evenement (id_evenement → id_edition) → dim_edition
+    if "dim_evenement" in aligned and "dim_edition" in aligned:
+        ev_keys = aligned["dim_evenement"][["id_evenement", "id_edition"]].copy()
+        fact = fact.merge(ev_keys, on="id_evenement", how="left")
         fact = fact.merge(
-            aligned["dim_edition"][["id_edition", "season_year", "city", "competition_type"]],
-            left_on="id_evenement",  # Need to go through evenement
-            right_on="id_edition",
+            aligned["dim_edition"][
+                ["id_edition", "season_year", "city", "competition_type"]
+            ],
+            on="id_edition",
             how="left",
-            suffixes=("", "_edition"),
         )
 
     path = output_dir / "final_dataset.parquet"
