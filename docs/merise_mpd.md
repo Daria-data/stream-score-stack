@@ -1,4 +1,4 @@
-# MPD — Modèle Physique de Données
+# MPD : Modèle Physique de Données
 
 Implémentation du MLD sur PostgreSQL 15.
 
@@ -17,7 +17,7 @@ Déjà utilisée dans le projet pour le stockage et Airflow.
 | dim_sport | 66 | < 1 KB |
 | dim_discipline | 75 | < 1 KB |
 | dim_epreuve | 529 | ~30 KB |
-| dim_edition | 170 | ~10 KB |
+| dim_edition | 5 | < 1 KB |
 | dim_evenement | 1 185 | ~100 KB |
 | fact_result | 35 690 | ~5 MB |
 
@@ -51,7 +51,7 @@ erDiagram
         INTEGER id_sport PK "NOT NULL"
         VARCHAR_120 sport_name_fr "NOT NULL"
         VARCHAR_120 sport_name_en "NOT NULL"
-        INTEGER id_federation FK "→ dim_federation"
+        INTEGER id_federation FK "vers dim_federation"
     }
 
     dim_discipline {
@@ -69,8 +69,8 @@ erDiagram
         BOOLEAN is_summer "NOT NULL DEFAULT TRUE"
         BOOLEAN is_handicap "NOT NULL DEFAULT FALSE"
         INTEGER result_direction "NULLABLE"
-        INTEGER id_discipline FK "NOT NULL → dim_discipline"
-        INTEGER id_sport FK "NOT NULL → dim_sport"
+        INTEGER id_discipline FK "NOT NULL vers dim_discipline"
+        INTEGER id_sport FK "NOT NULL vers dim_sport"
     }
 
     dim_edition {
@@ -88,14 +88,14 @@ erDiagram
         VARCHAR_200 event_name_fr "NOT NULL"
         VARCHAR_200 event_name_en "NOT NULL"
         VARCHAR_30 age_category "NULLABLE"
-        INTEGER id_epreuve FK "NOT NULL → dim_epreuve"
-        INTEGER id_edition FK "NOT NULL → dim_edition"
+        INTEGER id_epreuve FK "NOT NULL vers dim_epreuve"
+        INTEGER id_edition FK "NOT NULL vers dim_edition"
     }
 
     fact_result {
         INTEGER id_result PK "NOT NULL"
-        INTEGER id_evenement FK "NOT NULL → dim_evenement"
-        INTEGER id_country FK "NOT NULL → dim_country"
+        INTEGER id_evenement FK "NOT NULL vers dim_evenement"
+        INTEGER id_country FK "NOT NULL vers dim_country"
         INTEGER id_athlete "NULLABLE"
         VARCHAR_120 athlete_last_name "NULLABLE"
         VARCHAR_120 athlete_first_name "NULLABLE"

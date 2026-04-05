@@ -7,7 +7,7 @@ Sources produced:
   4. data/source_db/epreuves.csv + evenements.csv (for PostgreSQL source schema)
 
 The original CSV (data/raw/fact_resultats_epreuves.csv) is kept as-is
-and serves as source #5 — the file source (results / facts).
+and serves as source #5, the file source (results / facts).
 
 Usage:
     uv run python scripts/prepare_sources.py
@@ -178,16 +178,16 @@ def main() -> None:
 
     dirs = _ensure_dirs()
 
-    print("[Source 1] Mock API — countries + sports")
+    print("[Source 1] Mock API: countries + sports")
     build_mock_api(df, dirs["mock_api"])
 
-    print("\n[Source 2] HTML — editions")
+    print("\n[Source 2] HTML: editions")
     build_html_page(df, dirs["html"])
 
-    print("\n[Source 3] Parquet — athletes / teams / federations")
+    print("\n[Source 3] Parquet: athletes / teams / federations")
     build_parquet(df, dirs["parquet"])
 
-    print("\n[Source 4] Source DB CSV — épreuves + événements")
+    print("\n[Source 4] Source DB CSV: épreuves + événements")
     build_source_db_csv(df, dirs["source_db"])
 
     print("\n[Source 5] Original CSV kept as-is for file extraction")

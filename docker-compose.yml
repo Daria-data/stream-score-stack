@@ -108,6 +108,7 @@ services:
         --firstname Admin --lastname User \
         --role Admin --email admin@example.com"
     environment:
+      AIRFLOW__CORE__EXECUTOR: "LocalExecutor"
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: >-
         postgresql+psycopg2://postgres:${DB_PASSWORD:-postgres}@postgres:5432/sports
@@ -133,6 +134,7 @@ services:
     container_name: sports-airflow-web
     command: webserver                         
     environment:
+      AIRFLOW__CORE__EXECUTOR: "LocalExecutor"
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: >-
         postgresql+psycopg2://postgres:${DB_PASSWORD:-postgres}@postgres:5432/sports
@@ -161,6 +163,7 @@ services:
     container_name: sports-airflow-scheduler
     command: scheduler                        
     environment:
+      AIRFLOW__CORE__EXECUTOR: "LocalExecutor"
       AIRFLOW__CORE__LOAD_EXAMPLES: "false"
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: >-
         postgresql+psycopg2://postgres:${DB_PASSWORD:-postgres}@postgres:5432/sports

@@ -1,6 +1,5 @@
-"""Extract result-level data from the raw CSV file.
+"""Extract result-level rows from the raw CSV into staging (fact + FK columns only).
 
-Covers C8 requirement: extraction from a data file.
 Only result/fact columns and foreign keys are kept;
 dimension data comes from other sources.
 

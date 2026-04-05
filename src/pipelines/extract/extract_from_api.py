@@ -1,6 +1,4 @@
-"""Extract reference data (countries, sports) from the Mock REST API.
-
-Covers C8 requirement: extraction from a web service (API REST).
+"""Extract reference data (countries, sports) from the mock REST API into staging CSV.
 
 Usage:
     uv run python -m src.pipelines.extract.extract_from_api

@@ -2,10 +2,9 @@
 -- DuckDB Extraction Queries (Big Data / Parquet Layer)
 -- Target: data/parquet/athletes_teams.parquet
 --
--- These queries demonstrate C9 requirements:
---   - SQL extraction from a big-data system (columnar storage)
+-- Documented analytical extracts over Parquet (columnar layer):
 --   - Aggregations, filtering, deduplication
---   - DuckDB as analytical SQL engine on Parquet
+--   - DuckDB as SQL engine on Parquet files
 -- =============================================================================
 
 -- Note: {PARQUET_PATH} is a placeholder replaced at runtime.
@@ -42,7 +41,7 @@ FROM read_parquet('{PARQUET_PATH}')
 ORDER BY id_federation;
 
 -- -----------------------------------------------------------------------------
--- QUERY 3: Aggregation — athletes per federation
+-- QUERY 3: Aggregation, athletes per federation
 -- -----------------------------------------------------------------------------
 -- Purpose: Analytical insight into federation representation.
 -- Use case: Validate data distribution, identify dominant federations.
@@ -57,7 +56,7 @@ GROUP BY id_federation, federation
 ORDER BY athlete_count DESC;
 
 -- -----------------------------------------------------------------------------
--- QUERY 4: Aggregation — athletes per team
+-- QUERY 4: Aggregation, athletes per team
 -- -----------------------------------------------------------------------------
 -- Purpose: Understand team sizes in the dataset.
 -- Filter: Only rows with both athlete and team info.
@@ -90,7 +89,7 @@ WHERE id_athlete_base_resultats IS NULL
 ORDER BY id_equipe;
 
 -- -----------------------------------------------------------------------------
--- QUERY 6: Data quality — records with missing federation
+-- QUERY 6: Data quality, records with missing federation
 -- -----------------------------------------------------------------------------
 -- Purpose: Find athletes/teams without federation assignment.
 -- Use case: Data cleaning before final dataset.

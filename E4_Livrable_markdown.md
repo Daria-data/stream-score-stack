@@ -24,7 +24,7 @@ Modalités de l'oral et Durée : **Présentation orale incluant une démonstrati
 
 ---
 
-## 2 - Description détaillée de chaque compétence et attentes du jury (Validation)
+## 2 - Description détaillée de chaque compétence et critères de validation officiels (référentiel BTS SIO)
 
 ### Compétence C8 : Automatiser l’extraction de données
 
@@ -40,7 +40,7 @@ Définition de la compétence : Automatiser l’extraction de données depuis un
 - Connexion programmatique (Python, R, etc.) à un système de gestion de base de données et à un système big data (Hive, Apache Impala, etc.).
 - Programmation des filtrages/parsing des données utiles dans les résultats obtenus.
 
-**Ce que le jury attend pour la validation (Critères d'évaluation) :**
+**Critères d'évaluation (référentiel officiel) :**
 
 - La présentation du projet et de son contexte est complète : acteurs, objectifs fonctionnels et techniques, **environnements **et contraintes techniques, budget, organisation du travail et planification.
 - Les spécifications techniques précisent : les technologies et outils, les services externes, les exigences de programmation (langages), l’accessibilité (disponibilité, accès).
@@ -63,7 +63,7 @@ Définition de la compétence : Développer des requêtes de type SQL d’extrac
 - Exécution programmatique des requêtes d’extraction depuis un système big data.
 - Documentation des requêtes d’extraction.
 
-**Ce que le jury attend pour la validation (Critères d'évaluation) :**
+**Critères d'évaluation (référentiel officiel) :**
 
 - Les requêtes de type SQL pour la collecte de données sont fonctionnelles : les données visées sont effectivement extraites suites à l'exécution des requêtes.
 - La documentation des requêtes met en lumière le choix de sélections, filtrages, conditions, jointures, etc., en fonction des objectifs de collecte.
@@ -84,7 +84,7 @@ Définition de la compétence : Développer des règles d'agrégation de donnée
 - Versionnement des scripts avec Git et un dépôt Git en ligne.
 - Documentation des scripts.
 
-**Ce que le jury attend pour la validation (Critères d'évaluation) :**
+**Critères d'évaluation (référentiel officiel) :**
 
 - Le script d’agrégation des données est fonctionnel : les données sont effectivement agrégées, nettoyées et normalisées en un seul jeu de données à l’issue de l’exécution du script.
 - Le script d’agrégation des données est versionné et accessible depuis un dépôt Git.
@@ -106,7 +106,7 @@ Définition de la compétence : Créer une base de données dans le respect du R
 - Rédaction des procédures de tri des données personnelles stockées dans la base de données pour la mise en conformité avec le RGPD.
 - Programmation du script d’import des données en base de données.
 
-**Ce que le jury attend pour la validation (Critères d'évaluation) :**
+**Critères d'évaluation (référentiel officiel) :**
 
 - Les modélisations des données respectent la méthode et le formalisme MERISE.
 - **Le modèle physique** des données est fonctionnel : il est intégré avec succès lors de la création de la base de données, sans erreur.
@@ -131,7 +131,7 @@ Définition de la compétence : Partager le jeu de données en configurant des i
 - Rédaction de la documentation technique de l’API REST.
 - Configuration des accès à la base de données.
 
-**Ce que le jury attend pour la validation (Critères d'évaluation) :**
+**Critères d'évaluation (référentiel officiel) :**
 
 - La documentation technique de l’API (REST) couvre tous les points de terminaisons (end points).
 - La documentation technique couvre les règles d’authentification et/ou d’autorisation de l’API.

@@ -30,20 +30,20 @@ def run_full_pipeline() -> None:
     total_start = time.time()
 
     print("\n" + "=" * 70)
-    print("  AGGREGATION + CLEANING PIPELINE (C10)")
+    print("  AGGREGATION + CLEANING PIPELINE")
     print("  Inputs: data/staging/*.csv")
     print("  Outputs: data/final/*.csv, data/final/final_dataset.parquet")
     print("=" * 70)
 
     # Step 1: Normalize
-    print("\n[1/4] NORMALIZE — Standardizing column names and types...")
+    print("\n[1/4] NORMALIZE: Standardizing column names and types...")
     t0 = time.time()
     normalized = normalize_all_staging()
     t_normalize = round(time.time() - t0, 2)
     print(f"      Normalized {len(normalized)} sources in {t_normalize}s")
 
     # Step 2: Clean
-    print("\n[2/4] CLEAN — Removing nulls, duplicates, invalid records...")
+    print("\n[2/4] CLEAN: Removing nulls, duplicates, invalid records...")
     t0 = time.time()
     cleaned, stats = clean_all_normalized(normalized)
     t_clean = round(time.time() - t0, 2)
@@ -59,14 +59,14 @@ def run_full_pipeline() -> None:
                   f"(nulls: {s.get('null_removed', 0)}, dups: {s.get('duplicates_removed', 0)})")
 
     # Step 3: Merge
-    print("\n[3/4] MERGE — Combining sources into unified tables...")
+    print("\n[3/4] MERGE: Combining sources into unified tables...")
     t0 = time.time()
     merged = merge_all_sources(cleaned)
     t_merge = round(time.time() - t0, 2)
     print(f"      Merged into {len(merged)} tables in {t_merge}s")
 
     # Step 4: Build final
-    print("\n[4/4] BUILD — Saving final dataset files...")
+    print("\n[4/4] BUILD: Saving final dataset files...")
     t0 = time.time()
     outputs = build_final(merged)
     t_build = round(time.time() - t0, 2)

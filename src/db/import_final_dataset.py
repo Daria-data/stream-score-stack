@@ -1,8 +1,14 @@
 """Import the final aggregated dataset into the normalized target schema.
 
-Covers C11 requirement: creating and populating the target database.
-Reads CSV files from data/final/ and loads them into PostgreSQL
-in FK-safe order (dimensions first, then fact table).
+Creates and populates the PostgreSQL target from CSV files in ``data/final/``,
+loading in FK-safe order (dimensions first, then the fact table).
+
+Loading strategy (full refresh):
+    Each run truncates all target tables (``TRUNCATE ... CASCADE``) then reloads
+    from CSV. The pipeline output in ``data/final/`` is the single source of
+    truth, so the target stays idempotent and reproducible. Incremental loads
+    (CDC, SCD, merge keys) are deferred to a production hardening track; see
+    ``docs/procedure_tri_donnees.md`` §2.6 for the documented rationale.
 
 Usage:
     uv run python src/db/import_final_dataset.py
@@ -134,7 +140,7 @@ def import_all() -> None:
     engine = _get_engine()
 
     print("\n" + "=" * 65)
-    print("DATABASE IMPORT — Loading Final Dataset into Target Schema (C11)")
+    print("DATABASE IMPORT: Loading Final Dataset into Target Schema (C11)")
     print("=" * 65)
 
     # Step 1: ensure target tables exist
@@ -163,7 +169,7 @@ def import_all() -> None:
             results.append((table, rows, "OK"))
             print(f"  {table:<20} {rows:>8} rows  OK")
         except Exception as exc:
-            logger.error("  %s: FAILED — %s", table, exc)
+            logger.error("  %s: FAILED, %s", table, exc)
             results.append((table, 0, f"FAIL: {exc}"))
             print(f"  {table:<20} {'0':>8} rows  FAIL: {exc}")
 

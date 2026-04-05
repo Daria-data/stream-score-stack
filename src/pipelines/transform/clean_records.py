@@ -1,6 +1,5 @@
-"""Clean records: remove nulls, duplicates, and invalid entries.
+"""Remove nulls, duplicates, and invalid FK references from normalized staging data.
 
-Covers C10 requirement: suppression des entrées corrompues.
 Handles:
   - Removal of rows with NULL critical fields
   - Deduplication by primary key

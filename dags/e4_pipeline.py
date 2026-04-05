@@ -1,26 +1,36 @@
-"""Airflow DAG for the end-to-end E4 data pipeline.
+"""Airflow DAG for the end-to-end data pipeline.
 
-This DAG orchestrates all core project steps:
-1) Multi-source extraction (C8)
-2) Programmatic SQL extraction (C9)
-3) Aggregation and cleaning (C10)
-4) Import into normalized target database (C11)
+Orchestrates:
+1) Multi-source extraction to ``data/staging``
+2) Programmatic SQL extraction (PostgreSQL + DuckDB)
+3) Normalize, clean, merge, and build the final dataset
+4) Validate the final CSVs (row counts, NOT NULL on PKs/FKs)
+5) Import CSVs into the normalized PostgreSQL target schema
+
+Schedule:
+    ``@daily`` with ``catchup=False``: runs once per day at midnight UTC.
+    Can also be triggered manually from the Airflow UI.
 
 Usage:
     - Open Airflow UI at http://localhost:8080
-    - Trigger DAG `e4_pipeline` manually
+    - Trigger DAG ``e4_pipeline`` manually or wait for the daily run
 """
 
 from __future__ import annotations
 
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 
 import pendulum
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
 LOCAL_TZ = pendulum.timezone("UTC")
+
+TASK_DEFAULTS: dict = {
+    "retries": 2,
+    "retry_delay": timedelta(minutes=5),
+}
 
 
 def _configure_runtime_env() -> None:
@@ -38,7 +48,7 @@ def _configure_runtime_env() -> None:
 
 
 def run_extraction_step() -> None:
-    """Run C8 extraction pipeline and persist outputs to data/staging."""
+    """Run multi-source extraction and persist outputs to ``data/staging``."""
     _configure_runtime_env()
     from src.pipelines.extract.run_extraction import run_all
 
@@ -46,7 +56,7 @@ def run_extraction_step() -> None:
 
 
 def run_sql_extraction_step() -> None:
-    """Run C9 SQL extraction queries for Postgres and DuckDB."""
+    """Run documented SQL extraction queries for Postgres and DuckDB."""
     _configure_runtime_env()
     from src.pipelines.sql.run_sql_extraction import run_all
 
@@ -54,15 +64,65 @@ def run_sql_extraction_step() -> None:
 
 
 def run_aggregation_step() -> None:
-    """Run C10 normalization, cleaning, merge, and final dataset build."""
+    """Run normalization, cleaning, merge, and final dataset build."""
     _configure_runtime_env()
     from src.pipelines.transform.run_aggregation import run_full_pipeline
 
     run_full_pipeline()
 
 
+def run_validate_step() -> None:
+    """Check final CSVs before DB import: files exist, row counts, NOT NULL on key columns.
+
+    Raises:
+        FileNotFoundError: If a required CSV is missing.
+        ValueError: If a CSV is empty or has NULL primary/foreign keys.
+    """
+    import logging
+    from pathlib import Path
+
+    import pandas as pd
+
+    logger = logging.getLogger(__name__)
+    final_dir = Path("/opt/airflow/data/final")
+    if not final_dir.exists():
+        final_dir = Path(__file__).resolve().parent.parent / "data" / "final"
+
+    required_tables: dict[str, list[str]] = {
+        "dim_country": ["id_country"],
+        "dim_federation": ["id_federation"],
+        "dim_sport": ["id_sport", "id_federation"],
+        "dim_discipline": ["id_discipline"],
+        "dim_epreuve": ["id_epreuve", "id_discipline", "id_sport"],
+        "dim_edition": ["id_edition"],
+        "dim_evenement": ["id_evenement", "id_epreuve", "id_edition"],
+        "fact_result": ["id_result", "id_evenement", "id_country"],
+    }
+
+    for table, not_null_cols in required_tables.items():
+        csv_path = final_dir / f"{table}.csv"
+        if not csv_path.exists():
+            raise FileNotFoundError(f"Missing: {csv_path}")
+        df = pd.read_csv(csv_path, nrows=None)
+        if df.empty:
+            raise ValueError(f"{table}.csv is empty")
+        for col in not_null_cols:
+            if col not in df.columns:
+                raise ValueError(
+                    f"{table}.csv: required column '{col}' is missing from the file"
+                )
+            nulls = int(df[col].isna().sum())
+            if nulls > 0:
+                raise ValueError(
+                    f"{table}.csv: {nulls} NULL values in required column '{col}'"
+                )
+        logger.info("OK  %-20s %d rows, NOT NULL checks passed", table, len(df))
+
+    logger.info("All 8 final CSVs validated; safe to import.")
+
+
 def run_import_step() -> None:
-    """Run C11 import into the normalized target schema tables."""
+    """Load ``data/final`` CSVs into the normalized target schema."""
     _configure_runtime_env()
     from src.db.import_final_dataset import import_all
 
@@ -71,12 +131,13 @@ def run_import_step() -> None:
 
 with DAG(
     dag_id="e4_pipeline",
-    description="E4 end-to-end data pipeline: extract -> SQL -> aggregate -> import",
+    description="End-to-end pipeline: extract -> SQL -> aggregate -> validate -> import",
     start_date=datetime(2026, 1, 1, tzinfo=LOCAL_TZ),
-    schedule_interval=None,
+    schedule="@daily",
     catchup=False,
     max_active_runs=1,
-    tags=["e4", "pipeline", "c8", "c9", "c10", "c11"],
+    default_args=TASK_DEFAULTS,
+    tags=["e4", "pipeline"],
 ) as dag:
     extract_task = PythonOperator(
         task_id="extract_multi_sources",
@@ -93,9 +154,14 @@ with DAG(
         python_callable=run_aggregation_step,
     )
 
+    validate_task = PythonOperator(
+        task_id="validate_final_dataset",
+        python_callable=run_validate_step,
+    )
+
     import_task = PythonOperator(
         task_id="import_to_target_db",
         python_callable=run_import_step,
     )
 
-    extract_task >> sql_extract_task >> aggregate_task >> import_task
+    extract_task >> sql_extract_task >> aggregate_task >> validate_task >> import_task

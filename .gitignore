@@ -50,5 +50,8 @@ Thumbs.db
 # Pytest cache
 .pytest_cache/
 
+# Local demo script (optional, not tracked)
+docs/e4_demo_steps.md
+
 # Ruff (linters/cache)
 .ruff_cache/

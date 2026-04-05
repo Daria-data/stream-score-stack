@@ -1,8 +1,7 @@
-"""Extract athletes, teams, and federations from a Parquet file via DuckDB.
+"""Extract athletes, teams, and federations from Parquet using DuckDB SQL.
 
-Covers C8 requirement: extraction from a big-data / analytical system.
-DuckDB provides columnar SQL queries on Parquet — a lightweight
-alternative to Spark/Hive suitable for analytical workloads.
+DuckDB provides columnar SQL on Parquet, a lightweight analytical engine
+alternative to Spark/Hive for this workload.
 
 Usage:
     uv run python -m src.pipelines.extract.extract_from_parquet

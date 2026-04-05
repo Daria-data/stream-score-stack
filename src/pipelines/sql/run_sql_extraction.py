@@ -1,7 +1,7 @@
 """Execute documented SQL extraction queries programmatically.
 
-Covers C9 requirement: programmatic execution of SQL queries.
-Reads SQL files, parses named queries, executes them, and saves results.
+Reads SQL files, parses named queries, runs them against PostgreSQL and DuckDB,
+and writes results to staging.
 
 Usage:
     uv run python -m src.pipelines.sql.run_sql_extraction
@@ -140,9 +140,9 @@ def run_postgres_queries() -> list[dict[str, Any]]:
                         "seconds": elapsed,
                         "status": "OK",
                     })
-                    logger.info("  → %d rows, saved to %s", len(df), out_path.name)
+                    logger.info("  OK: %d rows, saved to %s", len(df), out_path.name)
                 except Exception as exc:
-                    logger.error("  → FAILED: %s", exc)
+                    logger.error("  FAILED: %s", exc)
                     results.append({
                         "source": "postgres",
                         "name": q["name"],
@@ -214,9 +214,9 @@ def run_duckdb_queries() -> list[dict[str, Any]]:
                 "seconds": elapsed,
                 "status": "OK",
             })
-            logger.info("  → %d rows, saved to %s", len(df), out_path.name)
+            logger.info("  OK: %d rows, saved to %s", len(df), out_path.name)
         except Exception as exc:
-            logger.error("  → FAILED: %s", exc)
+            logger.error("  FAILED: %s", exc)
             results.append({
                 "source": "duckdb",
                 "name": q["name"],
@@ -237,7 +237,7 @@ def run_all() -> None:
     all_results: list[dict[str, Any]] = []
     
     print("\n" + "=" * 75)
-    print("SQL EXTRACTION — Programmatic Query Execution (C9)")
+    print("SQL EXTRACTION: Programmatic query execution")
     print("=" * 75)
     
     # Postgres queries

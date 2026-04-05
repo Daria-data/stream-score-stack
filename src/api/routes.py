@@ -1,7 +1,7 @@
 """REST API route definitions for the Olympic results dataset.
 
 All data endpoints require a valid API key (X-API-Key header).
-Covers C12 requirement: data sharing via authenticated REST API.
+Authenticated read access to dimension and fact data.
 """
 
 from __future__ import annotations
@@ -30,7 +30,7 @@ router = APIRouter()
 
 @router.get("/health", tags=["system"])
 async def health() -> dict[str, str]:
-    """Health check — no authentication required.
+    """Health check: no authentication required.
 
     Returns:
         Simple status dict.

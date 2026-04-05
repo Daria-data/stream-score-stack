@@ -1,4 +1,4 @@
-# MCD — Modèle Conceptuel de Données
+# MCD : Modèle Conceptuel de Données
 
 Diagramme entité-association (MERISE) pour le projet Olympic Results.
 

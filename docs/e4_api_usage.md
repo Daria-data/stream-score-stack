@@ -34,6 +34,12 @@ The API uses a simple API key strategy:
 
 Health endpoint is public and does not require authentication.
 
+> **Security note.** A built-in demo key (`e4-demo-key-2026`) is compiled into
+> the image as a fallback so that `docker compose up` works without a `.env`
+> file.  When the fallback is active, the API emits a **WARNING** at startup:
+> `API_KEY env var not set, using built-in demo key.`
+> In a production deployment, set `API_KEY` explicitly and remove the default.
+
 ## 4) Endpoints
 
 ### Public endpoint
@@ -107,7 +113,7 @@ curl -s "http://localhost:8888/stats/results-by-country?limit=10" \
 curl -i "http://localhost:8888/countries"
 ```
 
-## 6) Swagger demo path (jury-friendly)
+## 6) Swagger demo path (step-by-step)
 
 1. Open `http://localhost:8888/docs`
 2. Run `GET /health`

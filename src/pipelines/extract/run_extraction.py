@@ -119,7 +119,7 @@ def run_all() -> None:
     for r in results:
         print(f"{r['step']:<12} {r['dataset']:<18} {r['file']:<28} {r['status']}")
     print("=" * 65)
-    print(f"Total: {ok_count} OK, {fail_count} FAILED — {total_elapsed}s")
+    print(f"Total: {ok_count} OK, {fail_count} FAILED, {total_elapsed}s")
     print(f"Staging dir: {STAGING_DIR}\n")
 
 

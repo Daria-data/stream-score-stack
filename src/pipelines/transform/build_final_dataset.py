@@ -1,6 +1,5 @@
-"""Assemble the final normalized dataset ready for database import.
+"""Align merged tables to the target schema and export CSV/Parquet for load and analytics.
 
-Covers C10 requirement: build final aggregated dataset.
 Outputs:
   - data/final/dim_*.csv (dimension tables)
   - data/final/fact_result.csv (fact table)
@@ -69,7 +68,7 @@ def align_columns_to_schema(
             ["id_sport", "sport_name_fr", "sport_name_en", "id_federation"]
         )
 
-    # dim_discipline (no id_sport — see dim_epreuve)
+    # dim_discipline (no id_sport; see dim_epreuve)
     if "dim_discipline" in merged and not merged["dim_discipline"].empty:
         aligned["dim_discipline"] = _safe_select(
             merged["dim_discipline"],
@@ -164,7 +163,7 @@ def save_combined_parquet(aligned: dict[str, pd.DataFrame], output_dir: Path) ->
             how="left",
         )
 
-    # Edition attributes: fact → dim_evenement (id_evenement → id_edition) → dim_edition
+    # Edition attributes: fact via dim_evenement (id_evenement to id_edition) to dim_edition
     if "dim_evenement" in aligned and "dim_edition" in aligned:
         ev_keys = aligned["dim_evenement"][["id_evenement", "id_edition"]].copy()
         fact = fact.merge(ev_keys, on="id_evenement", how="left")
@@ -221,7 +220,7 @@ def run() -> dict[str, Path]:
     from src.pipelines.transform.merge_sources import merge_all_sources
 
     print("\n" + "=" * 60)
-    print("AGGREGATION PIPELINE — Building Final Dataset (C10)")
+    print("AGGREGATION PIPELINE: Building Final Dataset (C10)")
     print("=" * 60)
 
     print("\n[Step 1] Normalizing staging data...")

@@ -2,10 +2,9 @@
 -- PostgreSQL Extraction Queries
 -- Target: source schema (épreuves, événements)
 -- 
--- These queries demonstrate C9 requirements:
---   - SQL extraction from a database
+-- Documented analytical extracts from the source schema:
 --   - Filtering, joining, aggregation
---   - Documentation of query logic
+--   - Execution via the Python SQL runner into staging CSV
 -- =============================================================================
 
 -- -----------------------------------------------------------------------------
@@ -52,7 +51,7 @@ INNER JOIN source.epreuves ep ON ev.id_epreuve = ep.id_epreuve
 ORDER BY ev.id_evenement;
 
 -- -----------------------------------------------------------------------------
--- QUERY 3: Aggregation — count of épreuves per discipline
+-- QUERY 3: Aggregation, count of épreuves per discipline
 -- -----------------------------------------------------------------------------
 -- Purpose: Analytical query to understand data distribution.
 -- Use case: Validate that disciplines have reasonable épreuve counts.
@@ -67,7 +66,7 @@ GROUP BY id_discipline_administrative, discipline_administrative
 ORDER BY epreuve_count DESC;
 
 -- -----------------------------------------------------------------------------
--- QUERY 4: Filter — Olympic summer events only
+-- QUERY 4: Filter, Olympic summer events only
 -- -----------------------------------------------------------------------------
 -- Purpose: Extract subset for summer Olympics analysis.
 -- WHERE logic: est_epreuve_olympique = 1 AND est_epreuve_ete = 1
@@ -84,7 +83,7 @@ WHERE est_epreuve_olympique = 1
 ORDER BY discipline_administrative, epreuve;
 
 -- -----------------------------------------------------------------------------
--- QUERY 5: Aggregation — événements per edition
+-- QUERY 5: Aggregation, événements per edition
 -- -----------------------------------------------------------------------------
 -- Purpose: Count how many contests happened in each Olympic edition.
 -- Use case: Data validation / trend analysis.
@@ -104,7 +103,7 @@ ORDER BY e.season_year DESC;
 -- QUERY 6: Filter incomplete records (data quality)
 -- -----------------------------------------------------------------------------
 -- Purpose: Identify événements without proper épreuve reference.
--- Use case: Data cleaning — these rows should be excluded or fixed.
+-- Use case: Data cleaning; these rows should be excluded or fixed.
 -- LEFT JOIN + WHERE NULL: standard pattern to find orphan records.
 
 SELECT 

@@ -1,7 +1,7 @@
 [project]
-name = "stream-score-stack"
+name = "olympscore"
 version = "0.1.0"
-description = "Streamlit Airflow Postres project"
+description = "OlympScore: Olympic results data platform (ETL, PostgreSQL, FastAPI, Streamlit, Airflow)"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = []
@@ -27,5 +27,6 @@ core = [
 ]
 dev = [
     "pytest>=8.3.5",
+    "pytest-asyncio>=1.0.0",
     "ruff>=0.11.8",
 ]

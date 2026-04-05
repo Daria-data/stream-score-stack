@@ -1,6 +1,5 @@
 """Normalize column names and data types across all staging sources.
 
-Covers C10 requirement: homogenization of data formats.
 Standardizes:
   - Column names (snake_case, consistent naming)
   - Date formats (ISO 8601)

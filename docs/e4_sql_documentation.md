@@ -33,7 +33,7 @@ ORDER BY id_epreuve;
 
 | Élément | Justification |
 |---------|---------------|
-| SELECT colonnes | Toutes les colonnes dont `id_sport` pour la hiérarchie sport → discipline |
+| SELECT colonnes | Toutes les colonnes dont `id_sport` pour la hiérarchie sport / discipline |
 | ORDER BY id_epreuve | Utilise l'index PK pour un tri efficace |
 | Pas de WHERE | On extrait le catalogue complet |
 
@@ -52,7 +52,7 @@ ORDER BY ev.id_evenement;
 | ON ev.id_epreuve = ep.id_epreuve | Jointure sur la clé étrangère |
 | ORDER BY | Préparation pour un chargement séquentiel ordonné |
 
-### Query 3: Agrégation — épreuves par discipline
+### Query 3: Agrégation, épreuves par discipline
 
 ```sql
 SELECT id_discipline_administrative, discipline_administrative,
@@ -70,7 +70,7 @@ ORDER BY epreuve_count DESC;
 
 **Cas d'usage**: Validation de la distribution des données avant chargement.
 
-### Query 4: Filtrage — épreuves olympiques d'été
+### Query 4: Filtrage, épreuves olympiques d'été
 
 ```sql
 SELECT id_epreuve, epreuve, epreuve_genre, discipline_administrative
@@ -84,7 +84,7 @@ ORDER BY discipline_administrative, epreuve;
 | WHERE | Filtre combiné: olympique ET été (exclut hiver et non-olympiques) |
 | Colonnes sélectionnées | Sous-ensemble pour analyse spécifique |
 
-### Query 5: Agrégation — événements par édition
+### Query 5: Agrégation, événements par édition
 
 ```sql
 SELECT e.season_year, e.city, e.competition_type,
@@ -143,7 +143,7 @@ ORDER BY id_federation;
 
 **Optimisation**: DuckDB pousse le DISTINCT vers le scan columnar.
 
-### Query 3: Agrégation — athlètes par fédération
+### Query 3: Agrégation, athlètes par fédération
 
 ```sql
 SELECT id_federation, federation, COUNT(DISTINCT id_athlete_base_resultats) AS athlete_count
@@ -182,7 +182,7 @@ ORDER BY id_equipe;
 
 **Cas d'usage**: Identifier les résultats collectifs (sports d'équipe).
 
-### Query 6: Contrôle qualité — fédérations manquantes
+### Query 6: Contrôle qualité, fédérations manquantes
 
 ```sql
 SELECT id_athlete_base_resultats, athlete_nom, id_equipe, equipe_en

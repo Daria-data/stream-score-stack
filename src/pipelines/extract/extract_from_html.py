@@ -1,7 +1,4 @@
-"""Extract Olympic editions data by scraping a local HTML page.
-
-Covers C8 requirement: extraction via web scraping.
-Uses BeautifulSoup to parse an HTML table.
+"""Extract Olympic editions from a local HTML table via BeautifulSoup.
 
 Usage:
     uv run python -m src.pipelines.extract.extract_from_html

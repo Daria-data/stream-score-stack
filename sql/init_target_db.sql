@@ -1,6 +1,6 @@
 -- =============================================================
 -- Target database schema: Olympic Results (normalized)
--- Star schema: 1 fact table + 7 dimension tables
+-- Snowflake schema: 1 fact table + 7 dimension tables
 -- =============================================================
 
 BEGIN;
@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS dim_discipline (
 
 -- ---- Dimension: epreuve (event type / test) ----
 -- id_sport lives here because one discipline can span multiple sports
--- (e.g. Lutte → libre / gréco-romaine, Kayak → sprint / slalom).
+-- (e.g. Lutte: libre / gréco-romaine, Kayak: sprint / slalom).
 CREATE TABLE IF NOT EXISTS dim_epreuve (
     id_epreuve          INTEGER PRIMARY KEY,
     epreuve_name        VARCHAR(200) NOT NULL,

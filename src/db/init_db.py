@@ -31,13 +31,13 @@ def main() -> None:
         pool_pre_ping=True,
     )
 
-    # 1 — recreate table (all TEXT)
+    # 1. Recreate table (all TEXT)
     with engine.begin() as conn:
         ddl_cols = ", ".join(f'"{c}" TEXT' for c in cols)
         conn.execute(text(f'DROP TABLE IF EXISTS "{TABLE}";'))
         conn.execute(text(f'CREATE TABLE "{TABLE}" ({ddl_cols});'))
 
-    # 2 — COPY CSV
+    # 2. COPY CSV
     raw: PgConn = engine.raw_connection()
     with raw.cursor() as cur, CSV_PATH.open("r", encoding="utf-8") as f:
         cur.copy_expert(
@@ -46,7 +46,7 @@ def main() -> None:
     raw.commit()
     raw.close()
 
-    # 3 — cast date column
+    # 3. Cast date column
     with engine.begin() as conn:
         conn.execute(
             text(

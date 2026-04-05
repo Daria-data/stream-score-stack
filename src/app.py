@@ -1,6 +1,6 @@
-"""Olympic Results — SQL Playground (normalized schema).
+"""Olympic Results: SQL Playground (normalized schema).
 
-Interactive Streamlit app to query the E4 normalized database
+Interactive Streamlit app to query the normalized Olympic results database
 (dim_* dimension tables + fact_result fact table).
 
 Run locally:
@@ -76,8 +76,9 @@ TABLES = [
     "dim_epreuve", "dim_edition", "dim_evenement", "fact_result",
 ]
 
-TEMPLATES: dict[str, str] = {
-    # ── Analytical queries (target schema) ──
+# SQL bodies without banner line (banner added in TEMPLATES for editor + result title).
+_RAW_TEMPLATES: dict[str, str] = {
+    # Analytical queries (target schema)
     "Top 10 countries by results": """
 SELECT c.country_name,
        COUNT(*) AS total_results
@@ -106,20 +107,22 @@ FROM dim_sport s
 LEFT JOIN dim_federation f ON s.id_federation = f.id_federation
 ORDER BY f.federation_name;
 """,
-    "Top athletes (individual results)": """
+    "Top athletes by medal count": """
 SELECT r.athlete_first_name || ' ' || r.athlete_last_name AS athlete,
        c.country_name,
-       COUNT(*) AS participations
+       COUNT(*) AS medal_count
 FROM fact_result r
 JOIN dim_country c ON r.id_country = c.id_country
 WHERE r.athlete_last_name IS NOT NULL
   AND r.athlete_last_name <> ''
+  AND r.rank IS NOT NULL
+  AND r.rank IN (1, 2, 3)
 GROUP BY athlete, c.country_name
-ORDER BY participations DESC
+ORDER BY medal_count DESC
 LIMIT 20;
 """,
-    # ── C9 documented queries (source schema) ──
-    "C9: Épreuves per discipline (source)": """
+    # Queries on legacy PostgreSQL schema `source` (not normalized dim_*)
+    "Épreuves par discipline (schéma source)": """
 SELECT id_discipline_administrative,
        discipline_administrative,
        COUNT(*) AS epreuve_count
@@ -127,7 +130,7 @@ FROM source.epreuves
 GROUP BY id_discipline_administrative, discipline_administrative
 ORDER BY epreuve_count DESC;
 """,
-    "C9: Olympic summer events only (source)": """
+    "Épreuves olympiques d'été (schéma source)": """
 SELECT id_epreuve,
        epreuve,
        epreuve_genre,
@@ -137,7 +140,7 @@ WHERE est_epreuve_olympique = 1
   AND est_epreuve_ete = 1
 ORDER BY discipline_administrative, epreuve;
 """,
-    "C9: Événements per edition (source)": """
+    "Événements par édition (schéma source)": """
 SELECT e.season_year,
        e.city,
        e.competition_type,
@@ -147,7 +150,7 @@ JOIN dim_edition e ON ev.id_edition = e.id_edition
 GROUP BY e.season_year, e.city, e.competition_type
 ORDER BY event_count DESC;
 """,
-    "C9: Orphan événements — no épreuve (source)": """
+    "Audit source: événements sans épreuve liée (FK / qualité)": """
 SELECT ev.id_evenement,
        ev.evenement,
        ev.id_epreuve
@@ -155,29 +158,120 @@ FROM source.evenements ev
 LEFT JOIN source.epreuves ep ON ev.id_epreuve = ep.id_epreuve
 WHERE ep.id_epreuve IS NULL;
 """,
-    # ── Browse tables ──
+    # Target schema integrity checks (post-load validation)
+    "Audit cible: id_sport NULL sur dim_epreuve (contrainte NOT NULL)": """
+SELECT count(*) AS orphans
+FROM   dim_epreuve
+WHERE  id_sport IS NULL;
+""",
+    "Audit cible: id_sport sans ligne dim_sport (FK / orphelins)": """
+SELECT e.id_epreuve, e.id_sport
+FROM   dim_epreuve e
+LEFT JOIN dim_sport s ON s.id_sport = e.id_sport
+WHERE  s.id_sport IS NULL;
+""",
+    # Browse dimension and fact tables
     "Browse dim_country": "SELECT * FROM dim_country ORDER BY country_name LIMIT 50;",
-    "Browse dim_edition": "SELECT * FROM dim_edition ORDER BY season_year DESC LIMIT 50;",
-    "Browse dim_epreuve": "SELECT * FROM dim_epreuve LIMIT 50;",
-    "Browse fact_result (first 50)": "SELECT * FROM fact_result LIMIT 50;",
+    "Browse dim_federation": "SELECT * FROM dim_federation ORDER BY federation_name LIMIT 50;",
+    "Browse dim_sport": """
+SELECT s.id_sport, s.sport_name_fr, s.sport_name_en,
+       f.federation_name
+FROM dim_sport s
+LEFT JOIN dim_federation f ON s.id_federation = f.id_federation
+ORDER BY s.sport_name_fr LIMIT 50;
+""",
+    "Browse dim_discipline": "SELECT * FROM dim_discipline ORDER BY discipline_name LIMIT 50;",
+    "Browse dim_epreuve": """
+SELECT id_epreuve, epreuve_name, genre, epreuve_type,
+       id_discipline, id_sport
+FROM dim_epreuve
+ORDER BY epreuve_name LIMIT 50;
+""",
+    "Browse dim_edition": "SELECT * FROM dim_edition ORDER BY season_year DESC;",
+    "Browse dim_evenement": """
+SELECT ev.id_evenement, ev.event_name_fr, ev.age_category,
+       ep.epreuve_name, ed.season_year, ed.city
+FROM dim_evenement ev
+JOIN dim_epreuve ep ON ev.id_epreuve = ep.id_epreuve
+JOIN dim_edition ed ON ev.id_edition = ed.id_edition
+ORDER BY ed.season_year DESC, ep.epreuve_name LIMIT 50;
+""",
+    "Browse fact_result": "SELECT * FROM fact_result ORDER BY id_result LIMIT 50;",
+}
+
+
+def _template_sql_with_banner(label: str, sql_body: str) -> str:
+    """Prefix SQL with a comment so the active template name is visible in the editor.
+
+    Args:
+        label: Sidebar button label (template name).
+        sql_body: Raw SQL without the banner line.
+
+    Returns:
+        SQL string with a leading ``-- Template:`` comment.
+    """
+    cleaned = sql_body.strip()
+    return f"-- Template: {label}\n{cleaned}\n"
+
+
+def _extract_template_title(sql: str) -> str | None:
+    """Return the template title from the first ``-- Template:`` line, if any.
+
+    Args:
+        sql: Full query text from the editor.
+
+    Returns:
+        The title after ``-- Template:``, or None for ad-hoc SQL.
+    """
+    for raw in sql.strip().splitlines():
+        line = raw.strip()
+        if not line:
+            continue
+        if line.startswith("-- Template:"):
+            return line.removeprefix("-- Template:").strip()
+        if not line.startswith("--"):
+            break
+    return None
+
+
+TEMPLATES: dict[str, str] = {
+    label: _template_sql_with_banner(label, body)
+    for label, body in _RAW_TEMPLATES.items()
 }
 
 
 def main() -> None:
     """Streamlit UI definition."""
     st.set_page_config(
-        page_title="Olympic Results — SQL Playground",
+        page_title="Olympic Results: SQL Playground",
         layout="wide",
     )
 
-    # ── Sidebar ──────────────────────────────────────────────
+    # Left-align Quick Templates button labels (default Streamlit centers short labels).
+    st.markdown(
+        """
+        <style>
+        section[data-testid="stSidebar"] div.stButton > button {
+            justify-content: flex-start;
+            text-align: left;
+        }
+        section[data-testid="stSidebar"] div.stButton > button p {
+            text-align: left;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    # Sidebar
     st.sidebar.title("Olympic Results DB")
 
     st.sidebar.markdown("### Schema overview")
     counts = get_table_counts()
+    schema_md = "| Table | Rows |\n|:------|-----:|\n"
     for table, count in counts.items():
-        label = table.replace("dim_", "").replace("fact_", "")
-        st.sidebar.metric(label=table, value=f"{count:,} rows")
+        schema_md += f"| `{table}` | **{count:,}** |\n"
+    st.sidebar.markdown(schema_md, unsafe_allow_html=True)
 
     st.sidebar.markdown("---")
 
@@ -197,8 +291,8 @@ def main() -> None:
         if st.sidebar.button(label):
             st.session_state["sql_query"] = sql
 
-    # ── Main area ────────────────────────────────────────────
-    st.title("Olympic Results — SQL Playground")
+    # Main area
+    st.title("Olympic Results: SQL Playground")
     st.caption(
         "Query the normalized database: 7 dimension tables + 1 fact table. "
         "Use sidebar templates or write custom SQL."
@@ -216,6 +310,12 @@ def main() -> None:
 
     if run_btn and sql_query.strip():
         try:
+            template_title = _extract_template_title(sql_query)
+            if template_title:
+                st.subheader(f"Results: {template_title}")
+            else:
+                st.caption("Custom SQL (no template banner)")
+
             df = execute_sql(sql_query)
             st.dataframe(df, use_container_width=True)
             st.success(f"Returned {len(df)} rows.")

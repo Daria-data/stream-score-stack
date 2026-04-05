@@ -1,10 +1,10 @@
-# Stream Score Stack — Olympic Results Data Platform
+# OlympScore: Olympic Results Data Platform
 
 End-to-end data platform for Olympic sports results: multi-source extraction, SQL processing, aggregation, normalized database, REST API and interactive SQL playground.
 
-Built for the **BTS SIO SLAM — E4** exam, covering competencies **C8–C12**.
+Project context: **BTS SIO SLAM : E4**; functional scope aligns with competencies **C8–C12**.
 
-**E4 deliverables (jury pack):** start at **[README_E4.md](README_E4.md)** — links to installation, demo script, SQL docs, API docs, MERISE, and RGPD.
+**E4 documentation hub:** start at **[README_E4.md](README_E4.md)** (links to installation, demo script, SQL docs, API docs, MERISE, and RGPD).
 
 ---
 
@@ -32,8 +32,8 @@ Built for the **BTS SIO SLAM — E4** exam, covering competencies **C8–C12**.
                           │
                 ┌─────────▼──────────┐
                 │ AGGREGATION (C10)  │
-                │  normalize → clean │
-                │  → merge → build   │
+                │  normalize, clean  │
+                │  merge, build      │
                 └─────────┬──────────┘
                           │  data/final/*.csv
                 ┌─────────▼──────────┐
@@ -71,7 +71,7 @@ cd stream-score-stack
 uv sync --group core
 uv run python scripts/prepare_sources.py
 
-# 2. Run local pipelines (extraction → SQL → aggregation)
+# 2. Run local pipelines (extraction, SQL, aggregation)
 uv run python -m src.pipelines.extract.run_extraction
 uv run python -m src.pipelines.sql.run_sql_extraction
 uv run python -m src.pipelines.transform.run_aggregation
@@ -86,11 +86,11 @@ docker compose up -d --build
 |--------------------|--------------------|-------|------------------------------------------|
 | PostgreSQL         | sports-pg          | 5433  | Main database (source + target schemas)  |
 | Mock API           | sports-mock-api    | 8000  | REST API data source (countries, sports) |
-| Loader             | sports-loader      | —     | One-shot: loads data into target schema  |
+| Loader             | sports-loader      | -     | One-shot: loads data into target schema  |
 | Streamlit App      | sportquery-app     | 8501  | Interactive SQL playground               |
 | REST API           | sports-api         | 8888  | Authenticated API over normalized DB     |
 | Airflow Web        | sports-airflow-web | 8080  | DAG monitoring UI (admin/admin)          |
-| Airflow Scheduler  | sports-airflow-scheduler | — | Task executor                          |
+| Airflow Scheduler  | sports-airflow-scheduler | - | Task executor                          |
 
 ## Data Sources (C8)
 
@@ -133,6 +133,17 @@ DAG `e4_pipeline` orchestrates the full E4 data pipeline:
 
 Access: `http://localhost:8080` (admin / admin)
 
+Schedule: `@daily`, `catchup=False`, 2 retries per task. Includes a `validate_final_dataset` gate before DB import. See `docs/e4_airflow.md`.
+
+## Tests
+
+```bash
+uv sync --group dev --group core
+uv run pytest tests/ -v
+```
+
+39 tests: unit tests on the transform pipeline (normalize, clean, merge/reconciliation) + API auth + integration tests (FastAPI TestClient, mocked DB).
+
 ## Project Structure
 
 ```
@@ -153,12 +164,15 @@ stream-score-stack/
 ├── README_E4.md                   # E4 entry point + competency map
 ├── docs/
 │   ├── e4_installation.md         # Setup (uv, Docker, troubleshooting)
-│   ├── e4_demo_steps.md           # Jury demo walkthrough
+│   ├── e4_demo_steps.md           # Oral demo walkthrough
 │   ├── merise_mcd.md              # Conceptual data model
 │   ├── merise_mld.md              # Logical data model
 │   ├── merise_mpd.md              # Physical data model
 │   ├── e4_sql_documentation.md    # SQL query documentation (C9)
 │   ├── e4_api_usage.md            # API usage guide (C12)
+│   ├── e4_specifications_extraction.md # Extraction specs (C8)
+│   ├── e4_db_access.md            # DB access matrix (C12)
+│   ├── e4_airflow.md              # Airflow DAG documentation
 │   ├── registre_traitements_rgpd.md  # RGPD register
 │   └── procedure_tri_donnees.md   # Data management procedure
 ├── sql/
@@ -174,6 +188,12 @@ stream-score-stack/
 │       ├── extract/               # C8 extraction modules
 │       ├── sql/                   # C9 SQL extraction
 │       └── transform/             # C10 aggregation pipeline
+├── tests/                         # Unit + integration tests (pytest)
+│   ├── test_normalize.py          # Column normalization
+│   ├── test_clean_records.py      # Record cleaning
+│   ├── test_merge_sources.py      # Cross-source reconciliation
+│   ├── test_auth.py               # API key authentication
+│   └── test_api_integration.py    # FastAPI endpoints
 ├── docker-compose.yml
 ├── Dockerfile
 └── pyproject.toml
@@ -184,10 +204,12 @@ stream-score-stack/
 | Document                           | Competency | Path                                |
 |------------------------------------|------------|-------------------------------------|
 | **E4 index (start here)**          | C8–C12     | `README_E4.md`                      |
-| Installation                       | —          | `docs/e4_installation.md`           |
-| Demo steps (jury)                  | —          | `docs/e4_demo_steps.md`             |
+| Installation                       | -          | `docs/e4_installation.md`           |
+| Demo walkthrough                   | -          | `docs/e4_demo_steps.md`             |
 | MERISE MCD / MLD / MPD             | C11        | `docs/merise_*.md`                  |
 | SQL extraction documentation       | C9         | `docs/e4_sql_documentation.md`      |
 | API usage guide                    | C12        | `docs/e4_api_usage.md`             |
-| RGPD — Registre des traitements    | C11        | `docs/registre_traitements_rgpd.md` |
-| RGPD — Procédure tri données       | C11        | `docs/procedure_tri_donnees.md`     |
+| Extraction specifications          | C8         | `docs/e4_specifications_extraction.md` |
+| DB access configuration            | C12        | `docs/e4_db_access.md`             |
+| RGPD : Registre des traitements    | C11        | `docs/registre_traitements_rgpd.md` |
+| RGPD : Procédure tri données       | C11        | `docs/procedure_tri_donnees.md`     |

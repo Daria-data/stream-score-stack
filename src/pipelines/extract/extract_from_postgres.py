@@ -1,7 +1,6 @@
-"""Extract épreuves and événements from the PostgreSQL source schema.
+"""Extract épreuves and événements from the PostgreSQL ``source`` schema into staging CSV.
 
-Covers C8 requirement: extraction from a database.
-Connects to the 'source' schema populated at Postgres startup.
+Connects to tables populated at Postgres startup.
 
 Usage:
     uv run python -m src.pipelines.extract.extract_from_postgres

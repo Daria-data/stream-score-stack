@@ -1,4 +1,4 @@
-"""Mock API — simulates an external sports reference data service.
+"""Mock API: simulates an external sports reference data service.
 
 Serves countries and sports/disciplines as JSON via REST endpoints.
 Used as one of 5 data sources for the E4 extraction pipeline.

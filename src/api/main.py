@@ -1,6 +1,6 @@
 """FastAPI application for the Olympic Results REST API.
 
-Covers C12 requirement: secure data sharing via REST API.
+FastAPI service exposing the normalized Olympic results over REST.
 Auto-generates OpenAPI documentation at /docs.
 
 Usage (local):

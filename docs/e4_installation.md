@@ -1,4 +1,4 @@
-# E4 — Installation et environnement
+# E4 : Installation et environnement
 
 Guide pas-à-pas pour reproduire le projet sur une machine de développement (Windows / Linux / macOS).
 
@@ -8,9 +8,9 @@ Guide pas-à-pas pour reproduire le projet sur une machine de développement (Wi
 
 | Outil | Rôle | Documentation |
 |-------|------|-----------------|
-| **Git** | Cloner le dépôt | — |
+| **Git** | Cloner le dépôt | - |
 | **Docker Desktop** | Orchestration Postgres, loaders, Streamlit, API, Airflow | [Docker Compose](https://docs.docker.com/compose/) |
-| **uv** | Environnement Python et dépendances | [uv](https://docs.astral.sh/uv/) — [repo](https://github.com/astral-sh/uv) |
+| **uv** | Environnement Python et dépendances | [uv](https://docs.astral.sh/uv/), [repo](https://github.com/astral-sh/uv) |
 
 Vérifications rapides :
 
@@ -104,12 +104,12 @@ docker compose up -d --build
 
 Séquence typique :
 
-1. **postgres** — santé OK  
-2. **loader** — exécute `import_final_dataset.py` (schéma cible + CSV `data/final/`)  
-3. **app** — Streamlit :8501  
-4. **api** — REST :8888  
-5. **mock-api** — :8000  
-6. **airflow-*** — UI :8080  
+1. **postgres** : santé OK  
+2. **loader** : exécute `import_final_dataset.py` (schéma cible + CSV `data/final/`)  
+3. **app** : Streamlit :8501  
+4. **api** : REST :8888  
+5. **mock-api** : :8000  
+6. **airflow-*** : UI :8080  
 
 Vérification :
 
@@ -132,7 +132,7 @@ docker compose up -d --build
 
 | Port | Service |
 |------|---------|
-| 5433 | PostgreSQL (hôte → conteneur 5432) |
+| 5433 | PostgreSQL (hôte vers conteneur 5432) |
 | 8000 | Mock API |
 | 8080 | Airflow Web |
 | 8501 | Streamlit |

@@ -1,7 +1,7 @@
-# Registre des traitements — RGPD
+# Registre des traitements : RGPD
 
 > Document conforme à l'article 30 du RGPD.
-> Projet : **Stream Score Stack** — Analyse des résultats olympiques.
+> Projet : **OlympScore** : analyse des résultats olympiques.
 
 ---
 
@@ -9,7 +9,7 @@
 
 | Champ                  | Valeur                                         |
 |------------------------|-------------------------------------------------|
-| Organisation           | Projet académique E4 — BTS SIO SLAM            |
+| Organisation           | Projet académique E4, BTS SIO SLAM            |
 | Responsable            | Étudiante SLAM                                  |
 | Contact DPO            | N/A (projet académique, pas de DPO désigné)     |
 
@@ -20,7 +20,7 @@
 | Finalité                          | Base légale              | Description                                                   |
 |-----------------------------------|--------------------------|---------------------------------------------------------------|
 | Analyse statistique sportive      | Intérêt légitime (art.6f)| Agrégation et visualisation de résultats olympiques historiques|
-| Démonstration technique E4        | Obligation légale (examen)| Présentation de compétences data devant jury                  |
+| Démonstration technique (soutenance) | Cadre pédagogique BTS SIO | Présentation du projet et des compétences aux évaluateurs       |
 
 ---
 
@@ -68,7 +68,7 @@
 
 | Destinataire       | Accès          | Justification                     |
 |--------------------|----------------|-----------------------------------|
-| Jury E4            | Lecture seule  | Évaluation des compétences        |
+| Évaluateurs (formation) | Lecture seule | Évaluation pédagogique du livrable |
 | Étudiante          | Lecture/écriture| Développement et démonstration   |
 | API REST (future)  | Lecture seule  | Consultation via endpoints protégés|
 
