@@ -151,7 +151,7 @@ def build_source_db_csv(df: pd.DataFrame, out: Path) -> None:
             "est_epreuve_individuelle", "est_epreuve_olympique",
             "est_epreuve_ete", "est_epreuve_handi", "epreuve_sens_resultat",
             "id_discipline_administrative", "discipline_administrative",
-            "id_specialite", "specialite"]]
+            "id_specialite", "specialite", "id_sport"]]
         .drop_duplicates(subset=["id_epreuve"])
         .sort_values("id_epreuve")
     )

@@ -31,13 +31,12 @@ CREATE INDEX IF NOT EXISTS idx_sport_federation ON dim_sport(id_federation);
 -- ---- Dimension: discipline ----
 CREATE TABLE IF NOT EXISTS dim_discipline (
     id_discipline       INTEGER PRIMARY KEY,
-    discipline_name     VARCHAR(120) NOT NULL,
-    id_sport            INTEGER REFERENCES dim_sport(id_sport)
+    discipline_name     VARCHAR(120) NOT NULL
 );
 
-CREATE INDEX IF NOT EXISTS idx_discipline_sport ON dim_discipline(id_sport);
-
 -- ---- Dimension: epreuve (event type / test) ----
+-- id_sport lives here because one discipline can span multiple sports
+-- (e.g. Lutte → libre / gréco-romaine, Kayak → sprint / slalom).
 CREATE TABLE IF NOT EXISTS dim_epreuve (
     id_epreuve          INTEGER PRIMARY KEY,
     epreuve_name        VARCHAR(200) NOT NULL,
@@ -48,10 +47,12 @@ CREATE TABLE IF NOT EXISTS dim_epreuve (
     is_summer           BOOLEAN NOT NULL DEFAULT TRUE,
     is_handicap         BOOLEAN NOT NULL DEFAULT FALSE,
     result_direction    INTEGER,                  -- 0/1 flag from source
-    id_discipline       INTEGER NOT NULL REFERENCES dim_discipline(id_discipline)
+    id_discipline       INTEGER NOT NULL REFERENCES dim_discipline(id_discipline),
+    id_sport            INTEGER NOT NULL REFERENCES dim_sport(id_sport)
 );
 
 CREATE INDEX IF NOT EXISTS idx_epreuve_discipline ON dim_epreuve(id_discipline);
+CREATE INDEX IF NOT EXISTS idx_epreuve_sport ON dim_epreuve(id_sport);
 
 -- ---- Dimension: edition (Olympic Games instance) ----
 CREATE TABLE IF NOT EXISTS dim_edition (

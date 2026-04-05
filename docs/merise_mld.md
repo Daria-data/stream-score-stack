@@ -11,11 +11,12 @@ dim_federation (id_federation PK, federation_name, federation_short)
 
 dim_sport (id_sport PK, sport_name_fr, sport_name_en, #id_federation FK→dim_federation)
 
-dim_discipline (id_discipline PK, discipline_name, #id_sport FK→dim_sport)
+dim_discipline (id_discipline PK, discipline_name)
 
 dim_epreuve (id_epreuve PK, epreuve_name, genre, epreuve_type,
              is_individual, is_olympic, is_summer, is_handicap,
-             result_direction, #id_discipline FK→dim_discipline)
+             result_direction, #id_discipline FK→dim_discipline,
+             #id_sport FK→dim_sport)
 
 dim_edition (id_edition PK, season_year, start_date, end_date,
              city, host_country, competition_type)
@@ -54,7 +55,6 @@ erDiagram
     dim_discipline {
         INT id_discipline PK
         VARCHAR discipline_name
-        INT id_sport FK
     }
 
     dim_epreuve {
@@ -68,6 +68,7 @@ erDiagram
         BOOLEAN is_handicap
         INT result_direction
         INT id_discipline FK
+        INT id_sport FK
     }
 
     dim_edition {
@@ -107,8 +108,8 @@ erDiagram
     }
 
     dim_federation ||--o{ dim_sport : ""
-    dim_sport ||--o{ dim_discipline : ""
     dim_discipline ||--o{ dim_epreuve : ""
+    dim_sport ||--o{ dim_epreuve : ""
     dim_epreuve ||--o{ dim_evenement : ""
     dim_edition ||--o{ dim_evenement : ""
     dim_evenement ||--o{ fact_result : ""

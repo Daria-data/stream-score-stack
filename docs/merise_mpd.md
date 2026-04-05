@@ -26,7 +26,7 @@ Déjà utilisée dans le projet pour le stockage et Airflow.
 - Toutes les clés primaires (PK) disposent d'un index unique automatique.
 - Index supplémentaires B-tree sur les clés étrangères de `fact_result`
   (`id_evenement`, `id_country`, `id_athlete`) pour accélérer les JOIN.
-- Index sur les FK dans `dim_sport`, `dim_discipline`, `dim_epreuve`, `dim_evenement`.
+- Index sur les FK dans `dim_sport`, `dim_epreuve` (`id_discipline`, `id_sport`), `dim_evenement`.
 
 ## Script DDL
 
@@ -57,7 +57,6 @@ erDiagram
     dim_discipline {
         INTEGER id_discipline PK "NOT NULL"
         VARCHAR_120 discipline_name "NOT NULL"
-        INTEGER id_sport FK "NOT NULL → dim_sport"
     }
 
     dim_epreuve {
@@ -71,6 +70,7 @@ erDiagram
         BOOLEAN is_handicap "NOT NULL DEFAULT FALSE"
         INTEGER result_direction "NULLABLE"
         INTEGER id_discipline FK "NOT NULL → dim_discipline"
+        INTEGER id_sport FK "NOT NULL → dim_sport"
     }
 
     dim_edition {
@@ -110,8 +110,8 @@ erDiagram
     }
 
     dim_federation ||--o{ dim_sport : "id_federation"
-    dim_sport ||--o{ dim_discipline : "id_sport"
     dim_discipline ||--o{ dim_epreuve : "id_discipline"
+    dim_sport ||--o{ dim_epreuve : "id_sport"
     dim_epreuve ||--o{ dim_evenement : "id_epreuve"
     dim_edition ||--o{ dim_evenement : "id_edition"
     dim_evenement ||--o{ fact_result : "id_evenement"

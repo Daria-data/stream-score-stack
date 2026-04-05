@@ -73,8 +73,8 @@ erDiagram
     }
 
     FEDERATION ||--o{ SPORT : "governs"
-    SPORT ||--o{ DISCIPLINE : "contains"
     DISCIPLINE ||--o{ EPREUVE : "defines"
+    SPORT ||--o{ EPREUVE : "categorizes"
     EPREUVE ||--o{ EVENEMENT : "instantiated_in"
     EDITION ||--o{ EVENEMENT : "hosts"
     EVENEMENT ||--o{ RESULT : "produces"
@@ -86,8 +86,8 @@ erDiagram
 | Association | Entité A | Card. | Entité B | Card. |
 |---|---|---|---|---|
 | governs | FEDERATION | 1,1 | SPORT | 0,N |
-| contains | SPORT | 1,1 | DISCIPLINE | 0,N |
 | defines | DISCIPLINE | 1,1 | EPREUVE | 0,N |
+| categorizes | SPORT | 1,1 | EPREUVE | 0,N |
 | instantiated_in | EPREUVE | 1,1 | EVENEMENT | 0,N |
 | hosts | EDITION | 1,1 | EVENEMENT | 0,N |
 | produces | EVENEMENT | 1,1 | RESULT | 0,N |

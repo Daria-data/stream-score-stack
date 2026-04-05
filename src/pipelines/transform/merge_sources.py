@@ -108,14 +108,11 @@ def merge_disciplines(cleaned: dict[str, pd.DataFrame]) -> pd.DataFrame:
         logger.warning("pg_epreuves not found in cleaned data")
         return pd.DataFrame()
 
-    # Extract unique disciplines
+    # id_sport is NOT stored here — it lives on dim_epreuve because
+    # discipline→sport is not a functional dependency (e.g. Lutte, Kayak).
     df = cleaned["pg_epreuves"][
         ["id_discipline", "discipline_name"]
     ].drop_duplicates(subset=["id_discipline"])
-
-    # Need to link discipline to sport - this requires the original data
-    # For now, we'll leave id_sport as NULL and fill it in build_final
-    df["id_sport"] = pd.NA
 
     logger.info("Disciplines: %d unique", len(df))
     return df
@@ -137,7 +134,7 @@ def merge_epreuves(cleaned: dict[str, pd.DataFrame]) -> pd.DataFrame:
     df = cleaned["pg_epreuves"][
         ["id_epreuve", "epreuve_name", "genre", "epreuve_type",
          "is_individual", "is_olympic", "is_summer", "is_handicap",
-         "result_direction", "id_discipline"]
+         "result_direction", "id_discipline", "id_sport"]
     ].copy()
     logger.info("Épreuves: %d records", len(df))
     return df

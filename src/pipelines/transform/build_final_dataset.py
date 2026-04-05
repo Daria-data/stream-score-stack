@@ -69,20 +69,20 @@ def align_columns_to_schema(
             ["id_sport", "sport_name_fr", "sport_name_en", "id_federation"]
         )
 
-    # dim_discipline
+    # dim_discipline (no id_sport — see dim_epreuve)
     if "dim_discipline" in merged and not merged["dim_discipline"].empty:
         aligned["dim_discipline"] = _safe_select(
             merged["dim_discipline"],
-            ["id_discipline", "discipline_name", "id_sport"]
+            ["id_discipline", "discipline_name"]
         )
 
-    # dim_epreuve
+    # dim_epreuve (id_sport lives here, not on discipline)
     if "dim_epreuve" in merged and not merged["dim_epreuve"].empty:
         aligned["dim_epreuve"] = _safe_select(
             merged["dim_epreuve"],
             ["id_epreuve", "epreuve_name", "genre", "epreuve_type",
              "is_individual", "is_olympic", "is_summer", "is_handicap",
-             "result_direction", "id_discipline"]
+             "result_direction", "id_discipline", "id_sport"]
         )
 
     # dim_edition

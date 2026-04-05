@@ -28,7 +28,8 @@ SELECT
     id_discipline_administrative,
     discipline_administrative,
     id_specialite,
-    specialite
+    specialite,
+    id_sport
 FROM source.epreuves
 ORDER BY id_epreuve;
 

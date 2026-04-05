@@ -18,7 +18,8 @@ CREATE TABLE source.epreuves (
     id_discipline_administrative INTEGER,
     discipline_administrative   VARCHAR(120),
     id_specialite               INTEGER,
-    specialite                  VARCHAR(120)
+    specialite                  VARCHAR(120),
+    id_sport                    INTEGER
 );
 
 -- ── événements (specific contests) ──────────────────────────────────

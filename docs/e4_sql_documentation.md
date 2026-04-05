@@ -26,14 +26,14 @@ Exécution programmatique: `src/pipelines/sql/run_sql_extraction.py`
 ### Query 1: Extraction des épreuves
 
 ```sql
-SELECT id_epreuve, epreuve, epreuve_genre, epreuve_type, ...
+SELECT id_epreuve, epreuve, epreuve_genre, epreuve_type, ..., id_sport
 FROM source.epreuves
 ORDER BY id_epreuve;
 ```
 
 | Élément | Justification |
 |---------|---------------|
-| SELECT * | Toutes les colonnes sont nécessaires pour la table `dim_epreuve` cible |
+| SELECT colonnes | Toutes les colonnes dont `id_sport` pour la hiérarchie sport → discipline |
 | ORDER BY id_epreuve | Utilise l'index PK pour un tri efficace |
 | Pas de WHERE | On extrait le catalogue complet |
 

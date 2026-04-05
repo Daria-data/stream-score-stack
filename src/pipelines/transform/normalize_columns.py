@@ -71,6 +71,7 @@ COLUMN_MAPS: dict[str, dict[str, str]] = {
         "discipline_administrative": "discipline_name",
         "id_specialite": "id_specialite",
         "specialite": "specialite_name",
+        "id_sport": "id_sport",
     },
     "pg_evenements": {
         "id_evenement": "id_evenement",

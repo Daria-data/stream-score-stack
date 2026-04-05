@@ -1,76 +1,76 @@
-id_discipline,discipline_name,id_sport
-23,Route,
-401,Patinage de vitesse sur glace grande piste,
-130,Tennis,
-251,Athlétisme disciplines olympiques,
-107,Ski alpin,
-144,Dériveur,
-355,Natation course,
-84,Plongeon,
-9,Badminton,
-360,Boxe anglaise,
-68,Judo,
-131,Tennis de table,
-45,Haltérophilie,
-35,Sabre,
-136,Carabine,
-129,Taekwondo,
-119,Luge,
-109,Biathlon,
-108,Ski de fond,
-110,Ski freestyle,
-400,Patinage de vitesse sur glace courte piste,
-22,Piste,
-67,Hockey sur gazon,
-8,Aviron,
-368,Tir à l'arc sur cibles,
-97,Pentathlon moderne,
-137,Pistolet,
-118,Curling,
-153,Skeleton,
-397,Kayak,
-36,Football,
-38,Golf,
-47,Handball,
-142,Triathlon,
-33,Epée,
-275,Plateau,
-117,Bobsleigh,
-120,Patinage artistique,
-111,Surf des neiges,
-358,Basketball 5x5,
-150,Volley-ball,
-11,Baseball,
-372,Planche à voile (windsurf),
-85,Water polo,
-34,Fleuret,
-151,Volley-ball de plage (beach volley),
-256,VTT,
-398,Canoë,
-42,Trampoline,
-311,Gymnastique artistique masculine,
-25,BMX race,
-262,Lutte,
-245,Rugby à 7,
-82,Natation artistique,
-40,Gymnastique rythmique,
-310,Gymnastique artistique féminine,
-152,Danse sur glace,
-146,Catamaran,
-83,Eau libre,
-72,Escalade,
-392,Kumité,
-391,Kata,
-127,Surf,
-246,Skateboard,
-286,BMX freestyle,
-288,Basketball 3x3,
-12,Softball,
-30,Saut d'obstacles,
-28,Concours complet,
-29,Dressage,
-187,Hockey sur glace,
-106,Saut à ski,
-105,Combine nordique,
-371,Kiteboard,
-287,Breaking,
+id_discipline,discipline_name
+23,Route
+401,Patinage de vitesse sur glace grande piste
+130,Tennis
+251,Athlétisme disciplines olympiques
+107,Ski alpin
+144,Dériveur
+355,Natation course
+84,Plongeon
+9,Badminton
+360,Boxe anglaise
+68,Judo
+131,Tennis de table
+45,Haltérophilie
+35,Sabre
+136,Carabine
+129,Taekwondo
+119,Luge
+109,Biathlon
+108,Ski de fond
+110,Ski freestyle
+400,Patinage de vitesse sur glace courte piste
+22,Piste
+67,Hockey sur gazon
+8,Aviron
+368,Tir à l'arc sur cibles
+97,Pentathlon moderne
+137,Pistolet
+118,Curling
+153,Skeleton
+397,Kayak
+36,Football
+38,Golf
+47,Handball
+142,Triathlon
+33,Epée
+275,Plateau
+117,Bobsleigh
+120,Patinage artistique
+111,Surf des neiges
+358,Basketball 5x5
+150,Volley-ball
+11,Baseball
+372,Planche à voile (windsurf)
+85,Water polo
+34,Fleuret
+151,Volley-ball de plage (beach volley)
+256,VTT
+398,Canoë
+42,Trampoline
+311,Gymnastique artistique masculine
+25,BMX race
+262,Lutte
+245,Rugby à 7
+82,Natation artistique
+40,Gymnastique rythmique
+310,Gymnastique artistique féminine
+152,Danse sur glace
+146,Catamaran
+83,Eau libre
+72,Escalade
+392,Kumité
+391,Kata
+127,Surf
+246,Skateboard
+286,BMX freestyle
+288,Basketball 3x3
+12,Softball
+30,Saut d'obstacles
+28,Concours complet
+29,Dressage
+187,Hockey sur glace
+106,Saut à ski
+105,Combine nordique
+371,Kiteboard
+287,Breaking
