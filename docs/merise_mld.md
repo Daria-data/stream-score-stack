@@ -4,7 +4,7 @@ Transformation du MCD en schéma relationnel (3NF).
 
 ## Schéma relationnel
 
-```
+<pre style="background:#ffffff;color:#000000;border:1px solid #000000;padding:12px;line-height:1.4;font-family:ui-monospace,Cascadia Code,Consolas,monospace;font-size:0.9em;margin:0;white-space:pre-wrap;">
 dim_country (id_country PK, country_name)
 
 dim_federation (id_federation PK, federation_name, federation_short)
@@ -28,11 +28,34 @@ fact_result (id_result PK, #id_evenement FK vers dim_evenement, #id_country FK v
              id_athlete, athlete_last_name, athlete_first_name,
              id_team, team_name, rank, performance_text, performance_value,
              source_id, created_at, updated_at)
-```
+</pre>
 
 ## Diagramme MLD
 
 ```mermaid
+---
+config:
+  theme: base
+  themeVariables:
+    background: "#ffffff"
+    primaryColor: "#ffffff"
+    primaryTextColor: "#000000"
+    secondaryColor: "#ffffff"
+    tertiaryColor: "#ffffff"
+    lineColor: "#000000"
+    primaryBorderColor: "#000000"
+    secondaryBorderColor: "#000000"
+    tertiaryBorderColor: "#000000"
+    mainBkg: "#ffffff"
+    secondBkg: "#ffffff"
+    textColor: "#000000"
+  themeCSS: |
+    .er .entityBox rect, .er .entityBox .attributeBoxEven, .er .entityBox .attributeBoxOdd { fill: #ffffff !important; stroke: #000000 !important; stroke-width: 3px !important; }
+    .er .relationshipLine path { stroke: #000000 !important; stroke-width: 3px !important; fill: none !important; }
+    .er .relationshipLabelBox { fill: #ffffff !important; stroke: #000000 !important; stroke-width: 2px !important; }
+    .er .entityLabel { fill: #000000 !important; }
+    .er .attributeText { fill: #000000 !important; }
+---
 erDiagram
     dim_country {
         INT id_country PK
@@ -114,6 +137,15 @@ erDiagram
     dim_edition ||--o{ dim_evenement : ""
     dim_evenement ||--o{ fact_result : ""
     dim_country ||--o{ fact_result : ""
+
+    style dim_country fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000
+    style dim_federation fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000
+    style dim_sport fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000
+    style dim_discipline fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000
+    style dim_epreuve fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000
+    style dim_edition fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000
+    style dim_evenement fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000
+    style fact_result fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000
 ```
 
 ## Règles de passage MCD vers MLD

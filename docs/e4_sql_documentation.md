@@ -17,7 +17,9 @@ sql/extraction/
 └── duckdb_extract.sql     # Requêtes DuckDB (couche Parquet)
 ```
 
-Exécution programmatique: `src/pipelines/sql/run_sql_extraction.py`
+Exécution programmatique : `src/pipelines/sql/run_sql_extraction.py`.
+
+Les requêtes **PostgreSQL 3 à 6** sont rejouables telles quelles dans l’interface SQL interactive du projet (`src/app.py`) : les modèles associés au schéma `source` reprennent le texte de `postgres_extract.sql`. En complément, cette interface propose des requêtes sur le **schéma cible** (`dim_*`, `fact_result`) et des **contrôles d’intégrité** après chargement (notamment sur `dim_epreuve.id_sport`), qui illustrent l’usage opérationnel du modèle normalisé plutôt que l’étape d’extraction batch documentée ici.
 
 ---
 

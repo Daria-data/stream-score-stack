@@ -5,6 +5,8 @@ Ce document décrit **qui accède** à PostgreSQL, **avec quels droits** et
 ([e4_api_usage.md](e4_api_usage.md)) et RGPD
 ([registre_traitements_rgpd.md](registre_traitements_rgpd.md)).
 
+Dans cette stack Docker, les services utilisent en pratique le **même compte PostgreSQL** (`postgres`) via les variables d’environnement. La **séparation des usages** (qui écrit, qui ne fait que lire) est donc assurée par le **comportement des applications** (requêtes `SELECT` vs `COPY` / pipeline), par le **découpage des conteneurs** et par le **réseau**, et non par des rôles SQL distincts au sein du SGBD. Des rôles dédiés (`readonly`, révocation d’`INSERT` hors loader) restent une **étape de durcissement** recommandée en production, hors périmètre technique détaillé ici.
+
 ---
 
 ## 1. Matrice des accès
@@ -52,6 +54,8 @@ Le fichier `.env` est listé dans `.gitignore` et **ne doit pas être commité**
 ---
 
 ## 4. Principe du moindre privilège
+
+Le tableau ci-dessous décrit le **niveau projet** (qui fait quoi), pas une matrice de **GRANT** PostgreSQL déjà déployée : c’est cohérent avec l’E4 et évite de surinterpréter la colonne « Droits DB ».
 
 | Principe | Implémentation actuelle | Amélioration possible (hors scope E4) |
 |----------|------------------------|---------------------------------------|

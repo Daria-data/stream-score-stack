@@ -148,7 +148,7 @@ SELECT e.season_year,
 FROM source.evenements ev
 JOIN dim_edition e ON ev.id_edition = e.id_edition
 GROUP BY e.season_year, e.city, e.competition_type
-ORDER BY event_count DESC;
+ORDER BY e.season_year DESC;
 """,
     "Audit source: événements sans épreuve liée (FK / qualité)": """
 SELECT ev.id_evenement,

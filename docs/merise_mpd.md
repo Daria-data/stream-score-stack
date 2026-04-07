@@ -35,6 +35,29 @@ Voir [`sql/init_target_db.sql`](../sql/init_target_db.sql).
 ## Diagramme physique
 
 ```mermaid
+---
+config:
+  theme: base
+  themeVariables:
+    background: "#ffffff"
+    primaryColor: "#ffffff"
+    primaryTextColor: "#000000"
+    secondaryColor: "#ffffff"
+    tertiaryColor: "#ffffff"
+    lineColor: "#000000"
+    primaryBorderColor: "#000000"
+    secondaryBorderColor: "#000000"
+    tertiaryBorderColor: "#000000"
+    mainBkg: "#ffffff"
+    secondBkg: "#ffffff"
+    textColor: "#000000"
+  themeCSS: |
+    .er .entityBox rect, .er .entityBox .attributeBoxEven, .er .entityBox .attributeBoxOdd { fill: #ffffff !important; stroke: #000000 !important; stroke-width: 3px !important; }
+    .er .relationshipLine path { stroke: #000000 !important; stroke-width: 3px !important; fill: none !important; }
+    .er .relationshipLabelBox { fill: #ffffff !important; stroke: #000000 !important; stroke-width: 2px !important; }
+    .er .entityLabel { fill: #000000 !important; }
+    .er .attributeText { fill: #000000 !important; }
+---
 erDiagram
     dim_country {
         INTEGER id_country PK "NOT NULL"
@@ -116,4 +139,13 @@ erDiagram
     dim_edition ||--o{ dim_evenement : "id_edition"
     dim_evenement ||--o{ fact_result : "id_evenement"
     dim_country ||--o{ fact_result : "id_country"
+
+    style dim_country fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000
+    style dim_federation fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000
+    style dim_sport fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000
+    style dim_discipline fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000
+    style dim_epreuve fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000
+    style dim_edition fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000
+    style dim_evenement fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000
+    style fact_result fill:#ffffff,stroke:#000000,stroke-width:3px,color:#000000
 ```
