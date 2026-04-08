@@ -55,3 +55,7 @@ docs/e4_demo_steps.md
 
 # Ruff (linters/cache)
 .ruff_cache/
+
+# Local livrable drafts
+E4_Livrable_markdown.md
+E4 Livrable .md

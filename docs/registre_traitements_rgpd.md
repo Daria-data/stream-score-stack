@@ -9,18 +9,17 @@
 
 | Champ                  | Valeur                                         |
 |------------------------|-------------------------------------------------|
-| Organisation           | Projet académique E4, BTS SIO SLAM            |
-| Responsable            | Étudiante SLAM                                  |
-| Contact DPO            | N/A (projet académique, pas de DPO désigné)     |
+| Organisation           | OlympScore            |
+| Responsable            | Daria Antipova                                  |
+| Contact DPO            |08 86 888 92 teams, email: daria.antipova@gmail.com     |
 
 ---
 
 ## 2. Finalité du traitement
 
-| Finalité                          | Base légale              | Description                                                   |
-|-----------------------------------|--------------------------|---------------------------------------------------------------|
-| Analyse statistique sportive      | Intérêt légitime (art.6f)| Agrégation et visualisation de résultats olympiques historiques|
-| Démonstration technique (soutenance) | Cadre pédagogique BTS SIO | Présentation du projet et des compétences aux évaluateurs       |
+| Finalité | Base légale | Description |
+|----------|-------------|-------------|
+| Analyse statistique des données sportives publiques et production d’un livrable technique traçable | Intérêt légitime (art. 6.1.f) | Agrégation et visualisation de résultats olympiques issus de sources ouvertes. Le traitement inclut la documentation, les contrôles qualité et la reproductibilité du pipeline nécessaires au livrable. Le cadre de formation et les destinataires associés sont précisés au §6. |
 
 ---
 
@@ -69,8 +68,8 @@
 | Destinataire       | Accès          | Justification                     |
 |--------------------|----------------|-----------------------------------|
 | Évaluateurs (formation) | Lecture seule | Évaluation pédagogique du livrable |
-| Étudiante          | Lecture/écriture| Développement et démonstration   |
-| API REST (future)  | Lecture seule  | Consultation via endpoints protégés|
+| Responsable du traitement (cf. §1) | Lecture/écriture | Développement, exploitation locale et maintenance du dispositif |
+| API REST (endpoints protégés) | Lecture seule  | Consultation via authentification par clé API |
 
 ---
 
@@ -96,7 +95,7 @@
 | Mesure                        | Implémentation                                     |
 |-------------------------------|-----------------------------------------------------|
 | Authentification DB           | Mot de passe PostgreSQL via variable d'environnement|
-| Authentification API          | API key via header (prévue en Phase 6)              |
+| Authentification API          | API key via en-tête HTTP (`X-API-Key`)              |
 | Chiffrement en transit        | Réseau Docker interne isolé                         |
 | Contrôle d'accès              | Volumes montés en lecture seule (:ro)               |
 | Séparation des environnements | Docker Compose isole chaque service                 |
