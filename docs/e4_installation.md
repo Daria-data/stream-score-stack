@@ -109,7 +109,7 @@ Séquence typique :
 3. **app** : Streamlit :8501  
 4. **api** : REST :8888  
 5. **mock-api** : :8000  
-6. **airflow-*** : UI :8080  
+6. **airflow-web** : UI :8080  
 
 Vérification :
 
@@ -153,6 +153,5 @@ docker compose up -d --build
 
 ## 10. Suite
 
-- Démo guidée : [e4_demo_steps.md](e4_demo_steps.md)  
 - SQL documenté : [e4_sql_documentation.md](e4_sql_documentation.md)  
 - API : [e4_api_usage.md](e4_api_usage.md)

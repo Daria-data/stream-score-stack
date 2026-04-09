@@ -189,12 +189,11 @@ ORDER BY epreuve_name LIMIT 50;
 """,
     "Browse dim_edition": "SELECT * FROM dim_edition ORDER BY season_year DESC;",
     "Browse dim_evenement": """
-SELECT ev.id_evenement, ev.event_name_fr, ev.age_category,
-       ep.epreuve_name, ed.season_year, ed.city
-FROM dim_evenement ev
-JOIN dim_epreuve ep ON ev.id_epreuve = ep.id_epreuve
-JOIN dim_edition ed ON ev.id_edition = ed.id_edition
-ORDER BY ed.season_year DESC, ep.epreuve_name LIMIT 50;
+SELECT id_evenement, event_name_fr, event_name_en,
+       id_epreuve, id_edition
+FROM dim_evenement
+ORDER BY id_evenement
+LIMIT 50;
 """,
     "Browse fact_result": "SELECT * FROM fact_result ORDER BY id_result LIMIT 50;",
 }

@@ -1274,6 +1274,9 @@ wheels = [
 name = "olympscore"
 version = "0.1.0"
 source = { virtual = "." }
+dependencies = [
+    { name = "duckdb" },
+]
 
 [package.dev-dependencies]
 airflow = [
@@ -1301,6 +1304,7 @@ dev = [
 ]
 
 [package.metadata]
+requires-dist = [{ name = "duckdb", specifier = ">=1.5.1" }]
 
 [package.metadata.requires-dev]
 airflow = [

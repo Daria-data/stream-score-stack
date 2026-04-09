@@ -18,12 +18,11 @@ Ce document est le **point d’entrée principal** de la documentation E4 : il r
 
 ---
 
-## Documentation E4 (à lire dans cet ordre pour une démo)
+## Documentation E4 (à lire dans cet ordre)
 
 | Document | Contenu |
 |----------|---------|
 | [docs/e4_installation.md](docs/e4_installation.md) | Prérequis, `uv`, Docker, variables d’environnement, premier démarrage |
-| [docs/e4_demo_steps.md](docs/e4_demo_steps.md) | Scénario de démo pas-à-pas (oral) |
 | [docs/e4_sql_documentation.md](docs/e4_sql_documentation.md) | Justification des requêtes SQL (PostgreSQL + DuckDB) |
 | [docs/e4_api_usage.md](docs/e4_api_usage.md) | API REST, clé `X-API-Key`, exemples `curl` / Swagger |
 | [docs/e4_specifications_extraction.md](docs/e4_specifications_extraction.md) | Spécifications d'extraction C8 : 5 sources, protocoles, staging |
@@ -49,7 +48,7 @@ Ce document est le **point d’entrée principal** de la documentation E4 : il r
 | Service | URL / Port |
 |---------|------------|
 | Streamlit (SQL playground) | http://localhost:8501 |
-| API REST (FastAPI + OpenAPI) | http://localhost:8888, docs : `/docs` |
+| API REST (FastAPI + OpenAPI) | http://localhost:8888, docs : `/docs`, clé `X-API-Key` : `e4-demo-key-2026` |
 | Mock API (source C8) | http://localhost:8000 |
 | Airflow | http://localhost:8080 (`admin` / `admin`) |
 | PostgreSQL | `localhost:5433` (base `sports`) |
@@ -64,7 +63,7 @@ Ce document est le **point d’entrée principal** de la documentation E4 : il r
 - **Gestion des dépendances** : [uv](https://docs.astral.sh/uv/), `uv sync --group core`.
 - **Tests** : `uv run pytest tests/ -v`, 39 tests (unit + intégration) couvrant normalisation, nettoyage, réconciliation multi-sources, auth API et endpoints REST.
 
-Pour le détail d’installation et de démonstration, ouvrir [docs/e4_installation.md](docs/e4_installation.md) et [docs/e4_demo_steps.md](docs/e4_demo_steps.md).
+Pour le détail d’installation ouvrir [docs/e4_installation.md](docs/e4_installation.md) 
 
 ---
 

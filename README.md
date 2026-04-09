@@ -2,7 +2,7 @@
 
 End-to-end data platform for Olympic sports results: multi-source extraction, SQL processing, aggregation, normalized database, REST API and interactive SQL playground.
 
-Project context: **BTS SIO SLAM : E4**; functional scope aligns with competencies **C8–C12**.
+Project context: functional scope aligns with competencies **C8–C12**.
 
 **E4 documentation hub:** start at **[README_E4.md](README_E4.md)** (links to installation, demo script, SQL docs, API docs, MERISE, and RGPD).
 
@@ -10,50 +10,39 @@ Project context: **BTS SIO SLAM : E4**; functional scope aligns with competencie
 
 ## Architecture
 
-```
-┌──────────────┐   ┌──────────────┐   ┌──────────────┐
-│  Mock API    │   │  PostgreSQL  │   │   Parquet    │
-│  (FastAPI)   │   │ source schema│   │  (DuckDB)    │
-│  :8000       │   │  :5433       │   │  local file  │
-└──────┬───────┘   └──────┬───────┘   └──────┬───────┘
-       │                  │                  │
-       └──────────────────┼──────────────────┘
-                          │
-                ┌─────────▼──────────┐
-                │   EXTRACTION (C8)  │  + CSV file + HTML scraping
-                │  src/pipelines/    │
-                │  extract/          │
-                └─────────┬──────────┘
-                          │  data/staging/*.csv
-                ┌─────────▼──────────┐
-                │ SQL EXTRACTION (C9)│
-                │  sql/extraction/   │
-                └─────────┬──────────┘
-                          │
-                ┌─────────▼──────────┐
-                │ AGGREGATION (C10)  │
-                │  normalize, clean  │
-                │  merge, build      │
-                └─────────┬──────────┘
-                          │  data/final/*.csv
-                ┌─────────▼──────────┐
-                │ TARGET DB (C11)    │
-                │  7 dim + 1 fact    │
-                │  PostgreSQL        │
-                └────┬─────────┬─────┘
-                     │         │
-          ┌──────────▼──┐  ┌───▼──────────┐
-          │ REST API    │  │  Streamlit   │
-          │ (FastAPI)   │  │  SQL         │
-          │ :8888       │  │  Playground  │
-          │ (C12)       │  │  :8501       │
-          └─────────────┘  └──────────────┘
-                     │
-          ┌──────────▼──────────┐
-          │  Airflow (Phase 7)  │
-          │  DAG e4_pipeline    │
-          │  :8080              │
-          └─────────────────────┘
+```mermaid
+%%{init: {'theme':'base','themeVariables': {'background':'#ffffff','lineColor':'#000000','textColor':'#000000','primaryColor':'#ffffff','primaryBorderColor':'#000000','primaryTextColor':'#000000'}}}%%
+flowchart TB
+    api["Mock API<br/>(FastAPI, :8000)"]
+    pg["PostgreSQL Source<br/>Schema (:5433)"]
+    pq["Parquet Source<br/>(DuckDB, local file)"]
+    csv["CSV Source"]
+    html["HTML Scraping"]
+
+    ex["Extraction (C8)<br/>src/pipelines/extract/"]
+    sq["SQL Extraction (C9)<br/>sql/extraction/"]
+    ag["Aggregation (C10)<br/>Cleaning, normalization,<br/>merging and data build"]
+    db["Target Database (C11)<br/>PostgreSQL<br/>7 dimensions + 1 fact table"]
+
+    rest["REST API (C12)<br/>FastAPI (:8888)"]
+    ui["Streamlit SQL Playground<br/>:8501"]
+    af["Airflow Orchestration<br/>Phase 7 - DAG e4_pipeline<br/>:8080"]
+
+    api --> ex
+    pg --> ex
+    pq --> ex
+    csv --> ex
+    html --> ex
+
+    ex -->|staging data| sq
+    sq --> ag
+    ag -->|final data| db
+    db --> rest
+    db --> ui
+    db --> af
+
+    classDef white fill:#ffffff,stroke:#000000,color:#000000,stroke-width:1.5px;
+    class api,pg,pq,csv,html,ex,sq,ag,db,rest,ui,af white;
 ```
 
 ## Prerequisites
@@ -106,8 +95,7 @@ docker compose up -d --build
 
 Normalized snowflake schema: 7 dimension tables + 1 fact table.
 
-- `dim_country`, `dim_federation`, `dim_sport`, `dim_discipline`
-- `dim_epreuve`, `dim_edition`, `dim_evenement`
+- `dim_country`, `dim_federation`, `dim_sport`, `dim_discipline`, `dim_epreuve`, `dim_edition`, `dim_evenement`
 - `fact_result` (~35,700 rows)
 
 See: `sql/init_target_db.sql`, `docs/merise_mcd.md`, `docs/merise_mld.md`, `docs/merise_mpd.md`
@@ -122,7 +110,7 @@ Endpoints: `/health`, `/countries`, `/sports`, `/federations`, `/editions`, `/re
 
 See: `docs/e4_api_usage.md`
 
-## Airflow Pipeline (Phase 7)
+## Airflow Pipeline
 
 DAG `e4_pipeline` orchestrates the full E4 data pipeline:
 
@@ -164,7 +152,6 @@ stream-score-stack/
 ├── README_E4.md                   # E4 entry point + competency map
 ├── docs/
 │   ├── e4_installation.md         # Setup (uv, Docker, troubleshooting)
-│   ├── e4_demo_steps.md           # Oral demo walkthrough
 │   ├── merise_mcd.md              # Conceptual data model
 │   ├── merise_mld.md              # Logical data model
 │   ├── merise_mpd.md              # Physical data model
@@ -205,7 +192,6 @@ stream-score-stack/
 |------------------------------------|------------|-------------------------------------|
 | **E4 index (start here)**          | C8–C12     | `README_E4.md`                      |
 | Installation                       | -          | `docs/e4_installation.md`           |
-| Demo walkthrough                   | -          | `docs/e4_demo_steps.md`             |
 | MERISE MCD / MLD / MPD             | C11        | `docs/merise_*.md`                  |
 | SQL extraction documentation       | C9         | `docs/e4_sql_documentation.md`      |
 | API usage guide                    | C12        | `docs/e4_api_usage.md`             |
