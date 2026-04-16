@@ -196,6 +196,18 @@ ORDER BY id_evenement
 LIMIT 50;
 """,
     "Browse fact_result": "SELECT * FROM fact_result ORDER BY id_result LIMIT 50;",
+    "Browse source.epreuves (legacy)": """
+SELECT *
+FROM source.epreuves
+ORDER BY id_epreuve
+LIMIT 10;
+""",
+    "Browse source.evenements (legacy)": """
+SELECT *
+FROM source.evenements
+ORDER BY id_evenement
+LIMIT 10;
+""",
 }
 
 
@@ -237,6 +249,35 @@ TEMPLATES: dict[str, str] = {
     label: _template_sql_with_banner(label, body)
     for label, body in _RAW_TEMPLATES.items()
 }
+
+SOURCE_LEGACY_TEMPLATES = [
+    "Épreuves par discipline (schéma source)",
+    "Épreuves olympiques d'été (schéma source)",
+    "Événements par édition (schéma source)",
+    "Audit source: événements sans épreuve liée (FK / qualité)",
+    "Browse source.epreuves (legacy)",
+    "Browse source.evenements (legacy)",
+]
+
+TARGET_ANALYTICS_TEMPLATES = [
+    "Top 10 countries by results",
+    "Results by edition (year / city)",
+    "Sports list with federations",
+    "Top athletes by medal count",
+    "Browse dim_country",
+    "Browse dim_federation",
+    "Browse dim_sport",
+    "Browse dim_discipline",
+    "Browse dim_epreuve",
+    "Browse dim_edition",
+    "Browse dim_evenement",
+    "Browse fact_result",
+]
+
+TARGET_AUDIT_TEMPLATES = [
+    "Audit cible: id_sport NULL sur dim_epreuve (contrainte NOT NULL)",
+    "Audit cible: id_sport sans ligne dim_sport (FK / orphelins)",
+]
 
 
 def main() -> None:
@@ -286,9 +327,20 @@ def main() -> None:
     if "sql_query" not in st.session_state:
         st.session_state["sql_query"] = TEMPLATES["Top 10 countries by results"]
 
-    for label, sql in TEMPLATES.items():
-        if st.sidebar.button(label):
-            st.session_state["sql_query"] = sql
+    st.sidebar.markdown("#### Cible (dim_* / fact_result)")
+    for label in TARGET_ANALYTICS_TEMPLATES:
+        if st.sidebar.button(label, key=f"tpl_target_{label}"):
+            st.session_state["sql_query"] = TEMPLATES[label]
+
+    st.sidebar.markdown("#### Source legacy (schema source)")
+    for label in SOURCE_LEGACY_TEMPLATES:
+        if st.sidebar.button(label, key=f"tpl_source_{label}"):
+            st.session_state["sql_query"] = TEMPLATES[label]
+
+    st.sidebar.markdown("#### Audits")
+    for label in TARGET_AUDIT_TEMPLATES:
+        if st.sidebar.button(label, key=f"tpl_audit_{label}"):
+            st.session_state["sql_query"] = TEMPLATES[label]
 
     # Main area
     st.title("Olympic Results: SQL Playground")

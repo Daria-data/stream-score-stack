@@ -117,4 +117,4 @@ pour garantir la cohérence avant export vers le schéma cible.
 Le DAG `e4_pipeline` (`dags/e4_pipeline.py`) automatise :
 `extract`, puis `sql_extraction`, puis `aggregate` (merge + réconciliation), puis `validate_final_dataset`, puis `import_to_target_db`.
 
-Voir : [e4_demo_steps.md](e4_demo_steps.md) pour le scénario de démo.
+

@@ -28,7 +28,7 @@ Les requêtes **PostgreSQL 3 à 6** sont rejouables telles quelles dans l’inte
 ### Query 1: Extraction des épreuves
 
 ```sql
-SELECT id_epreuve, epreuve, epreuve_genre, epreuve_type, ..., id_sport
+SELECT id_epreuve, epreuve, epreuve_genre, epreuve_type, id_sport
 FROM source.epreuves
 ORDER BY id_epreuve;
 ```
@@ -42,7 +42,7 @@ ORDER BY id_epreuve;
 ### Query 2: Extraction des événements avec jointure
 
 ```sql
-SELECT ev.id_evenement, ev.evenement, ev.evenement_en, ...
+SELECT ev.id_evenement, ev.evenement, ev.evenement_en
 FROM source.evenements ev
 INNER JOIN source.epreuves ep ON ev.id_epreuve = ep.id_epreuve
 ORDER BY ev.id_evenement;
@@ -119,6 +119,29 @@ WHERE ep.id_epreuve IS NULL;
 
 DuckDB est un moteur analytique en mémoire qui exécute du SQL directement sur des fichiers Parquet.
 Cela démontre l'extraction depuis un "système big data" (C9).
+
+### Exécuter les requêtes DuckDB (où et comment)
+
+**Où exécuter :**
+- Depuis un terminal à la racine du projet (`stream-score-stack`).
+- Dans l'environnement du projet via `uv run`.
+
+**Option A — exécution complète (recommandée) :**
+
+```bash
+uv run python -m src.pipelines.sql.run_sql_extraction
+```
+
+Cette commande exécute toutes les requêtes DuckDB documentées dans `sql/extraction/duckdb_extract.sql`
+et écrit les sorties CSV dans `data/staging/sql/`.
+
+**Option B — exécution d'une requête unique (one-liner) :**
+
+```bash
+uv run python -c "import duckdb; print(duckdb.sql(\"SELECT id_equipe, equipe_en, COUNT(DISTINCT id_athlete_base_resultats) AS member_count FROM read_parquet('data/parquet/athletes_teams.parquet') WHERE id_athlete_base_resultats IS NOT NULL AND id_equipe IS NOT NULL GROUP BY id_equipe, equipe_en ORDER BY member_count DESC LIMIT 20\").df().to_string(index=False))"
+```
+
+Cette option permet de vérifier rapidement une requête DuckDB sans lancer tout le pipeline SQL.
 
 ### Query 1: Extraction des athlètes uniques
 
@@ -203,7 +226,7 @@ Le script `src/pipelines/sql/run_sql_extraction.py`:
 
 1. Parse les fichiers SQL et extrait les requêtes nommées
 2. Exécute chaque requête via SQLAlchemy (Postgres) ou DuckDB natif
-3. Sauvegarde les résultats dans `data/staging/sql_*.csv`
+3. Sauvegarde les résultats dans `data/staging/sql/` (`sql_pg_*.csv` et `sql_duckdb_*.csv`)
 4. Génère un rapport de succès/erreur
 
 ```bash

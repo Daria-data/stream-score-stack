@@ -30,6 +30,7 @@ logger = logging.getLogger(__name__)
 ROOT = Path(__file__).resolve().parent.parent.parent.parent
 SQL_DIR = ROOT / "sql" / "extraction"
 STAGING_DIR = ROOT / "data" / "staging"
+SQL_STAGING_DIR = STAGING_DIR / "sql"
 PARQUET_PATH = ROOT / "data" / "parquet" / "athletes_teams.parquet"
 
 
@@ -128,7 +129,7 @@ def run_postgres_queries() -> list[dict[str, Any]]:
                     df = pd.DataFrame(result_proxy.fetchall(), columns=result_proxy.keys())
                     elapsed = round(time.time() - t0, 2)
 
-                    out_path = STAGING_DIR / f"sql_pg_{q['name']}.csv"
+                    out_path = SQL_STAGING_DIR / f"sql_pg_{q['name']}.csv"
                     df.to_csv(out_path, index=False, encoding="utf-8")
 
                     results.append({
@@ -202,7 +203,7 @@ def run_duckdb_queries() -> list[dict[str, Any]]:
             df = conn.execute(sql).df()
             elapsed = round(time.time() - t0, 2)
             
-            out_path = STAGING_DIR / f"sql_duckdb_{q['name']}.csv"
+            out_path = SQL_STAGING_DIR / f"sql_duckdb_{q['name']}.csv"
             df.to_csv(out_path, index=False, encoding="utf-8")
             
             results.append({
@@ -233,7 +234,7 @@ def run_duckdb_queries() -> list[dict[str, Any]]:
 
 def run_all() -> None:
     """Execute all SQL extraction queries and print summary."""
-    STAGING_DIR.mkdir(parents=True, exist_ok=True)
+    SQL_STAGING_DIR.mkdir(parents=True, exist_ok=True)
     all_results: list[dict[str, Any]] = []
     
     print("\n" + "=" * 75)
@@ -263,7 +264,7 @@ def run_all() -> None:
     skipped = sum(1 for r in all_results if str(r["status"]).startswith("SKIPPED"))
     fail = len(all_results) - ok - skipped
     print(f"Total: {ok} OK, {skipped} SKIPPED, {fail} FAILED")
-    print(f"Output: {STAGING_DIR}\n")
+    print(f"Output: {SQL_STAGING_DIR}\n")
 
 
 if __name__ == "__main__":
