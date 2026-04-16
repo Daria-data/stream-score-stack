@@ -57,12 +57,12 @@ id_athlete,last_name,first_name,id_team,team_name
 196553.0,BELOMOINA,Yana,96858,Ukraine
 196662.0,HOSSEINKHANI,Mostafa Mohabbali,11181,Iran
 197160.0,LEI,Sheng,14577,China
-197383.0,CIOBANU,Victor,11956,Moldova
 197383.0,CIOBANU,Victor,10109,Moldova
+197383.0,CIOBANU,Victor,11956,Moldova
 197391.0,SHERSHAN,Dzmitry,9829,Belarus
 197759.0,FERJANI,Ayoub,14611,Tunisia
-197791.0,RYU,Han-Soo,15325,Republic of Korea
 197791.0,RYU,Han-Soo,15352,Republic of Korea
+197791.0,RYU,Han-Soo,15325,Republic of Korea
 197942.0,DIATTA,Adama,8784,Senegal
 197948.0,ALBIEV,Islambek,12963,Russia
 198110.0,LEVIT,Vassiliy,10218,Kazakhstan
@@ -140,8 +140,8 @@ id_athlete,last_name,first_name,id_team,team_name
 208841.0,LEE,Chong Wei,10208,Malaysia
 209219.0,OTA,Yuki,8811,Japan
 209259.0,PEREZ MAURICE,Maria,9859,Argentina
-209460.0,POLLING,Kim,10221,Italy
 209460.0,POLLING,Kim,8805,Netherlands
+209460.0,POLLING,Kim,10221,Italy
 209470.0,DZEYNICHENKO,Timofej,15357,Belarus
 209503.0,JABALLAH,Faycal,12018,Tunisia
 209507.0,THAPA,Shiva,15995,India
@@ -423,8 +423,8 @@ id_athlete,last_name,first_name,id_team,team_name
 242767.0,ERDELYI-JOO,Abigel,11982,Hungary
 242820.0,GARZÓN,Geandry,12406,Cuba
 243280.0,SASTIN,Marianna,15953,Hungary
-243369.0,VOROBEVA,Natalya,14603,Russia
 243369.0,VOROBEVA,Natalya,194581,ROC
+243369.0,VOROBEVA,Natalya,14603,Russia
 243371.0,TOTH,Krisztian,11982,Hungary
 243683.0,CHEAH,Soniia,10208,Malaysia
 243689.0,EVANS,Daniel,17986,Great Britain
@@ -526,8 +526,8 @@ id_athlete,last_name,first_name,id_team,team_name
 254599.0,NAIDAN,Tuvshinbayar,12416,Mongolia
 254708.0,NHABALI,Quedjau,11988,Ukraine
 254749.0,LEVYTSKA-SHUKVANI,Tetyana,8808,Georgia
-254897.0,KAYAALP,Riza,15984,Türkiye
 254897.0,KAYAALP,Riza,15318,Türkiye
+254897.0,KAYAALP,Riza,15984,Türkiye
 254978.0,ABDELMAWGOUD,Mohamed,10073,Egypt
 254994.0,URIARTE,Sugoi,8771,Spain
 255225.0,YAMADA,Jessica,14615,Brazil
@@ -542,8 +542,8 @@ id_athlete,last_name,first_name,id_team,team_name
 257479.0,ZASIEIEV,Alen,12441,Ukraine
 257610.0,ELIAS,Nacif,16000,Lebanon
 257701.0,BOCZKO,Gábor,8826,Hungary
-257730.0,TAUFATOFUA,Pita,93721,Tonga
 257730.0,TAUFATOFUA,Pita,16096,Tonga
+257730.0,TAUFATOFUA,Pita,93721,Tonga
 257809.0,FOCONI,Alessio,9849,Italy
 258069.0,MATTSSON,Sofia,15942,Sweden
 258244.0,JUNG,Jin-Sun,15947,Republic of Korea
@@ -678,8 +678,8 @@ id_athlete,last_name,first_name,id_team,team_name
 274358.0,TUNCAT,Levent,14595,Germany
 274631.0,DIAZ ROBERTTI,Jose Daniel,10812,Venezuela
 274867.0,EBINUMA,Masashi,10786,Japan
-275295.0,POPP,Eduard,8785,Germany
 275295.0,POPP,Eduard,16005,Germany
+275295.0,POPP,Eduard,8785,Germany
 275513.0,MRVALJEVIC,Srdjan,14338,Montenegro
 275743.0,TURKS,Victoriia,11988,Ukraine
 275908.0,QUADROS,Ketleyn,11177,Brazil
@@ -730,16 +730,16 @@ id_athlete,last_name,first_name,id_team,team_name
 282095.0,DVORAK,Galia,8758,Spain
 282193.0,TOJIBAEV,Hurshid,10259,Uzbekistan
 282206.0,ŠAFÁROVÁ,Lucie,17994,Czech Republic
-282424.0,MAHJOUB,Javad,10217,Iran
 282424.0,MAHJOUB,Javad,62303,Refugee Olympic Team
+282424.0,MAHJOUB,Javad,10217,Iran
 282623.0,BERNABEU,Maria,8771,Spain
 282711.0,SILVA,Mariana,11177,Brazil
 282737.0,LOGUNOVA,Tatiana,10783,Russia
 283016.0,NISHIKORI,Kei,12655,Japan
 283266.0,GBAGBI,Ruth,9845,Côte d'Ivoire
 283705.0,UNGVARI,Attila,11982,Hungary
-283778.0,ILDEM,Cenk,15318,Türkiye
 283778.0,ILDEM,Cenk,15984,Türkiye
+283778.0,ILDEM,Cenk,15318,Türkiye
 283786.0,ALOYAN,Mikhail,11969,Russia
 283788.0,CABRERA,Yasmany,12062,Cuba
 283836.0,DOIG,Maria Luisa,12434,Peru
@@ -844,8 +844,8 @@ id_athlete,last_name,first_name,id_team,team_name
 296444.0,NUYTINCK,Cedric,8774,Belgium
 296481.0,YADAV,Narsingh Pancham,11175,India
 296487.0,DELGADO,Angelica,14607,United States
-296573.0,ROPER,Miryam,11617,Panama
 296573.0,ROPER,Miryam,9851,Germany
+296573.0,ROPER,Miryam,11617,Panama
 296774.0,WIESZCZEK-KORDUS,Agnieszka,10815,Poland
 296815.0,SHVEDOVA,Yaroslava,10486,Kazakhstan
 296915.0,TAHMASEBI,Saman,15944,Azerbaijan
@@ -1140,8 +1140,8 @@ id_athlete,last_name,first_name,id_team,team_name
 334536.0,BACHMANN,Rabia,14595,Germany
 334613.0,BJERREHUUS,Fredrik,17445,Denmark
 334846.0,RAMOS,Joana,15979,Portugal
-334965.0,BELENYUK,Zhan,12441,Ukraine
 334965.0,BELENYUK,Zhan,12006,Ukraine
+334965.0,BELENYUK,Zhan,12441,Ukraine
 335043.0,FANETRI,Lindaweni,9830,Indonesia
 335100.0,BOUZAID,Alexandre,10206,Senegal
 335217.0,MOHAMED,Aida,8826,Hungary
@@ -1227,8 +1227,8 @@ id_athlete,last_name,first_name,id_team,team_name
 346419.0,TRSTENJAK,Tina,11939,Slovenia
 346538.0,BOZBAYEV,Islam,9850,Kazakhstan
 346749.0,NGUYEN,Thi Lua,12408,Vietnam
-346813.0,ZAMKOVOY,Andrey,194291,ROC
 346813.0,ZAMKOVOY,Andrey,11969,Russia
+346813.0,ZAMKOVOY,Andrey,194291,ROC
 346892.0,VENCKAITIS,Edgaras,11117,Lithuania
 346904.0,ZHANG,Lily,12402,United States
 346916.0,JEONG,Bo Kyeong,11135,Republic of Korea
@@ -1250,8 +1250,8 @@ id_athlete,last_name,first_name,id_team,team_name
 349301.0,LAJOVIC,Dušan,18207,Serbia
 349378.0,LAMBDIN,Stephen,12024,United States
 349432.0,VLASOV,Roman,12963,Russia
-349530.0,SOGHOMONYAN,Eduard,11171,Brazil
 349530.0,SOGHOMONYAN,Eduard,12073,Brazil
+349530.0,SOGHOMONYAN,Eduard,11171,Brazil
 349677.0,ESHIMOVA-TURTBAYEVA,Jyldyz,11157,Kazakhstan
 349730.0,OKUHARA,Nozomi,9835,Japan
 349751.0,ILIEVA,Ivelina,11943,Bulgaria
@@ -1780,8 +1780,8 @@ id_athlete,last_name,first_name,id_team,team_name
 402139.0,KIM,Min-Seok,15325,Republic of Korea
 402140.0,KNYSTAUTAS,Mantas,11117,Lithuania
 402140.0,KNYSTAUTAS,Mantas,12405,Lithuania
-402145.0,SEMENOV,Sergey,12963,Russia
 402145.0,SEMENOV,Sergey,194581,ROC
+402145.0,SEMENOV,Sergey,12963,Russia
 402376.0,KOCHMAN,Li,11985,Israel
 402402.0,BRANSER,Marie,15701,DR Congo
 402402.0,BRANSER,Marie,12990,Guinea
@@ -1956,8 +1956,8 @@ id_athlete,last_name,first_name,id_team,team_name
 408733.0,PRYOR,Jason,12029,United States
 408736.0,MELARAGNO,Guilherme,8803,Brazil
 408737.0,PETROV,Roman,15933,Kyrgyzstan
-409069.0,DOLGOVA,Irina,9846,Russia
 409069.0,DOLGOVA,Irina,194292,ROC
+409069.0,DOLGOVA,Irina,9846,Russia
 409134.0,BOGDAN,Ana,17475,Romania
 409155.0,ELSISSY,Ziad,15341,Egypt
 409156.0,QUINTERO,Jose,9839,Venezuela
@@ -1976,8 +1976,8 @@ id_athlete,last_name,first_name,id_team,team_name
 410353.0,MACIAS,Daniela,10811,Peru
 410693.0,DA SILVA,Fabiana,11179,Brazil
 410703.0,VICENTE,Lohaynny,11179,Brazil
-410796.0,KUDLA,Denis,16005,Germany
 410796.0,KUDLA,Denis,8785,Germany
+410796.0,KUDLA,Denis,16005,Germany
 410809.0,DADASHEVA,Milana,14603,Russia
 410838.0,KIM,Seungjun,15352,Republic of Korea
 410840.0,GOBADZE,Lasha,9405,Georgia
@@ -2202,8 +2202,8 @@ id_athlete,last_name,first_name,id_team,team_name
 463439.0,KYRGYZBAYEV,Gusman,9850,Kazakhstan
 463697.0,SHAHZAD,Mahoor,15368,Pakistan
 463861.0,PIOVESANA,Lubjana,12037,Austria
-464098.0,FUMITA,Kenchiro,15970,Japan
 464098.0,FUMITA,Kenchiro,8797,Japan
+464098.0,FUMITA,Kenchiro,15970,Japan
 464415.0,KAJAIA,Mikhail,13922,Serbia
 464415.0,KAJAIA,Mikhail,18209,Serbia
 464683.0,KEDACHE,Zohir,8778,Algeria
@@ -2299,8 +2299,8 @@ id_athlete,last_name,first_name,id_team,team_name
 525097.0,YUN,Jun-Sik,15325,Republic of Korea
 525189.0,KAISANOV,Daniyar,11157,Kazakhstan
 525398.0,SAADAOUI,Mohamed,11168,Tunisia
-525491.0,NEMES,Mate,18209,Serbia
 525491.0,NEMES,Mate,13922,Serbia
+525491.0,NEMES,Mate,18209,Serbia
 526425.0,YIN,Xiaoyan,13569,China
 528727.0,MAMEDOV,Gabil,194291,ROC
 531279.0,PALMETTA,Alberto,10120,Argentina
@@ -2687,13 +2687,13 @@ id_athlete,last_name,first_name,id_team,team_name
 2307406.0,SHAPIRA,Omer,98868,Israel
 2307408.0,LUDWIG,Cecilie,95914,Denmark
 2374824.0,VIERU,Denis,8793,Moldova
-2433358.0,METWALLY,Mohamed Moustafa,10246,Egypt
 2433358.0,METWALLY,Mohamed Moustafa,10204,Egypt
+2433358.0,METWALLY,Mohamed Moustafa,10246,Egypt
 2433388.0,MEMNELOUM,Demos,10852,Chad
-2433394.0,SID AZARA,Bachir,14574,Algeria
 2433394.0,SID AZARA,Bachir,11113,Algeria
-2433407.0,AIT OUAGRAM,Zied,15994,Morocco
+2433394.0,SID AZARA,Bachir,14574,Algeria
 2433407.0,AIT OUAGRAM,Zied,10810,Morocco
+2433407.0,AIT OUAGRAM,Zied,15994,Morocco
 2433428.0,EL MAHADI,Messoud,15994,Morocco
 2433453.0,MOHAMED AHMED,Abdellatif,10204,Egypt
 2433453.0,MOHAMED AHMED,Abdellatif,10246,Egypt
@@ -2764,8 +2764,8 @@ id_athlete,last_name,first_name,id_team,team_name
 2778045.0,ZOIDZE,Ramaz,9405,Georgia
 2778053.0,LIVACH,Oksana,12441,Ukraine
 2778066.0,MELIA,Georgi,9405,Georgia
-2778152.0,NASIBOV,Parviz,12006,Ukraine
 2778152.0,NASIBOV,Parviz,12441,Ukraine
+2778152.0,NASIBOV,Parviz,12006,Ukraine
 2778156.0,AXENTE,Catalina,14606,Romania
 2778188.0,KENTCHADZE,Avtandil,9405,Georgia
 2778211.0,KESSIDIS,Alex,15942,Sweden
@@ -2868,8 +2868,8 @@ id_athlete,last_name,first_name,id_team,team_name
 3233333.0,ARNAUT,Razvan,12433,Romania
 3233339.0,PETIC,Valentin,10109,Moldova
 3233434.0,KOMAROV,Aleksandr,13922,Serbia
-3233447.0,SAVOLAINEN,Arvi,15934,Finland
 3233447.0,SAVOLAINEN,Arvi,10238,Finland
+3233447.0,SAVOLAINEN,Arvi,15934,Finland
 3233496.0,MASKEVICH,Kiryl,15935,Belarus
 3233501.0,AMOYAN,Malkhas,9864,Armenia
 3233567.0,SONE,Akira,10786,Japan
@@ -3366,8 +3366,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4674631.0,ALEXANDER,Kineke,92604,St. Vincent & the Grenadines
 4674632.0,JONES,Brandon,92284,Belize
 4674659.0,KÉKESI,Márton,94016,Hungary
-4674697.0,SHMELEVA,Daria,195791,ROC
 4674697.0,SHMELEVA,Daria,92737,Russia
+4674697.0,SHMELEVA,Daria,195791,ROC
 4674699.0,DONG,Guojian,89910,China
 4674752.0,SEYD,Seyed Sattar,93320,Iran
 4674800.0,BERGERMANN,Zoe,94050,Canada
@@ -3612,8 +3612,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4682977.0,ARÉVALO,Samantha,101920,Ecuador
 4683045.0,ZALEWSKI,Krystian,96888,Poland
 4683086.0,SIGOURNEY,Brita,94642,United States
-4683143.0,PRIGODA,Kirill,92343,Russia
 4683143.0,PRIGODA,Kirill,194639,ROC
+4683143.0,PRIGODA,Kirill,92343,Russia
 4683189.0,MARSCHALL,Kurtis,96375,Australia
 4683211.0,EBERHARD,Julian,91415,Austria
 4683213.0,ROMERO,Natalia,91472,Chile
@@ -3650,8 +3650,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4684546.0,VALCEPINA,Arianna,92553,Italy
 4684714.0,FOTOPOULOU,Olivia,96373,Cyprus
 4684827.0,LIN,Yi Chun,95183,Chinese Taipei
-4684858.0,BUROV,Maxim,201529,ROC
 4684858.0,BUROV,Maxim,170773,Olympic Athlete from Russia
+4684858.0,BUROV,Maxim,201529,ROC
 4684898.0,METELLA,Mehdy,89925,France
 4684932.0,DANIOTH,Aline,94036,Switzerland
 4685000.0,RUBAN,Viktor,94643,Ukraine
@@ -3670,8 +3670,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4685379.0,CASTRO,Lilian,91056,El Salvador
 4685406.0,ŠEGEL,Janja,89908,Slovenia
 4685413.0,EL AABIDI,Khalid,93455,Morocco
-4685475.0,BOLSHUNOV,Alexander,170910,Olympic Athlete from Russia
 4685475.0,BOLSHUNOV,Alexander,201552,ROC
+4685475.0,BOLSHUNOV,Alexander,170910,Olympic Athlete from Russia
 4685542.0,VAN KOEVERDEN,Adam,96895,Canada
 4685656.0,STÖCKLIN,Pascale,95229,Switzerland
 4685671.0,OLIVIERI,Linda,91594,Italy
@@ -3681,8 +3681,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4685832.0,MOGNE,Igor,95313,Mozambique
 4685850.0,MORABITO,Steve,95642,Switzerland
 4685863.0,BAZOLO,Lorène,91452,Portugal
-4685910.0,PAUL,Kristina,170911,Olympic Athlete from Russia
 4685910.0,PAUL,Kristina,200954,ROC
+4685910.0,PAUL,Kristina,170911,Olympic Athlete from Russia
 4685940.0,FRANCO,Robby,96839,Mexico
 4685997.0,AYNACI,Duygu,96902,Türkiye
 4685998.0,ORTH,Florian,94474,Germany
@@ -3724,8 +3724,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4687072.0,LI,Fabin,92887,China
 4687099.0,HENRY,Peter,92044,Cook Islands
 4687142.0,TRUPPE,Katharina,92026,Austria
-4687169.0,ANOSHKIN,Roman,195792,ROC
 4687169.0,ANOSHKIN,Roman,92571,Russia
+4687169.0,ANOSHKIN,Roman,195792,ROC
 4687221.0,TOBA,Andreas,92884,GER
 4687308.0,LÜFTNER,Julian,91417,Austria
 4687327.0,HANEDA,Takuya,92033,Japan
@@ -4178,8 +4178,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4702587.0,TRITSCHER,Bernhard,96382,Austria
 4702607.0,GOEPPER,Nicholas,94642,United States
 4702617.0,SKJØLD,Maren,91509,Norway
-4702624.0,DÍAZ,Andy,91594,Italy
 4702624.0,DÍAZ,Andy,89943,Cuba
+4702624.0,DÍAZ,Andy,91594,Italy
 4702626.0,DANIELS,Haley,94072,Canada
 4702642.0,KERN,Julia,91559,United States
 4702675.0,KIPROP,Jackson,91575,Uganda
@@ -4361,8 +4361,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4708712.0,PÉREZ,Yaimé,89943,Cuba
 4708768.0,ARROYO,Antonio,91571,Spain
 4708799.0,QUADARELLA,Simona,91971,Italy
-4708818.0,CHRISTIANSEN,Henrik,89949,Norway
 4708818.0,CHRISTIANSEN,Henrik,231111,Norway
+4708818.0,CHRISTIANSEN,Henrik,89949,Norway
 4708834.0,SMITH,Penny,96380,Australia
 4708853.0,MAMMEDOV,Mergen,95292,Turkmenistan
 4708931.0,KU,Bonchan,91328,Republic of Korea
@@ -5134,14 +5134,14 @@ id_athlete,last_name,first_name,id_team,team_name
 4735753.0,CHAUHAN,Maheshwari,94600,India
 4735765.0,WATABE,Akito,95212,Japan
 4735768.0,NDIAYE,Awa Ly,92170,Senegal
-4735784.0,CHERVOTKIN,Alexey,170910,Olympic Athlete from Russia
 4735784.0,CHERVOTKIN,Alexey,201552,ROC
+4735784.0,CHERVOTKIN,Alexey,170910,Olympic Athlete from Russia
 4735820.0,ALLÈGRE,Nils,92765,France
 4735826.0,FINLEY,Mason,91849,United States
 4735828.0,HAYES,Quanera,91849,United States
 4735893.0,TUFA,Tigist,94034,Ethiopia
-4735900.0,RIDZIK,Sergey,201529,ROC
 4735900.0,RIDZIK,Sergey,170773,Olympic Athlete from Russia
+4735900.0,RIDZIK,Sergey,201529,ROC
 4735921.0,BEAUCHEMIN-NADEAU,Marie-Eve,91062,Canada
 4736039.0,DI LIDDO,Elena,91971,Italy
 4736088.0,JONES,Harriet,95254,Great Britain
@@ -5281,8 +5281,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4741194.0,ALSAADI,Yaaqoub,95317,United Arab Emirates
 4741233.0,HEROLA,Ilkka,91883,Finland
 4741309.0,LIMBACHER,Andrea,90490,Austria
-4741323.0,ZABELINSKAYA,Olga,105589,Russia
 4741323.0,ZABELINSKAYA,Olga,95647,Uzbekistan
+4741323.0,ZABELINSKAYA,Olga,105589,Russia
 4741335.0,FOKEEV,Vitaly,91639,Russia
 4741470.0,FERRAND-PREVOT,Pauline,105584,France
 4741470.0,FERRAND-PREVOT,Pauline,91409,France
@@ -5341,8 +5341,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4743117.0,YULO,Carlos Edriel,100764,Philippines
 4743128.0,BUHAI,Ashleigh,95785,South Africa
 4743144.0,SOLEVÅG,Sebastian Foss,91509,Norway
-4743172.0,DMITRIEV,Denis,92737,Russia
 4743172.0,DMITRIEV,Denis,195791,ROC
+4743172.0,DMITRIEV,Denis,92737,Russia
 4743181.0,PFEIFFER,Hendrik,94474,Germany
 4743204.0,STENBERG,Anita Yvonne,94430,Norway
 4743230.0,GOLLSHEWSKY,Taryn,96375,Australia
@@ -5367,8 +5367,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4743874.0,YAHIN,Ernest,164518,Olympic Athlete from Russia
 4743883.0,ZENG,Laura,94645,United States
 4744012.0,CAI,Zelin,89910,China
-4744034.0,FERNSTÄDT,Anna,97549,Germany
 4744034.0,FERNSTÄDT,Anna,91791,Czech Republic
+4744034.0,FERNSTÄDT,Anna,97549,Germany
 4744056.0,AGUILAR,Felipe,92999,Chile
 4744105.0,TOADER,Andrei,91838,Romania
 4744139.0,COSNEFROY,Benoît,105584,France
@@ -5452,8 +5452,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4746633.0,OOSTHUIZEN,Anél,91331,South Africa
 4746674.0,VERRASZTÓ,Dávid,94021,Hungary
 4746691.0,COYLE,Natalya,95880,Ireland
-4746699.0,MASLENNIKOV,Vladimir,91639,Russia
 4746699.0,MASLENNIKOV,Vladimir,194614,ROC
+4746699.0,MASLENNIKOV,Vladimir,91639,Russia
 4746755.0,FAIßT,Manuel,92931,Germany
 4746929.0,PARTANEN,Veli-Matti,92122,Finland
 4747062.0,KIKUCHI,Ayaka,93591,Japan
@@ -5626,8 +5626,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4752705.0,DOUVALIDIS,Konstantinos,97537,Greece
 4752707.0,MAZURCHUK,Dmytro,96351,Ukraine
 4752767.0,ANDRIANTSITOHAINA,Eric Herman,96897,Madagascar
-4752835.0,KRUEGER,John-Henry,94506,United States
 4752835.0,KRUEGER,John-Henry,91820,Hungary
+4752835.0,KRUEGER,John-Henry,94506,United States
 4752863.0,DIBABA,Birhane,94034,Ethiopia
 4752905.0,TERLYUKEVICH,Anna,91502,Belarus
 4752910.0,ŠIMENC,Miha,91525,Slovenia
@@ -5851,8 +5851,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4759829.0,LETNICOV,Vladimir,91393,Moldova
 4759851.0,HAYDAR,Sultan,97543,Türkiye
 4759860.0,CARD,Kelsey,91849,United States
-4759877.0,VAN DER POEL,Mathieu,96328,Netherlands
 4759877.0,VAN DER POEL,Mathieu,99397,Netherlands
+4759877.0,VAN DER POEL,Mathieu,96328,Netherlands
 4759945.0,KOZOROG,Alja,94020,Slovenia
 4759959.0,VERDINO,Claudia,92163,Monaco
 4759986.0,MITCHELL,Stefano,93162,Antigua and Barbuda
@@ -6537,8 +6537,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4781256.0,VINCENT,Scott,94459,Zimbabwe
 4781262.0,STANCIU,Daniela,91838,Romania
 4781368.0,KIM,Suji,92043,Republic of Korea
-4781471.0,DRUZHININ,Ilya,194639,ROC
 4781471.0,DRUZHININ,Ilya,92343,Russia
+4781471.0,DRUZHININ,Ilya,194639,ROC
 4781500.0,HAMLIN,Erin,92051,United States
 4781524.0,ASH,Ronnie,91849,United States
 4781560.0,RUTHERFORD,Greg,92761,Great Britain
@@ -6688,8 +6688,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4786914.0,LIMA,Gustavo,91414,Portugal
 4786935.0,FANCHINI,Nadia,96391,Italy
 4786959.0,DINH,Phuong Thanh,93671,Vietnam
-4786976.0,EIGEL,Pavel,93648,Russia
 4786976.0,EIGEL,Pavel,194741,ROC
+4786976.0,EIGEL,Pavel,93648,Russia
 4786978.0,RASTORGUJEVS,Andrejs,91585,Latvia
 4787055.0,JOHANSSON,Emma,102357,Sweden
 4787056.0,KORDA,Nelly,94484,United States
@@ -6749,8 +6749,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4789604.0,REID,Katie,91527,Great Britain
 4789663.0,DALY,John,92904,United States
 4789670.0,AGUIRRE,Carolina,95866,COL
-4789686.0,SCHLOESSER,Gabriela,91787,Netherlands
 4789686.0,SCHLOESSER,Gabriela,95784,Mexico
+4789686.0,SCHLOESSER,Gabriela,91787,Netherlands
 4789691.0,BONNET,Charlotte,89925,France
 4789693.0,DAVIS,Jessica,91348,United States
 4789703.0,PINEDA,Edgar,92872,Guatemala
@@ -6831,8 +6831,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4792471.0,TUMLER,Thomas,94036,Switzerland
 4792547.0,LING,Edward,95224,Great Britain
 4792597.0,ABU AL SOUD,Ahmad,93538,Jordan
-4792767.0,TADDEUCCI,Ginevra,108272,Italy
 4792767.0,TADDEUCCI,Ginevra,91971,Italy
+4792767.0,TADDEUCCI,Ginevra,108272,Italy
 4792770.0,DESWAL,Yashaswini Singh,94600,India
 4792788.0,THORMEYER,Markus,91621,Canada
 4792827.0,COLEMAN,Michelle,91826,Sweden
@@ -7011,8 +7011,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4798952.0,YAKUSHEVSKY,Pavel,195791,ROC
 4798986.0,MARTINOD,Marie,92112,France
 4799018.0,NOWAK,Lukasz,96888,Poland
-4799033.0,GUBAYDULLINA,Gulnaz,196276,ROC
 4799033.0,GUBAYDULLINA,Gulnaz,91377,Russia
+4799033.0,GUBAYDULLINA,Gulnaz,196276,ROC
 4799061.0,GYURÁTZ,Réka,91810,Hungary
 4799083.0,GILMORE,Stephanie,93502,Australia
 4799085.0,PINIAU,Theo,97582,Papua New Guinea
@@ -7107,8 +7107,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4802324.0,JACKSON,Shericka,95237,Jamaica
 4802345.0,TANDREVOLD,Ingrid Landmark,91421,Norway
 4802350.0,HUGHES,Jarryd,95230,Australia
-4802352.0,EFIMOVA,Yuliya,194639,ROC
 4802352.0,EFIMOVA,Yuliya,92343,Russia
+4802352.0,EFIMOVA,Yuliya,194639,ROC
 4802353.0,IWAMOTO,Shohei,92323,Japan
 4802354.0,CARTON,Louise,91068,Belgium
 4802355.0,QIU,Leng,96573,China
@@ -7138,8 +7138,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4802888.0,STANCIL,Felicia,101310,United States
 4802978.0,TEJEDA,Gladys,92612,Peru
 4803036.0,BERTI,Gian Marco,91499,San Marino
-4803155.0,PAVLICHENKO,Semen,164517,Olympic Athlete from Russia
 4803155.0,PAVLICHENKO,Semen,201555,ROC
+4803155.0,PAVLICHENKO,Semen,164517,Olympic Athlete from Russia
 4803171.0,LUIK,Lily,92083,Estonia
 4803203.0,NASRETDINOVA,Rozaliya,92343,Russia
 4803243.0,HÜFNER,Tatjana,91469,Germany
@@ -7321,8 +7321,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4810156.0,FUMIC,Manuel,91399,Germany
 4810158.0,HOLMER,Erik,94663,Sweden
 4810185.0,TIKHONOVA,Olga,92578,Kazakhstan
-4810197.0,POLYANSKIY,Dmitry,92771,Russia
 4810197.0,POLYANSKIY,Dmitry,194739,ROC
+4810197.0,POLYANSKIY,Dmitry,92771,Russia
 4810211.0,DISERA,Peter,96342,Canada
 4810311.0,BUJIN,Cristina,91838,Romania
 4810335.0,BIRD,Elizabeth,92761,Great Britain
@@ -7683,8 +7683,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4821965.0,CLARKE,Simon,95039,Australia
 4821994.0,SEO,Myung Joon,96836,Republic of Korea
 4822034.0,MALDONIS,Mindaugas,95172,Lithuania
-4822114.0,VIVIANI,Elia,90117,Italy
 4822114.0,VIVIANI,Elia,95033,Italy
+4822114.0,VIVIANI,Elia,90117,Italy
 4822153.0,VOM LEHN,Christian,92362,Germany
 4822180.0,BURKHALTER,Joscha,96387,Switzerland
 4822199.0,MATTHEW,Catriona,92268,Great Britain
@@ -7694,8 +7694,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4822357.0,ULRICH,Marek,92362,Germany
 4822359.0,LAMBARKI,Hayat,91445,Morocco
 4822363.0,SHIBA,Masaki,91769,Japan
-4822388.0,TROFIMOV,Sergey,166947,Olympic Athlete from Russia
 4822388.0,TROFIMOV,Sergey,201553,ROC
+4822388.0,TROFIMOV,Sergey,166947,Olympic Athlete from Russia
 4822398.0,MUSHTAKOV,Viktor,201553,ROC
 4822400.0,BOYER,Kevin,93122,Canada
 4822407.0,HOSHINO,Junko,92019,Japan
@@ -7732,8 +7732,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4823475.0,PITMAN,Bryony,91625,Great Britain
 4823498.0,WAHRSTÖTTER,Christoph,90490,Austria
 4823593.0,GUAMÁN,Maritza,91997,Ecuador
-4823608.0,BYKOVA,Milena,200954,ROC
 4823608.0,BYKOVA,Milena,170911,Olympic Athlete from Russia
+4823608.0,BYKOVA,Milena,200954,ROC
 4823613.0,RAZÝM,Aleš,91603,Czech Republic
 4823614.0,RAZZOLI,Giuliano,96391,Italy
 4823621.0,KOUSKOVÁ,Sára,98178,Czech Republic
@@ -8082,8 +8082,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4834797.0,SPRINGER,Thomas,96385,Austria
 4834860.0,SMEDLEY,Cameron,94072,Canada
 4834889.0,DOS SANTOS,Felipe,96363,Brazil
-4834918.0,BANKES,Charlotte,94437,Great Britain
 4834918.0,BANKES,Charlotte,96922,France
+4834918.0,BANKES,Charlotte,94437,Great Britain
 4834940.0,WANG,Kaihua,89910,China
 4834965.0,CUMMINGS,Steve,102358,Great Britain
 4834970.0,SENYUK,Olga,92639,AZE
@@ -8117,8 +8117,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4835690.0,FANG,Yaoqing,89910,China
 4835744.0,MOHAMED,Hamada,92545,Egypt
 4835812.0,AL-KHULAIFI,Noah,92981,Qatar
-4835835.0,RYLOV,Evgeniy,194639,ROC
 4835835.0,RYLOV,Evgeniy,92343,Russia
+4835835.0,RYLOV,Evgeniy,194639,ROC
 4835864.0,CHOI,Kyungsun,96937,Republic of Korea
 4835873.0,CARRERA,Pablo,91458,Spain
 4835966.0,CERNOGORAZ,Giovanni,92770,Croatia
@@ -8140,8 +8140,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4836485.0,DASAOLU,James,92761,Great Britain
 4836514.0,YELISTRATOVA,Yuliya,97561,Ukraine
 4836549.0,JOHNSON,Breezy,91818,United States
-4836613.0,AVVAKUMOVA,Irina,201551,ROC
 4836613.0,AVVAKUMOVA,Irina,161312,Olympic Athlete from Russia
+4836613.0,AVVAKUMOVA,Irina,201551,ROC
 4836631.0,KLOBUCNÍK,Tomáš,92037,Slovakia
 4836634.0,LOLLOBRIGIDA,Francesca,98002,Italy
 4836663.0,BONDARENKO,Yaroslava,98076,Russia
@@ -8232,8 +8232,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4839260.0,RUIZ,Marcos,95782,Spain
 4839261.0,DIAMOND,Emily,92761,Great Britain
 4839275.0,CHAIDEE,Duangaksorn,91046,Thailand
-4839304.0,ALIPOV,Alexey,194614,ROC
 4839304.0,ALIPOV,Alexey,91639,Russia
+4839304.0,ALIPOV,Alexey,194614,ROC
 4839329.0,SAGNIA,Khaddi,91373,Sweden
 4839384.0,LINKLETTER,Rory,91425,Canada
 4839489.0,KUZIN,Denis,94306,Kazakhstan
@@ -8375,8 +8375,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4844493.0,LEYVA,Danell,92027,United States
 4844497.0,BLOMBERG,Emil,91373,Sweden
 4844539.0,MOGUENARA,Sosthene,94474,Germany
-4844548.0,NIKITINA,Liubov,170773,Olympic Athlete from Russia
 4844548.0,NIKITINA,Liubov,201529,ROC
+4844548.0,NIKITINA,Liubov,170773,Olympic Athlete from Russia
 4844632.0,YEMELYANOV,Sergey,92235,Kazakhstan
 4844646.0,BROCHU,Baptiste,94050,Canada
 4844662.0,BASCOU,Dimitri,91520,France
@@ -8390,8 +8390,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4844842.0,MONTCALM,Noelle,91425,Canada
 4844865.0,ESCOBAR,Catalina,100759,Colombia
 4844875.0,HERNÁNDEZ,Dolores,95164,Mexico
-4844896.0,YUDIN,Andrey,195349,ROC
 4844896.0,YUDIN,Andrey,91433,Russia
+4844896.0,YUDIN,Andrey,195349,ROC
 4844964.0,GALLAGHER,Laura,91329,Great Britain
 4844997.0,BUITENDAG,Bianca,96854,South Africa
 4845036.0,MECHIELSEN,Drew,101307,Canada
@@ -8490,8 +8490,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4848132.0,FOX,Jessica,94613,Australia
 4848156.0,KENNEDY,Russell,92054,Canada
 4848198.0,KEANE,Bryan,91339,Ireland
-4848248.0,RASOVSZKY,Kristóf,103835,Hungary
 4848248.0,RASOVSZKY,Kristóf,94021,Hungary
+4848248.0,RASOVSZKY,Kristóf,103835,Hungary
 4848251.0,MCMENEMY,Dorian,96252,Dominican Republic
 4848261.0,DOS SANTOS,Mário,96363,Brazil
 4848295.0,CORDES,Kevin,95184,United States
@@ -8548,8 +8548,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4850210.0,PECHSTEIN,Claudia,97780,Germany
 4850213.0,HERNÁNDEZ,Ismael,97551,Mexico
 4850219.0,FERREIRA,Tiago,89888,Portugal
-4850251.0,WILD,Vic,170911,Olympic Athlete from Russia
 4850251.0,WILD,Vic,200954,ROC
+4850251.0,WILD,Vic,170911,Olympic Athlete from Russia
 4850267.0,NABIEVA,Muattar,91572,Uzbekistan
 4850360.0,WILLIAMS,Michelle,91621,Canada
 4850371.0,IRVINE,Kaylin,97784,Canada
@@ -8600,8 +8600,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4851897.0,KIVIOJA,Kaidi,92624,Estonia
 4851909.0,BATASHOVA,Uliana,196276,ROC
 4851965.0,LANGREHR,Rebecca,91511,Germany
-4852004.0,GRANGEON,Lara,99639,France
 4852004.0,GRANGEON,Lara,89925,France
+4852004.0,GRANGEON,Lara,99639,France
 4852068.0,TAFTIAN,Hassan,93136,Iran
 4852117.0,GRILLO,Emiliano,92217,Argentina
 4852121.0,CARINI,Giacomo,91971,Italy
@@ -8721,8 +8721,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4856618.0,TAKAO,Hiroaki,91588,Japan
 4856647.0,ALLAN,Florence,92560,Cayman Islands
 4856878.0,RICKETTS,Shanieka,95237,Jamaica
-4856900.0,MOURÃO,Jaqueline,93716,Brazil
 4856900.0,MOURÃO,Jaqueline,91032,Brazil
+4856900.0,MOURÃO,Jaqueline,93716,Brazil
 4856933.0,BANDEY,Haris,93379,Pakistan
 4856946.0,ZAKHAROV,Ilya,92245,Russia
 4857008.0,UCCELLARI,Davide,91514,Italy
@@ -8798,8 +8798,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4859502.0,EDNEY,Sam,91517,Canada
 4859511.0,ZIEMEK,Zach,91849,United States
 4859537.0,CONFIANCE,Rick,91438,Seychelles
-4859598.0,SHYMANOVICH,Ilya,92082,Belarus
 4859598.0,SHYMANOVICH,Ilya,233512,Individual Neutral Athlete
+4859598.0,SHYMANOVICH,Ilya,92082,Belarus
 4859620.0,GUTIÉRREZ,José,92778,Venezuela
 4859632.0,VERNON,Andy,92761,Great Britain
 4859658.0,SANCHEZ,Kayla,92933,Philippines
@@ -8930,8 +8930,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4863898.0,BUCHANAN,Caroline,98010,Australia
 4863950.0,HIGGINS,David,95182,United States
 4863952.0,HO,Chin-Ping,95199,Chinese Taipei
-4863956.0,KENWORTHY,Gus,91583,Great Britain
 4863956.0,KENWORTHY,Gus,94642,United States
+4863956.0,KENWORTHY,Gus,91583,Great Britain
 4863961.0,ZHENG,Pengfei,91535,China
 4863973.0,GOOSSENS,Dennis,91355,Belgium
 4863979.0,SCHRUB,Yann,91520,France
@@ -8951,8 +8951,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4864362.0,SEEMANOVÁ,Barbora,96908,Czech Republic
 4864393.0,BECKETT,Michael,96894,Great Britain
 4864465.0,POTAPENKO,Elena,95196,Kazakhstan
-4864491.0,CHIMROVA,Svetlana,194639,ROC
 4864491.0,CHIMROVA,Svetlana,92343,Russia
+4864491.0,CHIMROVA,Svetlana,194639,ROC
 4864543.0,BERHANU,Lemi,94034,Ethiopia
 4864582.0,VOGEL,Florian,92362,Germany
 4864646.0,LEE,Meng Yuan,95183,Chinese Taipei
@@ -9405,8 +9405,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4879520.0,VAN DER BURGH,Cameron,94594,South Africa
 4879540.0,BROCKHOFF,Belle,95230,Australia
 4879551.0,TOLEDO,Braian,94602,Argentina
-4879553.0,ELISTRATOV,Semen,201556,ROC
 4879553.0,ELISTRATOV,Semen,163939,Olympic Athlete from Russia
+4879553.0,ELISTRATOV,Semen,201556,ROC
 4879574.0,WEERTMAN,Ferry,100240,Netherlands
 4879603.0,ALMGREN,Andreas,91373,Sweden
 4879616.0,MCINTOSH,Seonaid,95224,Great Britain
@@ -9548,8 +9548,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4884463.0,STEPHENS,Laura,95254,Great Britain
 4884477.0,DÍAZ,Daniel,99401,Argentina
 4884524.0,DURU,Joan,93735,France
-4884552.0,BOWDEN,Scott,95039,Australia
 4884552.0,BOWDEN,Scott,90480,Australia
+4884552.0,BOWDEN,Scott,95039,Australia
 4884562.0,MICKLE,Kimberley,96375,Australia
 4884566.0,TUTKHALIAN,Seda,96404,Russia
 4884568.0,CUBELOS,Francisco,91881,Spain
@@ -9624,8 +9624,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4886987.0,RISELEY,Jeffrey,96375,Australia
 4887050.0,PERETTI,Lucia,92553,Italy
 4887090.0,KRUAITHONG,Sinphet,91046,Thailand
-4887116.0,VASILTSOVA,Mariya,170911,Olympic Athlete from Russia
 4887116.0,VASILTSOVA,Mariya,200954,ROC
+4887116.0,VASILTSOVA,Mariya,170911,Olympic Athlete from Russia
 4887121.0,STERCKENDRIES,Vanessa,91068,Belgium
 4887149.0,BINDRA,Abhinav,94600,India
 4887184.0,ANTSYBOR,Maryna,89907,Ukraine
@@ -9932,8 +9932,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4898962.0,BATURINA,Ekaterina,164517,Olympic Athlete from Russia
 4898966.0,SILADJI,Caba,94520,Serbia
 4899014.0,STJERNEN,Andreas,92606,Norway
-4899015.0,AL FAIHAN,Abdulrahman,95268,Independent Olympic Athlete
 4899015.0,AL FAIHAN,Abdulrahman,91366,Kuwait
+4899015.0,AL FAIHAN,Abdulrahman,95268,Independent Olympic Athlete
 4899033.0,MERZOUGUI,Abdelaziz,95223,Spain
 4899072.0,GREGSON,Ryan,96375,Australia
 4899120.0,AHMED,Sara,91470,Egypt
@@ -10069,8 +10069,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4903392.0,SMITH,Zoe,91864,Great Britain
 4903472.0,WOODWARD,Bradley,91357,Australia
 4903488.0,JEKOVA,Alexandra,91465,Bulgaria
-4903494.0,AGUILAR,Yulenmis,89943,Cuba
 4903494.0,AGUILAR,Yulenmis,95223,Spain
+4903494.0,AGUILAR,Yulenmis,89943,Cuba
 4903566.0,HALSALL,Francesca,95254,Great Britain
 4903637.0,BAGIO,José Alessandro,96363,Brazil
 4903651.0,MARCHENKO,Veronika,94643,Ukraine
@@ -10147,8 +10147,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4906143.0,SCHMIDT,Casimir,96969,Netherlands
 4906147.0,CHI,Chunxue,94904,China
 4906148.0,KIM,Seon-Su,91620,Republic of Korea
-4906232.0,ALMUDHAF,Khaled,95268,Independent Olympic Athlete
 4906232.0,ALMUDHAF,Khaled,91366,Kuwait
+4906232.0,ALMUDHAF,Khaled,95268,Independent Olympic Athlete
 4906302.0,STEVENSON,Colby,94642,United States
 4906337.0,PERNSTEINER,Hermann,98862,Austria
 4906434.0,PETRASHOV,Denis,92806,Kyrgyzstan
@@ -10242,8 +10242,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4909860.0,SAINA,Betsy,95235,Kenya
 4909893.0,KILLI,Johanne,92062,Norway
 4909915.0,ARUNOVIC,Zorana,98339,Serbia
-4909980.0,TJON-A-JOE,Renzo,92320,Suriname
 4909980.0,TJON-A-JOE,Renzo,95179,Netherlands
+4909980.0,TJON-A-JOE,Renzo,92320,Suriname
 4909993.0,BAUER,Katharina,92773,GER
 4909997.0,PARATORE,Renato,91739,Italy
 4910015.0,CÁCERES,Eusebio,95223,Spain
@@ -10703,8 +10703,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4924900.0,DEREK,Ana,91642,Croatia
 4924945.0,SEPPÄLÄ,Tero,92563,Finland
 4924959.0,GODBY,Madalyn,89887,United States
-4925006.0,TER MORS,Jorien,93590,Netherlands
 4925006.0,TER MORS,Jorien,94048,Netherlands
+4925006.0,TER MORS,Jorien,93590,Netherlands
 4925029.0,DELAET,Graham,92265,Canada
 4925034.0,RUTH,Kristian,91332,Norway
 4925112.0,QUINTERO,Cristian,92607,Venezuela
@@ -11060,13 +11060,13 @@ id_athlete,last_name,first_name,id_team,team_name
 4936658.0,FAVROT,Thibaut,92765,France
 4936665.0,OLISHEVSKA,Yuliya,91581,Ukraine
 4936726.0,RIBERA,María José,95308,Bolivia
-4936760.0,ROMASENKO,Olesia,230934,Individual Neutral Athlete
 4936760.0,ROMASENKO,Olesia,195792,ROC
+4936760.0,ROMASENKO,Olesia,230934,Individual Neutral Athlete
 4936761.0,BOLOU,Marie,91359,France
 4936817.0,OSELEDETS,Dmytro,89938,Ukraine
 4936830.0,MACHYNIAKOVÁ,Veronika,92348,Slovakia
-4936940.0,PEROVA,Ksenia,91970,Russia
 4936940.0,PEROVA,Ksenia,194612,ROC
+4936940.0,PEROVA,Ksenia,91970,Russia
 4936945.0,BOYD,Alana,96375,Australia
 4936967.0,STEWART,Murray,91723,Australia
 4937078.0,TERRAS,Anthony,90493,France
@@ -11131,8 +11131,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4939237.0,CAELEN,Florent,91068,Belgium
 4939243.0,EIE,Sandra,92062,Norway
 4939253.0,BOURGUIEG,Mohamed Abdeldjalil,100761,Algeria
-4939338.0,KLISHINA,Darya,192506,ROC
 4939338.0,KLISHINA,Darya,92537,Russia
+4939338.0,KLISHINA,Darya,192506,ROC
 4939339.0,KAMARA,Osman,92977,Sierra Leone
 4939359.0,KOROL,Yelizaveta,92879,Kazakhstan
 4939372.0,TSUHA,Hibiki,91841,Japan
@@ -11371,8 +11371,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4947210.0,YURENIA,Aleh,92298,Belarus
 4947217.0,BERTA,Martina,91031,Italy
 4947235.0,BAILEY,Lowell,94039,United States
-4947282.0,MURRAY,Richard,92259,Netherlands
 4947282.0,MURRAY,Richard,91871,South Africa
+4947282.0,MURRAY,Richard,92259,Netherlands
 4947350.0,MCMASTER,Kyron,92289,British Virgin Islands
 4947402.0,IBARGÜEN,Caterine,91368,Colombia
 4947428.0,NIEDZWIEDZKI,Konrad,94308,Poland
@@ -11844,8 +11844,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4963253.0,HAUGER-THACKERY,Calli,92761,Great Britain
 4963290.0,CHARLTON,Devynne,96929,Bahamas
 4963293.0,JAENSCH,Chelsea,96375,Australia
-4963314.0,NAGORNYY,Nikita,194642,ROC
 4963314.0,NAGORNYY,Nikita,96404,Russia
+4963314.0,NAGORNYY,Nikita,194642,ROC
 4963378.0,USUKHBAYAR,Chagnaadorj,91745,Mongolia
 4963405.0,MALACHOWSKI,Piotr,96888,Poland
 4963406.0,MOREIRA,Dolores,92221,Uruguay
@@ -11887,8 +11887,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4964686.0,VANLUCHENE,Emmanuel,91432,Belgium
 4964700.0,GE,Misha,91381,Uzbekistan
 4964710.0,KLEMENCIC,Anita,91525,Slovenia
-4964717.0,NIKITIN,Stanislav,170773,Olympic Athlete from Russia
 4964717.0,NIKITIN,Stanislav,201529,ROC
+4964717.0,NIKITIN,Stanislav,170773,Olympic Athlete from Russia
 4964738.0,CLEMENT,Kerron,91849,United States
 4964746.0,CASAS,Helena,92736,Spain
 4964749.0,BERG,Paul,95203,Germany
@@ -11923,8 +11923,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4965896.0,POLIUDINA,Viktoriia,92895,Kyrgyzstan
 4965905.0,DONGMO,Auriol,96403,Cameroon
 4965905.0,DONGMO,Auriol,91452,Portugal
-4966008.0,REPILOV,Roman,164517,Olympic Athlete from Russia
 4966008.0,REPILOV,Roman,201555,ROC
+4966008.0,REPILOV,Roman,164517,Olympic Athlete from Russia
 4966031.0,SILVA,Paulo,95770,Angola
 4966061.0,VITSENKO,Alexey,170910,Olympic Athlete from Russia
 4966097.0,MARGHIEVA,Zalina,91393,Moldova
@@ -12063,8 +12063,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4970946.0,TOUA,Dika,94096,Papua New Guinea
 4970975.0,ORDÓÑEZ,Saúl,95223,Spain
 4970983.0,KINNUNEN,Jarkko,92122,Finland
-4971027.0,POLYANSKIY,Igor,194739,ROC
 4971027.0,POLYANSKIY,Igor,92771,Russia
+4971027.0,POLYANSKIY,Igor,194739,ROC
 4971109.0,CHINBAT,Otgontsetseg,94908,Mongolia
 4971165.0,RÖSCH,Michael,91413,Belgium
 4971171.0,ZHANG,Xinyan,89910,China
@@ -12467,8 +12467,8 @@ id_athlete,last_name,first_name,id_team,team_name
 4986522.0,SPRUNGER,Lea,95229,Switzerland
 4986532.0,EPPS,Christina,91849,United States
 4986547.0,LAMPIC,Janez,91525,Slovenia
-4986554.0,KAMINSKA,Valentyna,89907,Ukraine
 4986554.0,KAMINSKA,Valentyna,90501,Belarus
+4986554.0,KAMINSKA,Valentyna,89907,Ukraine
 4986568.0,AL BALUSHI,Wadha,92327,Oman
 4986596.0,PODHRÁSKÝ,Martin,91460,Czech Republic
 4986602.0,NIKITIN,Sarah,94061,BRA
@@ -12688,8 +12688,8 @@ id_athlete,last_name,first_name,id_team,team_name
 5132965.0,DLAMINI,Nicholas,95044,South Africa
 5132997.0,PATIÑO,Paula,95735,Colombia
 5133027.0,GEE,Derek,105592,Canada
-5133072.0,PETCH,Rebecca,101309,New Zealand
 5133072.0,PETCH,Rebecca,94432,New Zealand
+5133072.0,PETCH,Rebecca,101309,New Zealand
 5133133.0,SOLUYANOVA,Svetlana,194291,ROC
 5133159.0,PRONSKIY,Vadim,102341,Kazakhstan
 5133160.0,MCNULTY,Brandon,95637,United States
@@ -12741,8 +12741,8 @@ id_athlete,last_name,first_name,id_team,team_name
 5240573.0,KOCH,Franziska,98857,Germany
 5240615.0,GEORGI,Pfeiffer,102358,Great Britain
 5240630.0,PATERNOSTER,Letizia,90117,Italy
-5240650.0,PIDCOCK,Tom,94434,Great Britain
 5240650.0,PIDCOCK,Tom,102358,Great Britain
+5240650.0,PIDCOCK,Tom,94434,Great Britain
 5240660.0,BERTEAU,Victoire,105584,France
 5240661.0,FORTIN,Valentine,96340,France
 5275568.0,SCHWENDINGER,Raphael,15703,Liechtenstein
@@ -13019,8 +13019,8 @@ id_athlete,last_name,first_name,id_team,team_name
 6126942.0,UNAL,Bugra,93691,Türkiye
 6150299.0,HERNANDEZ RIOS,Yurisandy,12062,Cuba
 6150314.0,KÜHNEL,Kea,94060,Germany
-6161955.0,DZHUZUPBEKOV,Uzur,15347,Kyrgyzstan
 6161955.0,DZHUZUPBEKOV,Uzur,12072,Kyrgyzstan
+6161955.0,DZHUZUPBEKOV,Uzur,15347,Kyrgyzstan
 6162106.0,GHIASI CHEKA,Morteza,11181,Iran
 6162138.0,RETHERFORD,Zain,12055,United States
 6162167.0,SULEIMANOV,Sanan,15944,Azerbaijan
@@ -13256,8 +13256,8 @@ id_athlete,last_name,first_name,id_team,team_name
 7111485.0,KUBOTA,Manaka,97564,Japan
 7123164.0,HANEKOM,Lindsay,91331,South Africa
 7134939.0,SOCCOL,Manuela,91068,Belgium
-7134969.0,JORGE ENRIQUEZ,Fernando Dayan,92231,Cuba
 7134969.0,JORGE ENRIQUEZ,Fernando Dayan,195790,Refugee Olympic Team
+7134969.0,JORGE ENRIQUEZ,Fernando Dayan,92231,Cuba
 7134984.0,IBRAHIMI,Drilon,98291,Kosovo
 7134985.0,SASAKI,Chizuru,91618,Japan
 7134994.0,SHI,Mengyao,92331,China
@@ -13369,8 +13369,8 @@ id_athlete,last_name,first_name,id_team,team_name
 7555703.0,TUEI,Emily Cherotich,95235,Kenya
 7555704.0,KENYI,Santino,101940,South Sudan
 7555708.0,INOSTROZA GAETE,Arantza Antonia,11976,Chile
-7555737.0,INCHUDE,Jessica,92611,Guinea-Bissau
 7555737.0,INCHUDE,Jessica,91452,Portugal
+7555737.0,INCHUDE,Jessica,92611,Guinea-Bissau
 7555749.0,YOSHIOKA,Dai,91618,Japan
 7555762.0,SADEGHIAN,Armina,93115,Iran
 7555824.0,DABLA,Fabrice,92282,Togo
@@ -14041,8 +14041,8 @@ id_athlete,last_name,first_name,id_team,team_name
 9881519.0,GUAN,Ziyan,91066,China
 9881559.0,CHANLOUNG,Karen,96563,Thailand
 9893621.0,LLISO,Javier,94044,Spain
-9893624.0,TATALINA,Anastasiya,201529,ROC
 9893624.0,TATALINA,Anastasiya,170773,Olympic Athlete from Russia
+9893624.0,TATALINA,Anastasiya,201529,ROC
 9905674.0,NICK,Megan,94642,United States
 9905675.0,PURCELL,Max,10475,Australia
 9929897.0,CORIA,Federico,17991,Argentina
@@ -14160,8 +14160,8 @@ id_athlete,last_name,first_name,id_team,team_name
 10405755.0,ROTH,Noe,96896,Switzerland
 10417805.0,WALCOTT-NOLAN,Revee,92761,Great Britain
 10429858.0,GREGORICH HECHAVARRIA,Daniel,12406,Cuba
-10429876.0,ROSILLO KINDELAN,Gabriel,12062,Cuba
 10429876.0,ROSILLO KINDELAN,Gabriel,12406,Cuba
+10429876.0,ROSILLO KINDELAN,Gabriel,12062,Cuba
 10466295.0,OSIPOVA,Svetlana,9852,Uzbekistan
 10478400.0,ABE,Uta,10786,Japan
 10478424.0,LIN,Chen-Hao,15337,Chinese Taipei
@@ -14434,8 +14434,8 @@ id_athlete,last_name,first_name,id_team,team_name
 11766104.0,LAPPALAINEN,Sara,92122,Finland
 11766167.0,STEFANOWICZ,John,12055,United States
 11766172.0,KIM,Bomi,92351,Republic of Korea
-11766233.0,WIFFEN,Daniel,92224,Ireland
 11766233.0,WIFFEN,Daniel,102118,Ireland
+11766233.0,WIFFEN,Daniel,92224,Ireland
 11766295.0,NIEMANN,Joaquín,92999,Chile
 11778933.0,HAMDI,Sarra,11168,Tunisia
 11778939.0,GUENNICHI,Amine,11168,Tunisia
@@ -14932,8 +14932,8 @@ id_athlete,last_name,first_name,id_team,team_name
 12974846.0,LOZANO,Rafael,12428,Spain
 13016945.0,RIDDLE,Jamie,91871,South Africa
 13016953.0,HELLWIG,Tim,91498,Germany
-13030074.0,ACERENZA,Domenico,91971,Italy
 13030074.0,ACERENZA,Domenico,108272,Italy
+13030074.0,ACERENZA,Domenico,91971,Italy
 13030105.0,HURSEY,Anna,15307,Great Britain
 13030124.0,LY,Edward,9866,Canada
 13043652.0,MOHAMED,Omar,91611,Egypt
@@ -15105,8 +15105,8 @@ id_athlete,last_name,first_name,id_team,team_name
 14274840.0,PAGNIER,Joséphine,91748,France
 14274841.0,FREITAG,Selina,93128,Germany
 14288278.0,RAUCHFUSS,Julian,92764,Germany
-14354412.0,VAS,Blanka,95036,Hungary
 14354412.0,VAS,Blanka,96332,Hungary
+14354412.0,VAS,Blanka,95036,Hungary
 14367638.0,GRÖNLUND,Timo,93717,Bolivia
 14368239.0,DOMÍNGUEZ,María Cecilia,98562,Argentina
 14381976.0,DVORNIK,Neja,96892,Slovenia
@@ -15172,8 +15172,8 @@ id_athlete,last_name,first_name,id_team,team_name
 14819397.0,TSIOVOLOU,Maria-Eleni,95751,Greece
 14819475.0,BROWN,Jake,94039,United States
 14819496.0,MADRAZO,Germán,96564,Mexico
-14845477.0,SASO,Yuka,91637,Japan
 14845477.0,SASO,Yuka,98183,Philippines
+14845477.0,SASO,Yuka,91637,Japan
 14845659.0,PÉREZ,Juan Ignacio,91846,Mexico
 14885266.0,SCHMID,Julian,92931,Germany
 14885273.0,OGDEN,Ben,91559,United States
@@ -15338,14 +15338,14 @@ id_athlete,last_name,first_name,id_team,team_name
 15887207.0,SALOS,Anastasiia,94037,Belarus
 15887231.0,ZOLOTIC,Anastasija,12024,United States
 15887303.0,BLADTCEVA,Anzhela,231944,AIN
-15887319.0,LITVINOVICH,Ivan,91990,Belarus
 15887319.0,LITVINOVICH,Ivan,231944,AIN
+15887319.0,LITVINOVICH,Ivan,91990,Belarus
 15887352.0,MAHSUDOVA,Seljan,93545,Azerbaijan
 15887497.0,CEREZO IGLESIAS,Adriana,9863,Spain
 15887567.0,CUNNINGHAM,Caden,8809,Great Britain
 15887591.0,TOUMI,Chaima,10224,Tunisia
-15887638.0,MANSOURI,Farzad,194290,Refugee Olympic Team
 15887638.0,MANSOURI,Farzad,10688,Afghanistan
+15887638.0,MANSOURI,Farzad,194290,Refugee Olympic Team
 15887697.0,DILLON,Faith,12024,United States
 15887698.0,ABOUFARAS,Fatima-Ezzahra,10788,Morocco
 15887723.0,JAYSUNOV,Jasurbek,9852,Uzbekistan
@@ -15740,8 +15740,8 @@ id_athlete,last_name,first_name,id_team,team_name
 17534953.0,HOFFMAN,Leigh,92742,Australia
 17534982.0,YAKOVLEV,Mikhail,92732,Israel
 17535028.0,WOLLASTON,Ally,94432,New Zealand
-17535037.0,LEE,Sze Wing,99394,"Hong Kong, China"
 17535037.0,LEE,Sze Wing,89892,"Hong Kong, China"
+17535037.0,LEE,Sze Wing,99394,"Hong Kong, China"
 17535075.0,VAUQUELIN,Kévin,105584,France
 17535251.0,SOTO,Catalina,95653,Chile
 17535258.0,GLADYSHEV,Ivan,195791,ROC
@@ -15972,8 +15972,8 @@ id_athlete,last_name,first_name,id_team,team_name
 17988056.0,BASTOS GALINSKI,Ulan,91032,Brazil
 17988293.0,LIGHTFOOT,Kc,91849,United States
 17988673.0,KÜNZI,Tobias,8815,Switzerland
-17990145.0,UKPESERAYE,Ese,95482,Nigeria
 17990145.0,UKPESERAYE,Ese,96869,Nigeria
+17990145.0,UKPESERAYE,Ese,95482,Nigeria
 17992207.0,MAKRYGIANNIS,Evangelos,94631,Greece
 17994140.0,KIM,Minsu,92351,Republic of Korea
 17994175.0,SIDHU,Vijayveer,94600,India
@@ -15984,8 +15984,8 @@ id_athlete,last_name,first_name,id_team,team_name
 17995944.0,NAJAFOV,Yashar,8769,Azerbaijan
 17995964.0,OBERHOLZER,Dallas,101489,South Africa
 17996369.0,CRUZ,Amado,100739,Belize
-17996437.0,SARAVI,Mohammadhadi Abdollah,11181,Iran
 17996437.0,SARAVI,Mohammadhadi Abdollah,10244,Iran
+17996437.0,SARAVI,Mohammadhadi Abdollah,11181,Iran
 17996853.0,NIRAGIRA,Ange Ciella,16589,Burundi
 17996881.0,GONG,Li,13569,China
 17996910.0,HABILA,Awusayiman,12066,China
@@ -16066,8 +16066,8 @@ id_athlete,last_name,first_name,id_team,team_name
 18001864.0,FAGÚNDEZ,Eric,99395,Uruguay
 18001940.0,MUGISHA,Moise,102363,Rwanda
 18002346.0,MELNIKOVA,Polina,201575,ROC
-18002350.0,MNATSAKANIAN,Aik,15349,Bulgaria
 18002350.0,MNATSAKANIAN,Aik,15328,Bulgaria
+18002350.0,MNATSAKANIAN,Aik,15349,Bulgaria
 18002718.0,TING,Hua-Tien,92300,Chinese Taipei
 18002751.0,LIANG,Yushuai,11984,China
 18002802.0,LI,Wenlong,94496,China
@@ -16205,8 +16205,8 @@ id_athlete,last_name,first_name,id_team,team_name
 18014100.0,WRIGHT,Campbell,96386,New Zealand
 18014121.0,CEZIKOVA,Anna,94095,Czech Republic
 18014137.0,CORLESS,Natalie,91517,Canada
-18014343.0,DRONOVA,Tamara,194638,ROC
 18014343.0,DRONOVA,Tamara,233517,Individual Neutral Athlete
+18014343.0,DRONOVA,Tamara,194638,ROC
 18014354.0,KAASIKU,Keidy,92125,Estonia
 18014357.0,FONTAINE,Miha,91843,Canada
 18014516.0,BORODA-DUDOCHKIN,Giorgiy,95196,Kazakhstan
@@ -16764,8 +16764,8 @@ id_athlete,last_name,first_name,id_team,team_name
 18049401.0,STRAKA,Martin,101046,Czech Republic
 18049414.0,AMARSAIKHAN,Adiyasuren,12416,Mongolia
 18049522.0,CHMIELEWSKI,Michal,94476,Poland
-18049525.0,KLEMET,Oliver,101044,Germany
 18049525.0,KLEMET,Oliver,92362,Germany
+18049525.0,KLEMET,Oliver,101044,Germany
 18049563.0,GRAND'PIERRE,Émilie,92974,Haiti
 18049564.0,GRAND'PIERRE,Alexandre,92974,Haiti
 18049565.0,SANTOS,Emily,93380,Panama
@@ -17399,8 +17399,8 @@ id_athlete,last_name,first_name,id_team,team_name
 18189187.0,JONES,Keaton,95184,United States
 18189214.0,WEINSTEIN,Claire,95184,United States
 18189227.0,HOBSON,Luke,95184,United States
-18189237.0,GRIMES,Katie,95184,United States
 18189237.0,GRIMES,Katie,102117,United States
+18189237.0,GRIMES,Katie,95184,United States
 18189963.0,PRASTYADI,Alviyanto,91839,Indonesia
 18189964.0,OCTAVIA,Rezza,91839,Indonesia
 18189966.0,MOHAMAD FAZIL,Nurul Azreena,92131,Malaysia
@@ -17552,8 +17552,8 @@ id_athlete,last_name,first_name,id_team,team_name
 18202897.0,MCNEICE,Erin,98738,Great Britain
 18203010.0,ANRAKU,Sorato,98030,Japan
 18203031.0,TEACHOUT,Kristina,12024,United States
-18203343.0,ALBAYRAK,Emir,102120,Türkiye
 18203343.0,ALBAYRAK,Emir,92048,Türkiye
+18203343.0,ALBAYRAK,Emir,102120,Türkiye
 18203535.0,WATSON,Samuel,94728,United States
 18204183.0,CHAÂRI,Sarah,10692,Belgium
 18204274.0,HOUILI,Nesrine,98871,Algeria
@@ -17939,8 +17939,8 @@ id_athlete,last_name,first_name,id_team,team_name
 18268264.0,JANKOVICS,Tristan,91621,Canada
 18269667.0,MATONTI,Ilenia Elisabetta,15948,Italy
 18269804.0,DAVID,Julian,101473,New Zealand
-18269978.0,JAOUADI,Ahmed,92808,Tunisia
 18269978.0,JAOUADI,Ahmed,101918,Tunisia
+18269978.0,JAOUADI,Ahmed,92808,Tunisia
 18269980.0,VEGA,Alberto,91371,Costa Rica
 18270025.0,NUÑEZ,Javier,96252,Dominican Republic
 18270036.0,SHAW,Ellie,93162,Antigua and Barbuda

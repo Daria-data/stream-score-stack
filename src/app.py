@@ -182,8 +182,7 @@ ORDER BY s.sport_name_fr LIMIT 50;
 """,
     "Browse dim_discipline": "SELECT * FROM dim_discipline ORDER BY discipline_name LIMIT 50;",
     "Browse dim_epreuve": """
-SELECT id_epreuve, epreuve_name, genre, epreuve_type,
-       id_discipline, id_sport
+SELECT *
 FROM dim_epreuve
 ORDER BY epreuve_name LIMIT 50;
 """,
